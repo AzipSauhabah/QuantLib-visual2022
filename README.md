@@ -1,57 +1,94 @@
+# QuantLib: Building with Visual Studio 2022 and MSVC 2017
 
-# QuantLib: the free/open-source library for quantitative finance
+![QuantLib Logo](path/to/your/logo.png)
 
-[![Download](https://img.shields.io/github/v/release/lballabio/QuantLib?label=Download&sort=semver)](https://github.com/lballabio/QuantLib/releases/latest)
-[![Licensed under the BSD 3-Clause License](https://img.shields.io/badge/License-BSD--3--Clause-blue.svg)](https://github.com/lballabio/QuantLib/blob/master/LICENSE.TXT)
+[![Download](https://img.shields.io/github/v/release/yourusername/QuantLib-visual2022?label=Download&sort=semver)](https://github.com/yourusername/QuantLib-visual2022/releases/latest)
+[![License](https://img.shields.io/badge/License-BSD--3--Clause-blue.svg)](https://github.com/yourusername/QuantLib-visual2022/blob/main/LICENSE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1440997.svg)](https://doi.org/10.5281/zenodo.1440997)
-[![PRs Welcome](https://img.shields.io/badge/PRs%20-welcome-brightgreen.svg)](https://github.com/lballabio/QuantLib/blob/master/CONTRIBUTING.md)
 
-[![Linux build status](https://github.com/lballabio/QuantLib/actions/workflows/linux.yml/badge.svg)](https://github.com/lballabio/QuantLib/actions/workflows/linux.yml)
-[![Windows build status](https://github.com/lballabio/QuantLib/actions/workflows/msvc.yml/badge.svg)](https://github.com/lballabio/QuantLib/actions/workflows/msvc.yml)
-[![Mac OS build status](https://github.com/lballabio/QuantLib/actions/workflows/macos.yml/badge.svg)](https://github.com/lballabio/QuantLib/actions/workflows/macos.yml)
-[![CMake build status](https://github.com/lballabio/QuantLib/actions/workflows/cmake.yml/badge.svg)](https://github.com/lballabio/QuantLib/actions/workflows/cmake.yml)
+QuantLib is a free/open-source library for quantitative finance, providing a comprehensive framework for modeling, trading, and risk management in real-life.
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b4bc1058db994f24aa931b119a885eea)](https://www.codacy.com/gh/lballabio/QuantLib/dashboard)
-[![Coverage Status](https://coveralls.io/repos/github/lballabio/QuantLib/badge.svg?branch=master)](https://coveralls.io/github/lballabio/QuantLib?branch=master)
+## Requirements
 
----
+Before building QuantLib, ensure you have the following installed:
 
-The QuantLib project (<https://www.quantlib.org>) is aimed at providing a
-comprehensive software framework for quantitative finance. QuantLib is
-a free/open-source library for modeling, trading, and risk management
-in real-life.
+- **Visual Studio 2022**: Install the Desktop development with C++ workload, including the MSVC v143 – VS 2022 C++ x64/x86 build tools.
+- **Boost Libraries**: QuantLib requires Boost 1.48 or later.
+- **CMake**: A minimum version of 3.15.0 is required for configuring the build process.
 
-QuantLib is Non-Copylefted Free Software and OSI Certified Open Source
-Software.
+## Installation Steps
 
+1. **Install Visual Studio 2022**:
+   - Download and install Visual Studio 2022 from the [official website](https://visualstudio.microsoft.com/).
+   - During installation, select the "Desktop development with C++" workload.
+   - Ensure the following optional components are installed:
+     - Windows 10 SDK (10.0)
+     - C++ CMake tools for Windows
+     - MSVC v143 – VS 2022 C++ x64/x86 build tools
+     - C++ Modules for v143 build tools (x64/x86)
 
-## Download and usage
+2. **Install Boost Libraries**:
+   - Download the Boost installer matching your MSVC version from the [Boost Binaries](https://sourceforge.net/projects/boost/files/boost-binaries/) page. For Visual Studio 2022 with MSVC v143, download `boost_1_81_0-msvc-14.3-64.exe`.
+   - Run the installer and note the installation directory (e.g., `C:\local\boost_1_81_0`).
 
-QuantLib can be downloaded from <https://www.quantlib.org/download.shtml>;
-installation instructions are available at
-<https://www.quantlib.org/install.shtml> for most platforms.
+3. **Install CMake**:
+   - Download and install CMake from the [CMake Download Page](https://cmake.org/download/).
 
-Documentation for the usage and the design of the QuantLib library is
-available from <https://www.quantlib.org/docs.shtml>.
+4. **Obtain QuantLib Source Code**:
+   - Clone the QuantLib repository from GitHub:
+     ```bash
+     git clone https://github.com/lballabio/QuantLib.git
+     ```
+   - Alternatively, download the latest release from the [QuantLib Download Page](https://www.quantlib.org/download.shtml).
 
-A list of changes for each past versions of the library can be
-browsed at <https://www.quantlib.org/reference/history.html>.
+5. **Configure Boost for QuantLib**:
+   - Open the "Developer Command Prompt for VS 2022" as an administrator.
+   - Navigate to the Boost installation directory:
+     ```bash
+     cd C:\local\boost_1_81_0
+     ```
+   - Bootstrap Boost to prepare it for building:
+     ```bash
+     .\bootstrap.bat
+     ```
+   - Build Boost with the MSVC v143 toolset:
+     ```bash
+     .\b2 toolset=msvc-14.3 address-model=64 --build-type=complete stage
+     ```
 
+6. **Modify QuantLib Source Code**:
+   - In the QuantLib source code, adjust the `#include` directives:
+     - Remove the `ql/` prefix where necessary to ensure correct path resolution.
 
-## Questions and feedback
+7. **first technique to build the solution: Configure QuantLib with CMake**:
+   - Create a build directory within the QuantLib source directory:
+     ```bash
+     mkdir build
+     cd build
+     ```
+   - Run CMake to configure the project, specifying the generator for Visual Studio 2022:
+     ```bash
+     cmake -G "Visual Studio 17 2022" ..
+     ```
+   - Ensure that CMake detects the correct Boost installation. If not, specify the Boost root directory:
+     ```bash
+     cmake -G "Visual Studio 17 2022" -DBOOST_ROOT="C:/local/boost_1_81_0" ..
+     ```
 
-The preferred channel for questions (and the one with the largest
-audience) is the quantlib-users mailing list.  Instructions for
-subscribing are at <https://www.quantlib.org/mailinglists.shtml>.
+8. **Other Technique to build the solution if Cmake failed to cpompile: Build QuantLib**:
+   - Open the generated `QuantLib.sln` solution file in Visual Studio 2022.
+   - Set the build configuration to "Release" and the target platform to "x64".
+   - Build the solution by selecting "Build" > "Build Solution" from the menu.
 
-Bugs can be reported as a GitHub issue at
-<https://github.com/lballabio/QuantLib/issues>; if you have a patch
-available, you can open a pull request instead (see "Contributing"
-below).
+9. **Set Up QuantLib in Your Projects**:
+   - In your Visual Studio projects that use QuantLib:
+     - Add the QuantLib include directory (e.g., `C:\QuantLib\include`) to the "Include Directories" in the project properties.
+     - Add the QuantLib library directory (e.g., `C:\QuantLib\lib`) to the "Library Directories".
+     - Link against the appropriate QuantLib library (e.g., `QuantLib-vc143-mt.lib`).
 
+## Additional Notes
 
-## Contributing
+- Ensure that both QuantLib and your projects are built using the same configuration (Release/Debug) and platform (x64/x86) to avoid compatibility issues.
+- For more detailed instructions and troubleshooting, refer to [Benjamin Whiteside's guide](https://benjaminwhiteside.com/2023/09/26/building-quantlib-in-vs2022-64-bit/).
 
-Contributions are very welcome!  Details are in
-[CONTRIBUTING.md](https://github.com/lballabio/QuantLib/blob/master/CONTRIBUTING.md)
-
+By following these steps, you should be able to successfully build and integrate QuantLib into your projects.
