@@ -17,8 +17,8 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/math/fireflyalgorithm.hpp>
-#include <ql/math/randomnumbers/sobolrsg.hpp>
+#include <experimental/math/fireflyalgorithm.hpp>
+#include <math/randomnumbers/sobolrsg.hpp>
 #include <algorithm>
 #include <cmath>
 #include <utility>

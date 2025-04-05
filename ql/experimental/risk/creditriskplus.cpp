@@ -17,7 +17,7 @@
   FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/risk/creditriskplus.hpp>
+#include <experimental/risk/creditriskplus.hpp>
 #include <map>
 #include <utility>
 

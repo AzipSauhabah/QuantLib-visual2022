@@ -19,10 +19,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/instruments/vanillaswap.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <indexes/iborindex.hpp>
+#include <instruments/vanillaswap.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

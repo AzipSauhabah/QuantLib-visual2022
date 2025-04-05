@@ -24,15 +24,15 @@
 #ifndef quantlib_forward_hpp
 #define quantlib_forward_hpp
 
-#include <ql/instrument.hpp>
-#include <ql/position.hpp>
-#include <ql/time/calendar.hpp>
-#include <ql/time/daycounter.hpp>
-#include <ql/interestrate.hpp>
-#include <ql/types.hpp>
-#include <ql/handle.hpp>
-#include <ql/payoff.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <instrument.hpp>
+#include <position.hpp>
+#include <time/calendar.hpp>
+#include <time/daycounter.hpp>
+#include <interestrate.hpp>
+#include <types.hpp>
+#include <handle.hpp>
+#include <payoff.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 
 namespace QuantLib {
 

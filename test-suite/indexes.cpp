@@ -19,11 +19,11 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/indexes/bmaindex.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <indexes/bmaindex.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <utilities/dataformatters.hpp>
 #include <boost/algorithm/string/case_conv.hpp>
 
 using namespace QuantLib;

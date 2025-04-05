@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/finitedifferences/fdmdupire1dop.hpp>
-#include <ql/methods/finitedifferences/operators/secondderivativeop.hpp>
+#include <experimental/finitedifferences/fdmdupire1dop.hpp>
+#include <methods/finitedifferences/operators/secondderivativeop.hpp>
 #include <boost/numeric/ublas/matrix.hpp>
 
 namespace QuantLib {

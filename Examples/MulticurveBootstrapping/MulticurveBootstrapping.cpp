@@ -30,24 +30,24 @@
     Eonia curve was taken from Figure 25 and Euribor 6m from figure 31.
 */
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #if !defined(BOOST_ALL_NO_LIB) && defined(BOOST_MSVC)
-#  include <ql/auto_link.hpp>
+#  include <auto_link.hpp>
 #endif
-#include <ql/termstructures/yield/piecewiseyieldcurve.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/termstructures/yield/ratehelpers.hpp>
-#include <ql/termstructures/yield/oisratehelper.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/indexes/ibor/eonia.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/time/imm.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/math/interpolations/cubicinterpolation.hpp>
-#include <ql/math/interpolations/loginterpolation.hpp>
+#include <termstructures/yield/piecewiseyieldcurve.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <termstructures/yield/ratehelpers.hpp>
+#include <termstructures/yield/oisratehelper.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <indexes/ibor/eonia.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <time/imm.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <time/daycounters/thirty360.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <math/interpolations/cubicinterpolation.hpp>
+#include <math/interpolations/loginterpolation.hpp>
 
 #include <iostream>
 #include <iomanip>

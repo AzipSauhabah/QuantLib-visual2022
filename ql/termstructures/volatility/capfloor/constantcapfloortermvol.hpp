@@ -24,7 +24,7 @@
 #ifndef quantlib_constant_capfloor_term_volatility_hpp
 #define quantlib_constant_capfloor_term_volatility_hpp
 
-#include <ql/termstructures/volatility/capfloor/capfloortermvolatilitystructure.hpp>
+#include <termstructures/volatility/capfloor/capfloortermvolatilitystructure.hpp>
 
 namespace QuantLib {
 

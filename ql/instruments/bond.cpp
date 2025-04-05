@@ -23,14 +23,14 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/cashflows/floatingratecoupon.hpp>
-#include <ql/cashflows/simplecashflow.hpp>
-#include <ql/instruments/bond.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/pricingengines/bond/bondfunctions.hpp>
-#include <ql/pricingengines/bond/discountingbondengine.hpp>
-#include <ql/shared_ptr.hpp>
+#include <cashflows/cashflows.hpp>
+#include <cashflows/floatingratecoupon.hpp>
+#include <cashflows/simplecashflow.hpp>
+#include <instruments/bond.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <pricingengines/bond/bondfunctions.hpp>
+#include <pricingengines/bond/discountingbondengine.hpp>
+#include <shared_ptr.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
  */
 
-#include <ql/termstructures/volatility/inflation/cpivolatilitystructure.hpp>
-#include <ql/termstructures/inflationtermstructure.hpp>
+#include <termstructures/volatility/inflation/cpivolatilitystructure.hpp>
+#include <termstructures/inflationtermstructure.hpp>
 
 namespace QuantLib {
 

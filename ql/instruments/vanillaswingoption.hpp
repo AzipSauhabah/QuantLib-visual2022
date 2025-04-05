@@ -24,10 +24,10 @@
 #ifndef quantlib_vanilla_swing_option_hpp
 #define quantlib_vanilla_swing_option_hpp
 
-#include <ql/exercise.hpp>
-#include <ql/time/daycounter.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/instruments/oneassetoption.hpp>
+#include <exercise.hpp>
+#include <time/daycounter.hpp>
+#include <instruments/payoffs.hpp>
+#include <instruments/oneassetoption.hpp>
 
 namespace QuantLib {
 

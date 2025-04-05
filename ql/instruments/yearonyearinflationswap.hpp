@@ -25,11 +25,11 @@
 #ifndef quantlib_yyiis_hpp
 #define quantlib_yyiis_hpp
 
-#include <ql/instruments/swap.hpp>
-#include <ql/indexes/inflationindex.hpp>
-#include <ql/time/calendar.hpp>
-#include <ql/time/daycounter.hpp>
-#include <ql/time/schedule.hpp>
+#include <instruments/swap.hpp>
+#include <indexes/inflationindex.hpp>
+#include <time/calendar.hpp>
+#include <time/daycounter.hpp>
+#include <time/schedule.hpp>
 
 namespace QuantLib {
 

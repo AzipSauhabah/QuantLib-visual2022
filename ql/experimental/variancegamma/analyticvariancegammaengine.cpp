@@ -17,13 +17,13 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/experimental/variancegamma/analyticvariancegammaengine.hpp>
-#include <ql/math/distributions/gammadistribution.hpp>
-#include <ql/math/integrals/gausslobattointegral.hpp>
-#include <ql/math/integrals/kronrodintegral.hpp>
-#include <ql/math/integrals/segmentintegral.hpp>
-#include <ql/pricingengines/blackscholescalculator.hpp>
+#include <exercise.hpp>
+#include <experimental/variancegamma/analyticvariancegammaengine.hpp>
+#include <math/distributions/gammadistribution.hpp>
+#include <math/integrals/gausslobattointegral.hpp>
+#include <math/integrals/kronrodintegral.hpp>
+#include <math/integrals/segmentintegral.hpp>
+#include <pricingengines/blackscholescalculator.hpp>
 #include <utility>
 
 namespace QuantLib {

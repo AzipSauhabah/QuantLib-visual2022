@@ -24,7 +24,7 @@
 #ifndef quantlib_amortizing_floating_rate_bond_hpp
 #define quantlib_amortizing_floating_rate_bond_hpp
 
-#include <ql/instruments/bond.hpp>
+#include <instruments/bond.hpp>
 
 namespace QuantLib {
 

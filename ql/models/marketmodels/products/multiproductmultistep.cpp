@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/errors.hpp>
-#include <ql/models/marketmodels/products/multiproductmultistep.hpp>
+#include <errors.hpp>
+#include <models/marketmodels/products/multiproductmultistep.hpp>
 #include <utility>
 
 namespace QuantLib {

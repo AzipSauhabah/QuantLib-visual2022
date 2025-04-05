@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/lookback/mclookbackengine.hpp>
+#include <pricingengines/lookback/mclookbackengine.hpp>
 #include <algorithm>
 
 namespace QuantLib {

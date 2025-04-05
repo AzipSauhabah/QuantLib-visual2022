@@ -24,9 +24,9 @@
 #ifndef quantlib_commodity_settings_hpp
 #define quantlib_commodity_settings_hpp
 
-#include <ql/patterns/singleton.hpp>
-#include <ql/experimental/commodities/unitofmeasure.hpp>
-#include <ql/currency.hpp>
+#include <patterns/singleton.hpp>
+#include <experimental/commodities/unitofmeasure.hpp>
+#include <currency.hpp>
 
 namespace QuantLib {
 

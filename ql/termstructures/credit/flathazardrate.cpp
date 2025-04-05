@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/credit/flathazardrate.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/credit/flathazardrate.hpp>
 #include <utility>
 
 namespace QuantLib {

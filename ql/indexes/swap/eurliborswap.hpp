@@ -24,7 +24,7 @@
 #ifndef quantlib_eurliborswap_hpp
 #define quantlib_eurliborswap_hpp
 
-#include <ql/indexes/swapindex.hpp>
+#include <indexes/swapindex.hpp>
 
 namespace QuantLib {
 

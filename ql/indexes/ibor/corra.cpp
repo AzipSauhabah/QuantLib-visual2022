@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/currencies/america.hpp>
-#include <ql/indexes/ibor/corra.hpp>
-#include <ql/time/calendars/canada.hpp>
+#include <currencies/america.hpp>
+#include <indexes/ibor/corra.hpp>
+#include <time/calendars/canada.hpp>
 
 namespace QuantLib {
     Corra::Corra(const Handle<YieldTermStructure>& h)

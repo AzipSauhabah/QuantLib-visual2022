@@ -18,13 +18,13 @@
 */
 
 
-#include <ql/exercise.hpp>
-#include <ql/math/functional.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/matrixutilities/pseudosqrt.hpp>
-#include <ql/math/matrixutilities/choleskydecomposition.hpp>
-#include <ql/pricingengines/basket/vectorbsmprocessextractor.hpp>
-#include <ql/pricingengines/basket/denglizhoubasketengine.hpp>
+#include <exercise.hpp>
+#include <math/functional.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/matrixutilities/pseudosqrt.hpp>
+#include <math/matrixutilities/choleskydecomposition.hpp>
+#include <pricingengines/basket/vectorbsmprocessextractor.hpp>
+#include <pricingengines/basket/denglizhoubasketengine.hpp>
 
 namespace QuantLib {
 

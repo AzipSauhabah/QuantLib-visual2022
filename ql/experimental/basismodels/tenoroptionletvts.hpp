@@ -24,11 +24,11 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef quantlib_tenoroptionletvts_hpp
 #define quantlib_tenoroptionletvts_hpp
 
-#include <ql/indexes/iborindex.hpp>
-#include <ql/math/interpolation.hpp>
-#include <ql/termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
-#include <ql/termstructures/volatility/smilesection.hpp>
-#include <ql/time/dategenerationrule.hpp>
+#include <indexes/iborindex.hpp>
+#include <math/interpolation.hpp>
+#include <termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
+#include <termstructures/volatility/smilesection.hpp>
+#include <time/dategenerationrule.hpp>
 #include <utility>
 
 

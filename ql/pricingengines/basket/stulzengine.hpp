@@ -25,8 +25,8 @@
 #ifndef quantlib_stulz_engine_hpp
 #define quantlib_stulz_engine_hpp
 
-#include <ql/instruments/basketoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <instruments/basketoption.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

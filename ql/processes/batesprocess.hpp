@@ -25,8 +25,8 @@
 #ifndef quantlib_bates_process_hpp
 #define quantlib_bates_process_hpp
 
-#include <ql/processes/hestonprocess.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <processes/hestonprocess.hpp>
+#include <math/distributions/normaldistribution.hpp>
 
 
 namespace QuantLib {

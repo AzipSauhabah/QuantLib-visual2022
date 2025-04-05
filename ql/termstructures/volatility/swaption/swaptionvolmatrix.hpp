@@ -27,9 +27,9 @@
 #ifndef quantlib_swaption_volatility_matrix_hpp
 #define quantlib_swaption_volatility_matrix_hpp
 
-#include <ql/termstructures/volatility/swaption/swaptionvoldiscrete.hpp>
-#include <ql/math/interpolations/interpolation2d.hpp>
-#include <ql/math/matrix.hpp>
+#include <termstructures/volatility/swaption/swaptionvoldiscrete.hpp>
+#include <math/interpolations/interpolation2d.hpp>
+#include <math/matrix.hpp>
 #include <vector>
 
 namespace QuantLib {

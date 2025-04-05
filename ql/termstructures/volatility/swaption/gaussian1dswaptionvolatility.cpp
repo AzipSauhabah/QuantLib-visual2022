@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/solvers1d/newtonsafe.hpp>
-#include <ql/termstructures/volatility/gaussian1dsmilesection.hpp>
-#include <ql/termstructures/volatility/swaption/gaussian1dswaptionvolatility.hpp>
+#include <math/solvers1d/newtonsafe.hpp>
+#include <termstructures/volatility/gaussian1dsmilesection.hpp>
+#include <termstructures/volatility/swaption/gaussian1dswaptionvolatility.hpp>
 #include <utility>
 
 namespace QuantLib {

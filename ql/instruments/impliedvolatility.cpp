@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/impliedvolatility.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/math/solvers1d/brent.hpp>
+#include <instruments/impliedvolatility.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <math/solvers1d/brent.hpp>
 
 namespace QuantLib {
 

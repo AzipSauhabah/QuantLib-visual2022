@@ -20,8 +20,8 @@
 #ifndef quantlib_nothing_exercise_value_hpp
 #define quantlib_nothing_exercise_value_hpp
 
-#include <ql/models/marketmodels/callability/exercisevalue.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/callability/exercisevalue.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
 
 namespace QuantLib {
 

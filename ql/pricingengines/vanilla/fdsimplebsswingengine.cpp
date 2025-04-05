@@ -21,16 +21,16 @@
     \brief Finite Differences Black-Scholes engine for simple swing options
 */
 
-#include <ql/methods/finitedifferences/meshers/fdmblackscholesmesher.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
-#include <ql/methods/finitedifferences/meshers/uniform1dmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmsimple2dbssolver.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmsimpleswingcondition.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
-#include <ql/methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
-#include <ql/pricingengines/vanilla/fdsimplebsswingengine.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <methods/finitedifferences/meshers/fdmblackscholesmesher.hpp>
+#include <methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
+#include <methods/finitedifferences/meshers/uniform1dmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/solvers/fdmsimple2dbssolver.hpp>
+#include <methods/finitedifferences/stepconditions/fdmsimpleswingcondition.hpp>
+#include <methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
+#include <methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
+#include <pricingengines/vanilla/fdsimplebsswingengine.hpp>
+#include <processes/blackscholesprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -18,10 +18,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/credit/basket.hpp>
-#include <ql/experimental/credit/defaultlossmodel.hpp>
-#include <ql/experimental/credit/loss.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
+#include <experimental/credit/basket.hpp>
+#include <experimental/credit/defaultlossmodel.hpp>
+#include <experimental/credit/loss.hpp>
+#include <time/daycounters/actualactual.hpp>
 #include <algorithm>
 #include <numeric>
 #include <utility>

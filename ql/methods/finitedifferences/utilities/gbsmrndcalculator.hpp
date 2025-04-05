@@ -25,8 +25,8 @@
 #ifndef quantlib_gbsm_risk_neutral_density_calculator_hpp
 #define quantlib_gbsm_risk_neutral_density_calculator_hpp
 
-#include <ql/methods/finitedifferences/utilities/riskneutraldensitycalculator.hpp>
-#include <ql/shared_ptr.hpp>
+#include <methods/finitedifferences/utilities/riskneutraldensitycalculator.hpp>
+#include <shared_ptr.hpp>
 
 namespace QuantLib {
     class GeneralizedBlackScholesProcess;

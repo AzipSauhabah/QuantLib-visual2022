@@ -25,9 +25,9 @@
 #ifndef quantlib_gaussian_quadratures_hpp
 #define quantlib_gaussian_quadratures_hpp
 
-#include <ql/math/array.hpp>
-#include <ql/math/integrals/integral.hpp>
-#include <ql/math/integrals/gaussianorthogonalpolynomial.hpp>
+#include <math/array.hpp>
+#include <math/integrals/integral.hpp>
+#include <math/integrals/gaussianorthogonalpolynomial.hpp>
 
 namespace QuantLib {
     class GaussianOrthogonalPolynomial;

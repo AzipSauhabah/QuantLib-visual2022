@@ -20,7 +20,7 @@
 #ifndef quantlib_integral_ntd_engine_hpp
 #define quantlib_integral_ntd_engine_hpp
 
-#include <ql/experimental/credit/nthtodefault.hpp>
+#include <experimental/credit/nthtodefault.hpp>
 #include <utility>
 
 namespace QuantLib {

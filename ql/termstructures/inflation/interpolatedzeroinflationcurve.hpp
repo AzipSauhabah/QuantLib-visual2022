@@ -25,10 +25,10 @@
 #ifndef quantlib_interpolated_zeroinflationcurve_hpp
 #define quantlib_interpolated_zeroinflationcurve_hpp
 
-#include <ql/termstructures/inflationtermstructure.hpp>
-#include <ql/termstructures/interpolatedcurve.hpp>
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/math/comparison.hpp>
+#include <termstructures/inflationtermstructure.hpp>
+#include <termstructures/interpolatedcurve.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <math/comparison.hpp>
 #include <utility>
 
 namespace QuantLib {

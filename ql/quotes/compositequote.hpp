@@ -24,10 +24,10 @@
 #ifndef quantlib_composite_quote_hpp
 #define quantlib_composite_quote_hpp
 
-#include <ql/errors.hpp>
-#include <ql/handle.hpp>
-#include <ql/quote.hpp>
-#include <ql/types.hpp>
+#include <errors.hpp>
+#include <handle.hpp>
+#include <quote.hpp>
+#include <types.hpp>
 #include <utility>
 
 namespace QuantLib {

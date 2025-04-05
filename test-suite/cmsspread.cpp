@@ -19,21 +19,21 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/cashflows/cmscoupon.hpp>
-#include <ql/cashflows/lineartsrpricer.hpp>
-#include <ql/experimental/coupons/cmsspreadcoupon.hpp>
-#include <ql/experimental/coupons/lognormalcmsspreadpricer.hpp>
-#include <ql/indexes/swap/euriborswap.hpp>
-#include <ql/math/array.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/matrixutilities/pseudosqrt.hpp>
-#include <ql/math/randomnumbers/sobolrsg.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionconstantvol.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actual360.hpp>
+#include <cashflows/cmscoupon.hpp>
+#include <cashflows/lineartsrpricer.hpp>
+#include <experimental/coupons/cmsspreadcoupon.hpp>
+#include <experimental/coupons/lognormalcmsspreadpricer.hpp>
+#include <indexes/swap/euriborswap.hpp>
+#include <math/array.hpp>
+#include <math/comparison.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/matrixutilities/pseudosqrt.hpp>
+#include <math/randomnumbers/sobolrsg.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/volatility/swaption/swaptionconstantvol.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actual360.hpp>
 
 #include <boost/accumulators/accumulators.hpp>
 #include <boost/accumulators/statistics/mean.hpp>

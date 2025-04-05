@@ -27,7 +27,7 @@
 #ifndef quantlib_timeunit_hpp
 #define quantlib_timeunit_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #include <iosfwd>
 
 namespace QuantLib {

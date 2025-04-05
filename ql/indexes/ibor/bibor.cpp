@@ -17,11 +17,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/indexes/ibor/bibor.hpp>
-#include <ql/time/calendars/thailand.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/currencies/asia.hpp>
+#include <indexes/ibor/bibor.hpp>
+#include <time/calendars/thailand.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <currencies/asia.hpp>
 
 namespace QuantLib {
 

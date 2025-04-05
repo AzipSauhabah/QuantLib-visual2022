@@ -23,9 +23,9 @@
            Black-Scholes-Merton model with constant volatility
 */
 
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/methods/finitedifferences/utilities/bsmrndcalculator.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <methods/finitedifferences/utilities/bsmrndcalculator.hpp>
+#include <processes/blackscholesprocess.hpp>
 #include <cmath>
 #include <utility>
 

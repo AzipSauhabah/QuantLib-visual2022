@@ -31,9 +31,9 @@
 #ifndef quantlib_date_hpp
 #define quantlib_date_hpp
 
-#include <ql/time/period.hpp>
-#include <ql/time/weekday.hpp>
-#include <ql/utilities/null.hpp>
+#include <time/period.hpp>
+#include <time/weekday.hpp>
+#include <utilities/null.hpp>
 
 #ifdef QL_HIGH_RESOLUTION_DATE
 #include <boost/date_time/posix_time/ptime.hpp>

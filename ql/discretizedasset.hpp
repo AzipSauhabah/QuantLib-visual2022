@@ -25,9 +25,9 @@
 #ifndef quantlib_discretized_asset_hpp
 #define quantlib_discretized_asset_hpp
 
-#include <ql/exercise.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/numericalmethod.hpp>
+#include <exercise.hpp>
+#include <math/comparison.hpp>
+#include <numericalmethod.hpp>
 #include <utility>
 
 namespace QuantLib {

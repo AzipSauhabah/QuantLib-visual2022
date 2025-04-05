@@ -18,7 +18,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/volatility/capfloor/capfloortermvolatilitystructure.hpp>
+#include <termstructures/volatility/capfloor/capfloortermvolatilitystructure.hpp>
 
 namespace QuantLib {
 

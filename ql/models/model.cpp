@@ -18,11 +18,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/optimization/problem.hpp>
-#include <ql/math/optimization/projectedconstraint.hpp>
-#include <ql/math/optimization/projection.hpp>
-#include <ql/models/model.hpp>
-#include <ql/utilities/null_deleter.hpp>
+#include <math/optimization/problem.hpp>
+#include <math/optimization/projectedconstraint.hpp>
+#include <math/optimization/projection.hpp>
+#include <models/model.hpp>
+#include <utilities/null_deleter.hpp>
 #include <utility>
 
 using std::vector;

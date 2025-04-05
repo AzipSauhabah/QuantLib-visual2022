@@ -17,14 +17,14 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/equitycashflow.hpp>
-#include <ql/cashflows/indexedcashflow.hpp>
-#include <ql/indexes/equityindex.hpp>
-#include <ql/termstructures/yield/quantotermstructure.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
+#include <cashflows/equitycashflow.hpp>
+#include <cashflows/indexedcashflow.hpp>
+#include <indexes/equityindex.hpp>
+#include <termstructures/yield/quantotermstructure.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <quotes/simplequote.hpp>
+#include <time/daycounters/actual365fixed.hpp>
 
 namespace QuantLib {
 

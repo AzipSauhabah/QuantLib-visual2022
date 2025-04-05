@@ -20,10 +20,10 @@
 #ifndef quantlib_analytic_black_vasicek_engine_hpp
 #define quantlib_analytic_black_vasicek_engine_hpp
 
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/models/shortrate/onefactormodels/vasicek.hpp>
-#include <ql/math/integrals/integral.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <models/shortrate/onefactormodels/vasicek.hpp>
+#include <math/integrals/integral.hpp>
 
 namespace QuantLib {
 

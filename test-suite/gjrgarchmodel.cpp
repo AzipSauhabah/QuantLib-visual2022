@@ -20,23 +20,23 @@
 #include "preconditions.hpp"
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/optimization/simplex.hpp>
-#include <ql/models/equity/gjrgarchmodel.hpp>
-#include <ql/models/equity/hestonmodelhelper.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/pricingengines/vanilla/analyticgjrgarchengine.hpp>
-#include <ql/pricingengines/vanilla/mceuropeangjrgarchengine.hpp>
-#include <ql/processes/gjrgarchprocess.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/yield/zerocurve.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/time/period.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/optimization/simplex.hpp>
+#include <models/equity/gjrgarchmodel.hpp>
+#include <models/equity/hestonmodelhelper.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <pricingengines/vanilla/analyticgjrgarchengine.hpp>
+#include <pricingengines/vanilla/mceuropeangjrgarchengine.hpp>
+#include <processes/gjrgarchprocess.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/yield/zerocurve.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <time/period.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

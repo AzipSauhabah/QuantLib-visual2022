@@ -17,15 +17,15 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/cashflows/floatingratecoupon.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/legacy/libormarketmodels/lfmprocess.hpp>
-#include <ql/processes/eulerdiscretization.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/cashflows.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <cashflows/floatingratecoupon.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <legacy/libormarketmodels/lfmprocess.hpp>
+#include <processes/eulerdiscretization.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <time/schedule.hpp>
 #include <utility>
 
 namespace QuantLib {

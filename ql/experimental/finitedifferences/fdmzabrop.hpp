@@ -24,11 +24,11 @@
 #ifndef quantlib_fdm_zabr_op_hpp
 #define quantlib_fdm_zabr_op_hpp
 
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/firstderivativeop.hpp>
-#include <ql/methods/finitedifferences/operators/triplebandlinearop.hpp>
-#include <ql/methods/finitedifferences/operators/ninepointlinearop.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/firstderivativeop.hpp>
+#include <methods/finitedifferences/operators/triplebandlinearop.hpp>
+#include <methods/finitedifferences/operators/ninepointlinearop.hpp>
+#include <methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
 
 namespace QuantLib {
 

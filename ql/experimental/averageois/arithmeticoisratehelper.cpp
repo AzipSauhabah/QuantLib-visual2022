@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/averageois/arithmeticoisratehelper.hpp>
-#include <ql/experimental/averageois/makearithmeticaverageois.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/utilities/null_deleter.hpp>
+#include <experimental/averageois/arithmeticoisratehelper.hpp>
+#include <experimental/averageois/makearithmeticaverageois.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <utilities/null_deleter.hpp>
 #include <utility>
 
 namespace QuantLib {

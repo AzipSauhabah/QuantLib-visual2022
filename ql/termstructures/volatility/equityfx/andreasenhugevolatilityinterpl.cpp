@@ -17,23 +17,23 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/math/array.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/math/interpolations/backwardflatinterpolation.hpp>
-#include <ql/math/interpolations/cubicinterpolation.hpp>
-#include <ql/methods/finitedifferences/meshers/concentrating1dmesher.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/operators/firstderivativeop.hpp>
-#include <ql/methods/finitedifferences/operators/secondderivativeop.hpp>
-#include <ql/methods/finitedifferences/tridiagonaloperator.hpp>
-#include <ql/pricingengines/blackcalculator.hpp>
-#include <ql/termstructures/volatility/equityfx/andreasenhugevolatilityinterpl.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/timegrid.hpp>
-#include <ql/utilities/null.hpp>
+#include <exercise.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <math/array.hpp>
+#include <math/comparison.hpp>
+#include <math/interpolations/backwardflatinterpolation.hpp>
+#include <math/interpolations/cubicinterpolation.hpp>
+#include <methods/finitedifferences/meshers/concentrating1dmesher.hpp>
+#include <methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/operators/firstderivativeop.hpp>
+#include <methods/finitedifferences/operators/secondderivativeop.hpp>
+#include <methods/finitedifferences/tridiagonaloperator.hpp>
+#include <pricingengines/blackcalculator.hpp>
+#include <termstructures/volatility/equityfx/andreasenhugevolatilityinterpl.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <timegrid.hpp>
+#include <utilities/null.hpp>
 #include <cmath>
 #include <limits>
 #include <utility>

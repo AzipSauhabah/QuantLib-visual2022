@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/math/integrals/segmentintegral.hpp>
-#include <ql/pricingengines/vanilla/integralengine.hpp>
+#include <exercise.hpp>
+#include <math/integrals/segmentintegral.hpp>
+#include <pricingengines/vanilla/integralengine.hpp>
 #include <utility>
 
 namespace QuantLib {

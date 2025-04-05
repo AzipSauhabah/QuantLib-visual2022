@@ -22,10 +22,10 @@
 #ifndef quantlib_pseudoroot_facade_hpp
 #define quantlib_pseudoroot_facade_hpp
 
-#include <ql/models/marketmodels/models/ctsmmcapletcalibration.hpp>
-#include <ql/models/marketmodels/marketmodel.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/math/matrix.hpp>
+#include <models/marketmodels/models/ctsmmcapletcalibration.hpp>
+#include <models/marketmodels/marketmodel.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <math/matrix.hpp>
 #include <vector>
 
 namespace QuantLib

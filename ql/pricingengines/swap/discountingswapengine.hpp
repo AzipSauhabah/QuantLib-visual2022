@@ -25,10 +25,10 @@
 #ifndef quantlib_discounting_swap_engine_hpp
 #define quantlib_discounting_swap_engine_hpp
 
-#include <ql/instruments/swap.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/handle.hpp>
-#include <ql/optional.hpp>
+#include <instruments/swap.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <handle.hpp>
+#include <optional.hpp>
 
 namespace QuantLib {
 

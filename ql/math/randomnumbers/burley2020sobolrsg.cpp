@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/randomnumbers/burley2020sobolrsg.hpp>
-#include <ql/math/randomnumbers/mt19937uniformrng.hpp>
-#include <ql/errors.hpp>
+#include <math/randomnumbers/burley2020sobolrsg.hpp>
+#include <math/randomnumbers/mt19937uniformrng.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

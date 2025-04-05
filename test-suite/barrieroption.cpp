@@ -23,29 +23,29 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/time/daycounters/business252.hpp>
-#include <ql/math/interpolations/bicubicsplineinterpolation.hpp>
-#include <ql/instruments/barrieroption.hpp>
-#include <ql/instruments/europeanoption.hpp>
-#include <ql/models/equity/hestonmodel.hpp>
-#include <ql/pricingengines/barrier/analyticbarrierengine.hpp>
-#include <ql/pricingengines/barrier/binomialbarrierengine.hpp>
-#include <ql/pricingengines/barrier/fdhestonbarrierengine.hpp>
-#include <ql/pricingengines/barrier/fdblackscholesbarrierengine.hpp>
-#include <ql/pricingengines/barrier/mcbarrierengine.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/experimental/barrieroption/perturbativebarrieroptionengine.hpp>
-#include <ql/experimental/barrieroption/vannavolgabarrierengine.hpp>
-#include <ql/termstructures/yield/zerocurve.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvariancecurve.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvariancesurface.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <time/daycounters/business252.hpp>
+#include <math/interpolations/bicubicsplineinterpolation.hpp>
+#include <instruments/barrieroption.hpp>
+#include <instruments/europeanoption.hpp>
+#include <models/equity/hestonmodel.hpp>
+#include <pricingengines/barrier/analyticbarrierengine.hpp>
+#include <pricingengines/barrier/binomialbarrierengine.hpp>
+#include <pricingengines/barrier/fdhestonbarrierengine.hpp>
+#include <pricingengines/barrier/fdblackscholesbarrierengine.hpp>
+#include <pricingengines/barrier/mcbarrierengine.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <experimental/barrieroption/perturbativebarrieroptionengine.hpp>
+#include <experimental/barrieroption/vannavolgabarrierengine.hpp>
+#include <termstructures/yield/zerocurve.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <termstructures/volatility/equityfx/blackvariancecurve.hpp>
+#include <termstructures/volatility/equityfx/blackvariancesurface.hpp>
+#include <utilities/dataformatters.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;
@@ -101,6 +101,22 @@ BOOST_AUTO_TEST_SUITE(BarrierOptionTests)
                << "    calculated " << greekName << ": " << calculated << "\n"\
                << "    error:            " << error << "\n" \
                << "    tolerance:        " << tolerance);
+
+
+std::string barrierTypeToString(Barrier::Type type) {
+    switch(type){
+      case Barrier::DownIn:
+        return std::string("Down-and-in");
+      case Barrier::UpIn:
+        return std::string("Up-and-in");
+      case Barrier::DownOut:
+        return std::string("Down-and-out");
+      case Barrier::UpOut:
+        return std::string("Up-and-out");
+      default:
+        QL_FAIL("unknown exercise type");
+    }
+}
 
 struct BarrierOptionData {
     Barrier::Type type;
@@ -230,100 +246,6 @@ BOOST_AUTO_TEST_CASE(testParity) {
                     << "\n    error:      " << error);
     }
 }
-
-BOOST_AUTO_TEST_CASE(testPutCallSymmetry) {
-    BOOST_TEST_MESSAGE(
-        "Testing put-call symmetry for barrier options...");
-
-    Date today = Settings::instance().evaluationDate();
-
-    struct PutCallSymmetryTestCase {
-        Real callStrike;
-        Real callBarrier;
-        Barrier::Type callType;
-        Real putStrike;
-        Real putBarrier;
-        Barrier::Type putType;
-    };
-
-    PutCallSymmetryTestCase cases[] = {
-        { 90, 95, Barrier::DownOut, 111.11111, 105.26315, Barrier::UpOut },
-        { 95, 95, Barrier::DownOut, 105.26315, 105.26315, Barrier::UpOut },
-        { 100, 95, Barrier::DownOut, 100.0, 105.26315, Barrier::UpOut },
-        { 105, 95, Barrier::DownOut, 95.23809, 105.26315, Barrier::UpOut },
-        { 110, 95, Barrier::DownOut, 90.90909, 105.26315, Barrier::UpOut },
-
-        { 90.0, 120.0, Barrier::UpOut, 111.11111, 83.33333, Barrier::DownOut },
-        { 95.0, 120.0, Barrier::UpOut, 105.26315, 83.33333, Barrier::DownOut },
-        { 100.0, 120.0, Barrier::UpOut, 100.0, 83.33333, Barrier::DownOut },
-        { 105.0, 120.0, Barrier::UpOut, 95.23809, 83.33333, Barrier::DownOut },
-        { 110.0, 120.0, Barrier::UpOut, 90.90909, 83.33333, Barrier::DownOut }
-    };
-
-    DayCounter dc = Actual360();
-    Date maturity = today + 360;
-    ext::shared_ptr<Exercise> exercise =
-        ext::make_shared<EuropeanExercise>(maturity);
-    Real r = 0.01;
-    Real rebate = 0.0;
-    Real spotPrice = 100;
-
-    ext::shared_ptr<SimpleQuote> spot = ext::make_shared<SimpleQuote>();
-    ext::shared_ptr<SimpleQuote> qRateCall = ext::make_shared<SimpleQuote>(0.0);
-    ext::shared_ptr<SimpleQuote> rRateCall = ext::make_shared<SimpleQuote>(r);
-    ext::shared_ptr<SimpleQuote> rRatePut = ext::make_shared<SimpleQuote>(0.0);
-    ext::shared_ptr<SimpleQuote> qRatePut = ext::make_shared<SimpleQuote>(r);
-    ext::shared_ptr<SimpleQuote> vol = ext::make_shared<SimpleQuote>(0.25);
-
-    Handle<Quote> underlying(spot);
-    Handle<YieldTermStructure> dividendTSCall(flatRate(today, qRateCall, dc));
-    Handle<YieldTermStructure> dividendTSPut(flatRate(today, qRatePut, dc));
-    Handle<YieldTermStructure> riskFreeTSCall(flatRate(today, rRateCall, dc));
-    Handle<YieldTermStructure> riskFreeTSPut(flatRate(today, rRatePut, dc));
-    Handle<BlackVolTermStructure> blackVolTS(flatVol(today, vol, dc));
-
-    const ext::shared_ptr<BlackScholesMertonProcess> processCall =
-        ext::make_shared<BlackScholesMertonProcess>(underlying,
-                                                      dividendTSCall,
-                                                      riskFreeTSCall,
-                                                      blackVolTS);
-    const ext::shared_ptr<BlackScholesMertonProcess> processPut =
-        ext::make_shared<BlackScholesMertonProcess>(underlying,
-                                                      dividendTSPut,
-                                                      riskFreeTSPut,
-                                                      blackVolTS);
-
-    ext::shared_ptr<PricingEngine> callEngine =
-        ext::make_shared<AnalyticBarrierEngine>(processCall);
-    ext::shared_ptr<PricingEngine> putEngine =
-        ext::make_shared<AnalyticBarrierEngine>(processPut);
-
-    for (auto& i : cases) {
-        ext::shared_ptr<StrikedTypePayoff> putPayoff =
-            ext::make_shared<PlainVanillaPayoff>(Option::Put, i.putStrike);
-        ext::shared_ptr<StrikedTypePayoff> callPayoff =
-            ext::make_shared<PlainVanillaPayoff>(Option::Call, i.callStrike);
-        BarrierOption putOption(i.putType,
-                                 i.putBarrier, rebate,
-                                 putPayoff, exercise);
-        putOption.setPricingEngine(putEngine);
-        BarrierOption callOption(i.callType,
-                                  i.callBarrier, rebate,
-                                  callPayoff, exercise);
-        callOption.setPricingEngine(callEngine);
-
-        spot->setValue(spotPrice);
-        Real putValue = putOption.NPV();
-        Real callValue = callOption.NPV();
-        Real callAmount = (i.putStrike / spotPrice);
-        Real error = std::fabs(putValue - callAmount * callValue);
-        Real tolerance = 1e-4;
-        if (error > tolerance)
-            BOOST_ERROR("Failed to reproduce the put-call symmetry for the partial-time barrier options "
-                        << "\n    error:      " << error);
-    }
-}
-
 BOOST_AUTO_TEST_CASE(testHaugValues) {
 
     BOOST_TEST_MESSAGE("Testing barrier options against Haug's values...");

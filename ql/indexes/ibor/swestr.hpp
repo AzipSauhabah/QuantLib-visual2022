@@ -24,10 +24,10 @@
 #ifndef quantlib_swestr_hpp
 #define quantlib_swestr_hpp
 
-#include <ql/currencies/europe.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/time/calendars/sweden.hpp>
-#include <ql/time/daycounters/actual360.hpp>
+#include <currencies/europe.hpp>
+#include <indexes/iborindex.hpp>
+#include <time/calendars/sweden.hpp>
+#include <time/daycounters/actual360.hpp>
 
 namespace QuantLib {
 

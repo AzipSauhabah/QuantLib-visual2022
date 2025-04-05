@@ -30,8 +30,8 @@
  * and by GSL implementation, v. 1.9 (http://www.gnu.org/software/gsl/)
  */
 
-#include <ql/math/optimization/simplex.hpp>
-#include <ql/math/optimization/constraint.hpp>
+#include <math/optimization/simplex.hpp>
+#include <math/optimization/constraint.hpp>
 
 namespace QuantLib {
 

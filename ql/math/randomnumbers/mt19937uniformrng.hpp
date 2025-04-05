@@ -25,7 +25,7 @@
 #ifndef quantlib_mersennetwister_uniform_rng_hpp
 #define quantlib_mersennetwister_uniform_rng_hpp
 
-#include <ql/methods/montecarlo/sample.hpp>
+#include <methods/montecarlo/sample.hpp>
 #include <vector>
 
 namespace QuantLib {

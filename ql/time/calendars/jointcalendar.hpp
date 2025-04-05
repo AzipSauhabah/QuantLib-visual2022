@@ -25,7 +25,7 @@
 #ifndef quantlib_joint_calendar_h
 #define quantlib_joint_calendar_h
 
-#include <ql/time/calendar.hpp>
+#include <time/calendar.hpp>
 
 namespace QuantLib {
 

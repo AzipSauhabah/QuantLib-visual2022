@@ -25,7 +25,7 @@
 #ifndef quantlib_simpson_integral_hpp
 #define quantlib_simpson_integral_hpp
 
-#include <ql/math/integrals/trapezoidintegral.hpp>
+#include <math/integrals/trapezoidintegral.hpp>
 
 namespace QuantLib {
 

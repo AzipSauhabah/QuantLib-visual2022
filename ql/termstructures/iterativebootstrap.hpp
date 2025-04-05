@@ -27,12 +27,12 @@
 #ifndef quantlib_iterative_bootstrap_hpp
 #define quantlib_iterative_bootstrap_hpp
 
-#include <ql/termstructures/bootstraphelper.hpp>
-#include <ql/termstructures/bootstraperror.hpp>
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/math/solvers1d/finitedifferencenewtonsafe.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <termstructures/bootstraphelper.hpp>
+#include <termstructures/bootstraperror.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <math/solvers1d/finitedifferencenewtonsafe.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <utilities/dataformatters.hpp>
 
 namespace QuantLib {
 

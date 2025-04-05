@@ -25,10 +25,10 @@
 #ifndef quantlib_cad_libor_hpp
 #define quantlib_cad_libor_hpp
 
-#include <ql/indexes/ibor/libor.hpp>
-#include <ql/time/calendars/canada.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/currencies/america.hpp>
+#include <indexes/ibor/libor.hpp>
+#include <time/calendars/canada.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <currencies/america.hpp>
 
 namespace QuantLib {
 

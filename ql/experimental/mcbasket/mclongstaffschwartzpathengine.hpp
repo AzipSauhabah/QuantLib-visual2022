@@ -20,8 +20,8 @@
 #ifndef quantlib_mc_longstaff_schwartz_path_engine_hpp
 #define quantlib_mc_longstaff_schwartz_path_engine_hpp
 
-#include <ql/experimental/mcbasket/longstaffschwartzmultipathpricer.hpp>
-#include <ql/pricingengines/mcsimulation.hpp>
+#include <experimental/mcbasket/longstaffschwartzmultipathpricer.hpp>
+#include <pricingengines/mcsimulation.hpp>
 #include <utility>
 
 namespace QuantLib {

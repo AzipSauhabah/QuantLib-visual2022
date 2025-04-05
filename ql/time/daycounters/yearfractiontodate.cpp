@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/comparison.hpp>
-#include <ql/time/daycounters/yearfractiontodate.hpp>
+#include <math/comparison.hpp>
+#include <time/daycounters/yearfractiontodate.hpp>
 
 #include <boost/numeric/conversion/cast.hpp>
 #include <cmath>

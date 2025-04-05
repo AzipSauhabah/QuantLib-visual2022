@@ -24,7 +24,7 @@
 #ifndef quantlib_pseudo_sqrt_hpp
 #define quantlib_pseudo_sqrt_hpp
 
-#include <ql/math/matrix.hpp>
+#include <math/matrix.hpp>
 
 namespace QuantLib {
 

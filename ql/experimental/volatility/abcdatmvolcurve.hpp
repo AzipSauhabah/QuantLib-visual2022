@@ -25,10 +25,10 @@
 #ifndef quantlib_abcd_atm_vol_curve_hpp
 #define quantlib_abcd_atm_vol_curve_hpp
 
-#include <ql/experimental/volatility/blackatmvolcurve.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/math/interpolations/abcdinterpolation.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
+#include <experimental/volatility/blackatmvolcurve.hpp>
+#include <patterns/lazyobject.hpp>
+#include <math/interpolations/abcdinterpolation.hpp>
+#include <time/daycounters/actual365fixed.hpp>
 
 namespace QuantLib {
 

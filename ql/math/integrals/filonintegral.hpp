@@ -24,7 +24,7 @@
 #ifndef quantlib_filon_integral_h
 #define quantlib_filon_integral_h
 
-#include <ql/math/integrals/integral.hpp>
+#include <math/integrals/integral.hpp>
 
 namespace QuantLib {
 

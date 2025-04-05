@@ -24,13 +24,13 @@
 #ifndef quantlib_commodity_curve_hpp
 #define quantlib_commodity_curve_hpp
 
-#include <ql/termstructure.hpp>
-#include <ql/experimental/commodities/commoditytype.hpp>
-#include <ql/experimental/commodities/unitofmeasure.hpp>
-#include <ql/experimental/commodities/exchangecontract.hpp>
-#include <ql/currency.hpp>
-#include <ql/math/interpolations/forwardflatinterpolation.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
+#include <termstructure.hpp>
+#include <experimental/commodities/commoditytype.hpp>
+#include <experimental/commodities/unitofmeasure.hpp>
+#include <experimental/commodities/exchangecontract.hpp>
+#include <currency.hpp>
+#include <math/interpolations/forwardflatinterpolation.hpp>
+#include <time/daycounters/actual365fixed.hpp>
 
 namespace QuantLib {
 

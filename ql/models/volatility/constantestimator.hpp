@@ -24,7 +24,7 @@
 #ifndef quantlib_constant_estimator_hpp
 #define quantlib_constant_estimator_hpp
 
-#include <ql/volatilitymodel.hpp>
+#include <volatilitymodel.hpp>
 #include <vector>
 
 namespace QuantLib {

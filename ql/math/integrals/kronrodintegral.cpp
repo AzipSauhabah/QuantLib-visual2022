@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/integrals/kronrodintegral.hpp>
-#include <ql/types.hpp>
+#include <math/integrals/kronrodintegral.hpp>
+#include <types.hpp>
 
 namespace QuantLib {
 

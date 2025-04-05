@@ -26,8 +26,8 @@
 #ifndef quantlib_math_projectedcostfunction_h
 #define quantlib_math_projectedcostfunction_h
 
-#include <ql/math/optimization/costfunction.hpp>
-#include <ql/math/optimization/projection.hpp>
+#include <math/optimization/costfunction.hpp>
+#include <math/optimization/projection.hpp>
 
 namespace QuantLib {
 

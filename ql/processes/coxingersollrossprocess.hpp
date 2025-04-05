@@ -25,8 +25,8 @@
 #ifndef quantlib_coxingersollross_process_hpp
 #define quantlib_coxingersollross_process_hpp
 
-#include <ql/stochasticprocess.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <stochasticprocess.hpp>
+#include <math/distributions/normaldistribution.hpp>
 
 namespace QuantLib {
 

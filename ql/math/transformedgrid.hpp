@@ -24,7 +24,7 @@
 #ifndef quantlib_transformed_grid_hpp
 #define quantlib_transformed_grid_hpp
 
-#include <ql/math/array.hpp>
+#include <math/array.hpp>
 #include <functional>
 #include <numeric>
 

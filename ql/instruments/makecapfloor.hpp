@@ -25,8 +25,8 @@
 #ifndef quantlib_instruments_makecapfloor_hpp
 #define quantlib_instruments_makecapfloor_hpp
 
-#include <ql/instruments/capfloor.hpp>
-#include <ql/instruments/makevanillaswap.hpp>
+#include <instruments/capfloor.hpp>
+#include <instruments/makevanillaswap.hpp>
 
 namespace QuantLib {
 

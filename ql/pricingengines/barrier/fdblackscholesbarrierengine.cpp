@@ -19,20 +19,20 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmblackscholesmesher.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmblackscholessolver.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmdirichletboundary.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmdividendhandler.hpp>
-#include <ql/methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
-#include <ql/pricingengines/barrier/fdblackscholesbarrierengine.hpp>
-#include <ql/pricingengines/barrier/fdblackscholesrebateengine.hpp>
-#include <ql/pricingengines/vanilla/fdblackscholesvanillaengine.hpp>
+#include <exercise.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <methods/finitedifferences/meshers/fdmblackscholesmesher.hpp>
+#include <methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/solvers/fdmblackscholessolver.hpp>
+#include <methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
+#include <methods/finitedifferences/utilities/fdmdirichletboundary.hpp>
+#include <methods/finitedifferences/utilities/fdmdividendhandler.hpp>
+#include <methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
+#include <pricingengines/barrier/fdblackscholesbarrierengine.hpp>
+#include <pricingengines/barrier/fdblackscholesrebateengine.hpp>
+#include <pricingengines/vanilla/fdblackscholesvanillaengine.hpp>
 #include <utility>
 
 namespace QuantLib {

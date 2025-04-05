@@ -24,7 +24,7 @@
 #ifndef quantlib_trbdf2_hpp
 #define quantlib_trbdf2_hpp
 
-#include <ql/methods/finitedifferences/finitedifferencemodel.hpp>
+#include <methods/finitedifferences/finitedifferencemodel.hpp>
 
 namespace QuantLib {
 

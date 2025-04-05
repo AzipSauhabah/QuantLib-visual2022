@@ -19,10 +19,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/daycounter.hpp>
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmdividendhandler.hpp>
+#include <time/daycounter.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/utilities/fdmdividendhandler.hpp>
 
 namespace QuantLib {
 

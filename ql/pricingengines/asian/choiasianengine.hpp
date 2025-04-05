@@ -24,9 +24,9 @@
 #ifndef quantlib_choi_asian_engine_hpp
 #define quantlib_choi_asian_engine_hpp
 
-#include <ql/pricingengine.hpp>
-#include <ql/instruments/asianoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <pricingengine.hpp>
+#include <instruments/asianoption.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
     //! Pricing engine for arithmetic Asian options

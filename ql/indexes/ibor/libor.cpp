@@ -19,10 +19,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/indexes/ibor/libor.hpp>
-#include <ql/time/calendars/jointcalendar.hpp>
-#include <ql/time/calendars/unitedkingdom.hpp>
-#include <ql/currencies/europe.hpp>
+#include <indexes/ibor/libor.hpp>
+#include <time/calendars/jointcalendar.hpp>
+#include <time/calendars/unitedkingdom.hpp>
+#include <currencies/europe.hpp>
 
 namespace QuantLib {
 

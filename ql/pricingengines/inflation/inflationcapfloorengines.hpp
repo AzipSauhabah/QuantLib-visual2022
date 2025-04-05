@@ -24,9 +24,9 @@
 #ifndef quantlib_pricers_inflation_capfloor_hpp
 #define quantlib_pricers_inflation_capfloor_hpp
 
-#include <ql/instruments/inflationcapfloor.hpp>
-#include <ql/termstructures/volatility/inflation/yoyinflationoptionletvolatilitystructure.hpp>
-#include <ql/option.hpp>
+#include <instruments/inflationcapfloor.hpp>
+#include <termstructures/volatility/inflation/yoyinflationoptionletvolatilitystructure.hpp>
+#include <option.hpp>
 
 namespace QuantLib {
 

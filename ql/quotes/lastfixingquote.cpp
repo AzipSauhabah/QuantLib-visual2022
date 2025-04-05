@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/quotes/lastfixingquote.hpp>
-#include <ql/settings.hpp>
+#include <quotes/lastfixingquote.hpp>
+#include <settings.hpp>
 #include <utility>
 
 namespace QuantLib {

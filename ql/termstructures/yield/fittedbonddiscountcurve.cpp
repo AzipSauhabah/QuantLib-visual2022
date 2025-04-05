@@ -18,14 +18,14 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/math/optimization/constraint.hpp>
-#include <ql/math/optimization/costfunction.hpp>
-#include <ql/math/optimization/simplex.hpp>
-#include <ql/pricingengines/bond/bondfunctions.hpp>
-#include <ql/termstructures/yield/fittedbonddiscountcurve.hpp>
-#include <ql/time/daycounters/simpledaycounter.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <cashflows/cashflows.hpp>
+#include <math/optimization/constraint.hpp>
+#include <math/optimization/costfunction.hpp>
+#include <math/optimization/simplex.hpp>
+#include <pricingengines/bond/bondfunctions.hpp>
+#include <termstructures/yield/fittedbonddiscountcurve.hpp>
+#include <time/daycounters/simpledaycounter.hpp>
+#include <utilities/dataformatters.hpp>
 #include <utility>
 
 using std::vector;

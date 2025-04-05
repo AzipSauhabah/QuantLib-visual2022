@@ -19,12 +19,12 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/handle.hpp>
-#include <ql/indexes/ibor/usdlibor.hpp>
-#include <ql/instruments/forwardrateagreement.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/yield/piecewiseyieldcurve.hpp>
-#include <ql/termstructures/yield/ratehelpers.hpp>
+#include <handle.hpp>
+#include <indexes/ibor/usdlibor.hpp>
+#include <instruments/forwardrateagreement.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/yield/piecewiseyieldcurve.hpp>
+#include <termstructures/yield/ratehelpers.hpp>
 
 
 using namespace QuantLib;

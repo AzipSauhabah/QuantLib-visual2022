@@ -28,10 +28,10 @@
 #ifndef ql_probability_traits_hpp
 #define ql_probability_traits_hpp
 
-#include <ql/termstructures/credit/interpolatedsurvivalprobabilitycurve.hpp>
-#include <ql/termstructures/credit/interpolatedhazardratecurve.hpp>
-#include <ql/termstructures/credit/interpolateddefaultdensitycurve.hpp>
-#include <ql/termstructures/bootstraphelper.hpp>
+#include <termstructures/credit/interpolatedsurvivalprobabilitycurve.hpp>
+#include <termstructures/credit/interpolatedhazardratecurve.hpp>
+#include <termstructures/credit/interpolateddefaultdensitycurve.hpp>
+#include <termstructures/bootstraphelper.hpp>
 
 namespace QuantLib {
 

@@ -18,11 +18,11 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/cashflows/multipleresetscoupon.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/time/calendars/target.hpp>
+#include <cashflows/multipleresetscoupon.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <cashflows/cashflows.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <time/calendars/target.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

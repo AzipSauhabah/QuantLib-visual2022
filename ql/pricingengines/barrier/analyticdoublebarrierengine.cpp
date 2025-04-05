@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/pricingengines/barrier/analyticdoublebarrierengine.hpp>
-#include <ql/pricingengines/blackcalculator.hpp>
+#include <exercise.hpp>
+#include <pricingengines/barrier/analyticdoublebarrierengine.hpp>
+#include <pricingengines/blackcalculator.hpp>
 #include <utility>
 
 namespace QuantLib {

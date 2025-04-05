@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/calendars/bespokecalendar.hpp>
+#include <time/calendars/bespokecalendar.hpp>
 #include <sstream>
 #include <utility>
 

@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/volatility/atmsmilesection.hpp>
+#include <termstructures/volatility/atmsmilesection.hpp>
 
 namespace QuantLib {
 

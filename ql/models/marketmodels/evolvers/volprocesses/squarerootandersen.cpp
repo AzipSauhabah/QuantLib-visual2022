@@ -18,9 +18,9 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
 
-#include <ql/models/marketmodels/evolvers/volprocesses/squarerootandersen.hpp>
-#include <ql/errors.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <models/marketmodels/evolvers/volprocesses/squarerootandersen.hpp>
+#include <errors.hpp>
+#include <math/distributions/normaldistribution.hpp>
 namespace
 QuantLib
 {

@@ -25,12 +25,12 @@
 #ifndef quantlib_heston_slv_model_hpp
 #define quantlib_heston_slv_model_hpp
 
-#include <ql/handle.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/patterns/observable.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmhestongreensfct.hpp>
+#include <handle.hpp>
+#include <patterns/lazyobject.hpp>
+#include <patterns/observable.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
+#include <methods/finitedifferences/utilities/fdmhestongreensfct.hpp>
 
 #include <list>
 

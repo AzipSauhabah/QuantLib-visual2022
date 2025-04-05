@@ -26,7 +26,7 @@
 #ifndef quantlib_first_derivative_op_hpp
 #define quantlib_first_derivative_op_hpp
 
-#include <ql/methods/finitedifferences/operators/triplebandlinearop.hpp>
+#include <methods/finitedifferences/operators/triplebandlinearop.hpp>
 
 namespace QuantLib {
 

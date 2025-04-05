@@ -24,7 +24,7 @@
 #ifndef quantlib_observable_value_hpp
 #define quantlib_observable_value_hpp
 
-#include <ql/patterns/observable.hpp>
+#include <patterns/observable.hpp>
 
 namespace QuantLib {
 

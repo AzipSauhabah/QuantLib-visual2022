@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/makecds.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/time/calendars/weekendsonly.hpp>
+#include <instruments/makecds.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <time/calendars/weekendsonly.hpp>
 
 
 namespace QuantLib {

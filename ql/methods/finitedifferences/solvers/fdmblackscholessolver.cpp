@@ -19,10 +19,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/methods/finitedifferences/operators/fdmblackscholesop.hpp>
-#include <ql/methods/finitedifferences/solvers/fdm1dimsolver.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmblackscholessolver.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <methods/finitedifferences/operators/fdmblackscholesop.hpp>
+#include <methods/finitedifferences/solvers/fdm1dimsolver.hpp>
+#include <methods/finitedifferences/solvers/fdmblackscholessolver.hpp>
+#include <processes/blackscholesprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

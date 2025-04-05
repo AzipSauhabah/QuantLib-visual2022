@@ -24,8 +24,8 @@
 #ifndef quantlib_analytic_cliquet_engine_hpp
 #define quantlib_analytic_cliquet_engine_hpp
 
-#include <ql/instruments/cliquetoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <instruments/cliquetoption.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

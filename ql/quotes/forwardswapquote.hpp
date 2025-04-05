@@ -24,10 +24,10 @@
 #ifndef quantlib_forward_swap_quote_hpp
 #define quantlib_forward_swap_quote_hpp
 
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/instruments/vanillaswap.hpp>
-#include <ql/indexes/swapindex.hpp>
-#include <ql/quote.hpp>
+#include <patterns/lazyobject.hpp>
+#include <instruments/vanillaswap.hpp>
+#include <indexes/swapindex.hpp>
+#include <quote.hpp>
 
 namespace QuantLib {
 

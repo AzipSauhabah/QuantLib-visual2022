@@ -18,30 +18,30 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #if !defined(BOOST_ALL_NO_LIB) && defined(BOOST_MSVC)
-#  include <ql/auto_link.hpp>
+#  include <auto_link.hpp>
 #endif
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/instruments/creditdefaultswap.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/pricingengines/credit/midpointcdsengine.hpp>
-#include <ql/pricingengines/credit/isdacdsengine.hpp>
-#include <ql/termstructures/credit/piecewisedefaultcurve.hpp>
-#include <ql/termstructures/credit/defaultprobabilityhelpers.hpp>
-#include <ql/termstructures/credit/flathazardrate.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/yield/piecewiseyieldcurve.hpp>
-#include <ql/termstructures/yield/ratehelpers.hpp>
-#include <ql/math/interpolations/backwardflatinterpolation.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/calendars/weekendsonly.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/currencies/europe.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <instruments/creditdefaultswap.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <pricingengines/credit/midpointcdsengine.hpp>
+#include <pricingengines/credit/isdacdsengine.hpp>
+#include <termstructures/credit/piecewisedefaultcurve.hpp>
+#include <termstructures/credit/defaultprobabilityhelpers.hpp>
+#include <termstructures/credit/flathazardrate.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/yield/piecewiseyieldcurve.hpp>
+#include <termstructures/yield/ratehelpers.hpp>
+#include <math/interpolations/backwardflatinterpolation.hpp>
+#include <time/calendars/target.hpp>
+#include <time/calendars/weekendsonly.hpp>
+#include <time/daycounters/thirty360.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <currencies/europe.hpp>
+#include <quotes/simplequote.hpp>
 
 #include <iostream>
 #include <iomanip>

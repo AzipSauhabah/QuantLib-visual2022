@@ -18,10 +18,10 @@
  */
 
 
-#include <ql/cashflows/capflooredinflationcoupon.hpp>
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/cashflows/inflationcoupon.hpp>
-#include <ql/cashflows/inflationcouponpricer.hpp>
+#include <cashflows/capflooredinflationcoupon.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <cashflows/inflationcoupon.hpp>
+#include <cashflows/inflationcouponpricer.hpp>
 #include <utility>
 
 namespace QuantLib {

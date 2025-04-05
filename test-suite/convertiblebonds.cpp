@@ -20,27 +20,27 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/instruments/bonds/convertiblebonds.hpp>
-#include <ql/instruments/bonds/zerocouponbond.hpp>
-#include <ql/instruments/bonds/fixedratebond.hpp>
-#include <ql/instruments/bonds/floatingratebond.hpp>
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/pricingengines/bond/binomialconvertibleengine.hpp>
-#include <ql/pricingengines/vanilla/binomialengine.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/calendars/unitedstates.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/yield/forwardcurve.hpp>
-#include <ql/termstructures/yield/forwardspreadedtermstructure.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/math/interpolations/backwardflatinterpolation.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/pricingengines/bond/discountingbondengine.hpp>
+#include <instruments/bonds/convertiblebonds.hpp>
+#include <instruments/bonds/zerocouponbond.hpp>
+#include <instruments/bonds/fixedratebond.hpp>
+#include <instruments/bonds/floatingratebond.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <pricingengines/bond/binomialconvertibleengine.hpp>
+#include <pricingengines/vanilla/binomialengine.hpp>
+#include <time/calendars/target.hpp>
+#include <time/calendars/unitedstates.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <time/daycounters/thirty360.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/yield/forwardcurve.hpp>
+#include <termstructures/yield/forwardspreadedtermstructure.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <math/interpolations/backwardflatinterpolation.hpp>
+#include <utilities/dataformatters.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <cashflows/cashflows.hpp>
+#include <pricingengines/bond/discountingbondengine.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

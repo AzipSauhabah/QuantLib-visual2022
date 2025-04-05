@@ -25,10 +25,10 @@
 #ifndef quantlib_mc_traits_hpp
 #define quantlib_mc_traits_hpp
 
-#include <ql/methods/montecarlo/pathgenerator.hpp>
-#include <ql/methods/montecarlo/multipathgenerator.hpp>
-#include <ql/methods/montecarlo/pathpricer.hpp>
-#include <ql/math/randomnumbers/rngtraits.hpp>
+#include <methods/montecarlo/pathgenerator.hpp>
+#include <methods/montecarlo/multipathgenerator.hpp>
+#include <methods/montecarlo/pathpricer.hpp>
+#include <math/randomnumbers/rngtraits.hpp>
 
 namespace QuantLib {
 

@@ -20,12 +20,12 @@
 /*! \file fdmvppstepcondition.cpp
 */
 
-#include <ql/experimental/finitedifferences/fdmvppstepcondition.hpp>
-#include <ql/math/array.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearopiterator.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
+#include <experimental/finitedifferences/fdmvppstepcondition.hpp>
+#include <math/array.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearopiterator.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
 #include <utility>
 
 namespace QuantLib {

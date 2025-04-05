@@ -25,12 +25,12 @@
 #ifndef quantlib_callability_schedule_hpp
 #define quantlib_callability_schedule_hpp
 
-#include <ql/event.hpp>
-#include <ql/instruments/bond.hpp>
-#include <ql/patterns/visitor.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/shared_ptr.hpp>
-#include <ql/optional.hpp>
+#include <event.hpp>
+#include <instruments/bond.hpp>
+#include <patterns/visitor.hpp>
+#include <utilities/null.hpp>
+#include <shared_ptr.hpp>
+#include <optional.hpp>
 #include <vector>
 
 namespace QuantLib {

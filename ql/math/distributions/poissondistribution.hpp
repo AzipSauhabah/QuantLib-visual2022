@@ -25,8 +25,8 @@
 #ifndef quantlib_poisson_distribution_hpp
 #define quantlib_poisson_distribution_hpp
 
-#include <ql/math/factorial.hpp>
-#include <ql/math/incompletegamma.hpp>
+#include <math/factorial.hpp>
+#include <math/incompletegamma.hpp>
 
 namespace QuantLib {
 

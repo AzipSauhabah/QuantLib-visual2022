@@ -24,8 +24,8 @@
 #ifndef quantlib_svi_interpolation_hpp
 #define quantlib_svi_interpolation_hpp
 
-#include <ql/experimental/volatility/svismilesection.hpp>
-#include <ql/math/interpolations/xabrinterpolation.hpp>
+#include <experimental/volatility/svismilesection.hpp>
+#include <math/interpolations/xabrinterpolation.hpp>
 #include <utility>
 
 namespace QuantLib {

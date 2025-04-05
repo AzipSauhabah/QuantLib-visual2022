@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/coupons/proxyibor.hpp>
+#include <experimental/coupons/proxyibor.hpp>
 #include <utility>
 
 namespace QuantLib {

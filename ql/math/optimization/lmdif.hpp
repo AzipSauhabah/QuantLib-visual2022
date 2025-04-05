@@ -25,8 +25,8 @@
 #ifndef quantlib_optimization_lmdif_hpp
 #define quantlib_optimization_lmdif_hpp
 
-#include <ql/types.hpp>
-#include <ql/functional.hpp>
+#include <types.hpp>
+#include <functional.hpp>
 
 namespace QuantLib::MINPACK {
         typedef std::function<void (int,

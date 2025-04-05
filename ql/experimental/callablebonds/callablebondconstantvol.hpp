@@ -24,8 +24,8 @@
 #ifndef quantlib_callable_bond_constant_volatility_hpp
 #define quantlib_callable_bond_constant_volatility_hpp
 
-#include <ql/experimental/callablebonds/callablebondvolstructure.hpp>
-#include <ql/time/period.hpp>
+#include <experimental/callablebonds/callablebondvolstructure.hpp>
+#include <time/period.hpp>
 
 namespace QuantLib {
 

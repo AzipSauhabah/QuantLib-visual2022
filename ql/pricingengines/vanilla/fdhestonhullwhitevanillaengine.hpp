@@ -24,12 +24,12 @@
 #ifndef quantlib_fd_heston_hull_white_vanilla_engine_hpp
 #define quantlib_fd_heston_hull_white_vanilla_engine_hpp
 
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/models/equity/hestonmodel.hpp>
-#include <ql/processes/hullwhiteprocess.hpp>
-#include <ql/pricingengines/genericmodelengine.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmhestonhullwhitesolver.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <models/equity/hestonmodel.hpp>
+#include <processes/hullwhiteprocess.hpp>
+#include <pricingengines/genericmodelengine.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <methods/finitedifferences/solvers/fdmhestonhullwhitesolver.hpp>
 
 namespace QuantLib {
 

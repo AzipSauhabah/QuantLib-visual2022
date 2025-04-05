@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/products/multistep/multistepnothing.hpp>
+#include <models/marketmodels/products/multistep/multistepnothing.hpp>
 
 namespace QuantLib {
 

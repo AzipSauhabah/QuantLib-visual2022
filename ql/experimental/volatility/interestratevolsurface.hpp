@@ -24,8 +24,8 @@
 #ifndef quantlib_interest_rate_vol_surface_hpp
 #define quantlib_interest_rate_vol_surface_hpp
 
-#include <ql/experimental/volatility/blackvolsurface.hpp>
-#include <ql/indexes/interestrateindex.hpp>
+#include <experimental/volatility/blackvolsurface.hpp>
+#include <indexes/interestrateindex.hpp>
 
 namespace QuantLib {
 

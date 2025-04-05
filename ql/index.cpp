@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/index.hpp>
+#include <index.hpp>
 
 namespace QuantLib {
 

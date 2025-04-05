@@ -19,31 +19,31 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/types.hpp>
-#include <ql/experimental/catbonds/catbond.hpp>
-#include <ql/experimental/catbonds/catrisk.hpp>
-#include <ql/experimental/catbonds/montecarlocatbondengine.hpp>
-#include <ql/instruments/bonds/floatingratebond.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/calendars/unitedstates.hpp>
-#include <ql/time/calendars/brazil.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/time/daycounters/business252.hpp>
-#include <ql/indexes/ibor/usdlibor.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/simplecashflow.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/pricingengines/bond/discountingbondengine.hpp>
-#include <ql/pricingengines/bond/bondfunctions.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
+#include <types.hpp>
+#include <experimental/catbonds/catbond.hpp>
+#include <experimental/catbonds/catrisk.hpp>
+#include <experimental/catbonds/montecarlocatbondengine.hpp>
+#include <instruments/bonds/floatingratebond.hpp>
+#include <time/calendars/target.hpp>
+#include <time/calendars/unitedstates.hpp>
+#include <time/calendars/brazil.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <time/daycounters/thirty360.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <time/daycounters/business252.hpp>
+#include <indexes/ibor/usdlibor.hpp>
+#include <quotes/simplequote.hpp>
+#include <utilities/dataformatters.hpp>
+#include <time/schedule.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <cashflows/simplecashflow.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <cashflows/cashflows.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <pricingengines/bond/discountingbondengine.hpp>
+#include <pricingengines/bond/bondfunctions.hpp>
+#include <termstructures/yield/flatforward.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

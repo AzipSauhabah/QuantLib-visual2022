@@ -20,12 +20,12 @@
 #ifndef quantlib_longstaff_schwartz_multi_path_pricer_hpp
 #define quantlib_longstaff_schwartz_multi_path_pricer_hpp
 
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/methods/montecarlo/pathpricer.hpp>
-#include <ql/methods/montecarlo/multipath.hpp>
-#include <ql/methods/montecarlo/lsmbasissystem.hpp>
-#include <ql/experimental/mcbasket/pathpayoff.hpp>
-#include <ql/functional.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <methods/montecarlo/pathpricer.hpp>
+#include <methods/montecarlo/multipath.hpp>
+#include <methods/montecarlo/lsmbasissystem.hpp>
+#include <experimental/mcbasket/pathpayoff.hpp>
+#include <functional.hpp>
 #include <memory>
 
 namespace QuantLib {

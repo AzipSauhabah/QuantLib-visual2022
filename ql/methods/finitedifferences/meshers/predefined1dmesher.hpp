@@ -24,8 +24,8 @@
 #ifndef quantlib_predefined_1d_mesher_hpp
 #define quantlib_predefined_1d_mesher_hpp
 
-#include <ql/utilities/null.hpp>
-#include <ql/methods/finitedifferences/meshers/fdm1dmesher.hpp>
+#include <utilities/null.hpp>
+#include <methods/finitedifferences/meshers/fdm1dmesher.hpp>
 
 #include <vector>
 

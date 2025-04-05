@@ -45,18 +45,18 @@
     We examine the range of possibilities, computing the replication error.
 */
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #if !defined(BOOST_ALL_NO_LIB) && defined(BOOST_MSVC)
-#  include <ql/auto_link.hpp>
+#  include <auto_link.hpp>
 #endif
-#include <ql/methods/montecarlo/montecarlomodel.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/pricingengines/blackcalculator.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
+#include <methods/montecarlo/montecarlomodel.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <pricingengines/blackcalculator.hpp>
+#include <quotes/simplequote.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actual365fixed.hpp>
 
 #include <iostream>
 #include <iomanip>

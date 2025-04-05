@@ -24,8 +24,8 @@
 #ifndef quantlib_step_condition_hpp
 #define quantlib_step_condition_hpp
 
-#include <ql/math/array.hpp>
-#include <ql/instruments/payoffs.hpp>
+#include <math/array.hpp>
+#include <instruments/payoffs.hpp>
 
 namespace QuantLib {
 

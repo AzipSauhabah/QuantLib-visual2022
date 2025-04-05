@@ -26,7 +26,7 @@
 #ifndef quantlib_cms_drift_calculator_hpp
 #define quantlib_cms_drift_calculator_hpp
 
-#include <ql/math/matrix.hpp>
+#include <math/matrix.hpp>
 #include <vector>
 
 namespace QuantLib {

@@ -25,8 +25,8 @@
 #ifndef quantlib_discretized_callable_fixed_rate_bond_hpp
 #define quantlib_discretized_callable_fixed_rate_bond_hpp
 
-#include <ql/discretizedasset.hpp>
-#include <ql/experimental/callablebonds/callablebond.hpp>
+#include <discretizedasset.hpp>
+#include <experimental/callablebonds/callablebond.hpp>
 
 namespace QuantLib {
 

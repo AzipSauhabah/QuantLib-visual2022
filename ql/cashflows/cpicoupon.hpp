@@ -25,10 +25,10 @@
 #ifndef quantlib_cpicoupon_hpp
 #define quantlib_cpicoupon_hpp
 
-#include <ql/cashflows/inflationcoupon.hpp>
-#include <ql/cashflows/indexedcashflow.hpp>
-#include <ql/indexes/inflationindex.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/inflationcoupon.hpp>
+#include <cashflows/indexedcashflow.hpp>
+#include <indexes/inflationindex.hpp>
+#include <time/schedule.hpp>
 
 namespace QuantLib {
 

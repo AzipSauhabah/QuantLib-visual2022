@@ -25,8 +25,8 @@
 #ifndef quantlib_black_variance_curve_hpp
 #define quantlib_black_variance_curve_hpp
 
-#include <ql/termstructures/volatility/equityfx/blackvoltermstructure.hpp>
-#include <ql/math/interpolation.hpp>
+#include <termstructures/volatility/equityfx/blackvoltermstructure.hpp>
+#include <math/interpolation.hpp>
 
 namespace QuantLib {
 

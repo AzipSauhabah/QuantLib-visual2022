@@ -25,9 +25,9 @@
 #ifndef quantlib_fd_simple_ext_ou_storage_engine_hpp
 #define quantlib_fd_simple_ext_ou_storage_engine_hpp
 
-#include <ql/pricingengine.hpp>
-#include <ql/instruments/vanillastorageoption.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <pricingengine.hpp>
+#include <instruments/vanillastorageoption.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
 
 namespace QuantLib {
 

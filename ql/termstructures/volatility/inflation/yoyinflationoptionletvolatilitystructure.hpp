@@ -24,11 +24,11 @@
 #ifndef quantlib_yoy_optionlet_volatility_structures_hpp
 #define quantlib_yoy_optionlet_volatility_structures_hpp
 
-#include <ql/termstructures/voltermstructure.hpp>
-#include <ql/termstructures/volatility/volatilitytype.hpp>
-#include <ql/math/interpolation.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/quote.hpp>
+#include <termstructures/voltermstructure.hpp>
+#include <termstructures/volatility/volatilitytype.hpp>
+#include <math/interpolation.hpp>
+#include <time/calendars/target.hpp>
+#include <quote.hpp>
 
 namespace QuantLib {
 

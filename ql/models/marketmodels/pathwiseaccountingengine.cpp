@@ -17,12 +17,12 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/curvestate.hpp>
-#include <ql/models/marketmodels/discounter.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/models/marketmodels/evolvers/lognormalfwdrateeuler.hpp>
-#include <ql/models/marketmodels/marketmodel.hpp>
-#include <ql/models/marketmodels/pathwiseaccountingengine.hpp>
+#include <models/marketmodels/curvestate.hpp>
+#include <models/marketmodels/discounter.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/evolvers/lognormalfwdrateeuler.hpp>
+#include <models/marketmodels/marketmodel.hpp>
+#include <models/marketmodels/pathwiseaccountingengine.hpp>
 #include <algorithm>
 #include <utility>
 

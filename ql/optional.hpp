@@ -24,7 +24,7 @@
 #ifndef quantlib_optional_hpp
 #define quantlib_optional_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 
 #if defined(QL_USE_STD_OPTIONAL)
 #include <optional>

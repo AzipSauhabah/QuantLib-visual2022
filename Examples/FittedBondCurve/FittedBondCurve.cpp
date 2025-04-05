@@ -26,18 +26,18 @@
     results generated from the bootstrap fitting method.
 */
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #if !defined(BOOST_ALL_NO_LIB) && defined(BOOST_MSVC)
-#  include <ql/auto_link.hpp>
+#  include <auto_link.hpp>
 #endif
-#include <ql/termstructures/yield/fittedbonddiscountcurve.hpp>
-#include <ql/termstructures/yield/piecewiseyieldcurve.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/yield/bondhelpers.hpp>
-#include <ql/termstructures/yield/nonlinearfittingmethods.hpp>
-#include <ql/pricingengines/bond/bondfunctions.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/simpledaycounter.hpp>
+#include <termstructures/yield/fittedbonddiscountcurve.hpp>
+#include <termstructures/yield/piecewiseyieldcurve.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/yield/bondhelpers.hpp>
+#include <termstructures/yield/nonlinearfittingmethods.hpp>
+#include <pricingengines/bond/bondfunctions.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/simpledaycounter.hpp>
 
 #include <iostream>
 #include <iomanip>

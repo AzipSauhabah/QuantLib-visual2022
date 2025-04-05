@@ -24,11 +24,11 @@
 #ifndef quantlib_cpi_capfloor_term_price_surface_hpp
 #define quantlib_cpi_capfloor_term_price_surface_hpp
 
-#include <ql/termstructures/inflationtermstructure.hpp>
-#include <ql/math/interpolation.hpp>
-#include <ql/math/interpolations/interpolation2d.hpp>
-#include <ql/experimental/inflation/polynomial2Dspline.hpp>
-#include <ql/indexes/inflationindex.hpp>
+#include <termstructures/inflationtermstructure.hpp>
+#include <math/interpolation.hpp>
+#include <math/interpolations/interpolation2d.hpp>
+#include <experimental/inflation/polynomial2Dspline.hpp>
+#include <indexes/inflationindex.hpp>
 
 
 namespace QuantLib {

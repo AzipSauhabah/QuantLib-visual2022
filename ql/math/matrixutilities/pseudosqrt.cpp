@@ -19,13 +19,13 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/comparison.hpp>
-#include <ql/math/matrixutilities/choleskydecomposition.hpp>
-#include <ql/math/matrixutilities/pseudosqrt.hpp>
-#include <ql/math/matrixutilities/symmetricschurdecomposition.hpp>
-#include <ql/math/optimization/conjugategradient.hpp>
-#include <ql/math/optimization/constraint.hpp>
-#include <ql/math/optimization/problem.hpp>
+#include <math/comparison.hpp>
+#include <math/matrixutilities/choleskydecomposition.hpp>
+#include <math/matrixutilities/pseudosqrt.hpp>
+#include <math/matrixutilities/symmetricschurdecomposition.hpp>
+#include <math/optimization/conjugategradient.hpp>
+#include <math/optimization/constraint.hpp>
+#include <math/optimization/problem.hpp>
 #include <utility>
 
 namespace QuantLib {

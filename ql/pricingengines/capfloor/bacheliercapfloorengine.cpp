@@ -18,12 +18,12 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/pricingengines/capfloor/bacheliercapfloorengine.hpp>
-#include <ql/termstructures/volatility/optionlet/constantoptionletvol.hpp>
-#include <ql/termstructures/volatility/optionlet/strippedoptionletadapter.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <pricingengines/capfloor/bacheliercapfloorengine.hpp>
+#include <termstructures/volatility/optionlet/constantoptionletvol.hpp>
+#include <termstructures/volatility/optionlet/strippedoptionletadapter.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <time/calendars/nullcalendar.hpp>
 #include <utility>
 
 namespace QuantLib {

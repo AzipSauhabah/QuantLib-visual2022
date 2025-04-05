@@ -25,10 +25,10 @@
 #ifndef quantlib_isda_cds_engine_hpp
 #define quantlib_isda_cds_engine_hpp
 
-#include <ql/instruments/creditdefaultswap.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/termstructures/defaulttermstructure.hpp>
-#include <ql/optional.hpp>
+#include <instruments/creditdefaultswap.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <termstructures/defaulttermstructure.hpp>
+#include <optional.hpp>
 
 namespace QuantLib {
 

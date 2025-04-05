@@ -24,11 +24,11 @@
 #ifndef quantlib_mc_everest_engine_hpp
 #define quantlib_mc_everest_engine_hpp
 
-#include <ql/exercise.hpp>
-#include <ql/experimental/exoticoptions/everestoption.hpp>
-#include <ql/pricingengines/mcsimulation.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/processes/stochasticprocessarray.hpp>
+#include <exercise.hpp>
+#include <experimental/exoticoptions/everestoption.hpp>
+#include <pricingengines/mcsimulation.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <processes/stochasticprocessarray.hpp>
 #include <utility>
 
 namespace QuantLib {

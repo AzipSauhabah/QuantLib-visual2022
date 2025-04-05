@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/catbonds/riskynotional.hpp>
+#include <experimental/catbonds/riskynotional.hpp>
 
 namespace QuantLib
 {

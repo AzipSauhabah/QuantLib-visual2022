@@ -18,16 +18,16 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/termstructures/yield/piecewisezerospreadedtermstructure.hpp>
-#include <ql/termstructures/yield/zerocurve.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/termstructures/yield/ratehelpers.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
-#include <ql/math/interpolations/forwardflatinterpolation.hpp>
-#include <ql/math/interpolations/backwardflatinterpolation.hpp>
-#include <ql/math/interpolations/cubicinterpolation.hpp>
+#include <termstructures/yield/piecewisezerospreadedtermstructure.hpp>
+#include <termstructures/yield/zerocurve.hpp>
+#include <indexes/iborindex.hpp>
+#include <termstructures/yield/ratehelpers.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/thirty360.hpp>
+#include <math/interpolations/forwardflatinterpolation.hpp>
+#include <math/interpolations/backwardflatinterpolation.hpp>
+#include <math/interpolations/cubicinterpolation.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

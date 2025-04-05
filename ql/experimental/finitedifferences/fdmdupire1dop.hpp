@@ -25,10 +25,10 @@
 #ifndef quantlib_fdm_dupire1d_op_hpp
 #define quantlib_fdm_dupire1d_op_hpp
 
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/operators/triplebandlinearop.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/operators/triplebandlinearop.hpp>
+#include <methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
 
 namespace QuantLib {
 

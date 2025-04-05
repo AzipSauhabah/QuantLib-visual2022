@@ -26,9 +26,9 @@
 #define quantlib_heston_black_vol_surface_hpp
 
 
-#include <ql/models/equity/hestonmodel.hpp>
-#include <ql/pricingengines/vanilla/analytichestonengine.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvoltermstructure.hpp>
+#include <models/equity/hestonmodel.hpp>
+#include <pricingengines/vanilla/analytichestonengine.hpp>
+#include <termstructures/volatility/equityfx/blackvoltermstructure.hpp>
 
 namespace QuantLib {
     class HestonBlackVolSurface : public BlackVolTermStructure {

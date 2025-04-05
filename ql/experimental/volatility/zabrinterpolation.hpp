@@ -24,8 +24,8 @@
 #ifndef quantlib_zabr_interpolation_hpp
 #define quantlib_zabr_interpolation_hpp
 
-#include <ql/experimental/volatility/zabrsmilesection.hpp>
-#include <ql/math/interpolations/xabrinterpolation.hpp>
+#include <experimental/volatility/zabrsmilesection.hpp>
+#include <math/interpolations/xabrinterpolation.hpp>
 #include <utility>
 
 namespace QuantLib {

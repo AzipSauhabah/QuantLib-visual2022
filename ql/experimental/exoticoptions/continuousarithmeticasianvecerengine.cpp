@@ -17,17 +17,17 @@
   FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/experimental/exoticoptions/continuousarithmeticasianvecerengine.hpp>
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/rounding.hpp>
-#include <ql/methods/finitedifferences/dminus.hpp>
-#include <ql/methods/finitedifferences/dplus.hpp>
-#include <ql/methods/finitedifferences/dplusdminus.hpp>
-#include <ql/methods/finitedifferences/tridiagonaloperator.hpp>
-#include <ql/pricingengines/blackcalculator.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <exercise.hpp>
+#include <experimental/exoticoptions/continuousarithmeticasianvecerengine.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/rounding.hpp>
+#include <methods/finitedifferences/dminus.hpp>
+#include <methods/finitedifferences/dplus.hpp>
+#include <methods/finitedifferences/dplusdminus.hpp>
+#include <methods/finitedifferences/tridiagonaloperator.hpp>
+#include <pricingengines/blackcalculator.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
 #include <utility>
 
 namespace QuantLib {

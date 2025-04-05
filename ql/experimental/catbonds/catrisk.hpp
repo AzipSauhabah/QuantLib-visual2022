@@ -24,9 +24,9 @@
 #ifndef quantlib_catrisk_hpp
 #define quantlib_catrisk_hpp
 
-#include <ql/time/date.hpp>
-#include <ql/errors.hpp>
-#include <ql/shared_ptr.hpp>
+#include <time/date.hpp>
+#include <errors.hpp>
+#include <shared_ptr.hpp>
 #include <random>
 #include <vector>
 

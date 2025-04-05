@@ -18,7 +18,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/indexes/region.hpp>
+#include <indexes/region.hpp>
 
 namespace QuantLib {
 

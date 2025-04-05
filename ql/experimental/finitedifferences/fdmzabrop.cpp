@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/finitedifferences/fdmzabrop.hpp>
-#include <ql/methods/finitedifferences/operators/secondderivativeop.hpp>
-#include <ql/methods/finitedifferences/operators/secondordermixedderivativeop.hpp>
+#include <experimental/finitedifferences/fdmzabrop.hpp>
+#include <methods/finitedifferences/operators/secondderivativeop.hpp>
+#include <methods/finitedifferences/operators/secondordermixedderivativeop.hpp>
 
 namespace QuantLib {
 

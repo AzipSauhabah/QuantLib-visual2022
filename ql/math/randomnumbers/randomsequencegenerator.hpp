@@ -24,8 +24,8 @@
 #ifndef quantlib_random_sequence_generator_h
 #define quantlib_random_sequence_generator_h
 
-#include <ql/methods/montecarlo/sample.hpp>
-#include <ql/errors.hpp>
+#include <methods/montecarlo/sample.hpp>
+#include <errors.hpp>
 #include <vector>
 
 namespace QuantLib {

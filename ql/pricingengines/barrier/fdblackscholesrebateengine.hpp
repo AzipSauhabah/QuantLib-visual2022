@@ -26,9 +26,9 @@
 #ifndef quantlib_fd_black_scholes_rebate_engine_hpp
 #define quantlib_fd_black_scholes_rebate_engine_hpp
 
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
-#include <ql/instruments/barrieroption.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <instruments/barrieroption.hpp>
 
 namespace QuantLib {
 

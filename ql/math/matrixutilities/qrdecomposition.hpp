@@ -24,7 +24,7 @@
 #ifndef quantlib_qr_decomposition_hpp
 #define quantlib_qr_decomposition_hpp
 
-#include <ql/math/matrix.hpp>
+#include <math/matrix.hpp>
 
 namespace QuantLib {
 

@@ -24,8 +24,8 @@
 #ifndef quantlib_seed_generator_hpp
 #define quantlib_seed_generator_hpp
 
-#include <ql/math/randomnumbers/mt19937uniformrng.hpp>
-#include <ql/patterns/singleton.hpp>
+#include <math/randomnumbers/mt19937uniformrng.hpp>
+#include <patterns/singleton.hpp>
 
 namespace QuantLib {
 

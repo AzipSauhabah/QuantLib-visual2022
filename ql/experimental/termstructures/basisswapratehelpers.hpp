@@ -24,7 +24,7 @@
 #ifndef quantlib_basisswapratehelpers_hpp
 #define quantlib_basisswapratehelpers_hpp
 
-#include <ql/termstructures/yield/ratehelpers.hpp>
+#include <termstructures/yield/ratehelpers.hpp>
 
 namespace QuantLib {
 

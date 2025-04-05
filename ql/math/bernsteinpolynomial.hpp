@@ -24,7 +24,7 @@
 #ifndef quantlib_bernstein_polynomial_hpp
 #define quantlib_bernstein_polynomial_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 
 namespace QuantLib {
 

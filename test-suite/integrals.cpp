@@ -20,23 +20,23 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/integrals/exponentialintegrals.hpp>
-#include <ql/math/integrals/filonintegral.hpp>
-#include <ql/math/integrals/segmentintegral.hpp>
-#include <ql/math/integrals/simpsonintegral.hpp>
-#include <ql/math/integrals/trapezoidintegral.hpp>
-#include <ql/math/integrals/kronrodintegral.hpp>
-#include <ql/math/integrals/gausslobattointegral.hpp>
-#include <ql/math/integrals/discreteintegrals.hpp>
-#include <ql/math/integrals/expsinhintegral.hpp>
-#include <ql/math/integrals/tanhsinhintegral.hpp>
-#include <ql/math/integrals/gaussianquadratures.hpp>
-#include <ql/math/interpolations/bilinearinterpolation.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/termstructures/volatility/abcd.hpp>
-#include <ql/math/integrals/twodimensionalintegral.hpp>
-#include <ql/experimental/math/piecewisefunction.hpp>
-#include <ql/experimental/math/piecewiseintegral.hpp>
+#include <math/integrals/exponentialintegrals.hpp>
+#include <math/integrals/filonintegral.hpp>
+#include <math/integrals/segmentintegral.hpp>
+#include <math/integrals/simpsonintegral.hpp>
+#include <math/integrals/trapezoidintegral.hpp>
+#include <math/integrals/kronrodintegral.hpp>
+#include <math/integrals/gausslobattointegral.hpp>
+#include <math/integrals/discreteintegrals.hpp>
+#include <math/integrals/expsinhintegral.hpp>
+#include <math/integrals/tanhsinhintegral.hpp>
+#include <math/integrals/gaussianquadratures.hpp>
+#include <math/interpolations/bilinearinterpolation.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <termstructures/volatility/abcd.hpp>
+#include <math/integrals/twodimensionalintegral.hpp>
+#include <experimental/math/piecewisefunction.hpp>
+#include <experimental/math/piecewiseintegral.hpp>
 
 #include <boost/math/special_functions/sign.hpp>
 

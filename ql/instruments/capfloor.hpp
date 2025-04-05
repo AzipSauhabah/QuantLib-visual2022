@@ -27,10 +27,10 @@
 #ifndef quantlib_instruments_capfloor_hpp
 #define quantlib_instruments_capfloor_hpp
 
-#include <ql/instrument.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/handle.hpp>
-#include <ql/termstructures/volatility/volatilitytype.hpp>
+#include <instrument.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <handle.hpp>
+#include <termstructures/volatility/volatilitytype.hpp>
 
 namespace QuantLib {
 

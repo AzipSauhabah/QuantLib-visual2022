@@ -19,16 +19,16 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/termstructures/yield/fittedbonddiscountcurve.hpp>
-#include <ql/termstructures/yield/nonlinearfittingmethods.hpp>
-#include <ql/indexes/ibor/cdor.hpp>
-#include <ql/instruments/bonds/zerocouponbond.hpp>
-#include <ql/instruments/bonds/floatingratebond.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/calendars/canada.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/pricingengines/bond/discountingbondengine.hpp>
+#include <termstructures/yield/fittedbonddiscountcurve.hpp>
+#include <termstructures/yield/nonlinearfittingmethods.hpp>
+#include <indexes/ibor/cdor.hpp>
+#include <instruments/bonds/zerocouponbond.hpp>
+#include <instruments/bonds/floatingratebond.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <time/calendars/target.hpp>
+#include <time/calendars/canada.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <pricingengines/bond/discountingbondengine.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

@@ -25,8 +25,8 @@
 #ifndef quantlib_forward_spreaded_term_structure_hpp
 #define quantlib_forward_spreaded_term_structure_hpp
 
-#include <ql/quote.hpp>
-#include <ql/termstructures/yield/forwardstructure.hpp>
+#include <quote.hpp>
+#include <termstructures/yield/forwardstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

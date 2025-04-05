@@ -25,7 +25,7 @@
 #ifndef quantlib_date_generation_rule_hpp
 #define quantlib_date_generation_rule_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #include <iosfwd>
 
 namespace QuantLib {

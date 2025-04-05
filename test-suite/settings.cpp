@@ -19,7 +19,7 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/settings.hpp>
+#include <settings.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

@@ -17,9 +17,9 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/variancegamma/variancegammamodel.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/shared_ptr.hpp>
+#include <experimental/variancegamma/variancegammamodel.hpp>
+#include <quotes/simplequote.hpp>
+#include <shared_ptr.hpp>
 
 namespace QuantLib {
 

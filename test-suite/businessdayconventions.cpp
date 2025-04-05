@@ -17,10 +17,10 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/time/businessdayconvention.hpp>
-#include <ql/time/calendars/southafrica.hpp>
-#include <ql/time/daycounter.hpp>
-#include <ql/time/period.hpp>
+#include <time/businessdayconvention.hpp>
+#include <time/calendars/southafrica.hpp>
+#include <time/daycounter.hpp>
+#include <time/period.hpp>
 #include <utility>
 
 using namespace QuantLib;

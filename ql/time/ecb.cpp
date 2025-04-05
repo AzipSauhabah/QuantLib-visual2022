@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/ecb.hpp>
-#include <ql/settings.hpp>
-#include <ql/utilities/dataparsers.hpp>
+#include <time/ecb.hpp>
+#include <settings.hpp>
+#include <utilities/dataparsers.hpp>
 #include <boost/utility/string_view.hpp>
 #include <boost/bimap/bimap.hpp>
 #include <boost/bimap/set_of.hpp>

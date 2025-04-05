@@ -23,12 +23,12 @@
     \brief layer of abstraction to calculate the inner value
 */
 
-#include <ql/instruments/basketoption.hpp>
-#include <ql/math/integrals/simpsonintegral.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
-#include <ql/payoff.hpp>
+#include <instruments/basketoption.hpp>
+#include <math/integrals/simpsonintegral.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
+#include <payoff.hpp>
 #include <deque>
 #include <utility>
 

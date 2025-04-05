@@ -24,8 +24,8 @@
 #ifndef quantlib_volatility_cube_h
 #define quantlib_volatility_cube_h
 
-#include <ql/handle.hpp>
-#include <ql/shared_ptr.hpp>
+#include <handle.hpp>
+#include <shared_ptr.hpp>
 #include <vector>
 
 namespace QuantLib {

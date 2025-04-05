@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/makecapfloor.hpp>
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/pricingengines/capfloor/blackcapfloorengine.hpp>
+#include <instruments/makecapfloor.hpp>
+#include <cashflows/cashflows.hpp>
+#include <pricingengines/capfloor/blackcapfloorengine.hpp>
 
 namespace QuantLib {
 

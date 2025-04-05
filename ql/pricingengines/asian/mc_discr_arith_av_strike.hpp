@@ -24,9 +24,9 @@
 #ifndef quantlib_mc_discrete_arithmetic_average_strike_asian_engine_hpp
 #define quantlib_mc_discrete_arithmetic_average_strike_asian_engine_hpp
 
-#include <ql/exercise.hpp>
-#include <ql/pricingengines/asian/mcdiscreteasianenginebase.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <exercise.hpp>
+#include <pricingengines/asian/mcdiscreteasianenginebase.hpp>
+#include <processes/blackscholesprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

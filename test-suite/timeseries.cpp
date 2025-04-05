@@ -20,9 +20,9 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/timeseries.hpp>
-#include <ql/prices.hpp>
-#include <ql/time/calendars/unitedstates.hpp>
+#include <timeseries.hpp>
+#include <prices.hpp>
+#include <time/calendars/unitedstates.hpp>
 #include <boost/unordered_map.hpp>
 
 using namespace QuantLib;

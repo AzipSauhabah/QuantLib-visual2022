@@ -25,9 +25,9 @@
 #define quantlib_sabr_vol_termstructure_hpp
 
 
-#include <ql/termstructures/volatility/sabr.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvoltermstructure.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
+#include <termstructures/volatility/sabr.hpp>
+#include <termstructures/volatility/equityfx/blackvoltermstructure.hpp>
+#include <time/calendars/nullcalendar.hpp>
 
 namespace QuantLib {
     class SABRVolTermStructure : public BlackVolatilityTermStructure {

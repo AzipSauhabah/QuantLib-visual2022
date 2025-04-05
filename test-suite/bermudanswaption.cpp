@@ -22,20 +22,20 @@
 #include "preconditions.hpp"
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/cashflows/coupon.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/instruments/makevanillaswap.hpp>
-#include <ql/instruments/swaption.hpp>
-#include <ql/models/shortrate/onefactormodels/hullwhite.hpp>
-#include <ql/models/shortrate/twofactormodels/g2.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/pricingengines/swaption/fdg2swaptionengine.hpp>
-#include <ql/pricingengines/swaption/fdhullwhiteswaptionengine.hpp>
-#include <ql/pricingengines/swaption/treeswaptionengine.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/coupon.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <instruments/makevanillaswap.hpp>
+#include <instruments/swaption.hpp>
+#include <models/shortrate/onefactormodels/hullwhite.hpp>
+#include <models/shortrate/twofactormodels/g2.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <pricingengines/swaption/fdg2swaptionengine.hpp>
+#include <pricingengines/swaption/fdhullwhiteswaptionengine.hpp>
+#include <pricingengines/swaption/treeswaptionengine.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <time/daycounters/thirty360.hpp>
+#include <time/schedule.hpp>
 
 
 using namespace QuantLib;

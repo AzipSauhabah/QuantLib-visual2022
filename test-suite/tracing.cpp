@@ -19,7 +19,7 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/utilities/tracing.hpp>
+#include <utilities/tracing.hpp>
 #include <sstream>
 #include <iostream>
 

@@ -24,8 +24,8 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef quantlib_variance_gamma_engine_hpp
 #define quantlib_variance_gamma_engine_hpp
 
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/experimental/variancegamma/variancegammaprocess.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <experimental/variancegamma/variancegammaprocess.hpp>
 
 namespace QuantLib {
 

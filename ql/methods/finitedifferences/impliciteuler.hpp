@@ -24,7 +24,7 @@
 #ifndef quantlib_implicit_euler_hpp
 #define quantlib_implicit_euler_hpp
 
-#include <ql/methods/finitedifferences/mixedscheme.hpp>
+#include <methods/finitedifferences/mixedscheme.hpp>
 
 namespace QuantLib {
 

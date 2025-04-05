@@ -19,12 +19,12 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/instruments/margrabeoption.hpp>
-#include <ql/pricingengines/exotic/analyticamericanmargrabeengine.hpp>
-#include <ql/pricingengines/exotic/analyticeuropeanmargrabeengine.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <instruments/margrabeoption.hpp>
+#include <pricingengines/exotic/analyticamericanmargrabeengine.hpp>
+#include <pricingengines/exotic/analyticeuropeanmargrabeengine.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <utilities/dataformatters.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

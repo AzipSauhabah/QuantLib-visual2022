@@ -16,10 +16,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/optimization/goldstein.hpp>
-#include <ql/math/optimization/method.hpp>
-#include <ql/math/optimization/problem.hpp>
-#include <ql/math/comparison.hpp>
+#include <math/optimization/goldstein.hpp>
+#include <math/optimization/method.hpp>
+#include <math/optimization/problem.hpp>
+#include <math/comparison.hpp>
 
 namespace QuantLib {
 

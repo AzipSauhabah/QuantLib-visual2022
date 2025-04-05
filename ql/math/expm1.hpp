@@ -24,7 +24,7 @@
 #ifndef quantlib_expm1_hpp
 #define quantlib_expm1_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <complex>
 
 namespace QuantLib {

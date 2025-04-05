@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/asian/mc_discr_geom_av_price.hpp>
-#include <ql/pricingengines/asian/mc_discr_arith_av_price.hpp>
+#include <pricingengines/asian/mc_discr_geom_av_price.hpp>
+#include <pricingengines/asian/mc_discr_arith_av_price.hpp>
 
 namespace QuantLib {
 

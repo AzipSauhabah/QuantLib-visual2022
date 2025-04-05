@@ -21,7 +21,7 @@
 #ifndef quantlib_generic_longstaff_schwartz_hpp
 #define quantlib_generic_longstaff_schwartz_hpp
 
-#include <ql/methods/montecarlo/nodedata.hpp>
+#include <methods/montecarlo/nodedata.hpp>
 
 namespace QuantLib {
 

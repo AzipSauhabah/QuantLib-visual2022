@@ -20,13 +20,13 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/termstructures/volatility/equityfx/localconstantvol.hpp>
-#include <ql/termstructures/volatility/equityfx/localvolcurve.hpp>
-#include <ql/termstructures/volatility/equityfx/localvolsurface.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <termstructures/volatility/equityfx/localconstantvol.hpp>
+#include <termstructures/volatility/equityfx/localvolcurve.hpp>
+#include <termstructures/volatility/equityfx/localvolsurface.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <time/daycounters/actual365fixed.hpp>
 #include <utility>
 
 

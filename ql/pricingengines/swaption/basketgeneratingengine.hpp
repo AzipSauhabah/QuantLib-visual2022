@@ -25,15 +25,15 @@
 #ifndef quantlib_basketgeneratingengine_hpp
 #define quantlib_basketgeneratingengine_hpp
 
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/indexes/swapindex.hpp>
-#include <ql/instruments/vanillaswap.hpp>
-#include <ql/math/optimization/costfunction.hpp>
-#include <ql/models/shortrate/onefactormodels/gaussian1dmodel.hpp>
-#include <ql/qldefines.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionvolstructure.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <indexes/swapindex.hpp>
+#include <instruments/vanillaswap.hpp>
+#include <math/optimization/costfunction.hpp>
+#include <models/shortrate/onefactormodels/gaussian1dmodel.hpp>
+#include <qldefines.hpp>
+#include <termstructures/volatility/swaption/swaptionvolstructure.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

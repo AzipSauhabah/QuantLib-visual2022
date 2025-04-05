@@ -21,9 +21,9 @@
     \brief n-th order derivative linear operator
 */
 
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/operators/numericaldifferentiation.hpp>
-#include <ql/methods/finitedifferences/operators/nthorderderivativeop.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/operators/numericaldifferentiation.hpp>
+#include <methods/finitedifferences/operators/nthorderderivativeop.hpp>
 
 #include <set>
 

@@ -27,7 +27,7 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #define quantlib_composite_zero_yield_structure
 
 
-#include <ql/termstructures/yield/zeroyieldstructure.hpp>
+#include <termstructures/yield/zeroyieldstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

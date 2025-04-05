@@ -25,8 +25,8 @@
 #ifndef quantlib_analytic_continuous_geometric_average_price_asian_engine_hpp
 #define quantlib_analytic_continuous_geometric_average_price_asian_engine_hpp
 
-#include <ql/instruments/asianoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <instruments/asianoption.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

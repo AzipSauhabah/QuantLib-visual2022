@@ -20,18 +20,18 @@
 /*! \file choibasketengine.cpp
 */
 
-#include <ql/exercise.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/math/matrixutilities/svd.hpp>
-#include <ql/math/matrixutilities/householder.hpp>
-#include <ql/math/matrixutilities/getcovariance.hpp>
-#include <ql/math/matrixutilities/choleskydecomposition.hpp>
-#include <ql/math/integrals/gaussianquadratures.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/pricingengines/basket/choibasketengine.hpp>
-#include <ql/pricingengines/basket/vectorbsmprocessextractor.hpp>
-#include <ql/pricingengines/basket/singlefactorbsmbasketengine.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <exercise.hpp>
+#include <quotes/simplequote.hpp>
+#include <math/matrixutilities/svd.hpp>
+#include <math/matrixutilities/householder.hpp>
+#include <math/matrixutilities/getcovariance.hpp>
+#include <math/matrixutilities/choleskydecomposition.hpp>
+#include <math/integrals/gaussianquadratures.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <pricingengines/basket/choibasketengine.hpp>
+#include <pricingengines/basket/vectorbsmprocessextractor.hpp>
+#include <pricingengines/basket/singlefactorbsmbasketengine.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
 
 #include <boost/math/special_functions/sign.hpp>
 

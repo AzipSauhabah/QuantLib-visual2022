@@ -18,11 +18,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/math/functional.hpp>
-#include <ql/math/distributions/chisquaredistribution.hpp>
-#include <ql/math/distributions/gammadistribution.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <math/functional.hpp>
+#include <math/distributions/chisquaredistribution.hpp>
+#include <math/distributions/gammadistribution.hpp>
+#include <math/distributions/normaldistribution.hpp>
 
 namespace QuantLib {
 

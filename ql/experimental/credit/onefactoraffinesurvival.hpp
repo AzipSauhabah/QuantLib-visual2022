@@ -20,9 +20,9 @@
 #ifndef onefactor_affine_survival_hpp
 #define onefactor_affine_survival_hpp
 
-#include <ql/models/shortrate/onefactormodel.hpp>
-#include <ql/stochasticprocess.hpp>
-#include <ql/termstructures/credit/hazardratestructure.hpp>
+#include <models/shortrate/onefactormodel.hpp>
+#include <stochasticprocess.hpp>
+#include <termstructures/credit/hazardratestructure.hpp>
 #include <utility>
 
 namespace QuantLib {

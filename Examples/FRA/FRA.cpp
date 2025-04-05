@@ -21,15 +21,15 @@
     forward-rate agreement.
 */
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #if !defined(BOOST_ALL_NO_LIB) && defined(BOOST_MSVC)
-#  include <ql/auto_link.hpp>
+#  include <auto_link.hpp>
 #endif
-#include <ql/instruments/forwardrateagreement.hpp>
-#include <ql/termstructures/yield/piecewiseyieldcurve.hpp>
-#include <ql/termstructures/yield/ratehelpers.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
+#include <instruments/forwardrateagreement.hpp>
+#include <termstructures/yield/piecewiseyieldcurve.hpp>
+#include <termstructures/yield/ratehelpers.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <time/daycounters/actualactual.hpp>
 
 #include <iostream>
 

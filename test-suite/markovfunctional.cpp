@@ -20,37 +20,37 @@
 #include "preconditions.hpp"
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/indexes/swap/euriborswap.hpp>
-#include <ql/instruments/makecapfloor.hpp>
-#include <ql/instruments/makeswaption.hpp>
-#include <ql/instruments/makevanillaswap.hpp>
-#include <ql/models/shortrate/calibrationhelpers/caphelper.hpp>
-#include <ql/models/shortrate/calibrationhelpers/swaptionhelper.hpp>
-#include <ql/models/shortrate/onefactormodels/markovfunctional.hpp>
-#include <ql/pricingengines/capfloor/blackcapfloorengine.hpp>
-#include <ql/pricingengines/capfloor/gaussian1dcapfloorengine.hpp>
-#include <ql/pricingengines/swaption/blackswaptionengine.hpp>
-#include <ql/pricingengines/swaption/gaussian1dswaptionengine.hpp>
-#include <ql/processes/mfstateprocess.hpp>
-#include <ql/termstructures/volatility/capfloor/capfloortermvolsurface.hpp>
-#include <ql/termstructures/volatility/interpolatedsmilesection.hpp>
-#include <ql/termstructures/volatility/kahalesmilesection.hpp>
-#include <ql/termstructures/volatility/optionlet/constantoptionletvol.hpp>
-#include <ql/termstructures/volatility/optionlet/optionletstripper1.hpp>
-#include <ql/termstructures/volatility/optionlet/strippedoptionletadapter.hpp>
-#include <ql/termstructures/volatility/swaption/interpolatedswaptionvolatilitycube.hpp>
-#include <ql/termstructures/volatility/swaption/sabrswaptionvolatilitycube.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionconstantvol.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionvolmatrix.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/yield/piecewiseyieldcurve.hpp>
-#include <ql/termstructures/yield/ratehelpers.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <indexes/swap/euriborswap.hpp>
+#include <instruments/makecapfloor.hpp>
+#include <instruments/makeswaption.hpp>
+#include <instruments/makevanillaswap.hpp>
+#include <models/shortrate/calibrationhelpers/caphelper.hpp>
+#include <models/shortrate/calibrationhelpers/swaptionhelper.hpp>
+#include <models/shortrate/onefactormodels/markovfunctional.hpp>
+#include <pricingengines/capfloor/blackcapfloorengine.hpp>
+#include <pricingengines/capfloor/gaussian1dcapfloorengine.hpp>
+#include <pricingengines/swaption/blackswaptionengine.hpp>
+#include <pricingengines/swaption/gaussian1dswaptionengine.hpp>
+#include <processes/mfstateprocess.hpp>
+#include <termstructures/volatility/capfloor/capfloortermvolsurface.hpp>
+#include <termstructures/volatility/interpolatedsmilesection.hpp>
+#include <termstructures/volatility/kahalesmilesection.hpp>
+#include <termstructures/volatility/optionlet/constantoptionletvol.hpp>
+#include <termstructures/volatility/optionlet/optionletstripper1.hpp>
+#include <termstructures/volatility/optionlet/strippedoptionletadapter.hpp>
+#include <termstructures/volatility/swaption/interpolatedswaptionvolatilitycube.hpp>
+#include <termstructures/volatility/swaption/sabrswaptionvolatilitycube.hpp>
+#include <termstructures/volatility/swaption/swaptionconstantvol.hpp>
+#include <termstructures/volatility/swaption/swaptionvolmatrix.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/yield/piecewiseyieldcurve.hpp>
+#include <termstructures/yield/ratehelpers.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <time/daycounters/thirty360.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;
@@ -852,6 +852,7 @@ BOOST_AUTO_TEST_CASE(testCalibrationOneInstrumentSet, *precondition(if_speed(Slo
     BOOST_TEST_MESSAGE(
         "Testing Markov functional calibration to one instrument set...");
 
+    Date savedEvalDate = Settings::instance().evaluationDate();
     Date referenceDate(14, November, 2012);
     Settings::instance().evaluationDate() = referenceDate;
 
@@ -1066,6 +1067,8 @@ BOOST_AUTO_TEST_CASE(testCalibrationOneInstrumentSet, *precondition(if_speed(Slo
                     << outputs4.modelPutPremium_[i][j] << ")");
         }
     }
+
+    Settings::instance().evaluationDate() = savedEvalDate;
 }
 
 BOOST_AUTO_TEST_CASE(testVanillaEngines, *precondition(if_speed(Slow))) {
@@ -1078,6 +1081,7 @@ BOOST_AUTO_TEST_CASE(testVanillaEngines, *precondition(if_speed(Slow))) {
 
     BOOST_TEST_MESSAGE("Testing Markov functional vanilla engines...");
 
+    Date savedEvalDate = Settings::instance().evaluationDate();
     Date referenceDate(14, November, 2012);
     Settings::instance().evaluationDate() = referenceDate;
 
@@ -1347,6 +1351,8 @@ BOOST_AUTO_TEST_CASE(testVanillaEngines, *precondition(if_speed(Slow))) {
                 << blackPrice << ") does not match model premium (" << mfPrice
                 << ")");
     }
+
+    Settings::instance().evaluationDate() = savedEvalDate;
 }
 
 BOOST_AUTO_TEST_CASE(testCalibrationTwoInstrumentSets, *precondition(if_speed(Fast))) {
@@ -1356,6 +1362,7 @@ BOOST_AUTO_TEST_CASE(testCalibrationTwoInstrumentSets, *precondition(if_speed(Fa
     BOOST_TEST_MESSAGE(
         "Testing Markov functional calibration to two instrument sets...");
 
+    Date savedEvalDate = Settings::instance().evaluationDate();
     Date referenceDate(14, November, 2012);
     Settings::instance().evaluationDate() = referenceDate;
 
@@ -1587,6 +1594,8 @@ BOOST_AUTO_TEST_CASE(testCalibrationTwoInstrumentSets, *precondition(if_speed(Fa
 
     // MarkovFunctional::ModelOutputs outputs2 = mf2->modelOutputs();
     // BOOST_TEST_MESSAGE(outputs2);
+
+    Settings::instance().evaluationDate() = savedEvalDate;
 }
 
 BOOST_AUTO_TEST_CASE(testBermudanSwaption) {
@@ -1595,6 +1604,7 @@ BOOST_AUTO_TEST_CASE(testBermudanSwaption) {
 
     BOOST_TEST_MESSAGE("Testing Markov functional Bermudan swaption engine...");
 
+    Date savedEvalDate = Settings::instance().evaluationDate();
     Date referenceDate(14, November, 2012);
     Settings::instance().evaluationDate() = referenceDate;
 
@@ -1667,6 +1677,8 @@ BOOST_AUTO_TEST_CASE(testBermudanSwaption) {
         BOOST_ERROR("Bermudan swaption value ("
                     << npv << ") deviates from cached value (" << cachedValue
                     << ")");
+
+    Settings::instance().evaluationDate() = savedEvalDate;
 }
 
 BOOST_AUTO_TEST_SUITE_END()

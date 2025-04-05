@@ -24,7 +24,7 @@
 #ifndef quantlib_crosscurrencyratehelpers_hpp
 #define quantlib_crosscurrencyratehelpers_hpp
 
-#include <ql/termstructures/yield/ratehelpers.hpp>
+#include <termstructures/yield/ratehelpers.hpp>
 
 namespace QuantLib {
 
@@ -46,9 +46,7 @@ namespace QuantLib {
                                              ext::shared_ptr<IborIndex> quoteCurrencyIndex,
                                              Handle<YieldTermStructure> collateralCurve,
                                              bool isFxBaseCurrencyCollateralCurrency,
-                                             bool isBasisOnFxBaseCurrencyLeg,
-                                             Frequency paymentFrequency = NoFrequency,
-                                             Integer paymentLag = 0);
+                                             bool isBasisOnFxBaseCurrencyLeg);
 
         void initializeDates() override;
         const Handle<YieldTermStructure>& baseCcyLegDiscountHandle() const;
@@ -64,14 +62,9 @@ namespace QuantLib {
         Handle<YieldTermStructure> collateralHandle_;
         bool isFxBaseCurrencyCollateralCurrency_;
         bool isBasisOnFxBaseCurrencyLeg_;
-        Frequency paymentFrequency_;
-        Integer paymentLag_;
 
         Leg baseCcyIborLeg_;
         Leg quoteCcyIborLeg_;
-
-        Date initialNotionalExchangeDate_;
-        Date finalNotionalExchangeDate_;
 
         RelinkableHandle<YieldTermStructure> termStructureHandle_;
     };
@@ -112,9 +105,7 @@ namespace QuantLib {
             const ext::shared_ptr<IborIndex>& quoteCurrencyIndex,
             const Handle<YieldTermStructure>& collateralCurve,
             bool isFxBaseCurrencyCollateralCurrency,
-            bool isBasisOnFxBaseCurrencyLeg,
-            Frequency paymentFrequency = NoFrequency,
-            Integer paymentLag = 0);
+            bool isBasisOnFxBaseCurrencyLeg);
         //! \name RateHelper interface
         //@{
         Real impliedQuote() const override;
@@ -151,9 +142,7 @@ namespace QuantLib {
                                             const Handle<YieldTermStructure>& collateralCurve,
                                             bool isFxBaseCurrencyCollateralCurrency,
                                             bool isBasisOnFxBaseCurrencyLeg,
-                                            bool isFxBaseCurrencyLegResettable,
-                                            Frequency paymentFrequency = NoFrequency,
-                                            Integer paymentLag = 0);
+                                            bool isFxBaseCurrencyLegResettable);
         //! \name RateHelper interface
         //@{
         Real impliedQuote() const override;

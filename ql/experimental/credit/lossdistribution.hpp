@@ -24,9 +24,9 @@
 #ifndef quantlib_loss_distribution_hpp
 #define quantlib_loss_distribution_hpp
 
-#include <ql/math/distributions/binomialdistribution.hpp>
-#include <ql/experimental/credit/distribution.hpp>
-#include <ql/experimental/credit/onefactorcopula.hpp>
+#include <math/distributions/binomialdistribution.hpp>
+#include <experimental/credit/distribution.hpp>
+#include <experimental/credit/onefactorcopula.hpp>
 
 namespace QuantLib {
 

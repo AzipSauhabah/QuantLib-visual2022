@@ -18,15 +18,15 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/currencies/europe.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/math/interpolations/loginterpolation.hpp>
-#include <ql/termstructures/yield/piecewiseyieldcurve.hpp>
-#include <ql/termstructures/yield/ratehelpers.hpp>
-#include <ql/termstructures/yield/ultimateforwardtermstructure.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/time/daycounters/simpledaycounter.hpp>
+#include <currencies/europe.hpp>
+#include <indexes/iborindex.hpp>
+#include <math/interpolations/loginterpolation.hpp>
+#include <termstructures/yield/piecewiseyieldcurve.hpp>
+#include <termstructures/yield/ratehelpers.hpp>
+#include <termstructures/yield/ultimateforwardtermstructure.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <time/daycounters/simpledaycounter.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

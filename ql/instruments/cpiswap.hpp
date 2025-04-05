@@ -25,12 +25,12 @@
 #ifndef quantlib_zeroinflationswap_hpp
 #define quantlib_zeroinflationswap_hpp
 
-#include <ql/instruments/swap.hpp>
-#include <ql/time/calendar.hpp>
-#include <ql/time/daycounter.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/cashflows/cpicoupon.hpp>
+#include <instruments/swap.hpp>
+#include <time/calendar.hpp>
+#include <time/daycounter.hpp>
+#include <time/schedule.hpp>
+#include <indexes/iborindex.hpp>
+#include <cashflows/cpicoupon.hpp>
 
 namespace QuantLib {
 

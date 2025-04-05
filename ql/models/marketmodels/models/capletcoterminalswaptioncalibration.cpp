@@ -18,10 +18,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/models/capletcoterminalswaptioncalibration.hpp>
-#include <ql/models/marketmodels/models/piecewiseconstantvariance.hpp>
-#include <ql/models/marketmodels/swapforwardmappings.hpp>
-#include <ql/math/matrixutilities/pseudosqrt.hpp>
+#include <models/marketmodels/models/capletcoterminalswaptioncalibration.hpp>
+#include <models/marketmodels/models/piecewiseconstantvariance.hpp>
+#include <models/marketmodels/swapforwardmappings.hpp>
+#include <math/matrixutilities/pseudosqrt.hpp>
 
 namespace QuantLib {
 

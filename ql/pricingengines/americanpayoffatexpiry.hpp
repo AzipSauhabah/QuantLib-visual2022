@@ -24,7 +24,7 @@
 #ifndef quantlib_americanpayoffatexpiry_h
 #define quantlib_americanpayoffatexpiry_h
 
-#include <ql/instruments/payoffs.hpp>
+#include <instruments/payoffs.hpp>
 
 namespace QuantLib {
 

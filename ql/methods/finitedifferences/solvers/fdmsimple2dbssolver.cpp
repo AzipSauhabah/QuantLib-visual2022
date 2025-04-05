@@ -21,9 +21,9 @@
  * \file fdmsimple2dbssolver.cpp
 */
 
-#include <ql/methods/finitedifferences/operators/fdmblackscholesop.hpp>
-#include <ql/methods/finitedifferences/solvers/fdm2dimsolver.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmsimple2dbssolver.hpp>
+#include <methods/finitedifferences/operators/fdmblackscholesop.hpp>
+#include <methods/finitedifferences/solvers/fdm2dimsolver.hpp>
+#include <methods/finitedifferences/solvers/fdmsimple2dbssolver.hpp>
 #include <utility>
 
 namespace QuantLib {

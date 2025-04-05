@@ -26,7 +26,7 @@
 #ifndef quantlib_linear_op_layout_hpp
 #define quantlib_linear_op_layout_hpp
 
-#include <ql/methods/finitedifferences/operators/fdmlinearopiterator.hpp>
+#include <methods/finitedifferences/operators/fdmlinearopiterator.hpp>
 #include <functional>
 
 namespace QuantLib {

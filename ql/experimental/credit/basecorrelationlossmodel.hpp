@@ -21,17 +21,17 @@
 #define quantlib_base_correl_lossmodel_hpp
 
 
-#include <ql/quote.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <quote.hpp>
+#include <quotes/simplequote.hpp>
 
-#include <ql/experimental/credit/basket.hpp>
-#include <ql/experimental/credit/defaultlossmodel.hpp>
-#include <ql/experimental/credit/basecorrelationstructure.hpp>
+#include <experimental/credit/basket.hpp>
+#include <experimental/credit/defaultlossmodel.hpp>
+#include <experimental/credit/basecorrelationstructure.hpp>
 
 // move these to the CPP (and the template spezs)
-#include <ql/experimental/credit/binomiallossmodel.hpp>
-#include <ql/experimental/credit/gaussianlhplossmodel.hpp>
-#include <ql/experimental/credit/inhomogeneouspooldef.hpp>
+#include <experimental/credit/binomiallossmodel.hpp>
+#include <experimental/credit/gaussianlhplossmodel.hpp>
+#include <experimental/credit/inhomogeneouspooldef.hpp>
 #include <utility>
 
 namespace QuantLib {

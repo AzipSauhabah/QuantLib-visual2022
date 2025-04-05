@@ -23,8 +23,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/calendars/unitedstates.hpp>
-#include <ql/errors.hpp>
+#include <time/calendars/unitedstates.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

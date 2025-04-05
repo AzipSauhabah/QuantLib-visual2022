@@ -27,7 +27,7 @@
 // granted, provided that this notice is preserved.
 // ===========================================================================
 
-#include <ql/math/primenumbers.hpp>
+#include <math/primenumbers.hpp>
 #include <iterator>
 
 namespace QuantLib {

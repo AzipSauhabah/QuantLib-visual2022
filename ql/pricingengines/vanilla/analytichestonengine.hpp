@@ -25,13 +25,13 @@
 #ifndef quantlib_analytic_heston_engine_hpp
 #define quantlib_analytic_heston_engine_hpp
 
-#include <ql/utilities/null.hpp>
-#include <ql/math/integrals/integral.hpp>
-#include <ql/math/integrals/gaussianquadratures.hpp>
-#include <ql/pricingengines/genericmodelengine.hpp>
-#include <ql/models/equity/hestonmodel.hpp>
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/functional.hpp>
+#include <utilities/null.hpp>
+#include <math/integrals/integral.hpp>
+#include <math/integrals/gaussianquadratures.hpp>
+#include <pricingengines/genericmodelengine.hpp>
+#include <models/equity/hestonmodel.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <functional.hpp>
 #include <complex>
 
 namespace QuantLib {

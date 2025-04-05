@@ -26,12 +26,12 @@
 #ifndef quantlib_lognormal_cmsspread_pricer_hpp
 #define quantlib_lognormal_cmsspread_pricer_hpp
 
-#include <ql/cashflows/cmscoupon.hpp>
-#include <ql/experimental/coupons/cmsspreadcoupon.hpp>
-#include <ql/experimental/coupons/swapspreadindex.hpp>
-#include <ql/math/integrals/gaussianquadratures.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/optional.hpp>
+#include <cashflows/cmscoupon.hpp>
+#include <experimental/coupons/cmsspreadcoupon.hpp>
+#include <experimental/coupons/swapspreadindex.hpp>
+#include <math/integrals/gaussianquadratures.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <optional.hpp>
 
 namespace QuantLib {
 

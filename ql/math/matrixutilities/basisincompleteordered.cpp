@@ -17,7 +17,7 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/matrixutilities/basisincompleteordered.hpp>
+#include <math/matrixutilities/basisincompleteordered.hpp>
 #include <algorithm>
 
 namespace QuantLib {

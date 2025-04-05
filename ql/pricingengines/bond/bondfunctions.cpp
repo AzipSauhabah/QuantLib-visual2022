@@ -23,8 +23,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/solvers1d/newtonsafe.hpp>
-#include <ql/pricingengines/bond/bondfunctions.hpp>
+#include <math/solvers1d/newtonsafe.hpp>
+#include <pricingengines/bond/bondfunctions.hpp>
 
 namespace QuantLib {
 

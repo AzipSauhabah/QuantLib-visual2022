@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/processes/g2process.hpp>
-#include <ql/processes/eulerdiscretization.hpp>
+#include <processes/g2process.hpp>
+#include <processes/eulerdiscretization.hpp>
 
 namespace QuantLib {
 

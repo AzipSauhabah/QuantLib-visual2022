@@ -25,7 +25,7 @@
 #ifndef quantlib_sobol_brownian_bridge_rsg_hpp
 #define quantlib_sobol_brownian_bridge_rsg_hpp
 
-#include <ql/models/marketmodels/browniangenerators/sobolbrowniangenerator.hpp>
+#include <models/marketmodels/browniangenerators/sobolbrowniangenerator.hpp>
 
 namespace QuantLib {
 

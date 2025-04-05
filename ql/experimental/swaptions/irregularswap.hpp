@@ -27,11 +27,11 @@
 #ifndef quantlib_irregular_swap_hpp
 #define quantlib_irregular_swap_hpp
 
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/instruments/swap.hpp>
-#include <ql/time/daycounter.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <instruments/swap.hpp>
+#include <time/daycounter.hpp>
+#include <time/schedule.hpp>
 
 namespace QuantLib {
 

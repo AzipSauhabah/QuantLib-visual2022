@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/driftcomputation/smmdriftcalculator.hpp>
-#include <ql/models/marketmodels/curvestates/coterminalswapcurvestate.hpp>
+#include <models/marketmodels/driftcomputation/smmdriftcalculator.hpp>
+#include <models/marketmodels/curvestates/coterminalswapcurvestate.hpp>
 
 namespace QuantLib {
 

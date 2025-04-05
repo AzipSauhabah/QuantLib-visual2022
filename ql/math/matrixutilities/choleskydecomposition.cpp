@@ -19,8 +19,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/matrixutilities/choleskydecomposition.hpp>
-#include <ql/math/comparison.hpp>
+#include <math/matrixutilities/choleskydecomposition.hpp>
+#include <math/comparison.hpp>
 
 namespace QuantLib {
 

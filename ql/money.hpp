@@ -25,8 +25,8 @@
 #ifndef quantlib_money_hpp
 #define quantlib_money_hpp
 
-#include <ql/currency.hpp>
-#include <ql/patterns/singleton.hpp>
+#include <currency.hpp>
+#include <patterns/singleton.hpp>
 #include <utility>
 
 namespace QuantLib {

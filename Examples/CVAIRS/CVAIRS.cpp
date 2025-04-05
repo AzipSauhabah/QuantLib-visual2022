@@ -17,21 +17,21 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #if !defined(BOOST_ALL_NO_LIB) && defined(BOOST_MSVC)
-#  include <ql/auto_link.hpp>
+#  include <auto_link.hpp>
 #endif
-#include <ql/instruments/vanillaswap.hpp>
-#include <ql/instruments/makevanillaswap.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/pricingengines/swap/cvaswapengine.hpp>
-#include <ql/termstructures/yield/piecewiseyieldcurve.hpp>
-#include <ql/termstructures/yield/ratehelpers.hpp>
-#include <ql/termstructures/credit/interpolatedhazardratecurve.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/time/daycounters/actual360.hpp>
+#include <instruments/vanillaswap.hpp>
+#include <instruments/makevanillaswap.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <pricingengines/swap/cvaswapengine.hpp>
+#include <termstructures/yield/piecewiseyieldcurve.hpp>
+#include <termstructures/yield/ratehelpers.hpp>
+#include <termstructures/credit/interpolatedhazardratecurve.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <time/daycounters/actual360.hpp>
 
 #include <iostream>
 #include <iomanip>

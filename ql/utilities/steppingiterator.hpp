@@ -24,8 +24,8 @@
 #ifndef quantlib_stepping_iterator_hpp
 #define quantlib_stepping_iterator_hpp
 
-#include <ql/errors.hpp>
-#include <ql/types.hpp>
+#include <errors.hpp>
+#include <types.hpp>
 #include <iterator>
 #include <type_traits>
 

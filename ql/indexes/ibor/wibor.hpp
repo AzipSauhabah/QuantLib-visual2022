@@ -24,10 +24,10 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef quantlib_wibor_hpp
 #define quantlib_wibor_hpp
 
-#include <ql/indexes/iborindex.hpp>
-#include <ql/time/calendars/poland.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/currencies/europe.hpp>
+#include <indexes/iborindex.hpp>
+#include <time/calendars/poland.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <currencies/europe.hpp>
 
 namespace QuantLib {
 

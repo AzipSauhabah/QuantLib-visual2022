@@ -24,9 +24,9 @@
 #ifndef quantlib_unit_of_measure_hpp
 #define quantlib_unit_of_measure_hpp
 
-#include <ql/types.hpp>
-#include <ql/math/rounding.hpp>
-#include <ql/shared_ptr.hpp>
+#include <types.hpp>
+#include <math/rounding.hpp>
+#include <shared_ptr.hpp>
 #include <string>
 #include <map>
 #include <iosfwd>

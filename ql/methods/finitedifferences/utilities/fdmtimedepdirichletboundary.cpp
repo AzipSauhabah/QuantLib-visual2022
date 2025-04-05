@@ -21,10 +21,10 @@
 /*! \file fdmtimedepdirichletboundary.cpp
 */
 
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearop.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmindicesonboundary.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmtimedepdirichletboundary.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearop.hpp>
+#include <methods/finitedifferences/utilities/fdmindicesonboundary.hpp>
+#include <methods/finitedifferences/utilities/fdmtimedepdirichletboundary.hpp>
 #include <algorithm>
 #include <utility>
 

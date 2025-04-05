@@ -19,7 +19,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/calendars/taiwan.hpp>
+#include <time/calendars/taiwan.hpp>
 
 namespace QuantLib {
 

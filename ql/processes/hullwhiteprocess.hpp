@@ -24,9 +24,9 @@
 #ifndef quantlib_hull_white_processes_hpp
 #define quantlib_hull_white_processes_hpp
 
-#include <ql/processes/forwardmeasureprocess.hpp>
-#include <ql/processes/ornsteinuhlenbeckprocess.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <processes/forwardmeasureprocess.hpp>
+#include <processes/ornsteinuhlenbeckprocess.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 
 namespace QuantLib {
 

@@ -21,10 +21,10 @@
 */
 
 
-#include <ql/event.hpp>
-#include <ql/instruments/basketoption.hpp>
-#include <ql/instruments/vanillaswingoption.hpp>
-#include <ql/experimental/finitedifferences/vanillavppoption.hpp>
+#include <event.hpp>
+#include <instruments/basketoption.hpp>
+#include <instruments/vanillaswingoption.hpp>
+#include <experimental/finitedifferences/vanillavppoption.hpp>
 
 namespace QuantLib {
     namespace {

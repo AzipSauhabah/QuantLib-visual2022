@@ -24,7 +24,7 @@
 #ifndef quantlib_householder_hpp
 #define quantlib_householder_hpp
 
-#include <ql/math/matrix.hpp>
+#include <math/matrix.hpp>
 
 namespace QuantLib {
 

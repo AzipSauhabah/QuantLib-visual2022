@@ -25,7 +25,7 @@
 #ifndef quantlib_optimization_steepest_descent_h
 #define quantlib_optimization_steepest_descent_h
 
-#include <ql/math/optimization/linesearchbasedmethod.hpp>
+#include <math/optimization/linesearchbasedmethod.hpp>
 
 namespace QuantLib {
 

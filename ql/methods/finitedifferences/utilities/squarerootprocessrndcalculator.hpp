@@ -25,7 +25,7 @@
 #ifndef quantlib_square_root_process_risk_neutral_density_calculator_hpp
 #define quantlib_square_root_process_risk_neutral_density_calculator_hpp
 
-#include <ql/methods/finitedifferences/utilities/riskneutraldensitycalculator.hpp>
+#include <methods/finitedifferences/utilities/riskneutraldensitycalculator.hpp>
 
 namespace QuantLib {
     class SquareRootProcessRNDCalculator : public RiskNeutralDensityCalculator {

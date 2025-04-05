@@ -24,7 +24,7 @@
 #ifndef quantlib_mfstateprocess_hpp
 #define quantlib_mfstateprocess_hpp
 
-#include <ql/stochasticprocess.hpp>
+#include <stochasticprocess.hpp>
 
 namespace QuantLib {
 

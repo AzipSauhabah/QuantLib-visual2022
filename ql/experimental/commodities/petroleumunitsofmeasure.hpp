@@ -24,7 +24,7 @@
 #ifndef quantlib_petroleum_units_of_measure_hpp
 #define quantlib_petroleum_units_of_measure_hpp
 
-#include <ql/experimental/commodities/unitofmeasure.hpp>
+#include <experimental/commodities/unitofmeasure.hpp>
 
 namespace QuantLib {
 

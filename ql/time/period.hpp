@@ -27,9 +27,9 @@
 #ifndef quantlib_period_hpp
 #define quantlib_period_hpp
 
-#include <ql/time/frequency.hpp>
-#include <ql/time/timeunit.hpp>
-#include <ql/types.hpp>
+#include <time/frequency.hpp>
+#include <time/timeunit.hpp>
+#include <types.hpp>
 
 
 namespace QuantLib {

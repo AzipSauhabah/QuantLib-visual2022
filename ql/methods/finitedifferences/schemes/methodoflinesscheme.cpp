@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
  */
 
-#include <ql/math/ode/adaptiverungekutta.hpp>
-#include <ql/methods/finitedifferences/schemes/methodoflinesscheme.hpp>
+#include <math/ode/adaptiverungekutta.hpp>
+#include <methods/finitedifferences/schemes/methodoflinesscheme.hpp>
 #include <utility>
 
 namespace QuantLib {

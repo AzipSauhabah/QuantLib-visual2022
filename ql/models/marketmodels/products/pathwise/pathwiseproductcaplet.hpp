@@ -21,9 +21,9 @@
 #ifndef quantlib_market_model_pathwise_caplet_hpp
 #define quantlib_market_model_pathwise_caplet_hpp
 
-#include <ql/types.hpp>
-#include <ql/models/marketmodels/pathwisemultiproduct.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
+#include <types.hpp>
+#include <models/marketmodels/pathwisemultiproduct.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
 #include <vector>
 #include <memory>
 

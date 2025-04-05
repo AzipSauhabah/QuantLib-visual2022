@@ -18,7 +18,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/callablebonds/discretizedcallablefixedratebond.hpp>
+#include <experimental/callablebonds/discretizedcallablefixedratebond.hpp>
 
 namespace QuantLib {
 

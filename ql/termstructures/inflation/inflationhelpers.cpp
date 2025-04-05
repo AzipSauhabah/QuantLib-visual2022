@@ -18,12 +18,12 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
  */
 
-#include <ql/cashflows/inflationcouponpricer.hpp>
-#include <ql/indexes/inflationindex.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/shared_ptr.hpp>
-#include <ql/termstructures/inflation/inflationhelpers.hpp>
-#include <ql/utilities/null_deleter.hpp>
+#include <cashflows/inflationcouponpricer.hpp>
+#include <indexes/inflationindex.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <shared_ptr.hpp>
+#include <termstructures/inflation/inflationhelpers.hpp>
+#include <utilities/null_deleter.hpp>
 #include <utility>
 
 namespace QuantLib {

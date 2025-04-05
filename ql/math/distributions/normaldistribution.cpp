@@ -20,8 +20,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/comparison.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/comparison.hpp>
 
 #include <boost/math/distributions/normal.hpp>
 

@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/browniangenerators/mtbrowniangenerator.hpp>
+#include <models/marketmodels/browniangenerators/mtbrowniangenerator.hpp>
 #include <algorithm>
 
 namespace QuantLib {

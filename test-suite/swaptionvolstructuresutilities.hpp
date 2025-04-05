@@ -23,13 +23,13 @@
 #ifndef quantlib_test_swaption_volatility_structures_utilities_hpp
 #define quantlib_test_swaption_volatility_structures_utilities_hpp
 
-#include <ql/time/period.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionvolmatrix.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <time/period.hpp>
+#include <math/matrix.hpp>
+#include <quotes/simplequote.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <termstructures/volatility/swaption/swaptionvolmatrix.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <iostream>
 #include <vector>
 

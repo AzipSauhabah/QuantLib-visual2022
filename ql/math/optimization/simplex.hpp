@@ -30,7 +30,7 @@
 #ifndef quantlib_optimization_simplex_hpp
 #define quantlib_optimization_simplex_hpp
 
-#include <ql/math/optimization/problem.hpp>
+#include <math/optimization/problem.hpp>
 #include <vector>
 
 namespace QuantLib {

@@ -27,8 +27,8 @@
 #ifndef quantlib_interpolated_hazard_rate_curve_hpp
 #define quantlib_interpolated_hazard_rate_curve_hpp
 
-#include <ql/termstructures/credit/hazardratestructure.hpp>
-#include <ql/termstructures/interpolatedcurve.hpp>
+#include <termstructures/credit/hazardratestructure.hpp>
+#include <termstructures/interpolatedcurve.hpp>
 #include <utility>
 
 namespace QuantLib {

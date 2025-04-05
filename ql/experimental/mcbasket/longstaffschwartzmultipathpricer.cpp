@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/mcbasket/longstaffschwartzmultipathpricer.hpp>
-#include <ql/math/generallinearleastsquares.hpp>
-#include <ql/utilities/tracing.hpp>
+#include <experimental/mcbasket/longstaffschwartzmultipathpricer.hpp>
+#include <math/generallinearleastsquares.hpp>
+#include <utilities/tracing.hpp>
 #include <utility>
 
 namespace QuantLib {

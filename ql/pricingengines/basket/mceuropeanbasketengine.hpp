@@ -25,11 +25,11 @@
 #ifndef quantlib_mc_european_basket_engine_hpp
 #define quantlib_mc_european_basket_engine_hpp
 
-#include <ql/exercise.hpp>
-#include <ql/instruments/basketoption.hpp>
-#include <ql/pricingengines/mcsimulation.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/processes/stochasticprocessarray.hpp>
+#include <exercise.hpp>
+#include <instruments/basketoption.hpp>
+#include <pricingengines/mcsimulation.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <processes/stochasticprocessarray.hpp>
 #include <utility>
 
 namespace QuantLib {

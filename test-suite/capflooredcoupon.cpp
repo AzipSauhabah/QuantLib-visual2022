@@ -20,22 +20,22 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/instruments/capfloor.hpp>
-#include <ql/instruments/vanillaswap.hpp>
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/pricingengines/capfloor/blackcapfloorengine.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/termstructures/volatility/optionlet/constantoptionletvol.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <instruments/capfloor.hpp>
+#include <instruments/vanillaswap.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <pricingengines/capfloor/blackcapfloorengine.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <math/matrix.hpp>
+#include <termstructures/volatility/optionlet/constantoptionletvol.hpp>
+#include <time/daycounters/thirty360.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <time/schedule.hpp>
+#include <utilities/dataformatters.hpp>
+#include <cashflows/cashflows.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <quotes/simplequote.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

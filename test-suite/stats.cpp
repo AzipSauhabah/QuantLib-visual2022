@@ -22,16 +22,16 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/statistics/statistics.hpp>
-#include <ql/math/statistics/incrementalstatistics.hpp>
-#include <ql/math/statistics/gaussianstatistics.hpp>
-#include <ql/math/statistics/sequencestatistics.hpp>
-#include <ql/math/statistics/convergencestatistics.hpp>
-#include <ql/math/randomnumbers/mt19937uniformrng.hpp>
-#include <ql/math/randomnumbers/inversecumulativerng.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <math/statistics/statistics.hpp>
+#include <math/statistics/incrementalstatistics.hpp>
+#include <math/statistics/gaussianstatistics.hpp>
+#include <math/statistics/sequencestatistics.hpp>
+#include <math/statistics/convergencestatistics.hpp>
+#include <math/randomnumbers/mt19937uniformrng.hpp>
+#include <math/randomnumbers/inversecumulativerng.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/comparison.hpp>
+#include <utilities/dataformatters.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

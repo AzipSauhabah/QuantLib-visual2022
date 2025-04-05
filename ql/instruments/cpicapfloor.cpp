@@ -19,16 +19,16 @@
  */
 
 
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/cashflows/simplecashflow.hpp>
-#include <ql/indexes/inflationindex.hpp>
-#include <ql/instruments/cpicapfloor.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/cashflows.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <cashflows/simplecashflow.hpp>
+#include <indexes/inflationindex.hpp>
+#include <instruments/cpicapfloor.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <time/schedule.hpp>
 #include <utility>
 
 

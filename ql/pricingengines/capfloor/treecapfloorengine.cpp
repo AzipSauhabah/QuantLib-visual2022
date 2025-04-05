@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/shortrate/onefactormodel.hpp>
-#include <ql/pricingengines/capfloor/discretizedcapfloor.hpp>
-#include <ql/pricingengines/capfloor/treecapfloorengine.hpp>
+#include <models/shortrate/onefactormodel.hpp>
+#include <pricingengines/capfloor/discretizedcapfloor.hpp>
+#include <pricingengines/capfloor/treecapfloorengine.hpp>
 #include <utility>
 
 namespace QuantLib {

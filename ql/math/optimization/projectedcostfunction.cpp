@@ -19,7 +19,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/optimization/projectedcostfunction.hpp>
+#include <math/optimization/projectedcostfunction.hpp>
 
 namespace QuantLib {
 

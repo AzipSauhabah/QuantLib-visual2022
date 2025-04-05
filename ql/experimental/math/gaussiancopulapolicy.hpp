@@ -20,7 +20,7 @@
 #ifndef quantlib_gaussian_copula_policy_hpp
 #define quantlib_gaussian_copula_policy_hpp
 
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <math/distributions/normaldistribution.hpp>
 #include <vector>
 #include <numeric>
 #include <algorithm>

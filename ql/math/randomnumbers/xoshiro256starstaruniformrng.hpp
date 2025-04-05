@@ -36,8 +36,8 @@ See <http://creativecommons.org/publicdomain/zero/1.0/>. */
 #ifndef quantlib_xoshiro256starstar_uniform_rng_hpp
 #define quantlib_xoshiro256starstar_uniform_rng_hpp
 
-#include <ql/methods/montecarlo/sample.hpp>
-#include <ql/types.hpp>
+#include <methods/montecarlo/sample.hpp>
+#include <types.hpp>
 #include <cstdint>
 
 namespace QuantLib {

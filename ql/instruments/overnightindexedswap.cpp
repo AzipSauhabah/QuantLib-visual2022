@@ -20,9 +20,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/overnightindexedcoupon.hpp>
-#include <ql/instruments/overnightindexedswap.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <cashflows/overnightindexedcoupon.hpp>
+#include <instruments/overnightindexedswap.hpp>
 #include <utility>
 
 namespace QuantLib {

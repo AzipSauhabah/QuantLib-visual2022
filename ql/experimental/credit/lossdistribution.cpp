@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/credit/lossdistribution.hpp>
-#include <ql/math/randomnumbers/mt19937uniformrng.hpp>
+#include <experimental/credit/lossdistribution.hpp>
+#include <math/randomnumbers/mt19937uniformrng.hpp>
 
 using namespace std;
 

@@ -19,7 +19,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/vanilla/mcdigitalengine.hpp>
+#include <pricingengines/vanilla/mcdigitalengine.hpp>
 #include <utility>
 
 namespace QuantLib {

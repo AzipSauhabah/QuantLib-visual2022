@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/quadratic.hpp>
-#include <ql/models/marketmodels/models/alphafinder.hpp>
+#include <math/quadratic.hpp>
+#include <models/marketmodels/models/alphafinder.hpp>
 #include <utility>
 
 namespace QuantLib {

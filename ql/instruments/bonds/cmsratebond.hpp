@@ -25,7 +25,7 @@
 #ifndef quantlib_cms_rate_bond_hpp
 #define quantlib_cms_rate_bond_hpp
 
-#include <ql/instruments/bond.hpp>
+#include <instruments/bond.hpp>
 
 namespace QuantLib {
 

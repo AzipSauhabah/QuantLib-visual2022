@@ -24,7 +24,7 @@
 #ifndef quantlib_tuple_hpp
 #define quantlib_tuple_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #include <tuple>
 
 namespace QuantLib::ext {

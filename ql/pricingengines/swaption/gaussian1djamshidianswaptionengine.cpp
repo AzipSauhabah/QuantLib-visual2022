@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/pricingengines/swaption/gaussian1djamshidianswaptionengine.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <pricingengines/swaption/gaussian1djamshidianswaptionengine.hpp>
 #include <utility>
 
 namespace QuantLib {

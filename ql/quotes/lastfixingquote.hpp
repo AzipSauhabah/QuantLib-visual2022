@@ -24,9 +24,9 @@
 #ifndef quantlib_last_fixing_quote_hpp
 #define quantlib_last_fixing_quote_hpp
 
-#include <ql/quote.hpp>
-#include <ql/index.hpp>
-#include <ql/patterns/observable.hpp>
+#include <quote.hpp>
+#include <index.hpp>
+#include <patterns/observable.hpp>
 
 namespace QuantLib {
 

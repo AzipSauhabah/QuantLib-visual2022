@@ -24,9 +24,9 @@
 #ifndef wulin_yong_double_barrier_engine_hpp
 #define wulin_yong_double_barrier_engine_hpp
 
-#include <ql/instruments/doublebarrieroption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <instruments/doublebarrieroption.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <math/distributions/normaldistribution.hpp>
 
 namespace QuantLib {
 

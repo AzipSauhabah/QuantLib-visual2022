@@ -27,12 +27,12 @@ http://arxiv.org/pdf/1003.1464.pdf
 #ifndef quantlib_optimization_fireflyalgorithm_hpp
 #define quantlib_optimization_fireflyalgorithm_hpp
 
-#include <ql/math/optimization/problem.hpp>
-#include <ql/math/optimization/constraint.hpp>
-#include <ql/experimental/math/isotropicrandomwalk.hpp>
-#include <ql/experimental/math/levyflightdistribution.hpp>
-#include <ql/math/randomnumbers/mt19937uniformrng.hpp>
-#include <ql/math/randomnumbers/seedgenerator.hpp>
+#include <math/optimization/problem.hpp>
+#include <math/optimization/constraint.hpp>
+#include <experimental/math/isotropicrandomwalk.hpp>
+#include <experimental/math/levyflightdistribution.hpp>
+#include <math/randomnumbers/mt19937uniformrng.hpp>
+#include <math/randomnumbers/seedgenerator.hpp>
 
 #include <cmath>
 #include <random>

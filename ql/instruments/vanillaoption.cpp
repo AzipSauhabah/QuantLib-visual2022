@@ -19,12 +19,12 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/instruments/impliedvolatility.hpp>
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
-#include <ql/pricingengines/vanilla/analyticdividendeuropeanengine.hpp>
-#include <ql/pricingengines/vanilla/fdblackscholesvanillaengine.hpp>
+#include <exercise.hpp>
+#include <instruments/impliedvolatility.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <pricingengines/vanilla/analyticdividendeuropeanengine.hpp>
+#include <pricingengines/vanilla/fdblackscholesvanillaengine.hpp>
 #include <memory>
 
 namespace QuantLib {

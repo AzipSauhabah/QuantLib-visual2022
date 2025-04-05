@@ -27,11 +27,11 @@
 #ifndef quantlib_cap_volatility_vector_hpp
 #define quantlib_cap_volatility_vector_hpp
 
-#include <ql/termstructures/volatility/capfloor/capfloortermvolatilitystructure.hpp>
-#include <ql/math/interpolation.hpp>
-#include <ql/quote.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
+#include <termstructures/volatility/capfloor/capfloortermvolatilitystructure.hpp>
+#include <math/interpolation.hpp>
+#include <quote.hpp>
+#include <patterns/lazyobject.hpp>
+#include <time/daycounters/actual365fixed.hpp>
 #include <vector>
 
 namespace QuantLib {

@@ -27,8 +27,8 @@
 #ifndef quantlib_fast_fourier_transform_hpp
 #define quantlib_fast_fourier_transform_hpp
 
-#include <ql/errors.hpp>
-#include <ql/types.hpp>
+#include <errors.hpp>
+#include <types.hpp>
 #include <vector>
 #include <iterator>
 

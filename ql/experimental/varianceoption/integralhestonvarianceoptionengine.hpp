@@ -24,8 +24,8 @@
 #ifndef quantlib_integral_heston_variance_option_engine_hpp
 #define quantlib_integral_heston_variance_option_engine_hpp
 
-#include <ql/experimental/varianceoption/varianceoption.hpp>
-#include <ql/processes/hestonprocess.hpp>
+#include <experimental/varianceoption/varianceoption.hpp>
+#include <processes/hestonprocess.hpp>
 
 namespace QuantLib {
 

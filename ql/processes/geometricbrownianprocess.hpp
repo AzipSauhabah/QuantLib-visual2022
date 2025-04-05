@@ -26,7 +26,7 @@
 #ifndef quantlib_geometric_brownian_process_hpp
 #define quantlib_geometric_brownian_process_hpp
 
-#include <ql/stochasticprocess.hpp>
+#include <stochasticprocess.hpp>
 
 namespace QuantLib {
 

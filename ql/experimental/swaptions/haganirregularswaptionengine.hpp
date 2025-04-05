@@ -25,11 +25,11 @@
 #ifndef quantlib_hagan_irregular_swaption_engine_hpp
 #define quantlib_hagan_irregular_swaption_engine_hpp
 
-#include <ql/experimental/swaptions/irregularswaption.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionvolstructure.hpp>
-#include <ql/math/optimization/costfunction.hpp>
-#include <ql/instruments/makevanillaswap.hpp>
+#include <experimental/swaptions/irregularswaption.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <termstructures/volatility/swaption/swaptionvolstructure.hpp>
+#include <math/optimization/costfunction.hpp>
+#include <instruments/makevanillaswap.hpp>
 
 namespace QuantLib {
 

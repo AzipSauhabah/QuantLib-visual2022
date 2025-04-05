@@ -20,9 +20,9 @@
 /*! \file fdmvppstepconditionfactory.cpp
 */
 
-#include <ql/experimental/finitedifferences/fdmvppstartlimitstepcondition.hpp>
-#include <ql/experimental/finitedifferences/fdmvppstepconditionfactory.hpp>
-#include <ql/methods/finitedifferences/meshers/uniform1dmesher.hpp>
+#include <experimental/finitedifferences/fdmvppstartlimitstepcondition.hpp>
+#include <experimental/finitedifferences/fdmvppstepconditionfactory.hpp>
+#include <methods/finitedifferences/meshers/uniform1dmesher.hpp>
 #include <utility>
 
 namespace QuantLib {

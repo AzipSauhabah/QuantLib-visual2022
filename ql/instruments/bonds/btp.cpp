@@ -17,15 +17,15 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/bonds/btp.hpp>
-#include <ql/instruments/makevanillaswap.hpp>
-#include <ql/pricingengines/bond/bondfunctions.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <instruments/bonds/btp.hpp>
+#include <instruments/makevanillaswap.hpp>
+#include <pricingengines/bond/bondfunctions.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <time/schedule.hpp>
+#include <utilities/dataformatters.hpp>
 #include <utility>
 
 namespace QuantLib {

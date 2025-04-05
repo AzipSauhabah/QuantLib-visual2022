@@ -26,8 +26,8 @@
 #ifndef quantlib_swaption_constant_volatility_hpp
 #define quantlib_swaption_constant_volatility_hpp
 
-#include <ql/termstructures/volatility/swaption/swaptionvolstructure.hpp>
-#include <ql/time/period.hpp>
+#include <termstructures/volatility/swaption/swaptionvolstructure.hpp>
+#include <time/period.hpp>
 
 namespace QuantLib {
 

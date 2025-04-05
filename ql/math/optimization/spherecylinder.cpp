@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/optimization/spherecylinder.hpp>
-#include <ql/errors.hpp>
+#include <math/optimization/spherecylinder.hpp>
+#include <errors.hpp>
 #include <algorithm>
 
 namespace QuantLib {

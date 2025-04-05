@@ -21,7 +21,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/abcdmathfunction.hpp>
+#include <math/abcdmathfunction.hpp>
 #include <utility>
 
 namespace QuantLib {

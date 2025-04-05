@@ -24,9 +24,9 @@
 #ifndef quantlib_cap_calibration_helper_hpp
 #define quantlib_cap_calibration_helper_hpp
 
-#include <ql/models/calibrationhelper.hpp>
-#include <ql/instruments/capfloor.hpp>
-#include <ql/termstructures/volatility/volatilitytype.hpp>
+#include <models/calibrationhelper.hpp>
+#include <instruments/capfloor.hpp>
+#include <termstructures/volatility/volatilitytype.hpp>
 
 namespace QuantLib {
 

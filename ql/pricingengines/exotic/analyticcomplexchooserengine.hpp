@@ -24,9 +24,9 @@
 #ifndef quantlib_analytic_complex_chooser_engine_hpp
 #define quantlib_analytic_complex_chooser_engine_hpp
 
-#include <ql/instruments/complexchooseroption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/pricingengines/blackscholescalculator.hpp>
+#include <instruments/complexchooseroption.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <pricingengines/blackscholescalculator.hpp>
 
 namespace QuantLib {
 

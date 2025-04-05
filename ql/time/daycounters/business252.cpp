@@ -18,7 +18,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/daycounters/business252.hpp>
+#include <time/daycounters/business252.hpp>
 #include <map>
 
 namespace QuantLib {

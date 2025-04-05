@@ -25,7 +25,7 @@
 #ifndef quantlib_andreasen_huge_volatility_adapter_hpp
 #define quantlib_andreasen_huge_volatility_adapter_hpp
 
-#include <ql/termstructures/volatility/equityfx/blackvariancecurve.hpp>
+#include <termstructures/volatility/equityfx/blackvariancecurve.hpp>
 
 namespace QuantLib {
     class AndreasenHugeVolatilityInterpl;

@@ -19,7 +19,7 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/matrixutilities/tqreigendecomposition.hpp>
+#include <math/matrixutilities/tqreigendecomposition.hpp>
 
 using namespace QuantLib;
 using boost::unit_test_framework::test_suite;

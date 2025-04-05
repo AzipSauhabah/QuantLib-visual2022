@@ -25,10 +25,10 @@
 #ifndef quantlib_hybrid_heston_hull_white_process_hpp
 #define quantlib_hybrid_heston_hull_white_process_hpp
 
-#include <ql/processes/hestonprocess.hpp>
-#include <ql/processes/hullwhiteprocess.hpp>
-#include <ql/processes/jointstochasticprocess.hpp>
-#include <ql/models/shortrate/onefactormodels/hullwhite.hpp>
+#include <processes/hestonprocess.hpp>
+#include <processes/hullwhiteprocess.hpp>
+#include <processes/jointstochasticprocess.hpp>
+#include <models/shortrate/onefactormodels/hullwhite.hpp>
 
 namespace QuantLib {
     //! Hybrid Heston Hull-White stochastic process

@@ -24,11 +24,11 @@
 #ifndef quantlib_swaption_gaussian1d_swaption_volatility_hpp
 #define quantlib_swaption_gaussian1d_swaption_volatility_hpp
 
-#include <ql/termstructures/volatility/swaption/swaptionvolstructure.hpp>
-#include <ql/time/period.hpp>
-#include <ql/indexes/swapindex.hpp>
-#include <ql/models/shortrate/onefactormodels/gaussian1dmodel.hpp>
-#include <ql/pricingengines/swaption/gaussian1dswaptionengine.hpp>
+#include <termstructures/volatility/swaption/swaptionvolstructure.hpp>
+#include <time/period.hpp>
+#include <indexes/swapindex.hpp>
+#include <models/shortrate/onefactormodels/gaussian1dmodel.hpp>
+#include <pricingengines/swaption/gaussian1dswaptionengine.hpp>
 
 namespace QuantLib {
 

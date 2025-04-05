@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/indexes/ibor/sonia.hpp>
-#include <ql/time/calendars/unitedkingdom.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/currencies/europe.hpp>
+#include <indexes/ibor/sonia.hpp>
+#include <time/calendars/unitedkingdom.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <currencies/europe.hpp>
 
 namespace QuantLib {
 

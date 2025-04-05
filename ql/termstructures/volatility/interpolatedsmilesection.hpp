@@ -26,12 +26,12 @@
 #ifndef quantlib_interpolated_smile_section_hpp
 #define quantlib_interpolated_smile_section_hpp
 
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructure.hpp>
-#include <ql/termstructures/volatility/smilesection.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <patterns/lazyobject.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructure.hpp>
+#include <termstructures/volatility/smilesection.hpp>
+#include <time/daycounters/actual365fixed.hpp>
 #include <utility>
 
 namespace QuantLib {

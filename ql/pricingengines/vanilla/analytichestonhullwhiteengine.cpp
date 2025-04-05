@@ -18,7 +18,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/vanilla/analytichestonhullwhiteengine.hpp>
+#include <pricingengines/vanilla/analytichestonhullwhiteengine.hpp>
 #include <utility>
 
 namespace QuantLib {

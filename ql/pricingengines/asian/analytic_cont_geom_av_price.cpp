@@ -18,10 +18,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/pricingengines/asian/analytic_cont_geom_av_price.hpp>
-#include <ql/pricingengines/blackcalculator.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <exercise.hpp>
+#include <pricingengines/asian/analytic_cont_geom_av_price.hpp>
+#include <pricingengines/blackcalculator.hpp>
+#include <processes/blackscholesprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

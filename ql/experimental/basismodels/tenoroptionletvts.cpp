@@ -21,13 +21,13 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
     \brief caplet volatility term structure based on volatility transformation
 */
 
-#include <ql/exercise.hpp>
-#include <ql/experimental/basismodels/tenoroptionletvts.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/math/rounding.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/time/dategenerationrule.hpp>
-#include <ql/time/schedule.hpp>
+#include <exercise.hpp>
+#include <experimental/basismodels/tenoroptionletvts.hpp>
+#include <indexes/iborindex.hpp>
+#include <math/rounding.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <time/dategenerationrule.hpp>
+#include <time/schedule.hpp>
 #include <utility>
 
 

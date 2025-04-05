@@ -23,23 +23,23 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/instruments/swap.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/indexes/swap/euriborswap.hpp>
-#include <ql/cashflows/capflooredcoupon.hpp>
-#include <ql/cashflows/conundrumpricer.hpp>
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/cashflows/lineartsrpricer.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionvolmatrix.hpp>
-#include <ql/termstructures/volatility/swaption/interpolatedswaptionvolatilitycube.hpp>
-#include <ql/termstructures/volatility/swaption/sabrswaptionvolatilitycube.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/instruments/makecms.hpp>
+#include <instruments/swap.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <indexes/swap/euriborswap.hpp>
+#include <cashflows/capflooredcoupon.hpp>
+#include <cashflows/conundrumpricer.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <cashflows/lineartsrpricer.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/volatility/swaption/swaptionvolmatrix.hpp>
+#include <termstructures/volatility/swaption/interpolatedswaptionvolatilitycube.hpp>
+#include <termstructures/volatility/swaption/sabrswaptionvolatilitycube.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/thirty360.hpp>
+#include <time/schedule.hpp>
+#include <utilities/dataformatters.hpp>
+#include <instruments/makecms.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

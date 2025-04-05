@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/legacy/libormarketmodels/lmfixedvolmodel.hpp>
+#include <legacy/libormarketmodels/lmfixedvolmodel.hpp>
 #include <utility>
 
 namespace QuantLib {

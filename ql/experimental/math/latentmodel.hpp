@@ -21,16 +21,16 @@
 #ifndef quantlib_latent_model_hpp
 #define quantlib_latent_model_hpp
 
-#include <ql/experimental/math/multidimquadrature.hpp>
-#include <ql/experimental/math/multidimintegrator.hpp>
-#include <ql/math/integrals/trapezoidintegral.hpp>
-#include <ql/math/randomnumbers/randomsequencegenerator.hpp>
-#include <ql/experimental/math/gaussiancopulapolicy.hpp>
-#include <ql/experimental/math/tcopulapolicy.hpp>
-#include <ql/math/randomnumbers/boxmullergaussianrng.hpp>
-#include <ql/experimental/math/polarstudenttrng.hpp>
-#include <ql/handle.hpp>
-#include <ql/quote.hpp>
+#include <experimental/math/multidimquadrature.hpp>
+#include <experimental/math/multidimintegrator.hpp>
+#include <math/integrals/trapezoidintegral.hpp>
+#include <math/randomnumbers/randomsequencegenerator.hpp>
+#include <experimental/math/gaussiancopulapolicy.hpp>
+#include <experimental/math/tcopulapolicy.hpp>
+#include <math/randomnumbers/boxmullergaussianrng.hpp>
+#include <experimental/math/polarstudenttrng.hpp>
+#include <handle.hpp>
+#include <quote.hpp>
 #include <vector>
 
 /*! \file latentmodel.hpp

@@ -24,7 +24,7 @@
 #ifndef quantlib_cpi_volatility_structure_hpp
 #define quantlib_cpi_volatility_structure_hpp
 
-#include <ql/termstructures/voltermstructure.hpp>
+#include <termstructures/voltermstructure.hpp>
 
 namespace QuantLib {
 

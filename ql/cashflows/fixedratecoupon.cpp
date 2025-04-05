@@ -22,7 +22,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/fixedratecoupon.hpp>
+#include <cashflows/fixedratecoupon.hpp>
 #include <utility>
 
 using std::vector;

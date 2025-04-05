@@ -17,11 +17,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
  */
 
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/instruments/inflationcapfloor.hpp>
-#include <ql/math/solvers1d/newtonsafe.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <cashflows/cashflows.hpp>
+#include <instruments/inflationcapfloor.hpp>
+#include <math/solvers1d/newtonsafe.hpp>
+#include <quotes/simplequote.hpp>
+#include <utilities/dataformatters.hpp>
 #include <utility>
 
 namespace QuantLib {

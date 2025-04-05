@@ -16,11 +16,11 @@
  WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
  or FITNESS FOR A PARTICULAR PURPOSE. See the license for more details. */
 
-#include <ql/indexes/iborindex.hpp>
-#include <ql/indexes/swapindex.hpp>
-#include <ql/instruments/makeois.hpp>
-#include <ql/instruments/makevanillaswap.hpp>
-#include <ql/time/schedule.hpp>
+#include <indexes/iborindex.hpp>
+#include <indexes/swapindex.hpp>
+#include <instruments/makeois.hpp>
+#include <instruments/makevanillaswap.hpp>
+#include <time/schedule.hpp>
 #include <sstream>
 #include <utility>
 

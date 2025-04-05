@@ -25,9 +25,9 @@
 #ifndef quantlib_line_search_based_optimization_method_h
 #define quantlib_line_search_based_optimization_method_h
 
-#include <ql/math/optimization/method.hpp>
-#include <ql/math/array.hpp>
-#include <ql/shared_ptr.hpp>
+#include <math/optimization/method.hpp>
+#include <math/array.hpp>
+#include <shared_ptr.hpp>
 
 namespace QuantLib {
 

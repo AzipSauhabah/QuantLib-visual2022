@@ -23,9 +23,9 @@
 #ifndef quantlib_tanh_sinh_integral_hpp
 #define quantlib_tanh_sinh_integral_hpp
 
-#include <ql/types.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/math/integrals/integral.hpp>
+#include <types.hpp>
+#include <utilities/null.hpp>
+#include <math/integrals/integral.hpp>
 
 #if BOOST_VERSION >= 106900
 #define QL_BOOST_HAS_TANH_SINH

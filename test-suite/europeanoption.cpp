@@ -21,25 +21,25 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/instruments/europeanoption.hpp>
-#include <ql/math/randomnumbers/rngtraits.hpp>
-#include <ql/math/interpolations/bicubicsplineinterpolation.hpp>
-#include <ql/math/interpolations/bilinearinterpolation.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
-#include <ql/pricingengines/vanilla/analyticdividendeuropeanengine.hpp>
-#include <ql/pricingengines/vanilla/binomialengine.hpp>
-#include <ql/pricingengines/vanilla/fdblackscholesvanillaengine.hpp>
-#include <ql/experimental/variancegamma/fftvanillaengine.hpp>
-#include <ql/pricingengines/vanilla/mceuropeanengine.hpp>
-#include <ql/pricingengines/vanilla/integralengine.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/yield/zerocurve.hpp>
-#include <ql/termstructures/yield/forwardcurve.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvariancesurface.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <instruments/europeanoption.hpp>
+#include <math/randomnumbers/rngtraits.hpp>
+#include <math/interpolations/bicubicsplineinterpolation.hpp>
+#include <math/interpolations/bilinearinterpolation.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <pricingengines/vanilla/analyticdividendeuropeanengine.hpp>
+#include <pricingengines/vanilla/binomialengine.hpp>
+#include <pricingengines/vanilla/fdblackscholesvanillaengine.hpp>
+#include <experimental/variancegamma/fftvanillaengine.hpp>
+#include <pricingengines/vanilla/mceuropeanengine.hpp>
+#include <pricingengines/vanilla/integralengine.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/yield/zerocurve.hpp>
+#include <termstructures/yield/forwardcurve.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <termstructures/volatility/equityfx/blackvariancesurface.hpp>
+#include <utilities/dataformatters.hpp>
 #include <map>
 
 using namespace QuantLib;

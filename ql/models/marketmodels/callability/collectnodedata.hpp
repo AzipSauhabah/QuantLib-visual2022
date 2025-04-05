@@ -21,7 +21,7 @@
 #ifndef quantlib_collect_node_data_hpp
 #define quantlib_collect_node_data_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <vector>
 
 namespace QuantLib {

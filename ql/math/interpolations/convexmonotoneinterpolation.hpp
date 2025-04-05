@@ -24,7 +24,7 @@
 #ifndef quantlib_convex_monotone_interpolation_hpp
 #define quantlib_convex_monotone_interpolation_hpp
 
-#include <ql/math/interpolation.hpp>
+#include <math/interpolation.hpp>
 #include <map>
 
 namespace QuantLib {

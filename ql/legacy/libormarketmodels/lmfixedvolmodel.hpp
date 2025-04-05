@@ -24,7 +24,7 @@
 #ifndef quantlib_libor_market_fixed_volatility_model_hpp
 #define quantlib_libor_market_fixed_volatility_model_hpp
 
-#include <ql/legacy/libormarketmodels/lmvolmodel.hpp>
+#include <legacy/libormarketmodels/lmvolmodel.hpp>
 
 namespace QuantLib {
 

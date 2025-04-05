@@ -24,10 +24,10 @@
 #ifndef quantlib_laplace_interpolation
 #define quantlib_laplace_interpolation
 
-#include <ql/math/array.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/shared_ptr.hpp>
-#include <ql/types.hpp>
+#include <math/array.hpp>
+#include <math/matrix.hpp>
+#include <shared_ptr.hpp>
+#include <types.hpp>
 
 #include <vector>
 

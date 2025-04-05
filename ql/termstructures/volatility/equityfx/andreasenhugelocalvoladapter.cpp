@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/volatility/equityfx/andreasenhugelocalvoladapter.hpp>
-#include <ql/termstructures/volatility/equityfx/andreasenhugevolatilityinterpl.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <termstructures/volatility/equityfx/andreasenhugelocalvoladapter.hpp>
+#include <termstructures/volatility/equityfx/andreasenhugevolatilityinterpl.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

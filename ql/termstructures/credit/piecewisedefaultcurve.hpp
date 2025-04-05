@@ -27,11 +27,11 @@
 #ifndef quantlib_piecewise_default_curve_hpp
 #define quantlib_piecewise_default_curve_hpp
 
-#include <ql/models/shortrate/onefactormodel.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/quote.hpp>
-#include <ql/termstructures/credit/probabilitytraits.hpp>
-#include <ql/termstructures/iterativebootstrap.hpp>
+#include <models/shortrate/onefactormodel.hpp>
+#include <patterns/lazyobject.hpp>
+#include <quote.hpp>
+#include <termstructures/credit/probabilitytraits.hpp>
+#include <termstructures/iterativebootstrap.hpp>
 #include <utility>
 
 namespace QuantLib {

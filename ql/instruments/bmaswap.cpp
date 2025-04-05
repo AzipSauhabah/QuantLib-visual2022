@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/bmaswap.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/cashflows/averagebmacoupon.hpp>
+#include <instruments/bmaswap.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <cashflows/averagebmacoupon.hpp>
 
 namespace QuantLib {
 

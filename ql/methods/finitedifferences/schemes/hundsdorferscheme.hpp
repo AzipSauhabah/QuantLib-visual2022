@@ -27,9 +27,9 @@
 #ifndef quantlib_hundsdorfer_scheme_hpp
 #define quantlib_hundsdorfer_scheme_hpp
 
-#include <ql/methods/finitedifferences/operatortraits.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
-#include <ql/methods/finitedifferences/schemes/boundaryconditionschemehelper.hpp>
+#include <methods/finitedifferences/operatortraits.hpp>
+#include <methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
+#include <methods/finitedifferences/schemes/boundaryconditionschemehelper.hpp>
 
 #include <vector>
 

@@ -21,11 +21,11 @@
 */
 
 
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/operators/fdm2dblackscholesop.hpp>
-#include <ql/methods/finitedifferences/operators/secondordermixedderivativeop.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/operators/fdm2dblackscholesop.hpp>
+#include <methods/finitedifferences/operators/secondordermixedderivativeop.hpp>
 #include <boost/numeric/ublas/matrix.hpp>
 
 namespace QuantLib {

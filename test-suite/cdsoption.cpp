@@ -19,15 +19,15 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/experimental/credit/cdsoption.hpp>
-#include <ql/experimental/credit/blackcdsoptionengine.hpp>
-#include <ql/instruments/creditdefaultswap.hpp>
-#include <ql/pricingengines/credit/midpointcdsengine.hpp>
-#include <ql/termstructures/credit/flathazardrate.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <experimental/credit/cdsoption.hpp>
+#include <experimental/credit/blackcdsoptionengine.hpp>
+#include <instruments/creditdefaultswap.hpp>
+#include <pricingengines/credit/midpointcdsengine.hpp>
+#include <termstructures/credit/flathazardrate.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <quotes/simplequote.hpp>
 
 #include <iomanip>
 

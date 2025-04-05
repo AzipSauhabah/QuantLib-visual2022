@@ -24,7 +24,7 @@
 #ifndef quantlib_glued_1d_mesher_hpp
 #define quantlib_glued_1d_mesher_hpp
 
-#include <ql/methods/finitedifferences/meshers/fdm1dmesher.hpp>
+#include <methods/finitedifferences/meshers/fdm1dmesher.hpp>
 
 namespace QuantLib {
 

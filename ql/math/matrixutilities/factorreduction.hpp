@@ -24,7 +24,7 @@
 #ifndef quantlib_factorreduction_hpp
 #define quantlib_factorreduction_hpp
 
-#include <ql/math/matrix.hpp>
+#include <math/matrix.hpp>
 
 namespace QuantLib {
 

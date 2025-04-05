@@ -24,8 +24,8 @@
 #ifndef quantlib_ziggurat_generator_hpp
 #define quantlib_ziggurat_generator_hpp
 
-#include <ql/math/randomnumbers/mt19937uniformrng.hpp>
-#include <ql/math/randomnumbers/randomsequencegenerator.hpp>
+#include <math/randomnumbers/mt19937uniformrng.hpp>
+#include <math/randomnumbers/randomsequencegenerator.hpp>
 
 namespace QuantLib {
 

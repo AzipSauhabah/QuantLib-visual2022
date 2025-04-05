@@ -24,7 +24,7 @@
 #ifndef quantlib_vol_term_structure_hpp
 #define quantlib_vol_term_structure_hpp
 
-#include <ql/termstructure.hpp>
+#include <termstructure.hpp>
 
 namespace QuantLib {
 

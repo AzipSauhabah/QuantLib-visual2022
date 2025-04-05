@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/event.hpp>
-#include <ql/experimental/credit/riskyassetswap.hpp>
-#include <ql/utilities/null_deleter.hpp>
+#include <event.hpp>
+#include <experimental/credit/riskyassetswap.hpp>
+#include <utilities/null_deleter.hpp>
 #include <utility>
 
 namespace QuantLib {

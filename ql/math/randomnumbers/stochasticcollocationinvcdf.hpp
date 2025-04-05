@@ -25,9 +25,9 @@
 #ifndef quantlib_stochastic_collation_inv_cdf_hpp
 #define quantlib_stochastic_collation_inv_cdf_hpp
 
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/interpolations/lagrangeinterpolation.hpp>
-#include <ql/functional.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/interpolations/lagrangeinterpolation.hpp>
+#include <functional.hpp>
 
 namespace QuantLib {
     //! Stochastic collocation inverse cumulative distribution function

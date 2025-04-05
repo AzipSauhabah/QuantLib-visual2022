@@ -21,9 +21,9 @@
 /*! \file stochasticcollationcdf.cpp
 */
 
-#include <ql/math/integrals/gaussianquadratures.hpp>
-#include <ql/math/randomnumbers/stochasticcollocationinvcdf.hpp>
-#include <ql/mathconstants.hpp>
+#include <math/integrals/gaussianquadratures.hpp>
+#include <math/randomnumbers/stochasticcollocationinvcdf.hpp>
+#include <mathconstants.hpp>
 
 namespace QuantLib {
 

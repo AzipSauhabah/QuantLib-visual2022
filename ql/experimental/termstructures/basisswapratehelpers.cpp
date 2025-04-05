@@ -17,11 +17,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/cashflows/overnightindexedcoupon.hpp>
-#include <ql/experimental/termstructures/basisswapratehelpers.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/utilities/null_deleter.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <cashflows/overnightindexedcoupon.hpp>
+#include <experimental/termstructures/basisswapratehelpers.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <utilities/null_deleter.hpp>
 #include <utility>
 
 namespace QuantLib {

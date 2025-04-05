@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/credit/recoveryratequote.hpp>
+#include <experimental/credit/recoveryratequote.hpp>
 
 namespace QuantLib {
 

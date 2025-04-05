@@ -23,7 +23,7 @@
 #ifndef quantlib_optimization_goldstein_hpp
 #define quantlib_optimization_goldstein_hpp
 
-#include <ql/math/optimization/linesearch.hpp>
+#include <math/optimization/linesearch.hpp>
 
 namespace QuantLib {
 

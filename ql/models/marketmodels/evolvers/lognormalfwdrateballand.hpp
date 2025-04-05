@@ -20,8 +20,8 @@
 #ifndef quantlib_forward_rate_balland_evolver_hpp
 #define quantlib_forward_rate_balland_evolver_hpp
 
-#include <ql/models/marketmodels/evolver.hpp>
-#include <ql/models/marketmodels/curvestates/lmmcurvestate.hpp>
+#include <models/marketmodels/evolver.hpp>
+#include <models/marketmodels/curvestates/lmmcurvestate.hpp>
 
 namespace QuantLib {
 

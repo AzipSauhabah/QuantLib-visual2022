@@ -24,7 +24,7 @@
 #ifndef quantlib_adapted_path_payoff_hpp
 #define quantlib_adapted_path_payoff_hpp
 
-#include <ql/experimental/mcbasket/pathpayoff.hpp>
+#include <experimental/mcbasket/pathpayoff.hpp>
 
 namespace QuantLib {
 

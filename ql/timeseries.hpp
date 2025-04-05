@@ -25,10 +25,10 @@
 #ifndef quantlib_timeseries_hpp
 #define quantlib_timeseries_hpp
 
-#include <ql/time/date.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/errors.hpp>
-#include <ql/functional.hpp>
+#include <time/date.hpp>
+#include <utilities/null.hpp>
+#include <errors.hpp>
+#include <functional.hpp>
 #include <boost/iterator/transform_iterator.hpp>
 #include <iterator>
 #include <algorithm>

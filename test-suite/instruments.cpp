@@ -19,12 +19,12 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/instruments/compositeinstrument.hpp>
-#include <ql/instruments/europeanoption.hpp>
-#include <ql/instruments/stock.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/time/daycounters/actual360.hpp>
+#include <instruments/compositeinstrument.hpp>
+#include <instruments/europeanoption.hpp>
+#include <instruments/stock.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <quotes/simplequote.hpp>
+#include <time/daycounters/actual360.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test;

@@ -24,7 +24,7 @@
 #ifndef quantlib_greeks_hpp
 #define quantlib_greeks_hpp
 
-#include <ql/processes/blackscholesprocess.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

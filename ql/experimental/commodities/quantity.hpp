@@ -24,8 +24,8 @@
 #ifndef quantlib_quantity_hpp
 #define quantlib_quantity_hpp
 
-#include <ql/experimental/commodities/commoditytype.hpp>
-#include <ql/experimental/commodities/unitofmeasure.hpp>
+#include <experimental/commodities/commoditytype.hpp>
+#include <experimental/commodities/unitofmeasure.hpp>
 #include <utility>
 
 namespace QuantLib {

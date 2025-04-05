@@ -20,9 +20,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/frequency.hpp>
-#include <ql/types.hpp>
-#include <ql/errors.hpp>
+#include <time/frequency.hpp>
+#include <types.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/indexes/ibor/shibor.hpp>
-#include <ql/currencies/asia.hpp>
-#include <ql/time/calendars/china.hpp>
-#include <ql/time/daycounters/actual360.hpp>
+#include <indexes/ibor/shibor.hpp>
+#include <currencies/asia.hpp>
+#include <time/calendars/china.hpp>
+#include <time/daycounters/actual360.hpp>
 
 namespace QuantLib {
 

@@ -36,8 +36,8 @@
 #ifndef quantlib_brownian_bridge_hpp
 #define quantlib_brownian_bridge_hpp
 
-#include <ql/methods/montecarlo/path.hpp>
-#include <ql/methods/montecarlo/sample.hpp>
+#include <methods/montecarlo/path.hpp>
+#include <methods/montecarlo/sample.hpp>
 
 namespace QuantLib {
 

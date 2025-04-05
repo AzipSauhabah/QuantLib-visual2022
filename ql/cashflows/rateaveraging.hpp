@@ -24,7 +24,7 @@
 #ifndef quantlib_rate_averaging_hpp
 #define quantlib_rate_averaging_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 
 namespace QuantLib {
 

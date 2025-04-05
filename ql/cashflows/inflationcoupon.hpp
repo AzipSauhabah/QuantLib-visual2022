@@ -24,10 +24,10 @@
 #ifndef quantlib_inflation_coupon_hpp
 #define quantlib_inflation_coupon_hpp
 
-#include <ql/cashflows/coupon.hpp>
-#include <ql/patterns/visitor.hpp>
-#include <ql/time/daycounter.hpp>
-#include <ql/handle.hpp>
+#include <cashflows/coupon.hpp>
+#include <patterns/visitor.hpp>
+#include <time/daycounter.hpp>
+#include <handle.hpp>
 
 namespace QuantLib {
 

@@ -21,8 +21,8 @@
 #ifndef quantlib_pathwise_market_model_discounter_hpp
 #define quantlib_pathwise_market_model_discounter_hpp
 
-#include <ql/types.hpp>
-#include <ql/math/matrix.hpp>
+#include <types.hpp>
+#include <math/matrix.hpp>
 #include <vector>
 
 namespace QuantLib {

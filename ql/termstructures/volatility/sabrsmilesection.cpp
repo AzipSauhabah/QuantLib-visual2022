@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/volatility/sabrsmilesection.hpp>
-#include <ql/termstructures/volatility/sabr.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <termstructures/volatility/sabrsmilesection.hpp>
+#include <termstructures/volatility/sabr.hpp>
+#include <utilities/dataformatters.hpp>
 
 namespace QuantLib {
 

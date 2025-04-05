@@ -17,8 +17,8 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/matrixutilities/sparseilupreconditioner.hpp>
-#include <ql/math/matrix.hpp>
+#include <math/matrixutilities/sparseilupreconditioner.hpp>
+#include <math/matrix.hpp>
 
 #include <set>
 

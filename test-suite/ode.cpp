@@ -20,8 +20,8 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/matrixutilities/expm.hpp>
-#include <ql/math/ode/adaptiverungekutta.hpp>
+#include <math/matrixutilities/expm.hpp>
+#include <math/ode/adaptiverungekutta.hpp>
 #include <complex>
 
 using namespace QuantLib;

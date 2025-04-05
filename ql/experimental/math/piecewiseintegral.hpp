@@ -27,9 +27,9 @@
 #ifndef quantlib_piecewise_integral_hpp
 #define quantlib_piecewise_integral_hpp
 
-#include <ql/math/integrals/integral.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/shared_ptr.hpp>
+#include <math/integrals/integral.hpp>
+#include <math/comparison.hpp>
+#include <shared_ptr.hpp>
 #include <algorithm>
 #include <vector>
 

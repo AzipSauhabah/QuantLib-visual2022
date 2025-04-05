@@ -19,7 +19,7 @@
 
 #ifndef quantlib_market_model_vol_process_hpp
 #define quantlib_market_model_vol_process_hpp
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <vector>
 
 namespace QuantLib 

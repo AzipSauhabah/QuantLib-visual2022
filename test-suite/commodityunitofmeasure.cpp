@@ -19,8 +19,8 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/experimental/commodities/unitofmeasureconversionmanager.hpp>
-#include <ql/experimental/commodities/petroleumunitsofmeasure.hpp>
+#include <experimental/commodities/unitofmeasureconversionmanager.hpp>
+#include <experimental/commodities/petroleumunitsofmeasure.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

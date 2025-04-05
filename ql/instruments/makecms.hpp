@@ -24,9 +24,9 @@
 #ifndef quantlib_makecms_hpp
 #define quantlib_makecms_hpp
 
-#include <ql/cashflows/cmscoupon.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/pricingengine.hpp>
+#include <cashflows/cmscoupon.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <pricingengine.hpp>
 
 namespace QuantLib {
 

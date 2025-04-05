@@ -25,8 +25,8 @@
 #ifndef quantlib_frank_copula_rng_hpp
 #define quantlib_frank_copula_rng_hpp
 
-#include <ql/methods/montecarlo/sample.hpp>
-#include <ql/errors.hpp>
+#include <methods/montecarlo/sample.hpp>
+#include <errors.hpp>
 #include <vector>
 
 namespace QuantLib {

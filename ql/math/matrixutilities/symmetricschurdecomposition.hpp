@@ -25,7 +25,7 @@
 #ifndef quantlib_math_jacobi_decomposition_h
 #define quantlib_math_jacobi_decomposition_h
 
-#include <ql/math/matrix.hpp>
+#include <math/matrix.hpp>
 
 namespace QuantLib {
 

@@ -25,8 +25,8 @@
 #ifndef quantlib_ju_quadratic_engine_hpp
 #define quantlib_ju_quadratic_engine_hpp
 
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

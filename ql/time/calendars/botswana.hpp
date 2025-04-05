@@ -25,7 +25,7 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef quantlib_botswana_calendar_hpp
 #define quantlib_botswana_calendar_hpp
 
-#include <ql/time/calendar.hpp>
+#include <time/calendar.hpp>
 
 namespace QuantLib {
 

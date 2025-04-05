@@ -24,9 +24,9 @@
 #ifndef quantlib_rebatedexercise_hpp
 #define quantlib_rebatedexercise_hpp
 
-#include <ql/exercise.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/errors.hpp>
+#include <exercise.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

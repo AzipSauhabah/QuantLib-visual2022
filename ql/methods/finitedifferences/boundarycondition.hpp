@@ -24,8 +24,8 @@
 #ifndef quantlib_boundary_condition_hpp
 #define quantlib_boundary_condition_hpp
 
-#include <ql/utilities/null.hpp>
-#include <ql/methods/finitedifferences/tridiagonaloperator.hpp>
+#include <utilities/null.hpp>
+#include <methods/finitedifferences/tridiagonaloperator.hpp>
 
 namespace QuantLib {
 

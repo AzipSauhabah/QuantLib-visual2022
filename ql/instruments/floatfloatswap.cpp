@@ -17,19 +17,19 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/capflooredcoupon.hpp>
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/cashflows/cmscoupon.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/cashflows/simplecashflow.hpp>
-#include <ql/experimental/coupons/cmsspreadcoupon.hpp> // internal
-#include <ql/indexes/iborindex.hpp>
-#include <ql/indexes/swapindex.hpp>
-#include <ql/instruments/floatfloatswap.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/optional.hpp>
+#include <cashflows/capflooredcoupon.hpp>
+#include <cashflows/cashflows.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <cashflows/cmscoupon.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <cashflows/simplecashflow.hpp>
+#include <experimental/coupons/cmsspreadcoupon.hpp> // internal
+#include <indexes/iborindex.hpp>
+#include <indexes/swapindex.hpp>
+#include <instruments/floatfloatswap.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <optional.hpp>
 #include <utility>
 
 namespace QuantLib {

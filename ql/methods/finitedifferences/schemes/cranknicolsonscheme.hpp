@@ -24,7 +24,7 @@
 #ifndef quantlib_crank_nicolson_scheme_hpp
 #define quantlib_crank_nicolson_scheme_hpp
 
-#include <ql/methods/finitedifferences/schemes/impliciteulerscheme.hpp>
+#include <methods/finitedifferences/schemes/impliciteulerscheme.hpp>
 
 namespace QuantLib {
 

@@ -24,7 +24,7 @@
 #ifndef quantlib_sonia_hpp
 #define quantlib_sonia_hpp
 
-#include <ql/indexes/iborindex.hpp>
+#include <indexes/iborindex.hpp>
 
 namespace QuantLib {
 

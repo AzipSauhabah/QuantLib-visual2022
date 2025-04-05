@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/curvestate.hpp>
-#include <ql/models/marketmodels/products/multistep/multistepforwards.hpp>
-#include <ql/models/marketmodels/utilities.hpp>
+#include <models/marketmodels/curvestate.hpp>
+#include <models/marketmodels/products/multistep/multistepforwards.hpp>
+#include <models/marketmodels/utilities.hpp>
 #include <utility>
 
 namespace QuantLib {

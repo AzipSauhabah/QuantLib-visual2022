@@ -24,16 +24,16 @@
 #ifndef quantlib_fdm_cir_op_hpp
 #define quantlib_fdm_cir_op_hpp
 
-#include <ql/methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
-#include <ql/methods/finitedifferences/operators/firstderivativeop.hpp>
-#include <ql/methods/finitedifferences/operators/ninepointlinearop.hpp>
-#include <ql/methods/finitedifferences/operators/triplebandlinearop.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmquantohelper.hpp>
-#include <ql/models/shortrate/onefactormodels/coxingersollross.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/processes/coxingersollrossprocess.hpp>
-#include <ql/processes/hestonprocess.hpp>
-#include <ql/termstructures/volatility/equityfx/localvoltermstructure.hpp>
+#include <methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
+#include <methods/finitedifferences/operators/firstderivativeop.hpp>
+#include <methods/finitedifferences/operators/ninepointlinearop.hpp>
+#include <methods/finitedifferences/operators/triplebandlinearop.hpp>
+#include <methods/finitedifferences/utilities/fdmquantohelper.hpp>
+#include <models/shortrate/onefactormodels/coxingersollross.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <processes/coxingersollrossprocess.hpp>
+#include <processes/hestonprocess.hpp>
+#include <termstructures/volatility/equityfx/localvoltermstructure.hpp>
 
 namespace QuantLib {
 

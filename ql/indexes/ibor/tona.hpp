@@ -24,10 +24,10 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef quantlib_tona_hpp
 #define quantlib_tona_hpp
 
-#include <ql/indexes/iborindex.hpp>
-#include <ql/time/calendars/japan.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/currencies/asia.hpp>
+#include <indexes/iborindex.hpp>
+#include <time/calendars/japan.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <currencies/asia.hpp>
 
 namespace QuantLib {
 

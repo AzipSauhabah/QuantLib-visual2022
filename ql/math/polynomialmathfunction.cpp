@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/polynomialmathfunction.hpp>
-#include <ql/math/pascaltriangle.hpp>
+#include <math/polynomialmathfunction.hpp>
+#include <math/pascaltriangle.hpp>
 
 namespace QuantLib {
 

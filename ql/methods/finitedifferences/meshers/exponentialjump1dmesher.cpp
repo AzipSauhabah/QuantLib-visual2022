@@ -22,10 +22,10 @@
            mean reversion rate and low jump intensity
 */
 
-#include <ql/math/incompletegamma.hpp>
-#include <ql/math/integrals/gausslobattointegral.hpp>
-#include <ql/math/distributions/gammadistribution.hpp>
-#include <ql/methods/finitedifferences/meshers/exponentialjump1dmesher.hpp>
+#include <math/incompletegamma.hpp>
+#include <math/integrals/gausslobattointegral.hpp>
+#include <math/distributions/gammadistribution.hpp>
+#include <methods/finitedifferences/meshers/exponentialjump1dmesher.hpp>
 #include <algorithm>
 
 namespace QuantLib {

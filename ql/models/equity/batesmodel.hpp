@@ -24,8 +24,8 @@
 #ifndef quantlib_bates_model_hpp
 #define quantlib_bates_model_hpp
 
-#include <ql/processes/batesprocess.hpp>
-#include <ql/models/equity/hestonmodel.hpp>
+#include <processes/batesprocess.hpp>
+#include <models/equity/hestonmodel.hpp>
 
 namespace QuantLib {
 

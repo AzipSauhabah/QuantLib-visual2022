@@ -19,8 +19,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/processes/geometricbrownianprocess.hpp>
-#include <ql/processes/eulerdiscretization.hpp>
+#include <processes/geometricbrownianprocess.hpp>
+#include <processes/eulerdiscretization.hpp>
 
 namespace QuantLib {
 

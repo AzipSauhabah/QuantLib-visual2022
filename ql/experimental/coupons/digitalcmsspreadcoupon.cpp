@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/experimental/coupons/digitalcmsspreadcoupon.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <experimental/coupons/digitalcmsspreadcoupon.hpp>
 #include <utility>
 
 namespace QuantLib {

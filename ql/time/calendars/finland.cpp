@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/calendars/finland.hpp>
+#include <time/calendars/finland.hpp>
 
 namespace QuantLib {
 

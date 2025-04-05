@@ -24,9 +24,9 @@
 #ifndef quantlib_fdm_2d_black_scholes_op_hpp
 #define quantlib_fdm_2d_black_scholes_op_hpp
 
-#include <ql/methods/finitedifferences/operators/ninepointlinearop.hpp>
-#include <ql/methods/finitedifferences/operators/fdmblackscholesop.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
+#include <methods/finitedifferences/operators/ninepointlinearop.hpp>
+#include <methods/finitedifferences/operators/fdmblackscholesop.hpp>
+#include <methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
 
 namespace QuantLib {
 

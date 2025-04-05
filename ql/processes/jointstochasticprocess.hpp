@@ -24,8 +24,8 @@
 #ifndef quantlib_joint_stochastic_process_hpp
 #define quantlib_joint_stochastic_process_hpp
 
-#include <ql/utilities/null.hpp>
-#include <ql/stochasticprocess.hpp>
+#include <utilities/null.hpp>
+#include <stochasticprocess.hpp>
 #include <vector>
 #include <map>
 

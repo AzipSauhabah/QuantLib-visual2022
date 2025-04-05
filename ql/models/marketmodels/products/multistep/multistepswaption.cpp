@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/products/multistep/multistepswaption.hpp>
-#include <ql/models/marketmodels/curvestate.hpp>
-#include <ql/models/marketmodels/utilities.hpp>
-#include <ql/instruments/payoffs.hpp>
+#include <models/marketmodels/products/multistep/multistepswaption.hpp>
+#include <models/marketmodels/curvestate.hpp>
+#include <models/marketmodels/utilities.hpp>
+#include <instruments/payoffs.hpp>
 
 namespace QuantLib {
 

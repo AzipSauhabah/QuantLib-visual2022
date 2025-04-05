@@ -21,7 +21,7 @@
 #ifndef quantlib_evolution_description_hpp
 #define quantlib_evolution_description_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <vector>
 
 namespace QuantLib {

@@ -26,8 +26,8 @@
 #ifndef quantlib_pricers_black_capfloor_hpp
 #define quantlib_pricers_black_capfloor_hpp
 
-#include <ql/instruments/capfloor.hpp>
-#include <ql/termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
+#include <instruments/capfloor.hpp>
+#include <termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
 
 namespace QuantLib {
 

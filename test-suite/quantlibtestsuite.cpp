@@ -18,7 +18,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 
 #define BOOST_TEST_MODULE QuantLibTests
 
@@ -32,6 +32,6 @@
    for example) also #define _MSC_VER
 */
 #if !defined(BOOST_ALL_NO_LIB) && defined(BOOST_MSVC)
-#  include <ql/auto_link.hpp>
+#  include <auto_link.hpp>
 #endif
 

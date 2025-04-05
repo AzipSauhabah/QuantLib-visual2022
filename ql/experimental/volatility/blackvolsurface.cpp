@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/volatility/blackvolsurface.hpp>
-#include <ql/termstructures/volatility/smilesection.hpp>
+#include <experimental/volatility/blackvolsurface.hpp>
+#include <termstructures/volatility/smilesection.hpp>
 
 namespace QuantLib {
 

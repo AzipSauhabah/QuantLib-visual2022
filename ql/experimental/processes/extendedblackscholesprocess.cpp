@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/processes/extendedblackscholesprocess.hpp>
+#include <experimental/processes/extendedblackscholesprocess.hpp>
 
 namespace QuantLib {
 

@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/methods/finitedifferences/operators/fdmhestonhullwhiteop.hpp>
-#include <ql/methods/finitedifferences/solvers/fdm3dimsolver.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmhestonhullwhitesolver.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmquantohelper.hpp>
+#include <methods/finitedifferences/operators/fdmhestonhullwhiteop.hpp>
+#include <methods/finitedifferences/solvers/fdm3dimsolver.hpp>
+#include <methods/finitedifferences/solvers/fdmhestonhullwhitesolver.hpp>
+#include <methods/finitedifferences/utilities/fdmquantohelper.hpp>
 #include <utility>
 
 namespace QuantLib {

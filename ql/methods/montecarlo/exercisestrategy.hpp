@@ -21,7 +21,7 @@
 #ifndef quantlib_exercise_strategy_hpp
 #define quantlib_exercise_strategy_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <vector>
 #include <memory>
 

@@ -21,21 +21,21 @@
 #ifndef quantlib_gaussian_lhp_lossmodel_hpp
 #define quantlib_gaussian_lhp_lossmodel_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 
 #ifndef QL_PATCH_SOLARIS
 
-#include <ql/math/distributions/bivariatenormaldistribution.hpp>
-#include <ql/experimental/credit/recoveryratequote.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/experimental/credit/defaultlossmodel.hpp>
-#include <ql/experimental/credit/basket.hpp>
-#include <ql/experimental/math/latentmodel.hpp>
-#include <ql/functional.hpp>
+#include <math/distributions/bivariatenormaldistribution.hpp>
+#include <experimental/credit/recoveryratequote.hpp>
+#include <quotes/simplequote.hpp>
+#include <experimental/credit/defaultlossmodel.hpp>
+#include <experimental/credit/basket.hpp>
+#include <experimental/math/latentmodel.hpp>
+#include <functional.hpp>
 #include <numeric>
 
 /* Intended to replace GaussianLHPCDOEngine in 
-    ql/experimental/credit/syntheticcdoengines.hpp
+    experimental/credit/syntheticcdoengines.hpp
    Moved from an engine to a loss model, CDO engines might refer to it.
 */
 

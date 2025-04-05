@@ -25,9 +25,9 @@
 #ifndef quantlib_issuer_hpp
 #define quantlib_issuer_hpp
 
-#include <ql/experimental/credit/defaultevent.hpp>
-#include <ql/experimental/credit/defaultprobabilitykey.hpp>
-#include <ql/termstructures/defaulttermstructure.hpp>
+#include <experimental/credit/defaultevent.hpp>
+#include <experimental/credit/defaultprobabilitykey.hpp>
+#include <termstructures/defaulttermstructure.hpp>
 #include <set>
 #include <vector>
 

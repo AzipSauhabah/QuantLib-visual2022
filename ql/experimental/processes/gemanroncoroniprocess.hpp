@@ -24,8 +24,8 @@
 #ifndef quantlib_geman_roncoroni_process_hpp
 #define quantlib_geman_roncoroni_process_hpp
 
-#include <ql/stochasticprocess.hpp>
-#include <ql/math/randomnumbers/rngtraits.hpp>
+#include <stochasticprocess.hpp>
+#include <math/randomnumbers/rngtraits.hpp>
 
 namespace QuantLib {
 

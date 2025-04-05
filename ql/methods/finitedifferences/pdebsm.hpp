@@ -24,8 +24,8 @@
 #ifndef quantlib_pdebsm_hpp
 #define quantlib_pdebsm_hpp
 
-#include <ql/methods/finitedifferences/pde.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <methods/finitedifferences/pde.hpp>
+#include <processes/blackscholesprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -24,7 +24,7 @@
 #ifndef quantlib_math_MarshallOlkin_copula_h
 #define quantlib_math_MarshallOlkin_copula_h
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <functional>
 
 namespace QuantLib {

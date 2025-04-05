@@ -23,23 +23,23 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/models/shortrate/onefactormodels/hullwhite.hpp>
-#include <ql/models/shortrate/onefactormodels/extendedcoxingersollross.hpp>
-#include <ql/models/shortrate/calibrationhelpers/swaptionhelper.hpp>
-#include <ql/pricingengines/swaption/jamshidianswaptionengine.hpp>
-#include <ql/pricingengines/swap/treeswapengine.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/indexes/indexmanager.hpp>
-#include <ql/math/optimization/simplex.hpp>
-#include <ql/math/optimization/levenbergmarquardt.hpp>
-#include <ql/termstructures/yield/discountcurve.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <models/shortrate/onefactormodels/hullwhite.hpp>
+#include <models/shortrate/onefactormodels/extendedcoxingersollross.hpp>
+#include <models/shortrate/calibrationhelpers/swaptionhelper.hpp>
+#include <pricingengines/swaption/jamshidianswaptionengine.hpp>
+#include <pricingengines/swap/treeswapengine.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <indexes/indexmanager.hpp>
+#include <math/optimization/simplex.hpp>
+#include <math/optimization/levenbergmarquardt.hpp>
+#include <termstructures/yield/discountcurve.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/thirty360.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <time/schedule.hpp>
+#include <quotes/simplequote.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

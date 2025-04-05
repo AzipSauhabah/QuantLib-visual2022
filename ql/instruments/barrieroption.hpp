@@ -26,10 +26,10 @@
 #ifndef quantlib_barrier_option_hpp
 #define quantlib_barrier_option_hpp
 
-#include <ql/instruments/oneassetoption.hpp>
-#include <ql/instruments/barriertype.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/instruments/dividendschedule.hpp>
+#include <instruments/oneassetoption.hpp>
+#include <instruments/barriertype.hpp>
+#include <instruments/payoffs.hpp>
+#include <instruments/dividendschedule.hpp>
 
 namespace QuantLib {
 

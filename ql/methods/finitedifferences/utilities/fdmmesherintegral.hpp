@@ -24,8 +24,8 @@
 #ifndef quantlib_fdm_mesher_integral_hpp
 #define quantlib_fdm_mesher_integral_hpp
 
-#include <ql/methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
-#include <ql/functional.hpp>
+#include <methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
+#include <functional.hpp>
 
 namespace QuantLib {
     class FdmMesherIntegral {

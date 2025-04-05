@@ -21,7 +21,7 @@
 #ifndef quantlib_market_model_discounter_hpp
 #define quantlib_market_model_discounter_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <vector>
 
 namespace QuantLib {

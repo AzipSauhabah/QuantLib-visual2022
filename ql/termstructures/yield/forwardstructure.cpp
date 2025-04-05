@@ -19,7 +19,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/yield/forwardstructure.hpp>
+#include <termstructures/yield/forwardstructure.hpp>
 
 namespace QuantLib {
 

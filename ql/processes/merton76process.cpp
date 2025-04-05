@@ -19,7 +19,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/processes/merton76process.hpp>
+#include <processes/merton76process.hpp>
 #include <utility>
 
 namespace QuantLib {

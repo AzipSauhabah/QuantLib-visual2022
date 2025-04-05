@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/shortrate/onefactormodels/coxingersollross.hpp>
-#include <ql/methods/lattices/trinomialtree.hpp>
-#include <ql/math/distributions/chisquaredistribution.hpp>
+#include <models/shortrate/onefactormodels/coxingersollross.hpp>
+#include <methods/lattices/trinomialtree.hpp>
+#include <math/distributions/chisquaredistribution.hpp>
 
 namespace QuantLib {
 

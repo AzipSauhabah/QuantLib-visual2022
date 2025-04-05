@@ -19,28 +19,28 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #if !defined(BOOST_ALL_NO_LIB) && defined(BOOST_MSVC)
-#  include <ql/auto_link.hpp>
+#  include <auto_link.hpp>
 #endif
-#include <ql/instruments/vanillaswap.hpp>
-#include <ql/instruments/swaption.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/pricingengines/swaption/treeswaptionengine.hpp>
-#include <ql/pricingengines/swaption/jamshidianswaptionengine.hpp>
-#include <ql/pricingengines/swaption/g2swaptionengine.hpp>
-#include <ql/pricingengines/swaption/fdhullwhiteswaptionengine.hpp>
-#include <ql/pricingengines/swaption/fdg2swaptionengine.hpp>
-#include <ql/models/shortrate/calibrationhelpers/swaptionhelper.hpp>
-#include <ql/models/shortrate/onefactormodels/blackkarasinski.hpp>
-#include <ql/math/optimization/levenbergmarquardt.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/cashflows/coupon.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <instruments/vanillaswap.hpp>
+#include <instruments/swaption.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <pricingengines/swaption/treeswaptionengine.hpp>
+#include <pricingengines/swaption/jamshidianswaptionengine.hpp>
+#include <pricingengines/swaption/g2swaptionengine.hpp>
+#include <pricingengines/swaption/fdhullwhiteswaptionengine.hpp>
+#include <pricingengines/swaption/fdg2swaptionengine.hpp>
+#include <models/shortrate/calibrationhelpers/swaptionhelper.hpp>
+#include <models/shortrate/onefactormodels/blackkarasinski.hpp>
+#include <math/optimization/levenbergmarquardt.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <cashflows/coupon.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/thirty360.hpp>
+#include <utilities/dataformatters.hpp>
 
 #include <iostream>
 #include <iomanip>

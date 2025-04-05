@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/bonds/zerocouponbond.hpp>
-#include <ql/cashflows/simplecashflow.hpp>
+#include <instruments/bonds/zerocouponbond.hpp>
+#include <cashflows/simplecashflow.hpp>
 
 namespace QuantLib {
 

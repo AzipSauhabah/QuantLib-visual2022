@@ -21,8 +21,8 @@
 #ifndef quantlib_swap_basis_system_hpp
 #define quantlib_swap_basis_system_hpp
 
-#include <ql/models/marketmodels/callability/marketmodelbasissystem.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/callability/marketmodelbasissystem.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
 
 namespace QuantLib {
 

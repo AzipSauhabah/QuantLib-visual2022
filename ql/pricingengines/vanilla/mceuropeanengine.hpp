@@ -26,10 +26,10 @@
 #ifndef quantlib_montecarlo_european_engine_hpp
 #define quantlib_montecarlo_european_engine_hpp
 
-#include <ql/pricingengines/vanilla/mcvanillaengine.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvariancecurve.hpp>
+#include <pricingengines/vanilla/mcvanillaengine.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <termstructures/volatility/equityfx/blackvariancecurve.hpp>
 
 namespace QuantLib {
 

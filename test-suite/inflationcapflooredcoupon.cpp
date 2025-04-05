@@ -21,31 +21,31 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/cashflows/inflationcouponpricer.hpp>
-#include <ql/cashflows/yoyinflationcoupon.hpp>
-#include <ql/indexes/inflation/euhicp.hpp>
-#include <ql/indexes/inflation/ukrpi.hpp>
-#include <ql/instruments/inflationcapfloor.hpp>
-#include <ql/instruments/vanillaswap.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/models/marketmodels/correlations/expcorrelations.hpp>
-#include <ql/models/marketmodels/models/flatvol.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/pricingengines/inflation/inflationcapfloorengines.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/inflation/inflationhelpers.hpp>
-#include <ql/termstructures/inflation/piecewiseyoyinflationcurve.hpp>
-#include <ql/termstructures/volatility/inflation/yoyinflationoptionletvolatilitystructure.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/time/calendars/unitedkingdom.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <cashflows/cashflows.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <cashflows/inflationcouponpricer.hpp>
+#include <cashflows/yoyinflationcoupon.hpp>
+#include <indexes/inflation/euhicp.hpp>
+#include <indexes/inflation/ukrpi.hpp>
+#include <instruments/inflationcapfloor.hpp>
+#include <instruments/vanillaswap.hpp>
+#include <math/matrix.hpp>
+#include <models/marketmodels/correlations/expcorrelations.hpp>
+#include <models/marketmodels/models/flatvol.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <pricingengines/inflation/inflationcapfloorengines.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/inflation/inflationhelpers.hpp>
+#include <termstructures/inflation/piecewiseyoyinflationcurve.hpp>
+#include <termstructures/volatility/inflation/yoyinflationoptionletvolatilitystructure.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <time/calendars/unitedkingdom.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <time/daycounters/thirty360.hpp>
+#include <time/schedule.hpp>
+#include <utilities/dataformatters.hpp>
 
 
 using namespace QuantLib;
@@ -148,7 +148,8 @@ struct CommonVars {
             rpi->addFixing(rpiSchedule[i], fixData[i]);
         }
         // link from yoy index to yoy TS
-        iir = ext::make_shared<YoYInflationIndex>(rpi, hy);
+        bool interp = false;
+        iir = ext::make_shared<YoYInflationIndex>(rpi, interp, hy);
 
         ext::shared_ptr<YieldTermStructure> nominalFF(
                         new FlatForward(evaluationDate, 0.05, ActualActual(ActualActual::ISDA)));
@@ -675,7 +676,7 @@ BOOST_AUTO_TEST_CASE(testDecomposition) {
                     "  Diff: " << error );
     }
     // remove circular refernce
-    vars.hy.reset();
+    vars.hy.linkTo(ext::shared_ptr<YoYInflationTermStructure>());
 }
 
 BOOST_AUTO_TEST_CASE(testInstrumentEquality) {
@@ -776,7 +777,7 @@ BOOST_AUTO_TEST_CASE(testInstrumentEquality) {
         }
     }
     // remove circular refernce
-    vars.hy.reset();
+    vars.hy.linkTo(ext::shared_ptr<YoYInflationTermStructure>());
 }
 
 BOOST_AUTO_TEST_SUITE_END()

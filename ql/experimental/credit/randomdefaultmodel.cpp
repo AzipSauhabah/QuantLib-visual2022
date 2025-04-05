@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/credit/randomdefaultmodel.hpp>
-#include <ql/math/solvers1d/bisection.hpp>
-#include <ql/math/solvers1d/brent.hpp>
+#include <experimental/credit/randomdefaultmodel.hpp>
+#include <math/solvers1d/bisection.hpp>
+#include <math/solvers1d/brent.hpp>
 #include <utility>
 
 using namespace std;

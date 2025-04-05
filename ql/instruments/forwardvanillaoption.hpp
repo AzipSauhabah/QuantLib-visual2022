@@ -25,10 +25,10 @@
 #ifndef quantlib_forward_vanilla_option_hpp
 #define quantlib_forward_vanilla_option_hpp
 
-#include <ql/instruments/oneassetoption.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/exercise.hpp>
-#include <ql/settings.hpp>
+#include <instruments/oneassetoption.hpp>
+#include <instruments/payoffs.hpp>
+#include <exercise.hpp>
+#include <settings.hpp>
 
 namespace QuantLib {
 

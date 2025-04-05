@@ -23,8 +23,8 @@
     Press, Teukolsky, Vetterling, Flannery, chapter 6
 */
 
-#include <ql/math/incompletegamma.hpp>
-#include <ql/math/distributions/gammadistribution.hpp>
+#include <math/incompletegamma.hpp>
+#include <math/distributions/gammadistribution.hpp>
 
 namespace QuantLib {
 

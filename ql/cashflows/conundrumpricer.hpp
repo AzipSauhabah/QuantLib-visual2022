@@ -25,8 +25,8 @@
 #ifndef quantlib_conundrum_pricer_hpp
 #define quantlib_conundrum_pricer_hpp
 
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/instruments/payoffs.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <instruments/payoffs.hpp>
 
 namespace QuantLib {
 

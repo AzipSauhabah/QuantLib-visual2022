@@ -26,7 +26,7 @@
 #ifndef quantlib_default_density_structure_hpp
 #define quantlib_default_density_structure_hpp
 
-#include <ql/termstructures/defaulttermstructure.hpp>
+#include <termstructures/defaulttermstructure.hpp>
 
 namespace QuantLib {
 

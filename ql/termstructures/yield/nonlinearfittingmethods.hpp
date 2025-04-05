@@ -25,9 +25,9 @@
 #ifndef quantlib_nonlinear_fitting_methods_hpp
 #define quantlib_nonlinear_fitting_methods_hpp
 
-#include <ql/termstructures/yield/fittedbonddiscountcurve.hpp>
-#include <ql/math/bspline.hpp>
-#include <ql/shared_ptr.hpp>
+#include <termstructures/yield/fittedbonddiscountcurve.hpp>
+#include <math/bspline.hpp>
+#include <shared_ptr.hpp>
 
 namespace QuantLib {
 

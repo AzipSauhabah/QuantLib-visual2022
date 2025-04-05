@@ -26,10 +26,10 @@
 #ifndef quantlib_xxxzciis_hpp
 #define quantlib_xxxzciis_hpp
 
-#include <ql/indexes/inflationindex.hpp>
-#include <ql/instruments/swap.hpp>
-#include <ql/time/calendar.hpp>
-#include <ql/time/daycounter.hpp>
+#include <indexes/inflationindex.hpp>
+#include <instruments/swap.hpp>
+#include <time/calendar.hpp>
+#include <time/daycounter.hpp>
 
 
 namespace QuantLib {

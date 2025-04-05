@@ -25,9 +25,9 @@
 #ifndef quantlib_tree_lattice_2d_hpp
 #define quantlib_tree_lattice_2d_hpp
 
-#include <ql/math/matrix.hpp>
-#include <ql/methods/lattices/lattice.hpp>
-#include <ql/methods/lattices/trinomialtree.hpp>
+#include <math/matrix.hpp>
+#include <methods/lattices/lattice.hpp>
+#include <methods/lattices/trinomialtree.hpp>
 #include <utility>
 
 namespace QuantLib {

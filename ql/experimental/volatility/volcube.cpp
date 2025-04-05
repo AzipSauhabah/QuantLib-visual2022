@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/volatility/abcdatmvolcurve.hpp>
-#include <ql/experimental/volatility/interestratevolsurface.hpp>
-#include <ql/experimental/volatility/volcube.hpp>
+#include <experimental/volatility/abcdatmvolcurve.hpp>
+#include <experimental/volatility/interestratevolsurface.hpp>
+#include <experimental/volatility/volcube.hpp>
 #include <utility>
 
 namespace QuantLib {

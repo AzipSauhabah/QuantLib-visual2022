@@ -19,19 +19,19 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/simplecashflow.hpp>
-#include <ql/instruments/claim.hpp>
-#include <ql/instruments/creditdefaultswap.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/pricingengines/credit/isdacdsengine.hpp>
-#include <ql/pricingengines/credit/midpointcdsengine.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/credit/flathazardrate.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/time/calendars/weekendsonly.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/optional.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <cashflows/simplecashflow.hpp>
+#include <instruments/claim.hpp>
+#include <instruments/creditdefaultswap.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <pricingengines/credit/isdacdsengine.hpp>
+#include <pricingengines/credit/midpointcdsengine.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/credit/flathazardrate.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <time/calendars/weekendsonly.hpp>
+#include <time/schedule.hpp>
+#include <optional.hpp>
 #include <utility>
 
 namespace QuantLib {

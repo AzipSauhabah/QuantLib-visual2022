@@ -24,9 +24,9 @@
 #ifndef quantlib_compound_option_hpp
 #define quantlib_compound_option_hpp
 
-#include <ql/instruments/oneassetoption.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/exercise.hpp>
+#include <instruments/oneassetoption.hpp>
+#include <instruments/payoffs.hpp>
+#include <exercise.hpp>
 
 namespace QuantLib {
 

@@ -24,8 +24,8 @@
 #ifndef quantlib_optimization_projectedconstraint_h
 #define quantlib_optimization_projectedconstraint_h
 
-#include <ql/math/optimization/constraint.hpp>
-#include <ql/math/optimization/projection.hpp>
+#include <math/optimization/constraint.hpp>
+#include <math/optimization/projection.hpp>
 #include <utility>
 
 namespace QuantLib {

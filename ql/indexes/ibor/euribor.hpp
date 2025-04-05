@@ -29,7 +29,7 @@
 #ifndef quantlib_euribor_hpp
 #define quantlib_euribor_hpp
 
-#include <ql/indexes/iborindex.hpp>
+#include <indexes/iborindex.hpp>
 
 namespace QuantLib {
 

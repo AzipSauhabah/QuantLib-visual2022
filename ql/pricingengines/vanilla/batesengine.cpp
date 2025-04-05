@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/vanilla/batesengine.hpp>
-#include <ql/instruments/payoffs.hpp>
+#include <pricingengines/vanilla/batesengine.hpp>
+#include <instruments/payoffs.hpp>
 
 namespace QuantLib {
 

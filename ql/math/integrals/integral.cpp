@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/integrals/integral.hpp>
-#include <ql/errors.hpp>
+#include <math/integrals/integral.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

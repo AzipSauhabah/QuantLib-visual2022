@@ -24,7 +24,7 @@
 #ifndef quantlib_backward_flat_interpolation_hpp
 #define quantlib_backward_flat_interpolation_hpp
 
-#include <ql/math/interpolation.hpp>
+#include <math/interpolation.hpp>
 #include <vector>
 
 namespace QuantLib {

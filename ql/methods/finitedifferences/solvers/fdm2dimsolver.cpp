@@ -17,14 +17,14 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/interpolations/bicubicsplineinterpolation.hpp>
-#include <ql/methods/finitedifferences/finitedifferencemodel.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/solvers/fdm2dimsolver.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmsnapshotcondition.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
-#include <ql/methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
+#include <math/interpolations/bicubicsplineinterpolation.hpp>
+#include <methods/finitedifferences/finitedifferencemodel.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/solvers/fdm2dimsolver.hpp>
+#include <methods/finitedifferences/stepconditions/fdmsnapshotcondition.hpp>
+#include <methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
+#include <methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -24,8 +24,8 @@
 #ifndef quantlib_tqr_eigen_decomposition_hpp
 #define quantlib_tqr_eigen_decomposition_hpp
 
-#include <ql/math/array.hpp>
-#include <ql/math/matrix.hpp>
+#include <math/array.hpp>
+#include <math/matrix.hpp>
 
 namespace QuantLib {
 

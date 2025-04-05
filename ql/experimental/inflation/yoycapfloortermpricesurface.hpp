@@ -25,10 +25,10 @@
 #ifndef quantlib_yoy_capfloor_term_price_surface_hpp
 #define quantlib_yoy_capfloor_term_price_surface_hpp
 
-#include <ql/indexes/inflationindex.hpp>
-#include <ql/termstructures/inflation/piecewiseyoyinflationcurve.hpp>
-#include <ql/termstructures/inflation/inflationhelpers.hpp>
-#include <ql/experimental/inflation/polynomial2Dspline.hpp>
+#include <indexes/inflationindex.hpp>
+#include <termstructures/inflation/piecewiseyoyinflationcurve.hpp>
+#include <termstructures/inflation/inflationhelpers.hpp>
+#include <experimental/inflation/polynomial2Dspline.hpp>
 #include <cmath>
 
 namespace QuantLib {

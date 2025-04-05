@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/calendars/sweden.hpp>
+#include <time/calendars/sweden.hpp>
 
 namespace QuantLib {
 

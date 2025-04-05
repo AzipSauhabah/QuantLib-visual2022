@@ -19,14 +19,14 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/instruments/holderextensibleoption.hpp>
-#include <ql/instruments/writerextensibleoption.hpp>
-#include <ql/pricingengines/exotic/analyticholderextensibleoptionengine.hpp>
-#include <ql/pricingengines/exotic/analyticwriterextensibleoptionengine.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actual360.hpp>
+#include <experimental/exoticoptions/holderextensibleoption.hpp>
+#include <experimental/exoticoptions/writerextensibleoption.hpp>
+#include <experimental/exoticoptions/analyticholderextensibleoptionengine.hpp>
+#include <experimental/exoticoptions/analyticwriterextensibleoptionengine.hpp>
+#include <quotes/simplequote.hpp>
+#include <utilities/dataformatters.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actual360.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

@@ -26,10 +26,10 @@
 #ifndef quantlib_concentrating_1d_mesher_hpp
 #define quantlib_concentrating_1d_mesher_hpp
 
-#include <ql/methods/finitedifferences/meshers/fdm1dmesher.hpp>
-#include <ql/utilities/null.hpp>
+#include <methods/finitedifferences/meshers/fdm1dmesher.hpp>
+#include <utilities/null.hpp>
 
-#include <ql/tuple.hpp>
+#include <tuple.hpp>
 
 #include <utility>
 #include <vector>

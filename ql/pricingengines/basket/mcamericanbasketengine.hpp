@@ -26,14 +26,14 @@
 #ifndef quantlib_american_basket_montecarlo_engine_hpp
 #define quantlib_american_basket_montecarlo_engine_hpp
 
-#include <ql/exercise.hpp>
-#include <ql/functional.hpp>
-#include <ql/instruments/basketoption.hpp>
-#include <ql/methods/montecarlo/lsmbasissystem.hpp>
-#include <ql/pricingengines/mclongstaffschwartzengine.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/processes/stochasticprocessarray.hpp>
-#include <ql/qldefines.hpp>
+#include <exercise.hpp>
+#include <functional.hpp>
+#include <instruments/basketoption.hpp>
+#include <methods/montecarlo/lsmbasissystem.hpp>
+#include <pricingengines/mclongstaffschwartzengine.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <processes/stochasticprocessarray.hpp>
+#include <qldefines.hpp>
 #include <utility>
 
 namespace QuantLib {

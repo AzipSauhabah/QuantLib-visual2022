@@ -19,20 +19,20 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/interpolations/cubicinterpolation.hpp>
-#include <ql/math/interpolations/bicubicsplineinterpolation.hpp>
-#include <ql/termstructures/yield/zerocurve.hpp>
-#include <ql/termstructures/inflation/interpolatedyoyinflationcurve.hpp>
-#include <ql/cashflows/inflationcoupon.hpp>
-#include <ql/cashflows/inflationcouponpricer.hpp>
-#include <ql/experimental/inflation/yoycapfloortermpricesurface.hpp>
-#include <ql/pricingengines/inflation/inflationcapfloorengines.hpp>
-#include <ql/experimental/inflation/yoyoptionletstripper.hpp>
-#include <ql/experimental/inflation/kinterpolatedyoyoptionletvolatilitysurface.hpp>
-#include <ql/experimental/inflation/interpolatedyoyoptionletstripper.hpp>
-#include <ql/cashflows/capflooredinflationcoupon.hpp>
-#include <ql/indexes/inflation/euhicp.hpp>
-#include <ql/indexes/inflation/ukrpi.hpp>
+#include <math/interpolations/cubicinterpolation.hpp>
+#include <math/interpolations/bicubicsplineinterpolation.hpp>
+#include <termstructures/yield/zerocurve.hpp>
+#include <termstructures/inflation/interpolatedyoyinflationcurve.hpp>
+#include <cashflows/inflationcoupon.hpp>
+#include <cashflows/inflationcouponpricer.hpp>
+#include <experimental/inflation/yoycapfloortermpricesurface.hpp>
+#include <pricingengines/inflation/inflationcapfloorengines.hpp>
+#include <experimental/inflation/yoyoptionletstripper.hpp>
+#include <experimental/inflation/kinterpolatedyoyoptionletvolatilitysurface.hpp>
+#include <experimental/inflation/interpolatedyoyoptionletstripper.hpp>
+#include <cashflows/capflooredinflationcoupon.hpp>
+#include <indexes/inflation/euhicp.hpp>
+#include <indexes/inflation/ukrpi.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test;
@@ -70,8 +70,8 @@ void reset() {
     nominalEUR = Handle<YieldTermStructure>();
     nominalGBP = Handle<YieldTermStructure>();
     priceSurfEU.reset();
-    yoyEU.reset();
-    yoyUK.reset();
+    yoyEU.linkTo(ext::shared_ptr<YoYInflationTermStructure>());
+    yoyUK.linkTo(ext::shared_ptr<YoYInflationTermStructure>());
     yoyIndexUK.reset();
     yoyIndexEU.reset();
     cPriceEU.reset();
@@ -94,8 +94,8 @@ void setup() {
     Date eval = Date(Day(23), Month(11), Year(2007));
     Settings::instance().evaluationDate() = eval;
 
-    yoyIndexUK = ext::make_shared<YoYInflationIndex>(ext::make_shared<UKRPI>(), yoyUK);
-    yoyIndexEU = ext::make_shared<YoYInflationIndex>(ext::make_shared<EUHICP>(), yoyEU);
+    yoyIndexUK = ext::make_shared<YoYInflationIndex>(ext::make_shared<UKRPI>(), true, yoyUK);
+    yoyIndexEU = ext::make_shared<YoYInflationIndex>(ext::make_shared<EUHICP>(), true, yoyEU);
 
     // nominal yield curve (interpolated; times assume year parts have 365 days)
     Real timesEUR[] = {0.0109589, 0.0684932, 0.263014, 0.317808, 0.567123, 0.816438,
@@ -318,14 +318,14 @@ BOOST_AUTO_TEST_CASE(testYoYPriceSurfaceToVol) {
 
     // now use it for something ... like stating what the T=const lines look like
     const Real volATyear1[] = {
-          0.0129, 0.0094, 0.0083, 0.0073, 0.0064,
+          0.0128, 0.0093, 0.0083, 0.0073, 0.0064,
           0.0058, 0.0042, 0.0046, 0.0053, 0.0064,
           0.0098
     };
     const Real volATyear3[] = {
-          0.0080, 0.0058, 0.0051, 0.0045, 0.0040,
-          0.0035, 0.0026, 0.0028, 0.0033, 0.0040,
-          0.0061
+          0.0079, 0.0058, 0.0051, 0.0045, 0.0039,
+          0.0035, 0.0026, 0.0028, 0.0033, 0.0039,
+          0.0060
     };
 
     Date d = yoySurf->baseDate() + Period(1,Years);

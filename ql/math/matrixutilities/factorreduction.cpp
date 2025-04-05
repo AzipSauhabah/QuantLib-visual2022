@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/matrixutilities/factorreduction.hpp>
-#include <ql/math/matrixutilities/symmetricschurdecomposition.hpp>
+#include <math/matrixutilities/factorreduction.hpp>
+#include <math/matrixutilities/symmetricschurdecomposition.hpp>
 #include <vector>
 
 namespace QuantLib {

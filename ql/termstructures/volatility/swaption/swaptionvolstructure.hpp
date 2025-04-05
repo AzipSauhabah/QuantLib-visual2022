@@ -27,8 +27,8 @@
 #ifndef quantlib_swaption_volatility_structure_hpp
 #define quantlib_swaption_volatility_structure_hpp
 
-#include <ql/termstructures/voltermstructure.hpp>
-#include <ql/termstructures/volatility/volatilitytype.hpp>
+#include <termstructures/voltermstructure.hpp>
+#include <termstructures/volatility/volatilitytype.hpp>
 
 namespace QuantLib {
 

@@ -25,8 +25,8 @@
 #ifndef quantlib_bma_coupon_hpp
 #define quantlib_bma_coupon_hpp
 
-#include <ql/cashflows/floatingratecoupon.hpp>
-#include <ql/indexes/bmaindex.hpp>
+#include <cashflows/floatingratecoupon.hpp>
+#include <indexes/bmaindex.hpp>
 
 namespace QuantLib {
 

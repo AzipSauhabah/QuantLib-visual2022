@@ -25,8 +25,8 @@
 #ifndef quantlib_tree_hpp
 #define quantlib_tree_hpp
 
-#include <ql/types.hpp>
-#include <ql/patterns/curiouslyrecurring.hpp>
+#include <types.hpp>
+#include <patterns/curiouslyrecurring.hpp>
 
 namespace QuantLib {
 

@@ -17,12 +17,12 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/swaption/gaussian1dnonstandardswaptionengine.hpp>
-#include <ql/rebatedexercise.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/math/interpolations/cubicinterpolation.hpp>
-#include <ql/payoff.hpp>
+#include <pricingengines/swaption/gaussian1dnonstandardswaptionengine.hpp>
+#include <rebatedexercise.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <quotes/simplequote.hpp>
+#include <math/interpolations/cubicinterpolation.hpp>
+#include <payoff.hpp>
 
 using std::exp;
 

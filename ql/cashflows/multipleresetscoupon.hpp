@@ -25,10 +25,10 @@
 #ifndef quantlib_multiple_resets_coupon_hpp
 #define quantlib_multiple_resets_coupon_hpp
 
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/cashflows/floatingratecoupon.hpp>
-#include <ql/cashflows/rateaveraging.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <cashflows/floatingratecoupon.hpp>
+#include <cashflows/rateaveraging.hpp>
+#include <time/schedule.hpp>
 #include <vector>
 
 namespace QuantLib {

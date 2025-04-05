@@ -20,7 +20,7 @@
 #ifndef convolved_student_t_hpp
 #define convolved_student_t_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <vector>
 #include <numeric>
 #include <functional>

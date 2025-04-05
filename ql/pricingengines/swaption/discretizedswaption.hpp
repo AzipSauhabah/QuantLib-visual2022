@@ -26,8 +26,8 @@
 #ifndef quantlib_discretized_swaption_hpp
 #define quantlib_discretized_swaption_hpp
 
-#include <ql/discretizedasset.hpp>
-#include <ql/instruments/swaption.hpp>
+#include <discretizedasset.hpp>
+#include <instruments/swaption.hpp>
 
 namespace QuantLib {
 

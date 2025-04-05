@@ -26,8 +26,8 @@
 #ifndef quantlib_euhicp_hpp
 #define quantlib_euhicp_hpp
 
-#include <ql/currencies/europe.hpp>
-#include <ql/indexes/inflationindex.hpp>
+#include <currencies/europe.hpp>
+#include <indexes/inflationindex.hpp>
 
 namespace QuantLib {
 
@@ -61,21 +61,6 @@ namespace QuantLib {
     //! Quoted year-on-year EU HICP (i.e. not a ratio of EU HICP)
     class YYEUHICP : public YoYInflationIndex {
       public:
-        explicit YYEUHICP(const Handle<YoYInflationTermStructure>& ts = {})
-        : YoYInflationIndex("YY_HICP",
-                            EURegion(),
-                            false,
-                            Monthly,
-                            Period(1, Months),
-                            EURCurrency(),
-                            ts) {}
-
-        QL_DEPRECATED_DISABLE_WARNING
-
-        /*! \deprecated Use the overload without the interpolated parameter.
-                        Deprecated in version 1.38.
-        */
-        [[deprecated("Use the overload without the interpolated parameter")]]
         explicit YYEUHICP(
             bool interpolated,
             const Handle<YoYInflationTermStructure>& ts = {})
@@ -87,28 +72,11 @@ namespace QuantLib {
                             Period(1, Months),
                             EURCurrency(),
                             ts) {}
-
-        QL_DEPRECATED_ENABLE_WARNING
     };
 
     //! Quoted year-on-year EU HICPXT
     class YYEUHICPXT : public YoYInflationIndex {
       public:
-        explicit YYEUHICPXT(const Handle<YoYInflationTermStructure>& ts = {})
-        : YoYInflationIndex("YY_HICPXT",
-                            EURegion(),
-                            false,
-                            Monthly,
-                            Period(1, Months),
-                            EURCurrency(),
-                            ts) {}
-
-        QL_DEPRECATED_DISABLE_WARNING
-
-        /*! \deprecated Use the overload without the interpolated parameter.
-                        Deprecated in version 1.38.
-        */
-        [[deprecated("Use the overload without the interpolated parameter")]]
         explicit YYEUHICPXT(
             bool interpolated,
             const Handle<YoYInflationTermStructure>& ts = {})
@@ -120,8 +88,6 @@ namespace QuantLib {
                             Period(1, Months),
                             EURCurrency(),
                             ts) {}
-
-        QL_DEPRECATED_ENABLE_WARNING
     };
 
 }

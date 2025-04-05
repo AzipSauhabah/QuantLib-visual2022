@@ -25,8 +25,8 @@
 #ifndef quantlib_generic_model_engine_hpp
 #define quantlib_generic_model_engine_hpp
 
-#include <ql/handle.hpp>
-#include <ql/pricingengine.hpp>
+#include <handle.hpp>
+#include <pricingengine.hpp>
 #include <utility>
 
 namespace QuantLib {

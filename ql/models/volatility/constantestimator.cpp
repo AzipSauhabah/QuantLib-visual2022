@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/volatility/constantestimator.hpp>
+#include <models/volatility/constantestimator.hpp>
 
 namespace QuantLib {
     TimeSeries<Volatility>

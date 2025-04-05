@@ -21,7 +21,7 @@
 #ifndef quantlib_market_model_node_data_provider_hpp
 #define quantlib_market_model_node_data_provider_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <vector>
 #include <valarray>
 

@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/quotes/forwardswapquote.hpp>
-#include <ql/settings.hpp>
+#include <quotes/forwardswapquote.hpp>
+#include <settings.hpp>
 #include <utility>
 
 namespace QuantLib {

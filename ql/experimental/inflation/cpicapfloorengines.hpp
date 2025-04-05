@@ -26,8 +26,8 @@
 #ifndef quantlib_cpicapfloorengines_hpp
 #define quantlib_cpicapfloorengines_hpp
 
-#include <ql/pricingengines/genericmodelengine.hpp>
-#include <ql/instruments/cpicapfloor.hpp>
+#include <pricingengines/genericmodelengine.hpp>
+#include <instruments/cpicapfloor.hpp>
 
 
 namespace QuantLib {

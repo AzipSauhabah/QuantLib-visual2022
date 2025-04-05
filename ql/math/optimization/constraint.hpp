@@ -25,7 +25,7 @@
 #ifndef quantlib_optimization_constraint_h
 #define quantlib_optimization_constraint_h
 
-#include <ql/math/array.hpp>
+#include <math/array.hpp>
 #include <algorithm>
 #include <utility>
 

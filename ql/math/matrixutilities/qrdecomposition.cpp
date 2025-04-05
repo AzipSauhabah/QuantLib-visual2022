@@ -21,8 +21,8 @@
     \brief QR decomposition
 */
 
-#include <ql/math/optimization/lmdif.hpp>
-#include <ql/math/matrixutilities/qrdecomposition.hpp>
+#include <math/optimization/lmdif.hpp>
+#include <math/matrixutilities/qrdecomposition.hpp>
 #include <memory>
 
 namespace QuantLib {

@@ -20,7 +20,7 @@
 #ifndef quantlib_multistep_inverse_floater_hpp
 #define quantlib_multistep_inverse_floater_hpp
 
-#include <ql/models/marketmodels/products/multiproductmultistep.hpp>
+#include <models/marketmodels/products/multiproductmultistep.hpp>
 
 namespace QuantLib {
 

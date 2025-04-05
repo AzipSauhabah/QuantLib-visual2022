@@ -25,12 +25,12 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/time/date.hpp>
-#include <ql/time/timeunit.hpp>
-#include <ql/time/imm.hpp>
-#include <ql/time/ecb.hpp>
-#include <ql/time/asx.hpp>
-#include <ql/utilities/dataparsers.hpp>
+#include <time/date.hpp>
+#include <time/timeunit.hpp>
+#include <time/imm.hpp>
+#include <time/ecb.hpp>
+#include <time/asx.hpp>
+#include <utilities/dataparsers.hpp>
 
 #include <sstream>
 #include <unordered_set>

@@ -23,14 +23,14 @@
 #ifndef quantlib_fdm_affine_model_swap_inner_value_hpp
 #define quantlib_fdm_affine_model_swap_inner_value_hpp
 
-#include <ql/cashflows/coupon.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/instruments/vanillaswap.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmaffinemodeltermstructure.hpp>
-#include <ql/methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
-#include <ql/models/shortrate/onefactormodels/hullwhite.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
+#include <cashflows/coupon.hpp>
+#include <indexes/iborindex.hpp>
+#include <instruments/vanillaswap.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/utilities/fdmaffinemodeltermstructure.hpp>
+#include <methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
+#include <models/shortrate/onefactormodels/hullwhite.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
 #include <map>
 #include <utility>
 

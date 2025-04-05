@@ -25,21 +25,21 @@
 #include "preconditions.hpp"
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/instruments/swaption.hpp>
-#include <ql/instruments/makevanillaswap.hpp>
-#include <ql/instruments/makeois.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/yield/zerospreadedtermstructure.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/indexes/ibor/eonia.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/pricingengines/swaption/blackswaptionengine.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <instruments/swaption.hpp>
+#include <instruments/makevanillaswap.hpp>
+#include <instruments/makeois.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/yield/zerospreadedtermstructure.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <indexes/ibor/eonia.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <time/daycounters/thirty360.hpp>
+#include <time/schedule.hpp>
+#include <pricingengines/swaption/blackswaptionengine.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <utilities/dataformatters.hpp>
+#include <quotes/simplequote.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

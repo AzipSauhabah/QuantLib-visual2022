@@ -18,8 +18,8 @@
 */
 
 
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmmesherintegral.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/utilities/fdmmesherintegral.hpp>
 
 namespace QuantLib {
     FdmMesherIntegral::FdmMesherIntegral(

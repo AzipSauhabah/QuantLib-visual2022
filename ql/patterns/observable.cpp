@@ -19,7 +19,7 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
 
-#include <ql/patterns/observable.hpp>
+#include <patterns/observable.hpp>
 
 #ifndef QL_ENABLE_THREAD_SAFE_OBSERVER_PATTERN
 

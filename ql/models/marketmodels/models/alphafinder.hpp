@@ -20,8 +20,8 @@
 #ifndef quantlib_alpha_finder_hpp
 #define quantlib_alpha_finder_hpp
 
-#include <ql/models/marketmodels/models/alphaform.hpp>
-#include <ql/shared_ptr.hpp>
+#include <models/marketmodels/models/alphaform.hpp>
+#include <shared_ptr.hpp>
 #include <vector>
 
 namespace QuantLib {

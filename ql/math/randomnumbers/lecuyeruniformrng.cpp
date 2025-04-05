@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/randomnumbers/lecuyeruniformrng.hpp>
-#include <ql/math/randomnumbers/seedgenerator.hpp>
+#include <math/randomnumbers/lecuyeruniformrng.hpp>
+#include <math/randomnumbers/seedgenerator.hpp>
 
 namespace QuantLib {
 

@@ -19,11 +19,11 @@
  */
 
 
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/cashflows/cpicoupon.hpp>
-#include <ql/cashflows/cpicouponpricer.hpp>
-#include <ql/cashflows/inflationcoupon.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <cashflows/cpicoupon.hpp>
+#include <cashflows/cpicouponpricer.hpp>
+#include <cashflows/inflationcoupon.hpp>
+#include <time/daycounters/thirty360.hpp>
 #include <utility>
 
 

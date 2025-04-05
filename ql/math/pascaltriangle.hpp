@@ -25,7 +25,7 @@
 #ifndef quantlib_pascal_triangle_hpp
 #define quantlib_pascal_triangle_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <vector>
 
 namespace QuantLib {

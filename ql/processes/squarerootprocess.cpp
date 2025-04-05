@@ -19,7 +19,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/processes/squarerootprocess.hpp>
+#include <processes/squarerootprocess.hpp>
 
 namespace QuantLib {
 

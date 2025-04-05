@@ -24,8 +24,8 @@
 #ifndef quantlib_polar_student_t_rng_h
 #define quantlib_polar_student_t_rng_h
 
-#include <ql/methods/montecarlo/sample.hpp>
-#include <ql/errors.hpp>
+#include <methods/montecarlo/sample.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

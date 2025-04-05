@@ -19,7 +19,7 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/randomnumbers/xoshiro256starstaruniformrng.hpp>
+#include <math/randomnumbers/xoshiro256starstaruniformrng.hpp>
 #include <numeric>
 
 using namespace QuantLib;

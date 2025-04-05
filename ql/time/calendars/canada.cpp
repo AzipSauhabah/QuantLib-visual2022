@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/calendars/canada.hpp>
-#include <ql/errors.hpp>
+#include <time/calendars/canada.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

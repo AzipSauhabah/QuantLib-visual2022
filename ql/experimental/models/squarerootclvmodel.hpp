@@ -24,12 +24,12 @@
 #ifndef quantlib_square_root_clv_model_hpp
 #define quantlib_square_root_clv_model_hpp
 
-#include <ql/time/date.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/math/interpolations/lagrangeinterpolation.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/experimental/math/gaussiannoncentralchisquaredpolynomial.hpp>
-#include <ql/functional.hpp>
+#include <time/date.hpp>
+#include <patterns/lazyobject.hpp>
+#include <math/interpolations/lagrangeinterpolation.hpp>
+#include <math/matrix.hpp>
+#include <experimental/math/gaussiannoncentralchisquaredpolynomial.hpp>
+#include <functional.hpp>
 #include <map>
 
 namespace QuantLib {

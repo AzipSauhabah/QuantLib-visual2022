@@ -40,7 +40,7 @@
 #ifndef quantlib_math_svd_h
 #define quantlib_math_svd_h
 
-#include <ql/math/matrix.hpp>
+#include <math/matrix.hpp>
 
 namespace QuantLib {
 

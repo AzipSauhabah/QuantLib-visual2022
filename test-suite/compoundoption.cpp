@@ -19,17 +19,17 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/instruments/compoundoption.hpp>
-#include <ql/pricingengines/exotic/analyticcompoundoptionengine.hpp>
-#include <ql/instruments/europeanoption.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <instruments/compoundoption.hpp>
+#include <pricingengines/exotic/analyticcompoundoptionengine.hpp>
+#include <instruments/europeanoption.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <time/calendars/target.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <utilities/dataformatters.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

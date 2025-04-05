@@ -20,7 +20,7 @@
 #ifndef quantlib_multi_product_composite_hpp
 #define quantlib_multi_product_composite_hpp
 
-#include <ql/models/marketmodels/products/compositeproduct.hpp>
+#include <models/marketmodels/products/compositeproduct.hpp>
 
 namespace QuantLib {
 

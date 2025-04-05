@@ -24,16 +24,16 @@
 #ifndef quantlib_andreasen_huge_local_volatility_hpp
 #define quantlib_andreasen_huge_local_volatility_hpp
 
-#include <ql/quote.hpp>
-#include <ql/handle.hpp>
-#include <ql/option.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/math/optimization/levenbergmarquardt.hpp>
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/termstructures/volatility/equityfx/localvoltermstructure.hpp>
+#include <quote.hpp>
+#include <handle.hpp>
+#include <option.hpp>
+#include <math/matrix.hpp>
+#include <patterns/lazyobject.hpp>
+#include <math/optimization/levenbergmarquardt.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <termstructures/volatility/equityfx/localvoltermstructure.hpp>
 
-#include <ql/tuple.hpp>
+#include <tuple.hpp>
 #include <utility>
 
 namespace QuantLib {

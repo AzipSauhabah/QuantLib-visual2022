@@ -21,8 +21,8 @@
 #ifndef quantlib_market_model_parametric_exercise_adapter_hpp
 #define quantlib_market_model_parametric_exercise_adapter_hpp
 
-#include <ql/methods/montecarlo/exercisestrategy.hpp>
-#include <ql/utilities/clone.hpp>
+#include <methods/montecarlo/exercisestrategy.hpp>
+#include <utilities/clone.hpp>
 #include <valarray>
 
 namespace QuantLib {

@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/callablebonds/discretizedcallablefixedratebond.hpp>
-#include <ql/experimental/callablebonds/treecallablebondengine.hpp>
-#include <ql/models/shortrate/onefactormodel.hpp>
+#include <experimental/callablebonds/discretizedcallablefixedratebond.hpp>
+#include <experimental/callablebonds/treecallablebondengine.hpp>
+#include <models/shortrate/onefactormodel.hpp>
 #include <utility>
 
 namespace QuantLib {

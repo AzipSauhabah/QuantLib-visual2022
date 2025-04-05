@@ -21,14 +21,14 @@
 #ifndef quantlib_defaultlossmodel_hpp
 #define quantlib_defaultlossmodel_hpp
 
-#include <ql/instruments/claim.hpp>
-#include <ql/experimental/credit/defaultprobabilitykey.hpp>
-#include <ql/experimental/credit/basket.hpp>
+#include <instruments/claim.hpp>
+#include <experimental/credit/defaultprobabilitykey.hpp>
+#include <experimental/credit/basket.hpp>
 
-#include <ql/utilities/null_deleter.hpp>
+#include <utilities/null_deleter.hpp>
 
 /* Intended to replace LossDistribution in 
-    ql/experimental/credit/lossdistribution, not sure its covering all the 
+    experimental/credit/lossdistribution, not sure its covering all the 
     functionality (see mthod below)
 */
 

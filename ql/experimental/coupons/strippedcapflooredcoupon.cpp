@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/experimental/coupons/strippedcapflooredcoupon.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <experimental/coupons/strippedcapflooredcoupon.hpp>
 #include <utility>
 
 namespace QuantLib {

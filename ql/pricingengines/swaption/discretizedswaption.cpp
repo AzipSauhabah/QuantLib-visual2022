@@ -19,9 +19,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/pricingengines/swap/discretizedswap.hpp>
-#include <ql/pricingengines/swaption/discretizedswaption.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <pricingengines/swap/discretizedswap.hpp>
+#include <pricingengines/swaption/discretizedswaption.hpp>
 
 namespace QuantLib {
 

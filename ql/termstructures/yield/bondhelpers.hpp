@@ -26,10 +26,10 @@
 #ifndef quantlib_bond_helpers_hpp
 #define quantlib_bond_helpers_hpp
 
-#include <ql/termstructures/yield/ratehelpers.hpp>
-#include <ql/instruments/bonds/fixedratebond.hpp>
-#include <ql/instruments/bonds/cpibond.hpp>
-#include <ql/cashflows/cpicoupon.hpp>
+#include <termstructures/yield/ratehelpers.hpp>
+#include <instruments/bonds/fixedratebond.hpp>
+#include <instruments/bonds/cpibond.hpp>
+#include <cashflows/cpicoupon.hpp>
 
 namespace QuantLib {
 

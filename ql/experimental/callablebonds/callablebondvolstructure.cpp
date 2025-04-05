@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/callablebonds/callablebondvolstructure.hpp>
-#include <ql/time/period.hpp>
+#include <experimental/callablebonds/callablebondvolstructure.hpp>
+#include <time/period.hpp>
 
 namespace QuantLib {
 

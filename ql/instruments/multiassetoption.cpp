@@ -19,10 +19,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/multiassetoption.hpp>
-#include <ql/stochasticprocess.hpp>
-#include <ql/exercise.hpp>
-#include <ql/event.hpp>
+#include <instruments/multiassetoption.hpp>
+#include <stochasticprocess.hpp>
+#include <exercise.hpp>
+#include <event.hpp>
 
 namespace QuantLib {
 

@@ -21,7 +21,7 @@
 #ifndef quantlib_ctsmm_caplet_original_calibration_hpp
 #define quantlib_ctsmm_caplet_original_calibration_hpp
 
-#include <ql/models/marketmodels/models/ctsmmcapletcalibration.hpp>
+#include <models/marketmodels/models/ctsmmcapletcalibration.hpp>
 
 namespace QuantLib {
 

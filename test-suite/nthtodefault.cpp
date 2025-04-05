@@ -20,19 +20,19 @@
 #include "preconditions.hpp"
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/currencies/europe.hpp>
-#include <ql/experimental/credit/constantlosslatentmodel.hpp>
-#include <ql/experimental/credit/integralntdengine.hpp>
-#include <ql/experimental/credit/nthtodefault.hpp>
-#include <ql/experimental/credit/pool.hpp>
-#include <ql/experimental/credit/randomdefaultlatentmodel.hpp>
-#include <ql/instruments/creditdefaultswap.hpp>
-#include <ql/pricingengines/credit/integralcdsengine.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/credit/flathazardrate.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actual360.hpp>
+#include <currencies/europe.hpp>
+#include <experimental/credit/constantlosslatentmodel.hpp>
+#include <experimental/credit/integralntdengine.hpp>
+#include <experimental/credit/nthtodefault.hpp>
+#include <experimental/credit/pool.hpp>
+#include <experimental/credit/randomdefaultlatentmodel.hpp>
+#include <instruments/creditdefaultswap.hpp>
+#include <pricingengines/credit/integralcdsengine.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/credit/flathazardrate.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actual360.hpp>
 #include <iostream>
 #include <string>
 
@@ -222,6 +222,8 @@ BOOST_AUTO_TEST_CASE(testGauss, *precondition(if_speed(Slow))) {
         simpleQuote->setValue (hwCorrelation[j]);
         for (Size i = 0; i < ntd.size(); i++) {
             QL_REQUIRE(ntd[i].rank() == hwData[i].rank, "rank does not match");
+            QL_REQUIRE(std::size(hwCorrelation) == std::size(hwData[i].spread),
+                       "vector length does not match");
             diff = 1e4 * ntd[i].fairPremium() - hwData[i].spread[j];
             maxDiff = std::max(maxDiff, fabs (diff));
             BOOST_CHECK_MESSAGE (fabs(diff/hwData[i].spread[j]) < relTolerance

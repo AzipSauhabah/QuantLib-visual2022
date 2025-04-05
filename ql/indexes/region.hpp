@@ -25,8 +25,8 @@
 #ifndef quantlib_region_hpp
 #define quantlib_region_hpp
 
-#include <ql/qldefines.hpp>
-#include <ql/shared_ptr.hpp>
+#include <qldefines.hpp>
+#include <shared_ptr.hpp>
 #include <string>
 #include <utility>
 

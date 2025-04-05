@@ -17,12 +17,12 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/volatility/sabrvolsurface.hpp>
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/math/interpolations/sabrinterpolation.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/volatility/smilesection.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <experimental/volatility/sabrvolsurface.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <math/interpolations/sabrinterpolation.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/volatility/smilesection.hpp>
+#include <utilities/dataformatters.hpp>
 #include <utility>
 
 namespace QuantLib {

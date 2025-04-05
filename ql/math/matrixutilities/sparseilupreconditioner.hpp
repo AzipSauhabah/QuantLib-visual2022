@@ -24,8 +24,8 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef quantlib_sparse_ilu_preconditioner_hpp
 #define quantlib_sparse_ilu_preconditioner_hpp
 
-#include <ql/math/array.hpp>
-#include <ql/math/matrixutilities/sparsematrix.hpp>
+#include <math/array.hpp>
+#include <math/matrixutilities/sparsematrix.hpp>
 
 namespace QuantLib {
 

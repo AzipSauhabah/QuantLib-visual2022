@@ -18,11 +18,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/multipleresetscoupon.hpp>
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <cashflows/multipleresetscoupon.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <time/schedule.hpp>
+#include <indexes/iborindex.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <cmath>
 
 namespace QuantLib {

@@ -24,9 +24,9 @@
 #ifndef quantlib_vanna_volga_interpolation_hpp
 #define quantlib_vanna_volga_interpolation_hpp
 
-#include <ql/math/interpolation.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <math/interpolation.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <math/distributions/normaldistribution.hpp>
 #include <vector>
 
 namespace QuantLib {

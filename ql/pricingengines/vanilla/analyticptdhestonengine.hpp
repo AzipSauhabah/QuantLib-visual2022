@@ -24,9 +24,9 @@
 #ifndef quantlib_analytic_piecewise_time_dependent_heston_engine_hpp
 #define quantlib_analytic_piecewise_time_dependent_heston_engine_hpp
 
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/pricingengines/vanilla/analytichestonengine.hpp>
-#include <ql/models/equity/piecewisetimedependenthestonmodel.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <pricingengines/vanilla/analytichestonengine.hpp>
+#include <models/equity/piecewisetimedependenthestonmodel.hpp>
 
 
 namespace QuantLib {

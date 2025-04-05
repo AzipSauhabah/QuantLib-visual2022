@@ -20,8 +20,8 @@
 */
 
 
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmindicesonboundary.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/utilities/fdmindicesonboundary.hpp>
 
 namespace QuantLib {
     FdmIndicesOnBoundary::FdmIndicesOnBoundary(

@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/commodities/unitofmeasureconversion.hpp>
-#include <ql/errors.hpp>
+#include <experimental/commodities/unitofmeasureconversion.hpp>
+#include <errors.hpp>
 
 using std::string;
 

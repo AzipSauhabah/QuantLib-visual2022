@@ -24,9 +24,9 @@
 #ifndef quantlib_coupon_quanto_pricer_hpp
 #define quantlib_coupon_quanto_pricer_hpp
 
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/quote.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvoltermstructure.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <quote.hpp>
+#include <termstructures/volatility/equityfx/blackvoltermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

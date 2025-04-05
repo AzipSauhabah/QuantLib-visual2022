@@ -27,10 +27,10 @@
 #ifndef quantlib_index_hpp
 #define quantlib_index_hpp
 
-#include <ql/indexes/indexmanager.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/patterns/observable.hpp>
-#include <ql/time/calendar.hpp>
+#include <indexes/indexmanager.hpp>
+#include <math/comparison.hpp>
+#include <patterns/observable.hpp>
+#include <time/calendar.hpp>
 
 namespace QuantLib {
 

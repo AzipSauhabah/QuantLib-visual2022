@@ -24,9 +24,9 @@
 #ifndef quantlib_fdm_bermudan_step_condition_hpp
 #define quantlib_fdm_bermudan_step_condition_hpp
 
-#include <ql/time/daycounter.hpp>
-#include <ql/methods/finitedifferences/stepcondition.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <time/daycounter.hpp>
+#include <methods/finitedifferences/stepcondition.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
 
 namespace QuantLib {
 

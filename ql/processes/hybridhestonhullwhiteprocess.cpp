@@ -22,8 +22,8 @@
            with stochastic interest rates (hull white model)
 */
 
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/processes/hybridhestonhullwhiteprocess.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <processes/hybridhestonhullwhiteprocess.hpp>
 
 namespace QuantLib {
 

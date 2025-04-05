@@ -24,16 +24,16 @@
 #include "preconditions.hpp"
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/optimization/bfgs.hpp>
-#include <ql/math/optimization/conjugategradient.hpp>
-#include <ql/math/optimization/constraint.hpp>
-#include <ql/math/optimization/costfunction.hpp>
-#include <ql/math/optimization/differentialevolution.hpp>
-#include <ql/math/optimization/goldstein.hpp>
-#include <ql/math/optimization/levenbergmarquardt.hpp>
-#include <ql/math/optimization/simplex.hpp>
-#include <ql/math/optimization/steepestdescent.hpp>
-#include <ql/math/randomnumbers/mt19937uniformrng.hpp>
+#include <math/optimization/bfgs.hpp>
+#include <math/optimization/conjugategradient.hpp>
+#include <math/optimization/constraint.hpp>
+#include <math/optimization/costfunction.hpp>
+#include <math/optimization/differentialevolution.hpp>
+#include <math/optimization/goldstein.hpp>
+#include <math/optimization/levenbergmarquardt.hpp>
+#include <math/optimization/simplex.hpp>
+#include <math/optimization/steepestdescent.hpp>
+#include <math/randomnumbers/mt19937uniformrng.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

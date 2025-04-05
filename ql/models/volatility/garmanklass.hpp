@@ -24,8 +24,8 @@
 #ifndef quantlib_garman_klass_hpp
 #define quantlib_garman_klass_hpp
 
-#include <ql/volatilitymodel.hpp>
-#include <ql/prices.hpp>
+#include <volatilitymodel.hpp>
+#include <prices.hpp>
 
 namespace QuantLib {
 

@@ -19,8 +19,8 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/rounding.hpp>
-#include <ql/math/comparison.hpp>
+#include <math/rounding.hpp>
+#include <math/comparison.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

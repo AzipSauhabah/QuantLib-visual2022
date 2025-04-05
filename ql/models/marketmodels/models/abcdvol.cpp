@@ -19,10 +19,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/models/abcdvol.hpp>
-#include <ql/models/marketmodels/piecewiseconstantcorrelation.hpp>
-#include <ql/termstructures/volatility/abcd.hpp>
-#include <ql/math/matrixutilities/pseudosqrt.hpp>
+#include <models/marketmodels/models/abcdvol.hpp>
+#include <models/marketmodels/piecewiseconstantcorrelation.hpp>
+#include <termstructures/volatility/abcd.hpp>
+#include <math/matrixutilities/pseudosqrt.hpp>
 
 using std::vector;
 

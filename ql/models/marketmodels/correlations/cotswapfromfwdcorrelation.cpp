@@ -20,10 +20,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/correlations/cotswapfromfwdcorrelation.hpp>
-#include <ql/models/marketmodels/curvestate.hpp>
-#include <ql/models/marketmodels/swapforwardmappings.hpp>
-#include <ql/math/matrixutilities/getcovariance.hpp>
+#include <models/marketmodels/correlations/cotswapfromfwdcorrelation.hpp>
+#include <models/marketmodels/curvestate.hpp>
+#include <models/marketmodels/swapforwardmappings.hpp>
+#include <math/matrixutilities/getcovariance.hpp>
 
 namespace QuantLib {
 

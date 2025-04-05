@@ -26,12 +26,12 @@
 #ifndef quantlib_schedule_hpp
 #define quantlib_schedule_hpp
 
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/time/period.hpp>
-#include <ql/time/dategenerationrule.hpp>
-#include <ql/errors.hpp>
-#include <ql/optional.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <utilities/null.hpp>
+#include <time/period.hpp>
+#include <time/dategenerationrule.hpp>
+#include <errors.hpp>
+#include <optional.hpp>
 
 namespace QuantLib {
 

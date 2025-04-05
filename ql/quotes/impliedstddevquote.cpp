@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/quotes/impliedstddevquote.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <quotes/impliedstddevquote.hpp>
 #include <utility>
 
 namespace QuantLib {

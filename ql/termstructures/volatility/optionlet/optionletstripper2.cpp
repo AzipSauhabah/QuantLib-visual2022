@@ -18,16 +18,16 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/indexes/iborindex.hpp>
-#include <ql/instruments/makecapfloor.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/pricingengines/capfloor/blackcapfloorengine.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/volatility/capfloor/capfloortermvolcurve.hpp>
-#include <ql/termstructures/volatility/optionlet/optionletstripper1.hpp>
-#include <ql/termstructures/volatility/optionlet/optionletstripper2.hpp>
-#include <ql/termstructures/volatility/optionlet/spreadedoptionletvol.hpp>
-#include <ql/termstructures/volatility/optionlet/strippedoptionletadapter.hpp>
+#include <indexes/iborindex.hpp>
+#include <instruments/makecapfloor.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <pricingengines/capfloor/blackcapfloorengine.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/volatility/capfloor/capfloortermvolcurve.hpp>
+#include <termstructures/volatility/optionlet/optionletstripper1.hpp>
+#include <termstructures/volatility/optionlet/optionletstripper2.hpp>
+#include <termstructures/volatility/optionlet/spreadedoptionletvol.hpp>
+#include <termstructures/volatility/optionlet/strippedoptionletadapter.hpp>
 #include <utility>
 
 

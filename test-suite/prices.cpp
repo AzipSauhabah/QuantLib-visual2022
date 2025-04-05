@@ -19,8 +19,8 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/prices.hpp>
-#include <ql/time/date.hpp>
+#include <prices.hpp>
+#include <time/date.hpp>
 #include <array>
 
 using namespace QuantLib;

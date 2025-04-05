@@ -22,7 +22,7 @@
     Gauss-Lobatto integral
 */
 
-#include <ql/math/integrals/gausslobattointegral.hpp>
+#include <math/integrals/gausslobattointegral.hpp>
 #include <algorithm>
 
 namespace QuantLib {

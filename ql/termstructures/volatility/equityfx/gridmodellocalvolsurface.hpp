@@ -24,8 +24,8 @@
 #ifndef quantlib_grid_model_local_vol_surface_hpp
 #define quantlib_grid_model_local_vol_surface_hpp
 
-#include <ql/models/model.hpp>
-#include <ql/termstructures/volatility/equityfx/fixedlocalvolsurface.hpp>
+#include <models/model.hpp>
+#include <termstructures/volatility/equityfx/fixedlocalvolsurface.hpp>
 
 namespace QuantLib {
 

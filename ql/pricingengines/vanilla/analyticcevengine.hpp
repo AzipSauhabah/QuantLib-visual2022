@@ -25,8 +25,8 @@
 #ifndef quantlib_analytic_cev_engine_hpp
 #define quantlib_analytic_cev_engine_hpp
 
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 
 namespace QuantLib {
 

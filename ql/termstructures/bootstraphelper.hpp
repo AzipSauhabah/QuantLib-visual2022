@@ -26,13 +26,13 @@
 #ifndef quantlib_bootstrap_helper_hpp
 #define quantlib_bootstrap_helper_hpp
 
-#include <ql/handle.hpp>
-#include <ql/patterns/observable.hpp>
-#include <ql/patterns/visitor.hpp>
-#include <ql/quote.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/settings.hpp>
-#include <ql/time/date.hpp>
+#include <handle.hpp>
+#include <patterns/observable.hpp>
+#include <patterns/visitor.hpp>
+#include <quote.hpp>
+#include <quotes/simplequote.hpp>
+#include <settings.hpp>
+#include <time/date.hpp>
 #include <utility>
 
 namespace QuantLib {
@@ -144,6 +144,7 @@ namespace QuantLib {
       protected:
         virtual void initializeDates() = 0;
         Date evaluationDate_;
+      private:
         bool updateDates_;
     };
 

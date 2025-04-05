@@ -21,10 +21,10 @@
     \brief Partial Integro Finite-Differences Bates vanilla option engine
 */
 
-#include <ql/processes/batesprocess.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbatessolver.hpp>
-#include <ql/pricingengines/vanilla/fdbatesvanillaengine.hpp>
-#include <ql/pricingengines/vanilla/fdhestonvanillaengine.hpp>
+#include <processes/batesprocess.hpp>
+#include <methods/finitedifferences/solvers/fdmbatessolver.hpp>
+#include <pricingengines/vanilla/fdbatesvanillaengine.hpp>
+#include <pricingengines/vanilla/fdhestonvanillaengine.hpp>
 
 namespace QuantLib {
 

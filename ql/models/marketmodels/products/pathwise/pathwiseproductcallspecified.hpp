@@ -21,12 +21,12 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef quantlib_market_model_pathwise_call_specified_hpp
 #define quantlib_market_model_pathwise_call_specified_hpp
 
-#include <ql/methods/montecarlo/exercisestrategy.hpp>
-#include <ql/models/marketmodels/curvestates/lmmcurvestate.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/models/marketmodels/pathwisemultiproduct.hpp>
-#include <ql/types.hpp>
-#include <ql/utilities/clone.hpp>
+#include <methods/montecarlo/exercisestrategy.hpp>
+#include <models/marketmodels/curvestates/lmmcurvestate.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/pathwisemultiproduct.hpp>
+#include <types.hpp>
+#include <utilities/clone.hpp>
 #include <memory>
 #include <valarray>
 #include <vector>

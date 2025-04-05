@@ -24,7 +24,7 @@
 #ifndef quantlib_curiously_recurring_h
 #define quantlib_curiously_recurring_h
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 
 namespace QuantLib {
 

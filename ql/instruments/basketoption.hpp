@@ -26,9 +26,9 @@
 #ifndef quantlib_basket_option_hpp
 #define quantlib_basket_option_hpp
 
-#include <ql/instruments/multiassetoption.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/math/array.hpp>
+#include <instruments/multiassetoption.hpp>
+#include <instruments/payoffs.hpp>
+#include <math/array.hpp>
 #include <utility>
 
 namespace QuantLib {

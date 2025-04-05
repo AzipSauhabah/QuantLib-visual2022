@@ -19,10 +19,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/makecapfloor.hpp>
-#include <ql/pricingengines/capfloor/blackcapfloorengine.hpp>
-#include <ql/termstructures/volatility/optionlet/strippedoptionlet.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <instruments/makecapfloor.hpp>
+#include <pricingengines/capfloor/blackcapfloorengine.hpp>
+#include <termstructures/volatility/optionlet/strippedoptionlet.hpp>
+#include <utilities/dataformatters.hpp>
 #include <utility>
 
 using std::vector;

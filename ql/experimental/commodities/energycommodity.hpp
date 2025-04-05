@@ -24,13 +24,13 @@
 #ifndef quantlib_energy_commodity_hpp
 #define quantlib_energy_commodity_hpp
 
-#include <ql/experimental/commodities/commodity.hpp>
-#include <ql/experimental/commodities/commoditytype.hpp>
-#include <ql/experimental/commodities/commodityunitcost.hpp>
-#include <ql/experimental/commodities/unitofmeasure.hpp>
-#include <ql/experimental/commodities/quantity.hpp>
-#include <ql/time/date.hpp>
-#include <ql/money.hpp>
+#include <experimental/commodities/commodity.hpp>
+#include <experimental/commodities/commoditytype.hpp>
+#include <experimental/commodities/commodityunitcost.hpp>
+#include <experimental/commodities/unitofmeasure.hpp>
+#include <experimental/commodities/quantity.hpp>
+#include <time/date.hpp>
+#include <money.hpp>
 
 namespace QuantLib {
 

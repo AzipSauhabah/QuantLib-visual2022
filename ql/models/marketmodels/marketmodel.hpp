@@ -23,9 +23,9 @@
 #ifndef quantlib_marketmodel_hpp
 #define quantlib_marketmodel_hpp
 
-#include <ql/math/matrix.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/patterns/observable.hpp>
+#include <math/matrix.hpp>
+#include <utilities/null.hpp>
+#include <patterns/observable.hpp>
 #include <vector>
 
 namespace QuantLib {

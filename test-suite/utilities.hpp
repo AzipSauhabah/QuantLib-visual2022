@@ -20,15 +20,14 @@
 #ifndef quantlib_test_utilities_hpp
 #define quantlib_test_utilities_hpp
 
-#include <ql/indexes/indexmanager.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/exercise.hpp>
-#include <ql/instruments/barriertype.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvoltermstructure.hpp>
-#include <ql/quote.hpp>
-#include <ql/patterns/observable.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
+#include <indexes/indexmanager.hpp>
+#include <instruments/payoffs.hpp>
+#include <exercise.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <termstructures/volatility/equityfx/blackvoltermstructure.hpp>
+#include <quote.hpp>
+#include <patterns/observable.hpp>
+#include <time/daycounters/actual365fixed.hpp>
 #include <boost/test/unit_test.hpp>
 #if BOOST_VERSION < 105900
 #include <boost/test/floating_point_comparison.hpp>
@@ -67,7 +66,6 @@ namespace QuantLib {
 
     std::string payoffTypeToString(const ext::shared_ptr<Payoff>&);
     std::string exerciseTypeToString(const ext::shared_ptr<Exercise>&);
-    std::string barrierTypeToString(Barrier::Type type);
 
 
     ext::shared_ptr<YieldTermStructure>

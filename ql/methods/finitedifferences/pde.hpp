@@ -24,9 +24,9 @@
 #ifndef quantlib_pde_hpp
 #define quantlib_pde_hpp
 
-#include <ql/math/array.hpp>
-#include <ql/methods/finitedifferences/tridiagonaloperator.hpp>
-#include <ql/math/transformedgrid.hpp>
+#include <math/array.hpp>
+#include <methods/finitedifferences/tridiagonaloperator.hpp>
+#include <math/transformedgrid.hpp>
 
 namespace QuantLib {
 

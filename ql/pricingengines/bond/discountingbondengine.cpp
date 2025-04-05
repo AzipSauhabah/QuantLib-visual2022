@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/pricingengines/bond/discountingbondengine.hpp>
-#include <ql/optional.hpp>
+#include <cashflows/cashflows.hpp>
+#include <pricingengines/bond/discountingbondengine.hpp>
+#include <optional.hpp>
 #include <utility>
 
 namespace QuantLib {

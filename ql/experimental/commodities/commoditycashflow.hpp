@@ -24,8 +24,8 @@
 #ifndef quantlib_commodity_cash_flow_hpp
 #define quantlib_commodity_cash_flow_hpp
 
-#include <ql/cashflow.hpp>
-#include <ql/money.hpp>
+#include <cashflow.hpp>
+#include <money.hpp>
 #include <map>
 #include <utility>
 

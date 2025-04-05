@@ -21,10 +21,10 @@
 /*! \file hestonslvmcmodel.cpp
 */
 
-#include <ql/math/functional.hpp>
-#include <ql/termstructures/volatility/equityfx/fixedlocalvolsurface.hpp>
-#include <ql/models/equity/hestonslvmcmodel.hpp>
-#include <ql/processes/hestonslvprocess.hpp>
+#include <math/functional.hpp>
+#include <termstructures/volatility/equityfx/fixedlocalvolsurface.hpp>
+#include <models/equity/hestonslvmcmodel.hpp>
+#include <processes/hestonslvprocess.hpp>
 
 #pragma push_macro("BOOST_DISABLE_ASSERTS")
 #ifndef BOOST_DISABLE_ASSERTS

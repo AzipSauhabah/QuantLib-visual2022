@@ -17,16 +17,16 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/integrals/gaussianquadratures.hpp>
-#include <ql/math/interpolations/cubicinterpolation.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/models/shortrate/onefactormodels/markovfunctional.hpp>
-#include <ql/termstructures/volatility/atmadjustedsmilesection.hpp>
-#include <ql/termstructures/volatility/atmsmilesection.hpp>
-#include <ql/termstructures/volatility/kahalesmilesection.hpp>
-#include <ql/termstructures/volatility/sabrinterpolatedsmilesection.hpp>
-#include <ql/termstructures/volatility/smilesection.hpp>
-#include <ql/termstructures/volatility/smilesectionutils.hpp>
+#include <math/integrals/gaussianquadratures.hpp>
+#include <math/interpolations/cubicinterpolation.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <models/shortrate/onefactormodels/markovfunctional.hpp>
+#include <termstructures/volatility/atmadjustedsmilesection.hpp>
+#include <termstructures/volatility/atmsmilesection.hpp>
+#include <termstructures/volatility/kahalesmilesection.hpp>
+#include <termstructures/volatility/sabrinterpolatedsmilesection.hpp>
+#include <termstructures/volatility/smilesection.hpp>
+#include <termstructures/volatility/smilesectionutils.hpp>
 #include <utility>
 
 namespace QuantLib {

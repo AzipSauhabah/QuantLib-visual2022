@@ -24,8 +24,8 @@
 #ifndef quantlib_black_callable_bond_engine_hpp
 #define quantlib_black_callable_bond_engine_hpp
 
-#include <ql/experimental/callablebonds/callablebond.hpp>
-#include <ql/experimental/callablebonds/callablebondvolstructure.hpp>
+#include <experimental/callablebonds/callablebond.hpp>
+#include <experimental/callablebonds/callablebondvolstructure.hpp>
 
 namespace QuantLib {
 

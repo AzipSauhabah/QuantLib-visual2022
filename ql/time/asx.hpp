@@ -28,7 +28,7 @@
 #ifndef quantlib_asx_hpp
 #define quantlib_asx_hpp
 
-#include <ql/time/date.hpp>
+#include <time/date.hpp>
 
 namespace QuantLib {
 

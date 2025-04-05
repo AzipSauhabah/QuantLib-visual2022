@@ -25,12 +25,12 @@
 #ifndef quantlib_cpicapfloor_hpp
 #define quantlib_cpicapfloor_hpp
 
-#include <ql/instrument.hpp>
-#include <ql/option.hpp>
-#include <ql/time/calendar.hpp>
-#include <ql/time/daycounter.hpp>
-#include <ql/indexes/inflationindex.hpp>
-#include <ql/cashflows/cpicoupon.hpp>
+#include <instrument.hpp>
+#include <option.hpp>
+#include <time/calendar.hpp>
+#include <time/daycounter.hpp>
+#include <indexes/inflationindex.hpp>
+#include <cashflows/cpicoupon.hpp>
 
 namespace QuantLib {
 

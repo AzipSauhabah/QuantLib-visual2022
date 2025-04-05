@@ -26,7 +26,7 @@
 #ifndef quantlib_optimization_criteria_hpp
 #define quantlib_optimization_criteria_hpp
 
-#include <ql/utilities/null.hpp>
+#include <utilities/null.hpp>
 #include <iosfwd>
 
 namespace QuantLib {

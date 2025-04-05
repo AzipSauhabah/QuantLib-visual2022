@@ -21,28 +21,28 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/types.hpp>
-#include <ql/indexes/inflation/ukrpi.hpp>
-#include <ql/termstructures/bootstraphelper.hpp>
-#include <ql/time/calendars/unitedkingdom.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/termstructures/yield/zerocurve.hpp>
-#include <ql/indexes/ibor/gbplibor.hpp>
-#include <ql/termstructures/inflation/inflationhelpers.hpp>
-#include <ql/termstructures/inflation/piecewisezeroinflationcurve.hpp>
-#include <ql/cashflows/indexedcashflow.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/instruments/zerocouponinflationswap.hpp>
-#include <ql/pricingengines/bond/discountingbondengine.hpp>
-#include <ql/math/interpolations/bilinearinterpolation.hpp>
-#include <ql/cashflows/cpicoupon.hpp>
-#include <ql/cashflows/cpicouponpricer.hpp>
-#include <ql/instruments/cpiswap.hpp>
-#include <ql/instruments/bonds/cpibond.hpp>
-#include <ql/instruments/cpicapfloor.hpp>
-#include <ql/experimental/inflation/cpicapfloortermpricesurface.hpp>
-#include <ql/experimental/inflation/cpicapfloorengines.hpp>
+#include <types.hpp>
+#include <indexes/inflation/ukrpi.hpp>
+#include <termstructures/bootstraphelper.hpp>
+#include <time/calendars/unitedkingdom.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <termstructures/yield/zerocurve.hpp>
+#include <indexes/ibor/gbplibor.hpp>
+#include <termstructures/inflation/inflationhelpers.hpp>
+#include <termstructures/inflation/piecewisezeroinflationcurve.hpp>
+#include <cashflows/indexedcashflow.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <instruments/zerocouponinflationswap.hpp>
+#include <pricingengines/bond/discountingbondengine.hpp>
+#include <math/interpolations/bilinearinterpolation.hpp>
+#include <cashflows/cpicoupon.hpp>
+#include <cashflows/cpicouponpricer.hpp>
+#include <instruments/cpiswap.hpp>
+#include <instruments/bonds/cpibond.hpp>
+#include <instruments/cpicapfloor.hpp>
+#include <experimental/inflation/cpicapfloortermpricesurface.hpp>
+#include <experimental/inflation/cpicapfloorengines.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;
@@ -367,7 +367,7 @@ BOOST_AUTO_TEST_CASE(cpicapfloorpricesurface) {
     }
 
     // remove circular refernce
-    common.hcpi.reset();
+    common.hcpi.linkTo(ext::shared_ptr<ZeroInflationTermStructure>());
 }
 
 BOOST_AUTO_TEST_CASE(cpicapfloorpricer) {
@@ -429,7 +429,7 @@ BOOST_AUTO_TEST_CASE(cpicapfloorpricer) {
                << cached << " vs " << aCap.NPV());
 
     // remove circular refernce
-    common.hcpi.reset();
+    common.hcpi.linkTo(ext::shared_ptr<ZeroInflationTermStructure>());
 }
 
 BOOST_AUTO_TEST_SUITE_END()

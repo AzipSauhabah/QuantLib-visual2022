@@ -24,7 +24,7 @@
 #ifndef quantlib_stripped_capfloored_coupon_hpp
 #define quantlib_stripped_capfloored_coupon_hpp
 
-#include <ql/cashflows/capflooredcoupon.hpp>
+#include <cashflows/capflooredcoupon.hpp>
 
 namespace QuantLib {
 

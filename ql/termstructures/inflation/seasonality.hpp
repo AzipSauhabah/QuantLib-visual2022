@@ -22,9 +22,9 @@
 #ifndef quantlib_seasonality_hpp
 #define quantlib_seasonality_hpp
 
-#include <ql/time/daycounter.hpp>
-#include <ql/time/frequency.hpp>
-#include <ql/shared_ptr.hpp>
+#include <time/daycounter.hpp>
+#include <time/frequency.hpp>
+#include <shared_ptr.hpp>
 #include <vector>
 
 namespace QuantLib {

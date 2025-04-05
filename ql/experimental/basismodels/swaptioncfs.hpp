@@ -24,10 +24,10 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef quantlib_swaptioncfs_hpp
 #define quantlib_swaptioncfs_hpp
 
-#include <ql/instruments/swaption.hpp>
-#include <ql/option.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/time/date.hpp>
+#include <instruments/swaption.hpp>
+#include <option.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <time/date.hpp>
 
 namespace QuantLib {
 

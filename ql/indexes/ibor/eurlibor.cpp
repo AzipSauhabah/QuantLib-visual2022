@@ -18,12 +18,12 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/indexes/ibor/eurlibor.hpp>
-#include <ql/time/calendars/jointcalendar.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/calendars/unitedkingdom.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/currencies/europe.hpp>
+#include <indexes/ibor/eurlibor.hpp>
+#include <time/calendars/jointcalendar.hpp>
+#include <time/calendars/target.hpp>
+#include <time/calendars/unitedkingdom.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <currencies/europe.hpp>
 
 namespace QuantLib {
 
@@ -63,23 +63,17 @@ namespace QuantLib {
                 2,
                 EURCurrency(),
                 // http://www.bba.org.uk/bba/jsp/polopoly.jsp?d=225&a=1412 :
-                // JoinHolidays is the fixing calendar for
+                // JoinBusinessDays is the fixing calendar for
                 // all indexes but o/n
                 JointCalendar(UnitedKingdom(UnitedKingdom::Exchange),
                               TARGET(),
-                              JoinHolidays),
+                              JoinBusinessDays),
                 eurliborConvention(tenor), eurliborEOM(tenor),
                 Actual360(), h),
       target_(TARGET()) {
         QL_REQUIRE(this->tenor().units()!=Days,
                    "for daily tenors (" << this->tenor() <<
                    ") dedicated DailyTenor constructor must be used");
-    }
-
-    Date EURLibor::fixingDate(const Date& valueDate) const {
-        return fixingCalendar().adjust(
-            target_.advance(valueDate, -static_cast<Integer>(fixingDays_), Days),
-            Preceding);
     }
 
     Date EURLibor::valueDate(const Date& fixingDate) const {

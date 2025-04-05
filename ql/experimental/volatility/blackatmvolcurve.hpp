@@ -25,8 +25,8 @@
 #ifndef quantlib_black_atm_vol_curve_hpp
 #define quantlib_black_atm_vol_curve_hpp
 
-#include <ql/termstructures/voltermstructure.hpp>
-#include <ql/patterns/visitor.hpp>
+#include <termstructures/voltermstructure.hpp>
+#include <patterns/visitor.hpp>
 
 namespace QuantLib {
 

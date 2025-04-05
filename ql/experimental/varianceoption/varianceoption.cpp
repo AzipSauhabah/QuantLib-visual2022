@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/event.hpp>
-#include <ql/experimental/varianceoption/varianceoption.hpp>
+#include <event.hpp>
+#include <experimental/varianceoption/varianceoption.hpp>
 #include <utility>
 
 namespace QuantLib {

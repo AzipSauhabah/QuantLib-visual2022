@@ -19,8 +19,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/integrals/gaussianquadratures.hpp>
-#include <ql/termstructures/credit/defaultdensitystructure.hpp>
+#include <math/integrals/gaussianquadratures.hpp>
+#include <termstructures/credit/defaultdensitystructure.hpp>
 #include <utility>
 
 namespace QuantLib {

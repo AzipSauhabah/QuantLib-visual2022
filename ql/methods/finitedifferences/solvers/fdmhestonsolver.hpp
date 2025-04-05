@@ -26,13 +26,13 @@
 #ifndef quantlib_fdm_heston_solver_hpp
 #define quantlib_fdm_heston_solver_hpp
 
-#include <ql/handle.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmquantohelper.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmsolverdesc.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmdirichletboundary.hpp>
-#include <ql/termstructures/volatility/equityfx/localvoltermstructure.hpp>
+#include <handle.hpp>
+#include <patterns/lazyobject.hpp>
+#include <methods/finitedifferences/utilities/fdmquantohelper.hpp>
+#include <methods/finitedifferences/solvers/fdmsolverdesc.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <methods/finitedifferences/utilities/fdmdirichletboundary.hpp>
+#include <termstructures/volatility/equityfx/localvoltermstructure.hpp>
 
 namespace QuantLib {
 

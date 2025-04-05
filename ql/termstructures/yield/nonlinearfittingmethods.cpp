@@ -19,8 +19,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/bernsteinpolynomial.hpp>
-#include <ql/termstructures/yield/nonlinearfittingmethods.hpp>
+#include <math/bernsteinpolynomial.hpp>
+#include <termstructures/yield/nonlinearfittingmethods.hpp>
 #include <utility>
 
 namespace QuantLib {

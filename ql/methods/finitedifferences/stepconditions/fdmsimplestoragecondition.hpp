@@ -24,10 +24,10 @@
 #ifndef quantlib_fdm_simple_storage_condition_hpp
 #define quantlib_fdm_simple_storage_condition_hpp
 
-#include <ql/math/matrix.hpp>
-#include <ql/methods/finitedifferences/stepcondition.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
+#include <math/matrix.hpp>
+#include <methods/finitedifferences/stepcondition.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
 
 namespace QuantLib {
 

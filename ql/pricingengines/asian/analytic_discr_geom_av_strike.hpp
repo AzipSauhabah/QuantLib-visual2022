@@ -24,8 +24,8 @@
 #ifndef quantlib_analytic_discrete_geometric_average_strike_asian_engine_hpp
 #define quantlib_analytic_discrete_geometric_average_strike_asian_engine_hpp
 
-#include <ql/instruments/asianoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <instruments/asianoption.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

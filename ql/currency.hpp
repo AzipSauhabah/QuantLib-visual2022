@@ -25,8 +25,8 @@
 #ifndef quantlib_currency_hpp
 #define quantlib_currency_hpp
 
-#include <ql/math/rounding.hpp>
-#include <ql/errors.hpp>
+#include <math/rounding.hpp>
+#include <errors.hpp>
 #include <iosfwd>
 #include <set>
 
@@ -53,6 +53,20 @@ namespace QuantLib {
                  const Rounding& rounding,
                  const Currency& triangulationCurrency = Currency(),
                  const std::set<std::string>& minorUnitCodes = {});
+        /*! \deprecated Use the constructor without formatString.
+                        Deprecated in version 1.33.
+        */
+        QL_DEPRECATED
+        Currency(const std::string& name,
+                 const std::string& code,
+                 Integer numericCode,
+                 const std::string& symbol,
+                 const std::string& fractionSymbol,
+                 Integer fractionsPerUnit,
+                 const Rounding& rounding,
+                 const std::string& formatString,
+                 const Currency& triangulationCurrency = Currency(),
+                 const std::set<std::string>& minorUnitCodes = {});
         //@}
         //! \name Inspectors
         //@{
@@ -70,6 +84,15 @@ namespace QuantLib {
         Integer fractionsPerUnit() const;
         //! rounding convention
         const Rounding& rounding() const;
+        //! output format
+        /*! The format will be fed three positional parameters,
+            namely, value, code, and symbol, in this order.
+        */
+        /*! \deprecated Copy the formatting into your project if you need it.
+                        Deprecated in version 1.33.
+        */
+        [[deprecated("Copy the formatting into your project if you need it.")]]
+        std::string format() const;
         //@}
         //! \name Other information
         //@{
@@ -87,6 +110,8 @@ namespace QuantLib {
         void checkNonEmpty() const;
     };
 
+    QL_DEPRECATED_DISABLE_WARNING
+
     struct Currency::Data {
         std::string name, code;
         Integer numeric;
@@ -94,6 +119,11 @@ namespace QuantLib {
         Integer fractionsPerUnit;
         Rounding rounding;
         Currency triangulated;
+        /*! \deprecated Do not use this data member.
+                        Deprecated in version 1.33.
+        */
+        [[deprecated("Do not use this data member")]]
+        std::string formatString;
         std::set<std::string> minorUnitCodes;
 
         Data(std::string name,
@@ -105,8 +135,24 @@ namespace QuantLib {
              const Rounding& rounding,
              Currency triangulationCurrency = Currency(),
              std::set<std::string> minorUnitCodes = {});
+
+        /*! \deprecated Use the constructor without formatString.
+                        Deprecated in version 1.33.
+        */
+        [[deprecated("Use the constructor without formatString")]]
+        Data(std::string name,
+             std::string code,
+             Integer numericCode,
+             std::string symbol,
+             std::string fractionSymbol,
+             Integer fractionsPerUnit,
+             const Rounding& rounding,
+             std::string formatString,
+             Currency triangulationCurrency = Currency(),
+             std::set<std::string> minorUnitCodes = {});
     };
 
+    QL_DEPRECATED_ENABLE_WARNING
 
     /*! \relates Currency */
     bool operator==(const Currency&,
@@ -161,6 +207,15 @@ namespace QuantLib {
         checkNonEmpty();
         return data_->rounding;
     }
+
+    QL_DEPRECATED_DISABLE_WARNING
+
+    inline std::string Currency::format() const {
+        checkNonEmpty();
+        return data_->formatString;
+    }
+
+    QL_DEPRECATED_ENABLE_WARNING
 
     inline bool Currency::empty() const {
         return !data_;

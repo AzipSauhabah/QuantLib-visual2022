@@ -24,9 +24,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/date.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/errors.hpp>
+#include <time/date.hpp>
+#include <utilities/dataformatters.hpp>
+#include <errors.hpp>
 #include <boost/date_time/gregorian/gregorian.hpp>
 #include <boost/date_time/posix_time/posix_time_types.hpp>
 #include <functional>

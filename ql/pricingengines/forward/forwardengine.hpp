@@ -25,13 +25,13 @@
 #ifndef quantlib_forward_engine_hpp
 #define quantlib_forward_engine_hpp
 
-#include <ql/exercise.hpp>
-#include <ql/instruments/forwardvanillaoption.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/termstructures/volatility/equityfx/impliedvoltermstructure.hpp>
-#include <ql/termstructures/yield/impliedtermstructure.hpp>
+#include <exercise.hpp>
+#include <instruments/forwardvanillaoption.hpp>
+#include <instruments/payoffs.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <termstructures/volatility/equityfx/impliedvoltermstructure.hpp>
+#include <termstructures/yield/impliedtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

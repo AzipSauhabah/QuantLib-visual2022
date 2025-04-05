@@ -20,15 +20,15 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/cashflows/coupon.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/math/solvers1d/newtonsafe.hpp>
-#include <ql/patterns/visitor.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/yield/zerospreadedtermstructure.hpp>
+#include <cashflows/cashflows.hpp>
+#include <cashflows/coupon.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <math/solvers1d/newtonsafe.hpp>
+#include <patterns/visitor.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/yield/zerospreadedtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

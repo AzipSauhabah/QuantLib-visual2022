@@ -24,8 +24,8 @@
 #ifndef quantlib_libor_market_covariance_parameterization_hpp
 #define quantlib_libor_market_covariance_parameterization_hpp
 
-#include <ql/math/matrix.hpp>
-#include <ql/utilities/null.hpp>
+#include <math/matrix.hpp>
+#include <utilities/null.hpp>
 
 namespace QuantLib {
 

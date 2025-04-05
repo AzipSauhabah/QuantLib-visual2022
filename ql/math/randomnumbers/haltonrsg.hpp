@@ -24,7 +24,7 @@
 #ifndef quantlib_halton_ld_rsg_h
 #define quantlib_halton_ld_rsg_h
 
-#include <ql/methods/montecarlo/sample.hpp>
+#include <methods/montecarlo/sample.hpp>
 #include <vector>
 
 namespace QuantLib {

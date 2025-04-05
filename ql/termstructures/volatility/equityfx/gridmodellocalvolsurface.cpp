@@ -20,10 +20,10 @@
 /*! \file parameterizedlocalvolsurface.cpp
 */
 
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/termstructures/volatility/equityfx/fixedlocalvolsurface.hpp>
-#include <ql/termstructures/volatility/equityfx/gridmodellocalvolsurface.hpp>
-#include <ql/functional.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <termstructures/volatility/equityfx/fixedlocalvolsurface.hpp>
+#include <termstructures/volatility/equityfx/gridmodellocalvolsurface.hpp>
+#include <functional.hpp>
 #include <algorithm>
 
 namespace QuantLib {

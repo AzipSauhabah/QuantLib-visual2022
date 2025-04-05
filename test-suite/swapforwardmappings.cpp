@@ -20,23 +20,23 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/models/marketmodels/swapforwardmappings.hpp>
-#include <ql/models/marketmodels/correlations/timehomogeneousforwardcorrelation.hpp>
-#include <ql/models/marketmodels/curvestates/lmmcurvestate.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/models/marketmodels/evolvers/lognormalfwdratepc.hpp>
-#include <ql/models/marketmodels/models/flatvol.hpp>
-#include <ql/models/marketmodels/correlations/expcorrelations.hpp>
-#include <ql/models/marketmodels/browniangenerators/sobolbrowniangenerator.hpp>
-#include <ql/models/marketmodels/products/multistep/multistepcoterminalswaptions.hpp>
-#include <ql/models/marketmodels/accountingengine.hpp>
-#include <ql/models/marketmodels/models/cotswaptofwdadapter.hpp>
-#include <ql/models/marketmodels/curvestates/coterminalswapcurvestate.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/time/daycounters/simpledaycounter.hpp>
-#include <ql/math/statistics/sequencestatistics.hpp>
-#include <ql/pricingengines/blackcalculator.hpp>
-#include <ql/models/marketmodels/products/multistep/multistepswaption.hpp>
+#include <models/marketmodels/swapforwardmappings.hpp>
+#include <models/marketmodels/correlations/timehomogeneousforwardcorrelation.hpp>
+#include <models/marketmodels/curvestates/lmmcurvestate.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/evolvers/lognormalfwdratepc.hpp>
+#include <models/marketmodels/models/flatvol.hpp>
+#include <models/marketmodels/correlations/expcorrelations.hpp>
+#include <models/marketmodels/browniangenerators/sobolbrowniangenerator.hpp>
+#include <models/marketmodels/products/multistep/multistepcoterminalswaptions.hpp>
+#include <models/marketmodels/accountingengine.hpp>
+#include <models/marketmodels/models/cotswaptofwdadapter.hpp>
+#include <models/marketmodels/curvestates/coterminalswapcurvestate.hpp>
+#include <time/schedule.hpp>
+#include <time/daycounters/simpledaycounter.hpp>
+#include <math/statistics/sequencestatistics.hpp>
+#include <pricingengines/blackcalculator.hpp>
+#include <models/marketmodels/products/multistep/multistepswaption.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

@@ -22,8 +22,8 @@
 #ifndef quantlib_forward_period_adapter_hpp
 #define quantlib_forward_period_adapter_hpp
 
-#include <ql/models/marketmodels/marketmodel.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/marketmodel.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
 
 namespace QuantLib {
 

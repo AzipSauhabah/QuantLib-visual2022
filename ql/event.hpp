@@ -25,9 +25,9 @@
 #ifndef quantlib_event_hpp
 #define quantlib_event_hpp
 
-#include <ql/time/date.hpp>
-#include <ql/patterns/observable.hpp>
-#include <ql/optional.hpp>
+#include <time/date.hpp>
+#include <patterns/observable.hpp>
+#include <optional.hpp>
 
 namespace QuantLib {
 

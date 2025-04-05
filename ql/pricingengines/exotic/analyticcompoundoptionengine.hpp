@@ -24,9 +24,9 @@
 #ifndef quantlib_analytic_compound_option_engine_hpp
 #define quantlib_analytic_compound_option_engine_hpp
 
-#include <ql/instruments/compoundoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/math/distributions/bivariatenormaldistribution.hpp>
+#include <instruments/compoundoption.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <math/distributions/bivariatenormaldistribution.hpp>
 
 namespace QuantLib {
 

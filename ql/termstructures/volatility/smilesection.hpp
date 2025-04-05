@@ -25,11 +25,11 @@
 #ifndef quantlib_smile_section_hpp
 #define quantlib_smile_section_hpp
 
-#include <ql/patterns/observable.hpp>
-#include <ql/time/daycounter.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/option.hpp>
-#include <ql/termstructures/volatility/volatilitytype.hpp>
+#include <patterns/observable.hpp>
+#include <time/daycounter.hpp>
+#include <utilities/null.hpp>
+#include <option.hpp>
+#include <termstructures/volatility/volatilitytype.hpp>
 
 namespace QuantLib {
 

@@ -24,7 +24,7 @@
 #ifndef quantlib_lattice_rsg_hpp
 #define quantlib_lattice_rsg_hpp
 
-#include <ql/methods/montecarlo/sample.hpp>
+#include <methods/montecarlo/sample.hpp>
 #include <vector>
 
 namespace QuantLib {

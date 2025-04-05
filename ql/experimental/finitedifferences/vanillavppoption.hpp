@@ -24,7 +24,7 @@
 #ifndef quantlib_vanilla_vpp_option_hpp
 #define quantlib_vanilla_vpp_option_hpp
 
-#include <ql/instruments/multiassetoption.hpp>
+#include <instruments/multiassetoption.hpp>
 
 namespace QuantLib {
     class BasketPayoff;

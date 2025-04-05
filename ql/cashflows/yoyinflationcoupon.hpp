@@ -24,9 +24,9 @@
 #ifndef quantlib_newyoy_coupon_hpp
 #define quantlib_newyoy_coupon_hpp
 
-#include <ql/cashflows/inflationcoupon.hpp>
-#include <ql/indexes/inflationindex.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/inflationcoupon.hpp>
+#include <indexes/inflationindex.hpp>
+#include <time/schedule.hpp>
 
 namespace QuantLib {
     class YoYInflationCouponPricer;

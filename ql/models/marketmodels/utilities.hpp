@@ -22,7 +22,7 @@
 #ifndef quantlib_market_model_utilities_hpp
 #define quantlib_market_model_utilities_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <vector>
 #include <valarray>
 

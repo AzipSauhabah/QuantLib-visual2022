@@ -18,12 +18,12 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/makeois.hpp>
-#include <ql/instruments/simplifynotificationgraph.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/termstructures/yield/oisratehelper.hpp>
-#include <ql/utilities/null_deleter.hpp>
+#include <instruments/makeois.hpp>
+#include <instruments/simplifynotificationgraph.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <termstructures/yield/oisratehelper.hpp>
+#include <utilities/null_deleter.hpp>
 #include <utility>
 
 namespace QuantLib {

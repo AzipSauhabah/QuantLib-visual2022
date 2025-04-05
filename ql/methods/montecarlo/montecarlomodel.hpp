@@ -25,9 +25,9 @@
 #ifndef quantlib_montecarlo_model_hpp
 #define quantlib_montecarlo_model_hpp
 
-#include <ql/math/statistics/statistics.hpp>
-#include <ql/methods/montecarlo/mctraits.hpp>
-#include <ql/shared_ptr.hpp>
+#include <math/statistics/statistics.hpp>
+#include <methods/montecarlo/mctraits.hpp>
+#include <shared_ptr.hpp>
 #include <utility>
 
 namespace QuantLib {

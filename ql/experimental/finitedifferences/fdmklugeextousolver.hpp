@@ -24,13 +24,13 @@
 #ifndef quantlib_fdm_kluge_ou_solver_hpp
 #define quantlib_fdm_kluge_ou_solver_hpp
 
-#include <ql/experimental/finitedifferences/fdmklugeextouop.hpp>
-#include <ql/experimental/processes/klugeextouprocess.hpp>
-#include <ql/handle.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmndimsolver.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmsolverdesc.hpp>
-#include <ql/patterns/lazyobject.hpp>
+#include <experimental/finitedifferences/fdmklugeextouop.hpp>
+#include <experimental/processes/klugeextouprocess.hpp>
+#include <handle.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <methods/finitedifferences/solvers/fdmndimsolver.hpp>
+#include <methods/finitedifferences/solvers/fdmsolverdesc.hpp>
+#include <patterns/lazyobject.hpp>
 #include <utility>
 
 namespace QuantLib {

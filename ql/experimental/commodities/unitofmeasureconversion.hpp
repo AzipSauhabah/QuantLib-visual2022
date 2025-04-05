@@ -25,9 +25,9 @@
 #ifndef quantlib_unit_of_measure_conversion_hpp
 #define quantlib_unit_of_measure_conversion_hpp
 
-#include <ql/experimental/commodities/quantity.hpp>
-#include <ql/experimental/commodities/unitofmeasure.hpp>
-#include <ql/utilities/null.hpp>
+#include <experimental/commodities/quantity.hpp>
+#include <experimental/commodities/unitofmeasure.hpp>
+#include <utilities/null.hpp>
 #include <utility>
 
 namespace QuantLib {

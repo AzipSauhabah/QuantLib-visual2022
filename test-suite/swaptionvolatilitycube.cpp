@@ -22,13 +22,13 @@
 #include "toplevelfixture.hpp"
 #include "swaptionvolstructuresutilities.hpp"
 #include "utilities.hpp"
-#include <ql/indexes/swap/euriborswap.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/volatility/swaption/interpolatedswaptionvolatilitycube.hpp>
-#include <ql/termstructures/volatility/swaption/sabrswaptionvolatilitycube.hpp>
-#include <ql/termstructures/volatility/swaption/spreadedswaptionvol.hpp>
-#include <ql/termstructures/volatility/sabrsmilesection.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <indexes/swap/euriborswap.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/volatility/swaption/interpolatedswaptionvolatilitycube.hpp>
+#include <termstructures/volatility/swaption/sabrswaptionvolatilitycube.hpp>
+#include <termstructures/volatility/swaption/spreadedswaptionvol.hpp>
+#include <termstructures/volatility/sabrsmilesection.hpp>
+#include <utilities/dataformatters.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

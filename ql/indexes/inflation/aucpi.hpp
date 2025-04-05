@@ -25,8 +25,8 @@
 #ifndef quantlib_aucpi_hpp
 #define quantlib_aucpi_hpp
 
-#include <ql/currencies/oceania.hpp>
-#include <ql/indexes/inflationindex.hpp>
+#include <currencies/oceania.hpp>
+#include <indexes/inflationindex.hpp>
 
 namespace QuantLib {
 
@@ -46,23 +46,6 @@ namespace QuantLib {
       public:
         YYAUCPI(Frequency frequency,
                 bool revised,
-                const Handle<YoYInflationTermStructure>& ts = {})
-        : YoYInflationIndex("YY_CPI",
-                            AustraliaRegion(),
-                            revised,
-                            frequency,
-                            Period(2, Months),
-                            AUDCurrency(),
-                            ts) {}
-
-        QL_DEPRECATED_DISABLE_WARNING
-
-        /*! \deprecated Use the overload without the interpolated parameter.
-                        Deprecated in version 1.38.
-        */
-        [[deprecated("Use the overload without the interpolated parameter")]]
-        YYAUCPI(Frequency frequency,
-                bool revised,
                 bool interpolated,
                 const Handle<YoYInflationTermStructure>& ts = {})
         : YoYInflationIndex("YY_CPI",
@@ -73,8 +56,6 @@ namespace QuantLib {
                             Period(2, Months),
                             AUDCurrency(),
                             ts) {}
-
-        QL_DEPRECATED_ENABLE_WARNING
     };
 
 }

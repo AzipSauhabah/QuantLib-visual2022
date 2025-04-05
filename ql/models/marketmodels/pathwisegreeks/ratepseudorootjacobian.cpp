@@ -20,7 +20,7 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 
 
 
-#include <ql/models/marketmodels/pathwisegreeks/ratepseudorootjacobian.hpp>
+#include <models/marketmodels/pathwisegreeks/ratepseudorootjacobian.hpp>
 #include <utility>
 
 namespace QuantLib

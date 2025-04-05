@@ -26,9 +26,9 @@
 #ifndef quantlib_mcdiscreteasian_engine_base_hpp
 #define quantlib_mcdiscreteasian_engine_base_hpp
 
-#include <ql/exercise.hpp>
-#include <ql/instruments/asianoption.hpp>
-#include <ql/pricingengines/mcsimulation.hpp>
+#include <exercise.hpp>
+#include <instruments/asianoption.hpp>
+#include <pricingengines/mcsimulation.hpp>
 #include <utility>
 
 namespace QuantLib {

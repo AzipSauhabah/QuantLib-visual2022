@@ -24,10 +24,10 @@
 #ifndef quantlib_black_delta_calculator_hpp
 #define quantlib_black_delta_calculator_hpp
 
-#include <ql/pricingengines/blackcalculator.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/experimental/fx/deltavolquote.hpp>
+#include <pricingengines/blackcalculator.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <experimental/fx/deltavolquote.hpp>
 
 namespace QuantLib {
 

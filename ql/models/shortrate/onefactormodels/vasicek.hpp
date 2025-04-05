@@ -24,8 +24,8 @@
 #ifndef quantlib_vasicek_hpp
 #define quantlib_vasicek_hpp
 
-#include <ql/models/shortrate/onefactormodel.hpp>
-#include <ql/processes/ornsteinuhlenbeckprocess.hpp>
+#include <models/shortrate/onefactormodel.hpp>
+#include <processes/ornsteinuhlenbeckprocess.hpp>
 
 namespace QuantLib {
 

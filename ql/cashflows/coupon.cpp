@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/coupon.hpp>
-#include <ql/patterns/visitor.hpp>
-#include <ql/time/daycounter.hpp>
+#include <cashflows/coupon.hpp>
+#include <patterns/visitor.hpp>
+#include <time/daycounter.hpp>
 
 namespace QuantLib {
 

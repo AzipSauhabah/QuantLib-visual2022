@@ -19,15 +19,15 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/methods/finitedifferences/meshers/fdmblackscholesmesher.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmhestonvariancemesher.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmdirichletboundary.hpp>
-#include <ql/methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
-#include <ql/pricingengines/barrier/fdhestonrebateengine.hpp>
+#include <methods/finitedifferences/meshers/fdmblackscholesmesher.hpp>
+#include <methods/finitedifferences/meshers/fdmhestonvariancemesher.hpp>
+#include <methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
+#include <methods/finitedifferences/utilities/fdmdirichletboundary.hpp>
+#include <methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
+#include <pricingengines/barrier/fdhestonrebateengine.hpp>
 #include <utility>
 
 namespace QuantLib {

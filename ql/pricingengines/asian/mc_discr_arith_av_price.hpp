@@ -25,10 +25,10 @@
 #ifndef quantlib_mc_discrete_arithmetic_average_price_asian_engine_hpp
 #define quantlib_mc_discrete_arithmetic_average_price_asian_engine_hpp
 
-#include <ql/exercise.hpp>
-#include <ql/pricingengines/asian/analytic_discr_geom_av_price.hpp>
-#include <ql/pricingengines/asian/mc_discr_geom_av_price.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <exercise.hpp>
+#include <pricingengines/asian/analytic_discr_geom_av_price.hpp>
+#include <pricingengines/asian/mc_discr_geom_av_price.hpp>
+#include <processes/blackscholesprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

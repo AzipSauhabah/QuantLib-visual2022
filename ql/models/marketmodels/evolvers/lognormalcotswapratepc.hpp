@@ -21,9 +21,9 @@
 #ifndef quantlib_coterminalswap_rate_pc_evolver_hpp
 #define quantlib_coterminalswap_rate_pc_evolver_hpp
 
-#include <ql/models/marketmodels/evolver.hpp>
-#include <ql/models/marketmodels/curvestates/coterminalswapcurvestate.hpp>
-#include <ql/models/marketmodels/driftcomputation/smmdriftcalculator.hpp>
+#include <models/marketmodels/evolver.hpp>
+#include <models/marketmodels/curvestates/coterminalswapcurvestate.hpp>
+#include <models/marketmodels/driftcomputation/smmdriftcalculator.hpp>
 
 namespace QuantLib {
 

@@ -24,7 +24,7 @@
 #ifndef quantlib_year_fraction_to_date_hpp
 #define quantlib_year_fraction_to_date_hpp
 
-#include <ql/time/daycounter.hpp>
+#include <time/daycounter.hpp>
 
 namespace QuantLib {
 

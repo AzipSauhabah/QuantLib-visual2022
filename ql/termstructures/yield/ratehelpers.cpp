@@ -23,19 +23,19 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/currency.hpp>
-#include <ql/indexes/swapindex.hpp>
-#include <ql/instruments/makevanillaswap.hpp>
-#include <ql/instruments/simplifynotificationgraph.hpp>
-#include <ql/optional.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/quote.hpp>
-#include <ql/termstructures/yield/ratehelpers.hpp>
-#include <ql/time/asx.hpp>
-#include <ql/time/calendars/jointcalendar.hpp>
-#include <ql/time/imm.hpp>
-#include <ql/utilities/null_deleter.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <currency.hpp>
+#include <indexes/swapindex.hpp>
+#include <instruments/makevanillaswap.hpp>
+#include <instruments/simplifynotificationgraph.hpp>
+#include <optional.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <quote.hpp>
+#include <termstructures/yield/ratehelpers.hpp>
+#include <time/asx.hpp>
+#include <time/calendars/jointcalendar.hpp>
+#include <time/imm.hpp>
+#include <utilities/null_deleter.hpp>
 #include <utility>
 
 namespace QuantLib {
@@ -159,9 +159,9 @@ namespace QuantLib {
     FuturesRateHelper::FuturesRateHelper(const Handle<Quote>& price,
                                          const Date& iborStartDate,
                                          const ext::shared_ptr<IborIndex>& index,
-                                         Handle<Quote> convAdj,
+                                         const Handle<Quote>& convAdj,
                                          Futures::Type type)
-    : RateHelper(price), convAdj_(std::move(convAdj)) {
+    : RateHelper(price), convAdj_(convAdj) {
         CheckDate(iborStartDate, type);
 
         earliestDate_ = iborStartDate;
@@ -171,7 +171,7 @@ namespace QuantLib {
         yearFraction_ = DetermineYearFraction(earliestDate_, maturityDate_, index->dayCounter());
         pillarDate_ = latestDate_ = latestRelevantDate_ = maturityDate_;
 
-        registerWith(convAdj_);
+        registerWith(convAdj);
     }
 
     FuturesRateHelper::FuturesRateHelper(Real price,
@@ -240,14 +240,6 @@ namespace QuantLib {
                                          const ext::shared_ptr<IborIndex>& i)
     : DepositRateHelper(makeQuoteHandle(rate), i) {}
 
-    DepositRateHelper::DepositRateHelper(const Handle<Quote>& rate,
-                                         Date fixingDate,
-                                         const ext::shared_ptr<IborIndex>& i)
-    : RelativeDateRateHelper(rate, false), fixingDate_(fixingDate) {
-        iborIndex_ = i->clone(termStructureHandle_);
-        DepositRateHelper::initializeDates();
-    }
-
     Real DepositRateHelper::impliedQuote() const {
         QL_REQUIRE(termStructure_ != nullptr, "term structure not set");
         // the forecast fixing flag is set to true because
@@ -267,16 +259,12 @@ namespace QuantLib {
     }
 
     void DepositRateHelper::initializeDates() {
-        if (updateDates_) {
-            // if the evaluation date is not a business day
-            // then move to the next business day
-            Date referenceDate =
-                iborIndex_->fixingCalendar().adjust(evaluationDate_);
-            earliestDate_ = iborIndex_->valueDate(referenceDate);
-            fixingDate_ = iborIndex_->fixingDate(earliestDate_);
-        } else {
-            earliestDate_ = iborIndex_->valueDate(fixingDate_);
-        }
+        // if the evaluation date is not a business day
+        // then move to the next business day
+        Date referenceDate =
+            iborIndex_->fixingCalendar().adjust(evaluationDate_);
+        earliestDate_ = iborIndex_->valueDate(referenceDate);
+        fixingDate_ = iborIndex_->fixingDate(earliestDate_);
         maturityDate_ = iborIndex_->maturityDate(earliestDate_);
         pillarDate_ = latestDate_ = latestRelevantDate_ = maturityDate_;
     }
@@ -433,26 +421,6 @@ namespace QuantLib {
     : FraRateHelper(makeQuoteHandle(rate), immOffsetStart, immOffsetEnd, i, pillarChoice,
                     customPillarDate, useIndexedCoupon) {}
 
-    FraRateHelper::FraRateHelper(const Handle<Quote>& rate,
-                                 Date startDate,
-                                 Date endDate,
-                                 const ext::shared_ptr<IborIndex>& i,
-                                 Pillar::Choice pillarChoice,
-                                 Date customPillarDate,
-                                 bool useIndexedCoupon)
-    : RelativeDateRateHelper(rate, false), pillarChoice_(pillarChoice),
-      useIndexedCoupon_(useIndexedCoupon) {
-        // take fixing into account
-        iborIndex_ = i->clone(termStructureHandle_);
-        // see above
-        iborIndex_->unregisterWith(termStructureHandle_);
-        registerWith(iborIndex_);
-        earliestDate_ = startDate;
-        maturityDate_ = endDate;
-        pillarDate_ = customPillarDate;
-        FraRateHelper::initializeDates();
-    }
-
     Real FraRateHelper::impliedQuote() const {
         QL_REQUIRE(termStructure_ != nullptr, "term structure not set");
         if (useIndexedCoupon_)
@@ -486,28 +454,26 @@ namespace QuantLib {
     }
 
     void FraRateHelper::initializeDates() {
-        if (updateDates_) {
-            // if the evaluation date is not a business day
-            // then move to the next business day
-            Date referenceDate =
-                iborIndex_->fixingCalendar().adjust(evaluationDate_);
-            Date spotDate = iborIndex_->fixingCalendar().advance(
-                referenceDate, iborIndex_->fixingDays()*Days);
-            if (periodToStart_) { // NOLINT(readability-implicit-bool-conversion)
-                earliestDate_ = iborIndex_->fixingCalendar().advance(
-                    spotDate, *periodToStart_, iborIndex_->businessDayConvention(),
-                    iborIndex_->endOfMonth());
-                // maturity date is calculated from spot date
-                maturityDate_ = iborIndex_->fixingCalendar().advance(
-                    spotDate, *periodToStart_ + iborIndex_->tenor(), iborIndex_->businessDayConvention(),
-                    iborIndex_->endOfMonth());
+        // if the evaluation date is not a business day
+        // then move to the next business day
+        Date referenceDate =
+            iborIndex_->fixingCalendar().adjust(evaluationDate_);
+        Date spotDate = iborIndex_->fixingCalendar().advance(
+            referenceDate, iborIndex_->fixingDays()*Days);
+        if (periodToStart_) { // NOLINT(readability-implicit-bool-conversion)
+            earliestDate_ = iborIndex_->fixingCalendar().advance(
+                spotDate, *periodToStart_, iborIndex_->businessDayConvention(),
+                iborIndex_->endOfMonth());
+            // maturity date is calculated from spot date
+            maturityDate_ = iborIndex_->fixingCalendar().advance(
+                spotDate, *periodToStart_ + iborIndex_->tenor(), iborIndex_->businessDayConvention(),
+                iborIndex_->endOfMonth());
 
-            } else if ((immOffsetStart_) && (immOffsetEnd_)) { // NOLINT(readability-implicit-bool-conversion)
-                earliestDate_ = iborIndex_->fixingCalendar().adjust(nthImmDate(spotDate, *immOffsetStart_));
-                maturityDate_ = iborIndex_->fixingCalendar().adjust(nthImmDate(spotDate, *immOffsetEnd_));
-            } else {
-                QL_FAIL("neither periodToStart nor immOffsetStart/End given");
-            }
+        } else if ((immOffsetStart_) && (immOffsetEnd_)) { // NOLINT(readability-implicit-bool-conversion)
+            earliestDate_ = iborIndex_->fixingCalendar().adjust(nthImmDate(spotDate, *immOffsetStart_));
+            maturityDate_ = iborIndex_->fixingCalendar().adjust(nthImmDate(spotDate, *immOffsetEnd_));
+        } else {
+            QL_FAIL("neither periodToStart nor immOffsetStart/End given");
         }
 
         if (useIndexedCoupon_)

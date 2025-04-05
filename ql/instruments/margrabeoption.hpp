@@ -24,7 +24,7 @@
 #ifndef quantlib_margrabe_option_hpp
 #define quantlib_margrabe_option_hpp
 
-#include <ql/instruments/multiassetoption.hpp>
+#include <instruments/multiassetoption.hpp>
 
 namespace QuantLib {
 

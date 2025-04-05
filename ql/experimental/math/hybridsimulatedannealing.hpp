@@ -26,11 +26,11 @@ Mathl. Comput. Modelling, 967-973, 1989
 #ifndef quantlib_optimization_hybridsimulatedannealing_hpp
 #define quantlib_optimization_hybridsimulatedannealing_hpp
 
-#include <ql/experimental/math/hybridsimulatedannealingfunctors.hpp>
-#include <ql/math/optimization/constraint.hpp>
-#include <ql/math/optimization/levenbergmarquardt.hpp>
-#include <ql/math/optimization/problem.hpp>
-#include <ql/shared_ptr.hpp>
+#include <experimental/math/hybridsimulatedannealingfunctors.hpp>
+#include <math/optimization/constraint.hpp>
+#include <math/optimization/levenbergmarquardt.hpp>
+#include <math/optimization/problem.hpp>
+#include <shared_ptr.hpp>
 #include <utility>
 
 namespace QuantLib {

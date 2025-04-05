@@ -18,7 +18,7 @@
 */
 
 
-#include <ql/experimental/inflation/cpicapfloortermpricesurface.hpp>
+#include <experimental/inflation/cpicapfloortermpricesurface.hpp>
 #include <utility>
 
 

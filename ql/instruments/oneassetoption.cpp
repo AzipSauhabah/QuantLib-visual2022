@@ -19,9 +19,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/oneassetoption.hpp>
-#include <ql/exercise.hpp>
-#include <ql/event.hpp>
+#include <instruments/oneassetoption.hpp>
+#include <exercise.hpp>
+#include <event.hpp>
 
 namespace QuantLib {
 

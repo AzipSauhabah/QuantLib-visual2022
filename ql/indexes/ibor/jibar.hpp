@@ -25,10 +25,10 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef quantlib_jibar_hpp
 #define quantlib_jibar_hpp
 
-#include <ql/indexes/iborindex.hpp>
-#include <ql/time/calendars/southafrica.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/currencies/africa.hpp>
+#include <indexes/iborindex.hpp>
+#include <time/calendars/southafrica.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <currencies/africa.hpp>
 
 namespace QuantLib {
 

@@ -24,7 +24,7 @@
 #ifndef quantlib_compounding_hpp
 #define quantlib_compounding_hpp
 
-#include <ql/errors.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

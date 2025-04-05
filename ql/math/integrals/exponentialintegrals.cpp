@@ -21,10 +21,10 @@
 */
 
 
-#include <ql/errors.hpp>
-#include <ql/mathconstants.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/math/integrals/exponentialintegrals.hpp>
+#include <errors.hpp>
+#include <mathconstants.hpp>
+#include <math/comparison.hpp>
+#include <math/integrals/exponentialintegrals.hpp>
 
 #include <boost/math/special_functions/sign.hpp>
 #include <cmath>

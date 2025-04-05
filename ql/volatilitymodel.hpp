@@ -24,8 +24,8 @@
 #ifndef quantlib_volatility_model_hpp
 #define quantlib_volatility_model_hpp
 
-#include <ql/types.hpp>
-#include <ql/timeseries.hpp>
+#include <types.hpp>
+#include <timeseries.hpp>
 
 
 namespace QuantLib {

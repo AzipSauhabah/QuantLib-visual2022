@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/simplechooseroption.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/exercise.hpp>
+#include <instruments/simplechooseroption.hpp>
+#include <instruments/payoffs.hpp>
+#include <exercise.hpp>
 
 namespace QuantLib {
 

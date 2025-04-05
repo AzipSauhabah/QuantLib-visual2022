@@ -23,13 +23,13 @@
 #ifndef quantlib_fdm_heston_hull_white_solver_hpp
 #define quantlib_fdm_heston_hull_white_solver_hpp
 
-#include <ql/handle.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/processes/hestonprocess.hpp>
-#include <ql/processes/hullwhiteprocess.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmsolverdesc.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmdirichletboundary.hpp>
+#include <handle.hpp>
+#include <patterns/lazyobject.hpp>
+#include <processes/hestonprocess.hpp>
+#include <processes/hullwhiteprocess.hpp>
+#include <methods/finitedifferences/solvers/fdmsolverdesc.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <methods/finitedifferences/utilities/fdmdirichletboundary.hpp>
 
 
 namespace QuantLib {

@@ -25,9 +25,9 @@
 #ifndef quantlib_segment_integral_h
 #define quantlib_segment_integral_h
 
-#include <ql/math/integrals/integral.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/errors.hpp>
+#include <math/integrals/integral.hpp>
+#include <math/comparison.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

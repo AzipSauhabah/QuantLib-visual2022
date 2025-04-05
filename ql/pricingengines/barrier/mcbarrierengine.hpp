@@ -26,10 +26,10 @@
 #ifndef quantlib_mc_barrier_engines_hpp
 #define quantlib_mc_barrier_engines_hpp
 
-#include <ql/exercise.hpp>
-#include <ql/instruments/barrieroption.hpp>
-#include <ql/pricingengines/mcsimulation.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <exercise.hpp>
+#include <instruments/barrieroption.hpp>
+#include <pricingengines/mcsimulation.hpp>
+#include <processes/blackscholesprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

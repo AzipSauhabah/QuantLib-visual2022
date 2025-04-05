@@ -18,12 +18,12 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/shortrate/generalizedhullwhite.hpp>
-#include <ql/math/integrals/simpsonintegral.hpp>
-#include <ql/math/interpolations/backwardflatinterpolation.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/methods/lattices/trinomialtree.hpp>
-#include <ql/pricingengines/blackformula.hpp>
+#include <experimental/shortrate/generalizedhullwhite.hpp>
+#include <math/integrals/simpsonintegral.hpp>
+#include <math/interpolations/backwardflatinterpolation.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <methods/lattices/trinomialtree.hpp>
+#include <pricingengines/blackformula.hpp>
 #include <utility>
 
 namespace QuantLib {

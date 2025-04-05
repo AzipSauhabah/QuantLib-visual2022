@@ -24,7 +24,7 @@
 #ifndef quantlib_utilities_vectors_hpp
 #define quantlib_utilities_vectors_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <vector>
 
 namespace QuantLib::detail {

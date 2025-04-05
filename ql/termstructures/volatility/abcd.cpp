@@ -20,8 +20,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/volatility/abcd.hpp>
-#include <ql/math/comparison.hpp>
+#include <termstructures/volatility/abcd.hpp>
+#include <math/comparison.hpp>
 #include <algorithm>
 
 namespace QuantLib {

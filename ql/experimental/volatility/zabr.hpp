@@ -26,11 +26,11 @@
 #ifndef quantlib_zabr_hpp
 #define quantlib_zabr_hpp
 
-#include <ql/types.hpp>
-#include <ql/math/statistics/incrementalstatistics.hpp>
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/math/interpolations/cubicinterpolation.hpp>
-#include <ql/math/interpolations/bicubicsplineinterpolation.hpp>
+#include <types.hpp>
+#include <math/statistics/incrementalstatistics.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <math/interpolations/cubicinterpolation.hpp>
+#include <math/interpolations/bicubicsplineinterpolation.hpp>
 #include <vector>
 
 namespace QuantLib {

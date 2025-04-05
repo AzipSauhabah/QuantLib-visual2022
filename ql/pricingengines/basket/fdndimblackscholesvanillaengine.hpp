@@ -24,9 +24,9 @@
 #ifndef quantlib_fd_ndim_black_scholes_vanilla_engine_hpp
 #define quantlib_fd_ndim_black_scholes_vanilla_engine_hpp
 
-#include <ql/math/matrix.hpp>
-#include <ql/instruments/basketoption.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <math/matrix.hpp>
+#include <instruments/basketoption.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
 
 namespace QuantLib {
 

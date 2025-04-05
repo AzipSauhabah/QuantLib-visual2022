@@ -25,7 +25,7 @@
 #ifndef quantlib_stochastic_process_array_hpp
 #define quantlib_stochastic_process_array_hpp
 
-#include <ql/stochasticprocess.hpp>
+#include <stochasticprocess.hpp>
 #include <vector>
 
 namespace QuantLib {

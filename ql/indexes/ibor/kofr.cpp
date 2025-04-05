@@ -17,11 +17,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/currencies/asia.hpp>
-#include <ql/indexes/ibor/kofr.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/time/calendars/southkorea.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
+#include <currencies/asia.hpp>
+#include <indexes/ibor/kofr.hpp>
+#include <indexes/iborindex.hpp>
+#include <time/calendars/southkorea.hpp>
+#include <time/daycounters/actual365fixed.hpp>
 
 namespace QuantLib {
     Kofr::Kofr(const Handle<YieldTermStructure>& h)

@@ -24,7 +24,7 @@
 #ifndef quantlib_euler_discretization_hpp
 #define quantlib_euler_discretization_hpp
 
-#include <ql/stochasticprocess.hpp>
+#include <stochasticprocess.hpp>
 
 namespace QuantLib {
 

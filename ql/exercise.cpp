@@ -19,8 +19,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/errors.hpp>
+#include <exercise.hpp>
+#include <errors.hpp>
 #include <algorithm>
 
 namespace QuantLib {

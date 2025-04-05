@@ -25,9 +25,9 @@
 #ifndef quantlib_business252_day_counter_hpp
 #define quantlib_business252_day_counter_hpp
 
-#include <ql/time/calendar.hpp>
-#include <ql/time/calendars/brazil.hpp>
-#include <ql/time/daycounter.hpp>
+#include <time/calendar.hpp>
+#include <time/calendars/brazil.hpp>
+#include <time/daycounter.hpp>
 #include <utility>
 
 namespace QuantLib {

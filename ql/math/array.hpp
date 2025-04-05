@@ -26,9 +26,9 @@
 #ifndef quantlib_array_hpp
 #define quantlib_array_hpp
 
-#include <ql/types.hpp>
-#include <ql/errors.hpp>
-#include <ql/utilities/null.hpp>
+#include <types.hpp>
+#include <errors.hpp>
+#include <utilities/null.hpp>
 #include <iterator>
 #include <functional>
 #include <algorithm>

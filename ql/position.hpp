@@ -24,7 +24,7 @@
 #ifndef quantlib_position_hpp
 #define quantlib_position_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #include <iosfwd>
 
 namespace QuantLib {

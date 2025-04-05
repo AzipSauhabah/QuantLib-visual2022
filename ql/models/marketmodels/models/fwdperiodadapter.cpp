@@ -19,11 +19,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/curvestates/lmmcurvestate.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/models/marketmodels/forwardforwardmappings.hpp>
-#include <ql/models/marketmodels/models/fwdperiodadapter.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <models/marketmodels/curvestates/lmmcurvestate.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/forwardforwardmappings.hpp>
+#include <models/marketmodels/models/fwdperiodadapter.hpp>
+#include <utilities/dataformatters.hpp>
 #include <set>
 #include <utility>
 

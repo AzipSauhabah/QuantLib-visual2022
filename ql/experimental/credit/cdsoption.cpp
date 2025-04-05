@@ -18,14 +18,14 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/credit/cdsoption.hpp>
-#include <ql/experimental/credit/blackcdsoptionengine.hpp>
-#include <ql/exercise.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/solvers1d/brent.hpp>
+#include <experimental/credit/cdsoption.hpp>
+#include <experimental/credit/blackcdsoptionengine.hpp>
+#include <exercise.hpp>
+#include <quotes/simplequote.hpp>
+#include <instruments/payoffs.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/solvers1d/brent.hpp>
 
 namespace QuantLib {
 

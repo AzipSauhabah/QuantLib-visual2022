@@ -22,10 +22,10 @@
 #ifndef quantlib_upper_bound_engine_hpp
 #define quantlib_upper_bound_engine_hpp
 
-#include <ql/models/marketmodels/products/multiproductcomposite.hpp>
-#include <ql/methods/montecarlo/exercisestrategy.hpp>
-#include <ql/math/statistics/sequencestatistics.hpp>
-#include <ql/utilities/clone.hpp>
+#include <models/marketmodels/products/multiproductcomposite.hpp>
+#include <methods/montecarlo/exercisestrategy.hpp>
+#include <math/statistics/sequencestatistics.hpp>
+#include <utilities/clone.hpp>
 #include <utility>
 #include <valarray>
 

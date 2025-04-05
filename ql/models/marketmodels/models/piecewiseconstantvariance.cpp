@@ -19,8 +19,8 @@
 */
 
 
-#include <ql/models/marketmodels/models/piecewiseconstantvariance.hpp>
-#include <ql/errors.hpp>
+#include <models/marketmodels/models/piecewiseconstantvariance.hpp>
+#include <errors.hpp>
 #include <numeric>
 
 namespace QuantLib {

@@ -25,7 +25,7 @@
 #ifndef quantlib_average_type_hpp
 #define quantlib_average_type_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #include <iosfwd>
 
 namespace QuantLib {

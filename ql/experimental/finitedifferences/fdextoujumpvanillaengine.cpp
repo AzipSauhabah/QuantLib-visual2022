@@ -22,20 +22,20 @@
            for simple swing options
 */
 
-#include <ql/exercise.hpp>
-#include <ql/experimental/finitedifferences/fdextoujumpvanillaengine.hpp>
-#include <ql/experimental/finitedifferences/fdmextoujumpmodelinnervalue.hpp>
-#include <ql/experimental/finitedifferences/fdmextoujumpsolver.hpp>
-#include <ql/experimental/processes/extendedornsteinuhlenbeckprocess.hpp>
-#include <ql/experimental/processes/extouwithjumpsprocess.hpp>
-#include <ql/methods/finitedifferences/meshers/exponentialjump1dmesher.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmsimpleprocess1dmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmamericanstepcondition.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmbermudanstepcondition.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <exercise.hpp>
+#include <experimental/finitedifferences/fdextoujumpvanillaengine.hpp>
+#include <experimental/finitedifferences/fdmextoujumpmodelinnervalue.hpp>
+#include <experimental/finitedifferences/fdmextoujumpsolver.hpp>
+#include <experimental/processes/extendedornsteinuhlenbeckprocess.hpp>
+#include <experimental/processes/extouwithjumpsprocess.hpp>
+#include <methods/finitedifferences/meshers/exponentialjump1dmesher.hpp>
+#include <methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
+#include <methods/finitedifferences/meshers/fdmsimpleprocess1dmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/stepconditions/fdmamericanstepcondition.hpp>
+#include <methods/finitedifferences/stepconditions/fdmbermudanstepcondition.hpp>
+#include <methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

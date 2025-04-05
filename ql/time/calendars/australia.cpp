@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/calendars/australia.hpp>
+#include <time/calendars/australia.hpp>
 
 namespace QuantLib {
 

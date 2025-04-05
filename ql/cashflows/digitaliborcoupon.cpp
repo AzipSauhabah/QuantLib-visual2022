@@ -19,8 +19,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/cashflows/digitaliborcoupon.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <cashflows/digitaliborcoupon.hpp>
 #include <utility>
 
 namespace QuantLib {

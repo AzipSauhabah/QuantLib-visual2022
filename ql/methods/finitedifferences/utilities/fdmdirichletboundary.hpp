@@ -27,8 +27,8 @@
 #ifndef quantlib_fdm_dirichlet_boundary_hpp
 #define quantlib_fdm_dirichlet_boundary_hpp
 
-#include <ql/methods/finitedifferences/boundarycondition.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearop.hpp>
+#include <methods/finitedifferences/boundarycondition.hpp>
+#include <methods/finitedifferences/operators/fdmlinearop.hpp>
 
 namespace QuantLib {
 

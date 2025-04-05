@@ -29,11 +29,11 @@
 #ifndef quantlib_instruments_swaption_hpp
 #define quantlib_instruments_swaption_hpp
 
-#include <ql/option.hpp>
-#include <ql/instruments/fixedvsfloatingswap.hpp>
-#include <ql/instruments/vanillaswap.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/termstructures/volatility/volatilitytype.hpp>
+#include <option.hpp>
+#include <instruments/fixedvsfloatingswap.hpp>
+#include <instruments/vanillaswap.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <termstructures/volatility/volatilitytype.hpp>
 
 namespace QuantLib {
 

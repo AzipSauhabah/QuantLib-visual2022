@@ -17,15 +17,15 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #if !defined(BOOST_ALL_NO_LIB) && defined(BOOST_MSVC)
-#  include <ql/auto_link.hpp>
+#  include <auto_link.hpp>
 #endif
-#include <ql/experimental/credit/randomdefaultlatentmodel.hpp>
-#include <ql/termstructures/credit/flathazardrate.hpp>
-#include <ql/currencies/europe.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
+#include <experimental/credit/randomdefaultlatentmodel.hpp>
+#include <termstructures/credit/flathazardrate.hpp>
+#include <currencies/europe.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actual365fixed.hpp>
 #include <string>
 #include <iostream>
 #include <iomanip>

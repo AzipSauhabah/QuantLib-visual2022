@@ -27,12 +27,12 @@
 #ifndef quantlib_black_scholes_process_hpp
 #define quantlib_black_scholes_process_hpp
 
-#include <ql/stochasticprocess.hpp>
-#include <ql/processes/eulerdiscretization.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvoltermstructure.hpp>
-#include <ql/termstructures/volatility/equityfx/localvoltermstructure.hpp>
-#include <ql/quote.hpp>
+#include <stochasticprocess.hpp>
+#include <processes/eulerdiscretization.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <termstructures/volatility/equityfx/blackvoltermstructure.hpp>
+#include <termstructures/volatility/equityfx/localvoltermstructure.hpp>
+#include <quote.hpp>
 
 namespace QuantLib {
 

@@ -18,7 +18,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/credit/gaussianlhplossmodel.hpp>
+#include <experimental/credit/gaussianlhplossmodel.hpp>
 
 #ifndef QL_PATCH_SOLARIS
 

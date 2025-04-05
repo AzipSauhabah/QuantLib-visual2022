@@ -26,9 +26,9 @@
 #ifndef quantlib_piecewise_zero_spreaded_term_structure_hpp
 #define quantlib_piecewise_zero_spreaded_term_structure_hpp
 
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/quote.hpp>
-#include <ql/termstructures/yield/zeroyieldstructure.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <quote.hpp>
+#include <termstructures/yield/zeroyieldstructure.hpp>
 #include <utility>
 #include <vector>
 
@@ -193,3 +193,4 @@ namespace QuantLib {
 
 
 #endif
+

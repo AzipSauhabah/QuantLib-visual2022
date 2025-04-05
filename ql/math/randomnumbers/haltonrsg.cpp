@@ -27,9 +27,9 @@
 // granted, provided that this notice is preserved.
 // ===========================================================================
 
-#include <ql/math/randomnumbers/haltonrsg.hpp>
-#include <ql/math/randomnumbers/rngtraits.hpp>
-#include <ql/math/primenumbers.hpp>
+#include <math/randomnumbers/haltonrsg.hpp>
+#include <math/randomnumbers/rngtraits.hpp>
+#include <math/primenumbers.hpp>
 
 namespace QuantLib {
 

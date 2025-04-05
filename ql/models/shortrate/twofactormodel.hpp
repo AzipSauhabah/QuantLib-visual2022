@@ -25,8 +25,8 @@
 #ifndef quantlib_two_factor_model_hpp
 #define quantlib_two_factor_model_hpp
 
-#include <ql/methods/lattices/lattice2d.hpp>
-#include <ql/models/model.hpp>
+#include <methods/lattices/lattice2d.hpp>
+#include <models/model.hpp>
 #include <utility>
 
 namespace QuantLib {

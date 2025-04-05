@@ -25,11 +25,11 @@
 #ifndef quantlib_fixed_local_vol_surface_hpp
 #define quantlib_fixed_local_vol_surface_hpp
 
-#include <ql/math/matrix.hpp>
-#include <ql/math/interpolation.hpp>
-#include <ql/math/interpolations/linearinterpolation.hpp>
+#include <math/matrix.hpp>
+#include <math/interpolation.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
 
-#include <ql/termstructures/volatility/equityfx/localvoltermstructure.hpp>
+#include <termstructures/volatility/equityfx/localvoltermstructure.hpp>
 
 namespace QuantLib {
 

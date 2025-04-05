@@ -19,9 +19,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/duration.hpp>
-#include <ql/types.hpp>
-#include <ql/errors.hpp>
+#include <cashflows/duration.hpp>
+#include <types.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

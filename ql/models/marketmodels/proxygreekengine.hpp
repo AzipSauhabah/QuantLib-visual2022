@@ -22,10 +22,10 @@
 #define quantlib_proxy_greek_engine_hpp
 
 // to be removed using forward declaration
-#include <ql/models/marketmodels/multiproduct.hpp>
+#include <models/marketmodels/multiproduct.hpp>
 
-#include <ql/math/statistics/sequencestatistics.hpp>
-#include <ql/utilities/clone.hpp>
+#include <math/statistics/sequencestatistics.hpp>
+#include <utilities/clone.hpp>
 #include <valarray>
 
 namespace QuantLib {

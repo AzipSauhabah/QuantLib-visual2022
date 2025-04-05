@@ -24,8 +24,8 @@
 #ifndef quantlib_pricing_period_hpp
 #define quantlib_pricing_period_hpp
 
-#include <ql/experimental/commodities/dateinterval.hpp>
-#include <ql/experimental/commodities/quantity.hpp>
+#include <experimental/commodities/dateinterval.hpp>
+#include <experimental/commodities/quantity.hpp>
 #include <utility>
 #include <vector>
 

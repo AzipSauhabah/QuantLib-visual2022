@@ -17,8 +17,8 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/math/particleswarmoptimization.hpp>
-#include <ql/math/randomnumbers/sobolrsg.hpp>
+#include <experimental/math/particleswarmoptimization.hpp>
+#include <math/randomnumbers/sobolrsg.hpp>
 #include <cmath>
 #include <utility>
 

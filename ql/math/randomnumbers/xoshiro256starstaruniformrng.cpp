@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/randomnumbers/seedgenerator.hpp>
-#include <ql/math/randomnumbers/xoshiro256starstaruniformrng.hpp>
+#include <math/randomnumbers/seedgenerator.hpp>
+#include <math/randomnumbers/xoshiro256starstaruniformrng.hpp>
 
 namespace QuantLib {
 

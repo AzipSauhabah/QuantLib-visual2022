@@ -24,10 +24,10 @@
 #ifndef quantlib_fd_2d_black_scholes_vanilla_engine_hpp
 #define quantlib_fd_2d_black_scholes_vanilla_engine_hpp
 
-#include <ql/pricingengine.hpp>
-#include <ql/instruments/basketoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <pricingengine.hpp>
+#include <instruments/basketoption.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
 
 namespace QuantLib {
 

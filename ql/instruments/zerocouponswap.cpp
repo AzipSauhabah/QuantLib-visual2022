@@ -17,11 +17,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
  */
 
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/simplecashflow.hpp>
-#include <ql/cashflows/multipleresetscoupon.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/instruments/zerocouponswap.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <cashflows/simplecashflow.hpp>
+#include <cashflows/multipleresetscoupon.hpp>
+#include <indexes/iborindex.hpp>
+#include <instruments/zerocouponswap.hpp>
 #include <utility>
 
 namespace QuantLib {

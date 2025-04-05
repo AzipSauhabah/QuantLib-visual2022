@@ -19,11 +19,11 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/instruments/twoassetbarrieroption.hpp>
-#include <ql/pricingengines/barrier/analytictwoassetbarrierengine.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <experimental/exoticoptions/twoassetbarrieroption.hpp>
+#include <experimental/exoticoptions/analytictwoassetbarrierengine.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <quotes/simplequote.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

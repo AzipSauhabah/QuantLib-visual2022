@@ -22,7 +22,7 @@
 #ifndef quantlib_config_msvc_hpp
 #define quantlib_config_msvc_hpp
 
-#include <ql/userconfig.hpp>
+#include <userconfig.hpp>
 
 // first things first
 #if (_MSC_VER < 1910)

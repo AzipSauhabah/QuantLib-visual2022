@@ -26,7 +26,7 @@
 #ifndef quantlib_null_hpp
 #define quantlib_null_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <type_traits>
 #include <limits>
 

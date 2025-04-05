@@ -25,8 +25,8 @@
 #ifndef quantlib_unit_of_measure_conversion_manager_hpp
 #define quantlib_unit_of_measure_conversion_manager_hpp
 
-#include <ql/experimental/commodities/unitofmeasureconversion.hpp>
-#include <ql/patterns/singleton.hpp>
+#include <experimental/commodities/unitofmeasureconversion.hpp>
+#include <patterns/singleton.hpp>
 #include <list>
 
 namespace QuantLib {

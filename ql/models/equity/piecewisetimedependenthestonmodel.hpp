@@ -24,8 +24,8 @@
 #ifndef quantlib_piecewise_time_dependent_heston_model_hpp
 #define quantlib_piecewise_time_dependent_heston_model_hpp
 
-#include <ql/timegrid.hpp>
-#include <ql/models/model.hpp>
+#include <timegrid.hpp>
+#include <models/model.hpp>
 
 namespace QuantLib {
 

@@ -17,11 +17,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/indexes/swap/jpyliborswap.hpp>
-#include <ql/indexes/ibor/jpylibor.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/currencies/asia.hpp>
+#include <indexes/swap/jpyliborswap.hpp>
+#include <indexes/ibor/jpylibor.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <currencies/asia.hpp>
 
 namespace QuantLib {
 

@@ -27,8 +27,8 @@
 #ifndef quantlib_exp_correlations_hpp
 #define quantlib_exp_correlations_hpp
 
-#include <ql/math/matrix.hpp>
-#include <ql/models/marketmodels/piecewiseconstantcorrelation.hpp>
+#include <math/matrix.hpp>
+#include <models/marketmodels/piecewiseconstantcorrelation.hpp>
 
 namespace QuantLib {
 

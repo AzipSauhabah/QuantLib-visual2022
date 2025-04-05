@@ -24,8 +24,8 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef quantlib_fft_engine_hpp
 #define quantlib_fft_engine_hpp
 
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/stochasticprocess.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <stochasticprocess.hpp>
 #include <complex>
 
 namespace QuantLib {

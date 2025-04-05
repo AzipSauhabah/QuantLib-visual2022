@@ -19,7 +19,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/basket/mceuropeanbasketengine.hpp>
+#include <pricingengines/basket/mceuropeanbasketengine.hpp>
 #include <utility>
 
 namespace QuantLib {

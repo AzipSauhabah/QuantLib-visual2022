@@ -19,13 +19,13 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/functional.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/distributions/chisquaredistribution.hpp>
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/math/integrals/gausslobattointegral.hpp>
-#include <ql/termstructures/volatility/equityfx/localvoltermstructure.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmhestonvariancemesher.hpp>
+#include <math/functional.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/distributions/chisquaredistribution.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <math/integrals/gausslobattointegral.hpp>
+#include <termstructures/volatility/equityfx/localvoltermstructure.hpp>
+#include <methods/finitedifferences/meshers/fdmhestonvariancemesher.hpp>
 #include <boost/accumulators/accumulators.hpp>
 #include <boost/accumulators/statistics/mean.hpp>
 #include <boost/accumulators/statistics/stats.hpp>

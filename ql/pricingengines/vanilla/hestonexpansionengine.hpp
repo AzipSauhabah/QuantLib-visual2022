@@ -24,9 +24,9 @@
 #ifndef quantlib_heston_expansion_engine_hpp
 #define quantlib_heston_expansion_engine_hpp
 
-#include <ql/pricingengines/genericmodelengine.hpp>
-#include <ql/models/equity/hestonmodel.hpp>
-#include <ql/instruments/vanillaoption.hpp>
+#include <pricingengines/genericmodelengine.hpp>
+#include <models/equity/hestonmodel.hpp>
+#include <instruments/vanillaoption.hpp>
 
 namespace QuantLib {
 

@@ -24,7 +24,7 @@
 #ifndef quantlib_math_gaussian_copula_h
 #define quantlib_math_gaussian_copula_h
 
-#include <ql/math/distributions/bivariatenormaldistribution.hpp>
+#include <math/distributions/bivariatenormaldistribution.hpp>
 #include <functional>
 
 namespace QuantLib {

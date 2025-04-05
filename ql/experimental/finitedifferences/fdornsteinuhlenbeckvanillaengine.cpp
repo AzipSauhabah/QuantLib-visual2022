@@ -17,17 +17,17 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/experimental/finitedifferences/fdornsteinuhlenbeckvanillaengine.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmsimpleprocess1dmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/operators/fdmornsteinuhlenbeckop.hpp>
-#include <ql/methods/finitedifferences/solvers/fdm1dimsolver.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
-#include <ql/methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
-#include <ql/processes/ornsteinuhlenbeckprocess.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <exercise.hpp>
+#include <experimental/finitedifferences/fdornsteinuhlenbeckvanillaengine.hpp>
+#include <methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
+#include <methods/finitedifferences/meshers/fdmsimpleprocess1dmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/operators/fdmornsteinuhlenbeckop.hpp>
+#include <methods/finitedifferences/solvers/fdm1dimsolver.hpp>
+#include <methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
+#include <methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
+#include <processes/ornsteinuhlenbeckprocess.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

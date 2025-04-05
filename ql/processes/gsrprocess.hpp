@@ -29,9 +29,9 @@
 #ifndef quantlib_gsr_process_hpp
 #define quantlib_gsr_process_hpp
 
-#include <ql/processes/forwardmeasureprocess.hpp>
-#include <ql/processes/gsrprocesscore.hpp>
-#include <ql/time/daycounter.hpp>
+#include <processes/forwardmeasureprocess.hpp>
+#include <processes/gsrprocesscore.hpp>
+#include <time/daycounter.hpp>
 
 namespace QuantLib {
 

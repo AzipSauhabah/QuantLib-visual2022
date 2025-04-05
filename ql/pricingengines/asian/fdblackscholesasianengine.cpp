@@ -17,17 +17,17 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmblackscholesmesher.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmsimple2dbssolver.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmarithmeticaveragecondition.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
-#include <ql/methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
-#include <ql/pricingengines/asian/fdblackscholesasianengine.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <exercise.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <methods/finitedifferences/meshers/fdmblackscholesmesher.hpp>
+#include <methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/solvers/fdmsimple2dbssolver.hpp>
+#include <methods/finitedifferences/stepconditions/fdmarithmeticaveragecondition.hpp>
+#include <methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
+#include <methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
+#include <pricingengines/asian/fdblackscholesasianengine.hpp>
+#include <processes/blackscholesprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

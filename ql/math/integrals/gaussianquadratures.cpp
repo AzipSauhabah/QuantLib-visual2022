@@ -22,10 +22,10 @@
     \brief Integral of a 1-dimensional function using the Gauss quadratures
 */
 
-#include <ql/utilities/null.hpp>
-#include <ql/math/integrals/gaussianquadratures.hpp>
-#include <ql/math/matrixutilities/tqreigendecomposition.hpp>
-#include <ql/math/matrixutilities/symmetricschurdecomposition.hpp>
+#include <utilities/null.hpp>
+#include <math/integrals/gaussianquadratures.hpp>
+#include <math/matrixutilities/tqreigendecomposition.hpp>
+#include <math/matrixutilities/symmetricschurdecomposition.hpp>
 
 #include <map>
 

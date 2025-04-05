@@ -24,8 +24,8 @@
 #ifndef quantlib_randomized_lds_hpp
 #define quantlib_randomized_lds_hpp
 
-#include <ql/math/randomnumbers/mt19937uniformrng.hpp>
-#include <ql/math/randomnumbers/randomsequencegenerator.hpp>
+#include <math/randomnumbers/mt19937uniformrng.hpp>
+#include <math/randomnumbers/randomsequencegenerator.hpp>
 #include <utility>
 
 namespace QuantLib {

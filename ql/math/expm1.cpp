@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/expm1.hpp>
-#include <ql/math/functional.hpp>
+#include <math/expm1.hpp>
+#include <math/functional.hpp>
 
 #include <cmath>
 

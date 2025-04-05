@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/compoundoption.hpp>
+#include <instruments/compoundoption.hpp>
 #include <utility>
 
 namespace QuantLib {

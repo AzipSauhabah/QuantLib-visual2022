@@ -24,17 +24,17 @@
 #ifndef quantlib_synthetic_cdo_hpp
 #define quantlib_synthetic_cdo_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 
 #ifndef QL_PATCH_SOLARIS
 
-#include <ql/instrument.hpp>
-#include <ql/default.hpp>
-#include <ql/optional.hpp>
-#include <ql/time/schedule.hpp>
+#include <instrument.hpp>
+#include <default.hpp>
+#include <optional.hpp>
+#include <time/schedule.hpp>
 
-#include <ql/experimental/credit/basket.hpp>
-#include <ql/cashflows/fixedratecoupon.hpp>
+#include <experimental/credit/basket.hpp>
+#include <cashflows/fixedratecoupon.hpp>
 
 namespace QuantLib {
 

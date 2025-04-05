@@ -25,7 +25,7 @@
 #ifndef quantlib_fdm_discount_dirichlet_boundary_hpp
 #define quantlib_fdm_discount_dirichlet_boundary_hpp
 
-#include <ql/methods/finitedifferences/utilities/fdmtimedepdirichletboundary.hpp>
+#include <methods/finitedifferences/utilities/fdmtimedepdirichletboundary.hpp>
 
 namespace QuantLib {
 

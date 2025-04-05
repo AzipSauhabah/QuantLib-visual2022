@@ -25,9 +25,9 @@
 #ifndef quantlib_gauss_lobatto_integral_hpp
 #define quantlib_gauss_lobatto_integral_hpp
 
-#include <ql/errors.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/math/integrals/integral.hpp>
+#include <errors.hpp>
+#include <utilities/null.hpp>
+#include <math/integrals/integral.hpp>
 
 namespace QuantLib {
 

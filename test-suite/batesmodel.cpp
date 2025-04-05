@@ -20,24 +20,24 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/time/calendars/target.hpp>
-#include <ql/processes/batesprocess.hpp>
-#include <ql/processes/merton76process.hpp>
-#include <ql/instruments/europeanoption.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/yield/zerocurve.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/math/optimization/levenbergmarquardt.hpp>
-#include <ql/pricingengines/vanilla/batesengine.hpp>
-#include <ql/pricingengines/vanilla/jumpdiffusionengine.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
-#include <ql/pricingengines/vanilla/mceuropeanhestonengine.hpp>
-#include <ql/pricingengines/vanilla/fdbatesvanillaengine.hpp>
-#include <ql/models/equity/batesmodel.hpp>
-#include <ql/models/equity/hestonmodelhelper.hpp>
-#include <ql/time/period.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <time/calendars/target.hpp>
+#include <processes/batesprocess.hpp>
+#include <processes/merton76process.hpp>
+#include <instruments/europeanoption.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/yield/zerocurve.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <math/optimization/levenbergmarquardt.hpp>
+#include <pricingengines/vanilla/batesengine.hpp>
+#include <pricingengines/vanilla/jumpdiffusionengine.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <pricingengines/vanilla/mceuropeanhestonengine.hpp>
+#include <pricingengines/vanilla/fdbatesvanillaengine.hpp>
+#include <models/equity/batesmodel.hpp>
+#include <models/equity/hestonmodelhelper.hpp>
+#include <time/period.hpp>
+#include <quotes/simplequote.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

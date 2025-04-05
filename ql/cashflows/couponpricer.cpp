@@ -20,18 +20,18 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/capflooredcoupon.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/cashflows/digitalcmscoupon.hpp>
-#include <ql/cashflows/digitalcoupon.hpp>
-#include <ql/cashflows/digitaliborcoupon.hpp>
-#include <ql/cashflows/rangeaccrual.hpp>
-#include <ql/cashflows/multipleresetscoupon.hpp>
-#include <ql/experimental/coupons/cmsspreadcoupon.hpp>        /* internal */
-#include <ql/experimental/coupons/digitalcmsspreadcoupon.hpp> /* internal */
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/optional.hpp>
+#include <cashflows/capflooredcoupon.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <cashflows/digitalcmscoupon.hpp>
+#include <cashflows/digitalcoupon.hpp>
+#include <cashflows/digitaliborcoupon.hpp>
+#include <cashflows/rangeaccrual.hpp>
+#include <cashflows/multipleresetscoupon.hpp>
+#include <experimental/coupons/cmsspreadcoupon.hpp>        /* internal */
+#include <experimental/coupons/digitalcmsspreadcoupon.hpp> /* internal */
+#include <pricingengines/blackformula.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <optional.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -27,17 +27,17 @@
 #ifndef quantlib_gaussian1dmodel_hpp
 #define quantlib_gaussian1dmodel_hpp
 
-#include <ql/models/model.hpp>
-#include <ql/models/parameter.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/indexes/swapindex.hpp>
-#include <ql/instruments/vanillaswap.hpp>
-#include <ql/time/date.hpp>
-#include <ql/time/period.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/stochasticprocess.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/patterns/lazyobject.hpp>
+#include <models/model.hpp>
+#include <models/parameter.hpp>
+#include <indexes/iborindex.hpp>
+#include <indexes/swapindex.hpp>
+#include <instruments/vanillaswap.hpp>
+#include <time/date.hpp>
+#include <time/period.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <stochasticprocess.hpp>
+#include <utilities/null.hpp>
+#include <patterns/lazyobject.hpp>
 
 #ifdef GAUSS1D_ENABLE_NTL
 #include <boost/math/bindings/rr.hpp>

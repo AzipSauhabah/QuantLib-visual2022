@@ -24,8 +24,8 @@
 #ifndef quantlib_binary_double_barrier_engine_hpp
 #define quantlib_binary_double_barrier_engine_hpp
 
-#include <ql/instruments/doublebarrieroption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <instruments/doublebarrieroption.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

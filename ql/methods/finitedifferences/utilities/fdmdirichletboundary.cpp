@@ -20,10 +20,10 @@
 */
 
 
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmdirichletboundary.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmindicesonboundary.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/utilities/fdmdirichletboundary.hpp>
+#include <methods/finitedifferences/utilities/fdmindicesonboundary.hpp>
 
 namespace QuantLib {
 

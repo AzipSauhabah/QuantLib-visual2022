@@ -22,8 +22,8 @@
 #ifndef quantlib_piecewise_const_abcd_variance_hpp
 #define quantlib_piecewise_const_abcd_variance_hpp
 
-#include <ql/models/marketmodels/models/piecewiseconstantvariance.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/models/piecewiseconstantvariance.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
 
 namespace QuantLib {
 

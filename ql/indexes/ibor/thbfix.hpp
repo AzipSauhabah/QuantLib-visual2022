@@ -24,10 +24,10 @@
 #ifndef quantlib_thbfix_hpp
 #define quantlib_thbfix_hpp
 
-#include <ql/indexes/ibor/libor.hpp>
-#include <ql/time/calendars/thailand.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/currencies/asia.hpp>
+#include <indexes/ibor/libor.hpp>
+#include <time/calendars/thailand.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <currencies/asia.hpp>
 
 namespace QuantLib {
 

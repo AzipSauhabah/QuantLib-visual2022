@@ -24,9 +24,9 @@
 #ifndef quantlib_two_dimensional_integral_2d_hpp
 #define quantlib_two_dimensional_integral_2d_hpp
 
-#include <ql/math/integrals/integral.hpp>
-#include <ql/shared_ptr.hpp>
-#include <ql/functional.hpp>
+#include <math/integrals/integral.hpp>
+#include <shared_ptr.hpp>
+#include <functional.hpp>
 #include <utility>
 
 namespace QuantLib {

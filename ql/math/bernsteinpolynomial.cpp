@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/bernsteinpolynomial.hpp>
-#include <ql/math/factorial.hpp>
-#include <ql/errors.hpp>
+#include <math/bernsteinpolynomial.hpp>
+#include <math/factorial.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

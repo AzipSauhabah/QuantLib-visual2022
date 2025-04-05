@@ -26,10 +26,10 @@
 #ifndef quantlib_piecewise_yield_curve_hpp
 #define quantlib_piecewise_yield_curve_hpp
 
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/termstructures/iterativebootstrap.hpp>
-#include <ql/termstructures/localbootstrap.hpp>
-#include <ql/termstructures/yield/bootstraptraits.hpp>
+#include <patterns/lazyobject.hpp>
+#include <termstructures/iterativebootstrap.hpp>
+#include <termstructures/localbootstrap.hpp>
+#include <termstructures/yield/bootstraptraits.hpp>
 #include <utility>
 
 namespace QuantLib {

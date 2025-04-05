@@ -24,8 +24,8 @@
 #ifndef quantlib_fdm_arithmetic_average_condition_hpp
 #define quantlib_fdm_arithmetic_average_condition_hpp
 
-#include <ql/methods/finitedifferences/stepcondition.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/stepcondition.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
 
 namespace QuantLib {
 

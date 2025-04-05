@@ -25,9 +25,9 @@
 #ifndef quantlib_blackconstantvol_hpp
 #define quantlib_blackconstantvol_hpp
 
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvoltermstructure.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/volatility/equityfx/blackvoltermstructure.hpp>
+#include <time/daycounters/actual365fixed.hpp>
 #include <utility>
 
 namespace QuantLib {

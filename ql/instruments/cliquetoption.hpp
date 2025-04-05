@@ -24,9 +24,9 @@
 #ifndef ql_cliquet_option_hpp
 #define ql_cliquet_option_hpp
 
-#include <ql/instruments/oneassetoption.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/time/date.hpp>
+#include <instruments/oneassetoption.hpp>
+#include <instruments/payoffs.hpp>
+#include <time/date.hpp>
 #include <vector>
 
 namespace QuantLib {

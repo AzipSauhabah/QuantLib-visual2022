@@ -17,14 +17,14 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-/*! \file ql/functional.hpp
+/*! \file functional.hpp
     \brief Maps function, bind and cref to either the boost or std implementation
 */
 
 #ifndef quantlib_functional_hpp
 #define quantlib_functional_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #include <functional>
 
 namespace QuantLib::ext {

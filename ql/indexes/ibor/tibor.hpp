@@ -24,10 +24,10 @@
 #ifndef quantlib_tibor_hpp
 #define quantlib_tibor_hpp
 
-#include <ql/indexes/iborindex.hpp>
-#include <ql/time/calendars/japan.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/currencies/asia.hpp>
+#include <indexes/iborindex.hpp>
+#include <time/calendars/japan.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <currencies/asia.hpp>
 
 namespace QuantLib {
 

@@ -18,7 +18,7 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/calendars/botswana.hpp>
+#include <time/calendars/botswana.hpp>
 
 namespace QuantLib {
 

@@ -24,8 +24,8 @@
 #ifndef quantlib_interpolated_survival_probability_curve_hpp
 #define quantlib_interpolated_survival_probability_curve_hpp
 
-#include <ql/termstructures/credit/survivalprobabilitystructure.hpp>
-#include <ql/termstructures/interpolatedcurve.hpp>
+#include <termstructures/credit/survivalprobabilitystructure.hpp>
+#include <termstructures/interpolatedcurve.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -26,9 +26,9 @@
 #ifndef quantlib_piecewise_zero_inflation_curve_hpp
 #define quantlib_piecewise_zero_inflation_curve_hpp
 
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/termstructures/inflation/inflationtraits.hpp>
-#include <ql/termstructures/iterativebootstrap.hpp>
+#include <patterns/lazyobject.hpp>
+#include <termstructures/inflation/inflationtraits.hpp>
+#include <termstructures/iterativebootstrap.hpp>
 #include <utility>
 
 namespace QuantLib {
@@ -119,7 +119,6 @@ namespace QuantLib {
       private:
         // methods
         void performCalculations() const override;
-        Rate zeroRateImpl(Time t) const override;
         // data members
         std::vector<ext::shared_ptr<typename Traits::helper> > instruments_;
         Real accuracy_;
@@ -173,12 +172,6 @@ namespace QuantLib {
     template <class I, template <class> class B, class T>
     void PiecewiseZeroInflationCurve<I,B,T>::performCalculations() const {
         bootstrap_.calculate();
-    }
-
-    template <class I, template <class> class B, class T>
-    Rate PiecewiseZeroInflationCurve<I,B,T>::zeroRateImpl(Time t) const {
-        calculate();
-        return base_curve::zeroRateImpl(t);
     }
 
     template <class I, template<class> class B, class T>

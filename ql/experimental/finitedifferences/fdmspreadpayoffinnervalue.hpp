@@ -24,8 +24,8 @@
 #ifndef quantlib_fdm_spread_payoff_inner_value_hpp
 #define quantlib_fdm_spread_payoff_inner_value_hpp
 
-#include <ql/instruments/basketoption.hpp>
-#include <ql/methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
+#include <instruments/basketoption.hpp>
+#include <methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
 #include <utility>
 
 namespace QuantLib {

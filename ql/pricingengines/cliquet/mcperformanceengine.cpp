@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/cliquet/mcperformanceengine.hpp>
+#include <pricingengines/cliquet/mcperformanceengine.hpp>
 #include <utility>
 
 namespace QuantLib {

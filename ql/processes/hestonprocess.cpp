@@ -17,17 +17,17 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/distributions/chisquaredistribution.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/functional.hpp>
-#include <ql/math/integrals/gaussianquadratures.hpp>
-#include <ql/math/integrals/gausslobattointegral.hpp>
-#include <ql/math/integrals/segmentintegral.hpp>
-#include <ql/math/modifiedbessel.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/processes/eulerdiscretization.hpp>
-#include <ql/processes/hestonprocess.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <math/distributions/chisquaredistribution.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/functional.hpp>
+#include <math/integrals/gaussianquadratures.hpp>
+#include <math/integrals/gausslobattointegral.hpp>
+#include <math/integrals/segmentintegral.hpp>
+#include <math/modifiedbessel.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <processes/eulerdiscretization.hpp>
+#include <processes/hestonprocess.hpp>
+#include <quotes/simplequote.hpp>
 #include <boost/math/distributions/non_central_chi_squared.hpp>
 #include <complex>
 #include <utility>

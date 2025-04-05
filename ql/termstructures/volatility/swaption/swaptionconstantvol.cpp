@@ -19,9 +19,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/volatility/flatsmilesection.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionconstantvol.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/volatility/flatsmilesection.hpp>
+#include <termstructures/volatility/swaption/swaptionconstantvol.hpp>
 #include <utility>
 
 namespace QuantLib {

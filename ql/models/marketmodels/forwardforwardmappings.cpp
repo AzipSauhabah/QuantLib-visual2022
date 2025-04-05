@@ -18,9 +18,9 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/forwardforwardmappings.hpp>
-#include <ql/models/marketmodels/curvestate.hpp>
-#include <ql/models/marketmodels/curvestates/lmmcurvestate.hpp>
+#include <models/marketmodels/forwardforwardmappings.hpp>
+#include <models/marketmodels/curvestate.hpp>
+#include <models/marketmodels/curvestates/lmmcurvestate.hpp>
 #include <vector>
 
 namespace QuantLib {

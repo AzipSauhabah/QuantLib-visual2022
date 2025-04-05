@@ -25,10 +25,10 @@
 #ifndef quantlib_replicating_varianceswap_engine_hpp
 #define quantlib_replicating_varianceswap_engine_hpp
 
-#include <ql/exercise.hpp>
-#include <ql/instruments/europeanoption.hpp>
-#include <ql/instruments/varianceswap.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <exercise.hpp>
+#include <instruments/europeanoption.hpp>
+#include <instruments/varianceswap.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
 #include <utility>
 
 namespace QuantLib {

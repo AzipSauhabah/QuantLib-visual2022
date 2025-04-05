@@ -25,9 +25,9 @@
 #ifndef quantlib_least_square_hpp
 #define quantlib_least_square_hpp
 
-#include <ql/math/optimization/problem.hpp>
-#include <ql/math/optimization/conjugategradient.hpp>
-#include <ql/math/matrix.hpp>
+#include <math/optimization/problem.hpp>
+#include <math/optimization/conjugategradient.hpp>
+#include <math/matrix.hpp>
 
 namespace QuantLib {
 

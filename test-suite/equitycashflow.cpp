@@ -18,11 +18,11 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/cashflows/equitycashflow.hpp>
-#include <ql/currencies/europe.hpp>
-#include <ql/indexes/equityindex.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <cashflows/equitycashflow.hpp>
+#include <currencies/europe.hpp>
+#include <indexes/equityindex.hpp>
+#include <time/calendars/target.hpp>
+#include <quotes/simplequote.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

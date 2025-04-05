@@ -24,8 +24,8 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef quantlib_fft_variancegamma_engine_hpp
 #define quantlib_fft_variancegamma_engine_hpp
 
-#include <ql/experimental/variancegamma/fftengine.hpp>
-#include <ql/experimental/variancegamma/variancegammaprocess.hpp>
+#include <experimental/variancegamma/fftengine.hpp>
+#include <experimental/variancegamma/variancegammaprocess.hpp>
 #include <complex>
 
 namespace QuantLib {

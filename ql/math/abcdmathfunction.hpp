@@ -23,8 +23,8 @@
 #ifndef quantlib_abcd_math_function_hpp
 #define quantlib_abcd_math_function_hpp
 
-#include <ql/types.hpp>
-#include <ql/errors.hpp>
+#include <types.hpp>
+#include <errors.hpp>
 #include <vector>
 
 namespace QuantLib {

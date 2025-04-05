@@ -23,24 +23,24 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/instruments/quantovanillaoption.hpp>
-#include <ql/instruments/quantoforwardvanillaoption.hpp>
-#include <ql/instruments/quantobarrieroption.hpp>
-#include <ql/experimental/barrieroption/quantodoublebarrieroption.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
-#include <ql/pricingengines/vanilla/fdblackscholesvanillaengine.hpp>
-#include <ql/pricingengines/vanilla/fdhestonvanillaengine.hpp>
-#include <ql/pricingengines/barrier/analyticbarrierengine.hpp>
-#include <ql/pricingengines/barrier/analyticdoublebarrierengine.hpp>
-#include <ql/pricingengines/quanto/quantoengine.hpp>
-#include <ql/pricingengines/forward/forwardperformanceengine.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/termstructures/volatility/equityfx/localconstantvol.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmquantohelper.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmblackscholesmesher.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <instruments/quantovanillaoption.hpp>
+#include <instruments/quantoforwardvanillaoption.hpp>
+#include <instruments/quantobarrieroption.hpp>
+#include <experimental/barrieroption/quantodoublebarrieroption.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <pricingengines/vanilla/fdblackscholesvanillaengine.hpp>
+#include <pricingengines/vanilla/fdhestonvanillaengine.hpp>
+#include <pricingengines/barrier/analyticbarrierengine.hpp>
+#include <pricingengines/barrier/analyticdoublebarrierengine.hpp>
+#include <pricingengines/quanto/quantoengine.hpp>
+#include <pricingengines/forward/forwardperformanceengine.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <termstructures/volatility/equityfx/localconstantvol.hpp>
+#include <methods/finitedifferences/utilities/fdmquantohelper.hpp>
+#include <methods/finitedifferences/meshers/fdmblackscholesmesher.hpp>
+#include <utilities/dataformatters.hpp>
 #include <map>
 
 using namespace QuantLib;

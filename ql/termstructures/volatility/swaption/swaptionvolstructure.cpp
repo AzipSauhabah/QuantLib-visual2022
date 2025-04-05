@@ -19,8 +19,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/volatility/swaption/swaptionvolstructure.hpp>
-#include <ql/math/rounding.hpp>
+#include <termstructures/volatility/swaption/swaptionvolstructure.hpp>
+#include <math/rounding.hpp>
 
 namespace QuantLib {
 

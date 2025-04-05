@@ -25,8 +25,8 @@
 #ifndef quantlib_default_probability_key_hpp
 #define quantlib_default_probability_key_hpp
 
-#include <ql/experimental/credit/defaulttype.hpp>
-#include <ql/currency.hpp>
+#include <experimental/credit/defaulttype.hpp>
+#include <currency.hpp>
 #include <vector>
 
 namespace QuantLib {

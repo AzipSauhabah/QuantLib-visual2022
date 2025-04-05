@@ -23,16 +23,16 @@
 #ifndef quantlib_fdm_cir_solver_hpp
 #define quantlib_fdm_cir_solver_hpp
 
-#include <ql/handle.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmsolverdesc.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmdirichletboundary.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmquantohelper.hpp>
-#include <ql/models/shortrate/onefactormodels/coxingersollross.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/processes/coxingersollrossprocess.hpp>
-#include <ql/termstructures/volatility/equityfx/localvoltermstructure.hpp>
+#include <handle.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <methods/finitedifferences/solvers/fdmsolverdesc.hpp>
+#include <methods/finitedifferences/utilities/fdmdirichletboundary.hpp>
+#include <methods/finitedifferences/utilities/fdmquantohelper.hpp>
+#include <models/shortrate/onefactormodels/coxingersollross.hpp>
+#include <patterns/lazyobject.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <processes/coxingersollrossprocess.hpp>
+#include <termstructures/volatility/equityfx/localvoltermstructure.hpp>
 
 namespace QuantLib {
 

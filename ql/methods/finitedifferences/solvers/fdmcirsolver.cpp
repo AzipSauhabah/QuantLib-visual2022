@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/methods/finitedifferences/operators/fdmcirop.hpp>
-#include <ql/methods/finitedifferences/solvers/fdm2dimsolver.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmcirsolver.hpp>
-#include <ql/processes/hestonprocess.hpp>
+#include <methods/finitedifferences/operators/fdmcirop.hpp>
+#include <methods/finitedifferences/solvers/fdm2dimsolver.hpp>
+#include <methods/finitedifferences/solvers/fdmcirsolver.hpp>
+#include <processes/hestonprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

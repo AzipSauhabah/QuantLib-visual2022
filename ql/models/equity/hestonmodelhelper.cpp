@@ -19,12 +19,12 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/models/equity/hestonmodelhelper.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/processes/hestonprocess.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <exercise.hpp>
+#include <instruments/payoffs.hpp>
+#include <models/equity/hestonmodelhelper.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <processes/hestonprocess.hpp>
+#include <quotes/simplequote.hpp>
 #include <utility>
 
 

@@ -26,10 +26,10 @@
 #ifndef quantlib_strippedoptionletbase_hpp
 #define quantlib_strippedoptionletbase_hpp
 
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/time/businessdayconvention.hpp>
-#include <ql/types.hpp>
-#include <ql/termstructures/volatility/volatilitytype.hpp>
+#include <patterns/lazyobject.hpp>
+#include <time/businessdayconvention.hpp>
+#include <types.hpp>
+#include <termstructures/volatility/volatilitytype.hpp>
 
 #include <vector>
 

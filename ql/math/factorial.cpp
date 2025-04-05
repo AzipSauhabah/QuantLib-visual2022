@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/factorial.hpp>
-#include <ql/math/distributions/gammadistribution.hpp>
-#include <ql/errors.hpp>
+#include <math/factorial.hpp>
+#include <math/distributions/gammadistribution.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

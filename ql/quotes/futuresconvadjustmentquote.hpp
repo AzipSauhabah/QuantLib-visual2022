@@ -25,11 +25,10 @@
 #ifndef quantlib_futures_conv_adjustment_quote_hpp
 #define quantlib_futures_conv_adjustment_quote_hpp
 
-#include <ql/quote.hpp>
-#include <ql/types.hpp>
-#include <ql/handle.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/utilities/null.hpp>
+#include <quote.hpp>
+#include <types.hpp>
+#include <handle.hpp>
+#include <indexes/iborindex.hpp>
 
 namespace QuantLib {
 
@@ -66,13 +65,11 @@ namespace QuantLib {
         Handle<Quote> futuresQuote_;
         Handle<Quote> volatility_;
         Handle<Quote> meanReversion_;
-        mutable Real rate_ = Null<Real>();
     };
 
     // inline
 
-    inline void FuturesConvAdjustmentQuote::update() {
-        rate_ = Null<Real>();
+    inline void FuturesConvAdjustmentQuote::update(){
         notifyObservers();
     }
 

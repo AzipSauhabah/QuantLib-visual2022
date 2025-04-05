@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/stochasticprocess.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmsimpleprocess1dmesher.hpp>
+#include <stochasticprocess.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <methods/finitedifferences/meshers/fdmsimpleprocess1dmesher.hpp>
 
 namespace QuantLib {
 

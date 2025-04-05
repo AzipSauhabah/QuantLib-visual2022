@@ -21,15 +21,15 @@
     \brief Bates linear operator
 */
 
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmbatesop.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmdirichletboundary.hpp>
-#include <ql/processes/batesprocess.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/yield/zerospreadedtermstructure.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <math/matrix.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/fdmbatesop.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/utilities/fdmdirichletboundary.hpp>
+#include <processes/batesprocess.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/yield/zerospreadedtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

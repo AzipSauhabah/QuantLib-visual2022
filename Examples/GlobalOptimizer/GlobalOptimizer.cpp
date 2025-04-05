@@ -17,15 +17,15 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #if !defined(BOOST_ALL_NO_LIB) && defined(BOOST_MSVC)
-#  include <ql/auto_link.hpp>
+#  include <auto_link.hpp>
 #endif
-#include <ql/experimental/math/fireflyalgorithm.hpp>
-#include <ql/experimental/math/hybridsimulatedannealing.hpp>
-#include <ql/experimental/math/particleswarmoptimization.hpp>
-#include <ql/math/optimization/differentialevolution.hpp>
-#include <ql/math/optimization/simulatedannealing.hpp>
+#include <experimental/math/fireflyalgorithm.hpp>
+#include <experimental/math/hybridsimulatedannealing.hpp>
+#include <experimental/math/particleswarmoptimization.hpp>
+#include <math/optimization/differentialevolution.hpp>
+#include <math/optimization/simulatedannealing.hpp>
 #include <functional>
 #include <iomanip>
 #include <iostream>

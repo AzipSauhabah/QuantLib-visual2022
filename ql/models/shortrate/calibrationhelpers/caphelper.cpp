@@ -18,14 +18,14 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/models/shortrate/calibrationhelpers/caphelper.hpp>
-#include <ql/pricingengines/capfloor/bacheliercapfloorengine.hpp>
-#include <ql/pricingengines/capfloor/blackcapfloorengine.hpp>
-#include <ql/pricingengines/capfloor/discretizedcapfloor.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <models/shortrate/calibrationhelpers/caphelper.hpp>
+#include <pricingengines/capfloor/bacheliercapfloorengine.hpp>
+#include <pricingengines/capfloor/blackcapfloorengine.hpp>
+#include <pricingengines/capfloor/discretizedcapfloor.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <quotes/simplequote.hpp>
+#include <time/schedule.hpp>
 #include <utility>
 
 namespace QuantLib {

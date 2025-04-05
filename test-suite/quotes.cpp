@@ -19,16 +19,16 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/quotes/simplequote.hpp>
-#include <ql/quotes/derivedquote.hpp>
-#include <ql/quotes/compositequote.hpp>
-#include <ql/quotes/forwardvaluequote.hpp>
-#include <ql/quotes/impliedstddevquote.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/pricingengines/blackformula.hpp>
+#include <quotes/simplequote.hpp>
+#include <quotes/derivedquote.hpp>
+#include <quotes/compositequote.hpp>
+#include <quotes/forwardvaluequote.hpp>
+#include <quotes/impliedstddevquote.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <pricingengines/blackformula.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

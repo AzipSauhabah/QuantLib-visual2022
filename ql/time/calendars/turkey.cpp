@@ -20,7 +20,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/calendars/turkey.hpp>
+#include <time/calendars/turkey.hpp>
 
 namespace QuantLib {
 

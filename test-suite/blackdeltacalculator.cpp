@@ -19,15 +19,15 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/experimental/fx/blackdeltacalculator.hpp>
-#include <ql/experimental/fx/deltavolquote.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/instruments/europeanoption.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <experimental/fx/blackdeltacalculator.hpp>
+#include <experimental/fx/deltavolquote.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <instruments/europeanoption.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <time/calendars/target.hpp>
+#include <quotes/simplequote.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

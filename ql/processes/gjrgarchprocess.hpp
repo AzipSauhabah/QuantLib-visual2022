@@ -24,9 +24,9 @@
 #ifndef quantlib_gjrgarch_process_hpp
 #define quantlib_gjrgarch_process_hpp
 
-#include <ql/stochasticprocess.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/quote.hpp>
+#include <stochasticprocess.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <quote.hpp>
 
 namespace QuantLib {
 

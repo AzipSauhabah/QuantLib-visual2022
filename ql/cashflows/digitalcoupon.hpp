@@ -25,11 +25,11 @@
 #ifndef quantlib_digital_coupon_hpp
 #define quantlib_digital_coupon_hpp
 
-#include <ql/cashflows/floatingratecoupon.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/cashflows/replication.hpp>
-#include <ql/position.hpp>
-#include <ql/utilities/null.hpp>
+#include <cashflows/floatingratecoupon.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <cashflows/replication.hpp>
+#include <position.hpp>
+#include <utilities/null.hpp>
 
 namespace QuantLib {
 

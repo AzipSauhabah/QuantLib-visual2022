@@ -20,15 +20,15 @@
 /*! \file singlefactorbsmbasketengine.cpp
 */
 
-#include <ql/exercise.hpp>
-#include <ql/math/functional.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/math/solvers1d/newton.hpp>
-#include <ql/math/solvers1d/ridder.hpp>
-#include <ql/math/solvers1d/halley.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/pricingengines/basket/vectorbsmprocessextractor.hpp>
-#include <ql/pricingengines/basket/singlefactorbsmbasketengine.hpp>
+#include <exercise.hpp>
+#include <math/functional.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <math/solvers1d/newton.hpp>
+#include <math/solvers1d/ridder.hpp>
+#include <math/solvers1d/halley.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <pricingengines/basket/vectorbsmprocessextractor.hpp>
+#include <pricingengines/basket/singlefactorbsmbasketengine.hpp>
 
 namespace QuantLib {
 

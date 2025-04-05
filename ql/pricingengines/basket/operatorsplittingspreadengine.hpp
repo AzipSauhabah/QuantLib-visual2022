@@ -24,7 +24,7 @@
 #ifndef quantlib_operator_splitting_spread_engine_hpp
 #define quantlib_operator_splitting_spread_engine_hpp
 
-#include <ql/pricingengines/basket/spreadblackscholesvanillaengine.hpp>
+#include <pricingengines/basket/spreadblackscholesvanillaengine.hpp>
 
 namespace QuantLib {
 

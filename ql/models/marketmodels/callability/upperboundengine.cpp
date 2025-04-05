@@ -18,16 +18,16 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/accountingengine.hpp>
-#include <ql/models/marketmodels/callability/exercisevalue.hpp>
-#include <ql/models/marketmodels/callability/upperboundengine.hpp>
-#include <ql/models/marketmodels/curvestate.hpp>
-#include <ql/models/marketmodels/discounter.hpp>
-#include <ql/models/marketmodels/evolver.hpp>
-#include <ql/models/marketmodels/multiproduct.hpp>
-#include <ql/models/marketmodels/products/multistep/callspecifiedmultiproduct.hpp>
-#include <ql/models/marketmodels/products/multistep/exerciseadapter.hpp>
-#include <ql/models/marketmodels/utilities.hpp>
+#include <models/marketmodels/accountingengine.hpp>
+#include <models/marketmodels/callability/exercisevalue.hpp>
+#include <models/marketmodels/callability/upperboundengine.hpp>
+#include <models/marketmodels/curvestate.hpp>
+#include <models/marketmodels/discounter.hpp>
+#include <models/marketmodels/evolver.hpp>
+#include <models/marketmodels/multiproduct.hpp>
+#include <models/marketmodels/products/multistep/callspecifiedmultiproduct.hpp>
+#include <models/marketmodels/products/multistep/exerciseadapter.hpp>
+#include <models/marketmodels/utilities.hpp>
 #include <algorithm>
 #include <utility>
 

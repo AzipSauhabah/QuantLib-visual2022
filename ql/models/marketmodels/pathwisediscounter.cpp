@@ -16,8 +16,8 @@
  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
-#include <ql/models/marketmodels/pathwisediscounter.hpp>
-#include <ql/models/marketmodels/utilities.hpp>
+#include <models/marketmodels/pathwisediscounter.hpp>
+#include <models/marketmodels/utilities.hpp>
 #include <algorithm>
 
 namespace QuantLib

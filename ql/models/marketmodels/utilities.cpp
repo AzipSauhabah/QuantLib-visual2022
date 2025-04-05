@@ -19,8 +19,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/utilities.hpp>
-#include <ql/errors.hpp>
+#include <models/marketmodels/utilities.hpp>
+#include <errors.hpp>
 #include <algorithm>
 #include <valarray>
 

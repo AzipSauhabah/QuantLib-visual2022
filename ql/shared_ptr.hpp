@@ -24,7 +24,7 @@
 #ifndef quantlib_shared_ptr_hpp
 #define quantlib_shared_ptr_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 
 #if defined(QL_USE_STD_SHARED_PTR)
 #include <memory>

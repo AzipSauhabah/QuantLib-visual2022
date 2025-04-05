@@ -24,12 +24,12 @@
 #ifndef quantlib_catbond_hpp
 #define quantlib_catbond_hpp
 
-#include <ql/experimental/catbonds/catrisk.hpp>
-#include <ql/experimental/catbonds/riskynotional.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/instruments/bond.hpp>
-#include <ql/time/dategenerationrule.hpp>
-#include <ql/time/schedule.hpp>
+#include <experimental/catbonds/catrisk.hpp>
+#include <experimental/catbonds/riskynotional.hpp>
+#include <indexes/iborindex.hpp>
+#include <instruments/bond.hpp>
+#include <time/dategenerationrule.hpp>
+#include <time/schedule.hpp>
 #include <utility>
 
 namespace QuantLib {

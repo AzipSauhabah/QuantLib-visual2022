@@ -24,7 +24,7 @@
 #ifndef quantlib_sample_h
 #define quantlib_sample_h
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <utility>
 
 namespace QuantLib {

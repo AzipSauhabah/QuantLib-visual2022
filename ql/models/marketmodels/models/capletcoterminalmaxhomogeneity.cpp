@@ -18,13 +18,13 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/models/capletcoterminalmaxhomogeneity.hpp>
-#include <ql/models/marketmodels/models/piecewiseconstantvariance.hpp>
-#include <ql/models/marketmodels/swapforwardmappings.hpp>
-#include <ql/math/matrixutilities/pseudosqrt.hpp>
-#include <ql/math/matrixutilities/basisincompleteordered.hpp>
-#include <ql/math/optimization/spherecylinder.hpp>
-#include <ql/math/quadratic.hpp>
+#include <models/marketmodels/models/capletcoterminalmaxhomogeneity.hpp>
+#include <models/marketmodels/models/piecewiseconstantvariance.hpp>
+#include <models/marketmodels/swapforwardmappings.hpp>
+#include <math/matrixutilities/pseudosqrt.hpp>
+#include <math/matrixutilities/basisincompleteordered.hpp>
+#include <math/optimization/spherecylinder.hpp>
+#include <math/quadratic.hpp>
 
 namespace QuantLib {
 

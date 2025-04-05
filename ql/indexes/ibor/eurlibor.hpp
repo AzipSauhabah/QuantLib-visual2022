@@ -27,7 +27,7 @@
 #ifndef quantlib_eur_libor_hpp
 #define quantlib_eur_libor_hpp
 
-#include <ql/indexes/iborindex.hpp>
+#include <indexes/iborindex.hpp>
 
 namespace QuantLib {
 
@@ -48,7 +48,6 @@ namespace QuantLib {
             See <https://www.theice.com/marketdata/reports/170>.
             @{
         */
-        Date fixingDate(const Date& valueDate) const override;
         Date valueDate(const Date& fixingDate) const override;
         Date maturityDate(const Date& valueDate) const override;
         // @}

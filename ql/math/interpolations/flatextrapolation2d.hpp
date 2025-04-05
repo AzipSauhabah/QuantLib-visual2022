@@ -24,7 +24,7 @@
 #ifndef quantlib_flatextrapolation2D_hpp
 #define quantlib_flatextrapolation2D_hpp
 
-#include <ql/math/interpolations/interpolation2d.hpp>
+#include <math/interpolations/interpolation2d.hpp>
 #include <utility>
 
 namespace QuantLib {

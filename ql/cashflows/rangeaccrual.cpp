@@ -19,13 +19,13 @@
 */
 
 
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/cashflows/rangeaccrual.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <cashflows/rangeaccrual.hpp>
+#include <indexes/iborindex.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <time/schedule.hpp>
 #include <cmath>
 #include <utility>
 

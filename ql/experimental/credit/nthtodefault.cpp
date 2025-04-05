@@ -17,13 +17,13 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/credit/nthtodefault.hpp>
-#include <ql/experimental/credit/lossdistribution.hpp>
-#include <ql/instruments/claim.hpp>
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/event.hpp>
-#include <ql/experimental/credit/basket.hpp>
+#include <experimental/credit/nthtodefault.hpp>
+#include <experimental/credit/lossdistribution.hpp>
+#include <instruments/claim.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <event.hpp>
+#include <experimental/credit/basket.hpp>
 
 namespace QuantLib {
 

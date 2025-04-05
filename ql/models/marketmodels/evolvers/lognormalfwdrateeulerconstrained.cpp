@@ -18,12 +18,12 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/evolvers/lognormalfwdrateeulerconstrained.hpp>
-#include <ql/models/marketmodels/marketmodel.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/models/marketmodels/browniangenerator.hpp>
-#include <ql/models/marketmodels/driftcomputation/lmmdriftcalculator.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <models/marketmodels/evolvers/lognormalfwdrateeulerconstrained.hpp>
+#include <models/marketmodels/marketmodel.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/browniangenerator.hpp>
+#include <models/marketmodels/driftcomputation/lmmdriftcalculator.hpp>
+#include <math/distributions/normaldistribution.hpp>
 
 namespace QuantLib {
 

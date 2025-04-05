@@ -24,7 +24,7 @@
 #ifndef quantlib_math_beta_h
 #define quantlib_math_beta_h
 
-#include <ql/math/distributions/gammadistribution.hpp>
+#include <math/distributions/gammadistribution.hpp>
 
 namespace QuantLib {
 

@@ -20,7 +20,7 @@
 #ifndef quantlib_square_root_andersen_hpp
 #define quantlib_square_root_andersen_hpp
 
-#include <ql/models/marketmodels/evolvers/marketmodelvolprocess.hpp>
+#include <models/marketmodels/evolvers/marketmodelvolprocess.hpp>
 
 namespace QuantLib 
 {

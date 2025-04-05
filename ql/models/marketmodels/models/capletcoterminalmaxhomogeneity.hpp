@@ -21,7 +21,7 @@
 #ifndef quantlib_ctsmm_caplet_calibration_max_homogeneity_hpp
 #define quantlib_ctsmm_caplet_calibration_max_homogeneity_hpp
 
-#include <ql/models/marketmodels/models/ctsmmcapletcalibration.hpp>
+#include <models/marketmodels/models/ctsmmcapletcalibration.hpp>
 
 namespace QuantLib {
 

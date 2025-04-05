@@ -18,7 +18,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/credit/defaultprobabilitykey.hpp>
+#include <experimental/credit/defaultprobabilitykey.hpp>
 #if defined(QL_PATCH_MSVC)
 #pragma warning(push)
 #pragma warning(disable:4181)

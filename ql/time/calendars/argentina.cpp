@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/calendars/argentina.hpp>
+#include <time/calendars/argentina.hpp>
 
 namespace QuantLib {
 

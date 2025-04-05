@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/calendars/france.hpp>
-#include <ql/errors.hpp>
+#include <time/calendars/france.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

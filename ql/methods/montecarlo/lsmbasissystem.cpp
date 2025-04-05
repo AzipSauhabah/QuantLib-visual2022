@@ -22,8 +22,8 @@
     \brief utility classes for longstaff schwartz early exercise Monte Carlo
 */
 
-#include <ql/math/integrals/gaussianquadratures.hpp>
-#include <ql/methods/montecarlo/lsmbasissystem.hpp>
+#include <math/integrals/gaussianquadratures.hpp>
+#include <methods/montecarlo/lsmbasissystem.hpp>
 #include <numeric>
 #include <set>
 #include <utility>

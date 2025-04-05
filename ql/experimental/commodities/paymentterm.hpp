@@ -24,7 +24,7 @@
 #ifndef quantlib_payment_term_hpp
 #define quantlib_payment_term_hpp
 
-#include <ql/time/calendar.hpp>
+#include <time/calendar.hpp>
 #include <map>
 #include <utility>
 

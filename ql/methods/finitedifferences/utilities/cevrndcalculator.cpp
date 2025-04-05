@@ -19,11 +19,11 @@
 
 /*! \file cevrndcalculator.cpp */
 
-#include <ql/errors.hpp>
-#include <ql/math/functional.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/methods/finitedifferences/utilities/cevrndcalculator.hpp>
+#include <errors.hpp>
+#include <math/functional.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <methods/finitedifferences/utilities/cevrndcalculator.hpp>
 #include <boost/math/special_functions/gamma.hpp>
 #include <boost/math/distributions/non_central_chi_squared.hpp>
 

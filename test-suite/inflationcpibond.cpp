@@ -20,23 +20,23 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/indexes/inflation/ukrpi.hpp>
-#include <ql/time/calendars/unitedkingdom.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/indexes/ibor/gbplibor.hpp>
-#include <ql/termstructures/inflation/inflationhelpers.hpp>
-#include <ql/termstructures/inflation/piecewisezeroinflationcurve.hpp>
-#include <ql/cashflows/indexedcashflow.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/instruments/zerocouponinflationswap.hpp>
-#include <ql/pricingengines/bond/discountingbondengine.hpp>
-#include <ql/cashflows/cpicoupon.hpp>
-#include <ql/cashflows/cpicouponpricer.hpp>
-#include <ql/instruments/cpiswap.hpp>
-#include <ql/instruments/bonds/cpibond.hpp>
-#include <ql/cashflows/cashflows.hpp>
+#include <indexes/inflation/ukrpi.hpp>
+#include <time/calendars/unitedkingdom.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <indexes/ibor/gbplibor.hpp>
+#include <termstructures/inflation/inflationhelpers.hpp>
+#include <termstructures/inflation/piecewisezeroinflationcurve.hpp>
+#include <cashflows/indexedcashflow.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <instruments/zerocouponinflationswap.hpp>
+#include <pricingengines/bond/discountingbondengine.hpp>
+#include <cashflows/cpicoupon.hpp>
+#include <cashflows/cpicouponpricer.hpp>
+#include <instruments/cpiswap.hpp>
+#include <instruments/bonds/cpibond.hpp>
+#include <cashflows/cashflows.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;
@@ -155,7 +155,7 @@ struct CommonVars { // NOLINT(cppcoreguidelines-special-member-functions)
     // teardown
     ~CommonVars() {
         // break circular references and allow curves to be destroyed
-        cpiTS.reset();
+        cpiTS.linkTo(ext::shared_ptr<ZeroInflationTermStructure>());
     }
 };
 

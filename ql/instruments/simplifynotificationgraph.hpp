@@ -24,10 +24,10 @@
 #ifndef quantlib_simplify_notification_graph
 #define quantlib_simplify_notification_graph
 
-#include <ql/cashflow.hpp>
-#include <ql/instrument.hpp>
-#include <ql/instruments/bond.hpp>
-#include <ql/instruments/swap.hpp>
+#include <cashflow.hpp>
+#include <instrument.hpp>
+#include <instruments/bond.hpp>
+#include <instruments/swap.hpp>
 
 
 namespace QuantLib {

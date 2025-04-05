@@ -24,8 +24,8 @@
 #ifndef quantlib_optimization_bfgs_hpp
 #define quantlib_optimization_bfgs_hpp
 
-#include <ql/math/optimization/linesearchbasedmethod.hpp>
-#include <ql/math/matrix.hpp>
+#include <math/optimization/linesearchbasedmethod.hpp>
+#include <math/matrix.hpp>
 
 namespace QuantLib {
 

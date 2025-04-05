@@ -24,7 +24,7 @@
 #ifndef quantlib_solver1d_bisection_h
 #define quantlib_solver1d_bisection_h
 
-#include <ql/math/solver1d.hpp>
+#include <math/solver1d.hpp>
 
 namespace QuantLib {
 

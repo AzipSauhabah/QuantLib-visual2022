@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/interestrate.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <interestrate.hpp>
+#include <utilities/dataformatters.hpp>
 #include <iomanip>
 #include <sstream>
 #include <utility>

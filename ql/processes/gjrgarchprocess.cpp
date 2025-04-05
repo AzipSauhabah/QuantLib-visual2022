@@ -17,11 +17,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/distributions/chisquaredistribution.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/processes/eulerdiscretization.hpp>
-#include <ql/processes/gjrgarchprocess.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <math/distributions/chisquaredistribution.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <processes/eulerdiscretization.hpp>
+#include <processes/gjrgarchprocess.hpp>
+#include <quotes/simplequote.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -24,7 +24,7 @@
 #ifndef quantlib_survival_probability_structure_hpp
 #define quantlib_survival_probability_structure_hpp
 
-#include <ql/termstructures/defaulttermstructure.hpp>
+#include <termstructures/defaulttermstructure.hpp>
 
 namespace QuantLib {
 

@@ -18,7 +18,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/daycounters/thirty360.hpp>
+#include <time/daycounters/thirty360.hpp>
 #include <algorithm>
 
 namespace QuantLib {

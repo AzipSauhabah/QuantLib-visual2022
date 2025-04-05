@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/currencies/exchangeratemanager.hpp>
-#include <ql/experimental/commodities/commoditysettings.hpp>
-#include <ql/experimental/commodities/energycommodity.hpp>
-#include <ql/experimental/commodities/unitofmeasureconversionmanager.hpp>
+#include <currencies/exchangeratemanager.hpp>
+#include <experimental/commodities/commoditysettings.hpp>
+#include <experimental/commodities/energycommodity.hpp>
+#include <experimental/commodities/unitofmeasureconversionmanager.hpp>
 #include <iomanip>
 #include <utility>
 

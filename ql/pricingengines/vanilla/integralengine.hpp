@@ -26,8 +26,8 @@
 #ifndef quantlib_integral_engine_hpp
 #define quantlib_integral_engine_hpp
 
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

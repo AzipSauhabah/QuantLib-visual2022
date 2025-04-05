@@ -18,7 +18,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/discretizedasset.hpp>
+#include <discretizedasset.hpp>
 
 namespace QuantLib {
 

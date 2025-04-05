@@ -23,12 +23,12 @@
 #ifndef quantlib_fdm_bates_solver_hpp
 #define quantlib_fdm_bates_solver_hpp
 
-#include <ql/handle.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmquantohelper.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmhestonsolver.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmdirichletboundary.hpp>
+#include <handle.hpp>
+#include <patterns/lazyobject.hpp>
+#include <methods/finitedifferences/utilities/fdmquantohelper.hpp>
+#include <methods/finitedifferences/solvers/fdmhestonsolver.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <methods/finitedifferences/utilities/fdmdirichletboundary.hpp>
 
 namespace QuantLib {
     

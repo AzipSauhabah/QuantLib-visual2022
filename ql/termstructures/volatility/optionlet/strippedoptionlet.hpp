@@ -26,9 +26,9 @@
 #ifndef quantlib_strippedoptionlet_hpp
 #define quantlib_strippedoptionlet_hpp
 
-#include <ql/termstructures/volatility/optionlet/strippedoptionletbase.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/quote.hpp>
+#include <termstructures/volatility/optionlet/strippedoptionletbase.hpp>
+#include <indexes/iborindex.hpp>
+#include <quote.hpp>
 
 namespace QuantLib {
 

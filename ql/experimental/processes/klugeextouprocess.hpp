@@ -24,7 +24,7 @@
 #ifndef quantlib_kluge_ext_ou_process_hpp
 #define quantlib_kluge_ext_ou_process_hpp
 
-#include <ql/stochasticprocess.hpp>
+#include <stochasticprocess.hpp>
 
 namespace QuantLib {
 

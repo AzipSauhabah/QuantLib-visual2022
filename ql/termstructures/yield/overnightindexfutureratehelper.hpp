@@ -25,8 +25,8 @@
 #ifndef quantlib_overnightindexfutureratehelper_hpp
 #define quantlib_overnightindexfutureratehelper_hpp
 
-#include <ql/instruments/overnightindexfuture.hpp>
-#include <ql/termstructures/yield/ratehelpers.hpp>
+#include <instruments/overnightindexfuture.hpp>
+#include <termstructures/yield/ratehelpers.hpp>
 
 namespace QuantLib {
 

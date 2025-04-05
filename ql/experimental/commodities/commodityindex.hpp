@@ -24,8 +24,8 @@
 #ifndef quantlib_commodity_index_hpp
 #define quantlib_commodity_index_hpp
 
-#include <ql/experimental/commodities/commoditycurve.hpp>
-#include <ql/index.hpp>
+#include <experimental/commodities/commoditycurve.hpp>
+#include <index.hpp>
 
 namespace QuantLib {
 

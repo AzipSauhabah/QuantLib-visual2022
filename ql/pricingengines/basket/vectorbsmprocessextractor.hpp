@@ -24,7 +24,7 @@
 #ifndef quantlib_vector_bsm_process_extractor_hpp
 #define quantlib_vector_bsm_process_extractor_hpp
 
-#include <ql/processes/blackscholesprocess.hpp>
+#include <processes/blackscholesprocess.hpp>
 #include <functional>
 
 namespace QuantLib::detail {

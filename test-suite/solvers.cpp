@@ -20,15 +20,15 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/math/solvers1d/bisection.hpp>
-#include <ql/math/solvers1d/falseposition.hpp>
-#include <ql/math/solvers1d/ridder.hpp>
-#include <ql/math/solvers1d/secant.hpp>
-#include <ql/math/solvers1d/newton.hpp>
-#include <ql/math/solvers1d/newtonsafe.hpp>
-#include <ql/math/solvers1d/halley.hpp>
-#include <ql/math/solvers1d/finitedifferencenewtonsafe.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <math/solvers1d/bisection.hpp>
+#include <math/solvers1d/falseposition.hpp>
+#include <math/solvers1d/ridder.hpp>
+#include <math/solvers1d/secant.hpp>
+#include <math/solvers1d/newton.hpp>
+#include <math/solvers1d/newtonsafe.hpp>
+#include <math/solvers1d/halley.hpp>
+#include <math/solvers1d/finitedifferencenewtonsafe.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

@@ -25,11 +25,11 @@
 #ifndef quantlib_default_event_hpp
 #define quantlib_default_event_hpp
 
-#include <ql/event.hpp>
-#include <ql/currency.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/experimental/credit/defaulttype.hpp>
-#include <ql/experimental/credit/defaultprobabilitykey.hpp>
+#include <event.hpp>
+#include <currency.hpp>
+#include <math/comparison.hpp>
+#include <experimental/credit/defaulttype.hpp>
+#include <experimental/credit/defaultprobabilitykey.hpp>
 #include <map>
 
 namespace QuantLib {

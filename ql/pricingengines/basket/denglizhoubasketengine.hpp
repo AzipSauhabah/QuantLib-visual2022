@@ -24,8 +24,8 @@
 #ifndef quantlib_deng_li_zhou_basket_engine_hpp
 #define quantlib_deng_li_zhou_basket_engine_hpp
 
-#include <ql/instruments/basketoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <instruments/basketoption.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

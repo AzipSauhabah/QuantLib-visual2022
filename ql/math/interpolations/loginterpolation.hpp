@@ -25,10 +25,10 @@
 #ifndef quantlib_log_interpolation_hpp
 #define quantlib_log_interpolation_hpp
 
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/math/interpolations/cubicinterpolation.hpp>
-#include <ql/math/interpolations/mixedinterpolation.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <math/interpolations/cubicinterpolation.hpp>
+#include <math/interpolations/mixedinterpolation.hpp>
+#include <utilities/dataformatters.hpp>
 
 namespace QuantLib {
 

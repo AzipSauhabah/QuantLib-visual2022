@@ -24,9 +24,9 @@
 #ifndef quantlib_finite_difference_model_hpp
 #define quantlib_finite_difference_model_hpp
 
-#include <ql/methods/finitedifferences/boundarycondition.hpp>
-#include <ql/methods/finitedifferences/operatortraits.hpp>
-#include <ql/methods/finitedifferences/stepcondition.hpp>
+#include <methods/finitedifferences/boundarycondition.hpp>
+#include <methods/finitedifferences/operatortraits.hpp>
+#include <methods/finitedifferences/stepcondition.hpp>
 #include <utility>
 
 namespace QuantLib {

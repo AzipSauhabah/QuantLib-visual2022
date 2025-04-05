@@ -24,7 +24,7 @@
 #ifndef quantlib_kernel_functions_hpp
 #define quantlib_kernel_functions_hpp
 
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <math/distributions/normaldistribution.hpp>
 
 namespace QuantLib {
 

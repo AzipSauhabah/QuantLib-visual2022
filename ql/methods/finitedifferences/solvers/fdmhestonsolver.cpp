@@ -20,10 +20,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/methods/finitedifferences/operators/fdmhestonop.hpp>
-#include <ql/methods/finitedifferences/solvers/fdm2dimsolver.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmhestonsolver.hpp>
-#include <ql/processes/hestonprocess.hpp>
+#include <methods/finitedifferences/operators/fdmhestonop.hpp>
+#include <methods/finitedifferences/solvers/fdm2dimsolver.hpp>
+#include <methods/finitedifferences/solvers/fdmhestonsolver.hpp>
+#include <processes/hestonprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

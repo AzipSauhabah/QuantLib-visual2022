@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/optimization/armijo.hpp>
-#include <ql/math/optimization/method.hpp>
-#include <ql/math/optimization/problem.hpp>
+#include <math/optimization/armijo.hpp>
+#include <math/optimization/method.hpp>
+#include <math/optimization/problem.hpp>
 
 namespace QuantLib {
 

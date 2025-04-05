@@ -25,7 +25,7 @@
 #ifndef quantlib_montecarlo_multi_path_hpp
 #define quantlib_montecarlo_multi_path_hpp
 
-#include <ql/methods/montecarlo/path.hpp>
+#include <methods/montecarlo/path.hpp>
 #include <utility>
 
 namespace QuantLib {

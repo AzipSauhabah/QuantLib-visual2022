@@ -24,8 +24,8 @@
 #ifndef quantlib_arithmetic_average_ois_hpp
 #define quantlib_arithmetic_average_ois_hpp
 
-#include <ql/instruments/swap.hpp>
-#include <ql/time/daycounter.hpp>
+#include <instruments/swap.hpp>
+#include <time/daycounter.hpp>
 
 namespace QuantLib {
 

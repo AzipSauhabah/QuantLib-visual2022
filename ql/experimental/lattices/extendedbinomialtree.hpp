@@ -27,9 +27,9 @@
 #ifndef quantlib_extended_binomial_tree_hpp
 #define quantlib_extended_binomial_tree_hpp
 
-#include <ql/methods/lattices/tree.hpp>
-#include <ql/instruments/dividendschedule.hpp>
-#include <ql/stochasticprocess.hpp>
+#include <methods/lattices/tree.hpp>
+#include <instruments/dividendschedule.hpp>
+#include <stochasticprocess.hpp>
 
 namespace QuantLib {
 

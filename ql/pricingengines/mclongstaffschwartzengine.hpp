@@ -27,10 +27,10 @@
 #ifndef quantlib_mc_longstaff_schwartz_engine_hpp
 #define quantlib_mc_longstaff_schwartz_engine_hpp
 
-#include <ql/exercise.hpp>
-#include <ql/pricingengines/mcsimulation.hpp>
-#include <ql/methods/montecarlo/longstaffschwartzpathpricer.hpp>
-#include <ql/optional.hpp>
+#include <exercise.hpp>
+#include <pricingengines/mcsimulation.hpp>
+#include <methods/montecarlo/longstaffschwartzpathpricer.hpp>
+#include <optional.hpp>
 
 namespace QuantLib {
 

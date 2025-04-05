@@ -20,10 +20,10 @@
 #ifndef quantlib_mc_performance_engine_hpp
 #define quantlib_mc_performance_engine_hpp
 
-#include <ql/exercise.hpp>
-#include <ql/instruments/cliquetoption.hpp>
-#include <ql/pricingengines/mcsimulation.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <exercise.hpp>
+#include <instruments/cliquetoption.hpp>
+#include <pricingengines/mcsimulation.hpp>
+#include <processes/blackscholesprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

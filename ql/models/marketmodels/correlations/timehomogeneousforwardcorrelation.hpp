@@ -21,8 +21,8 @@
 #ifndef quantlib_time_homogeneous_forward_correlation_hpp
 #define quantlib_time_homogeneous_forward_correlation_hpp
 
-#include <ql/models/marketmodels/piecewiseconstantcorrelation.hpp>
-#include <ql/math/matrix.hpp>
+#include <models/marketmodels/piecewiseconstantcorrelation.hpp>
+#include <math/matrix.hpp>
 #include <vector>
 
 namespace QuantLib {

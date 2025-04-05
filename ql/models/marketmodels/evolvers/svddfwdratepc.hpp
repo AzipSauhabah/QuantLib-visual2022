@@ -20,9 +20,9 @@
 #ifndef quantlib_svdd_forward_rate_pc_evolver_hpp
 #define quantlib_svdd_forward_rate_pc_evolver_hpp
 
-#include <ql/models/marketmodels/evolver.hpp>
-#include <ql/models/marketmodels/curvestates/lmmcurvestate.hpp>
-#include <ql/models/marketmodels/driftcomputation/lmmdriftcalculator.hpp>
+#include <models/marketmodels/evolver.hpp>
+#include <models/marketmodels/curvestates/lmmcurvestate.hpp>
+#include <models/marketmodels/driftcomputation/lmmdriftcalculator.hpp>
 #include <valarray>
 
 namespace QuantLib {

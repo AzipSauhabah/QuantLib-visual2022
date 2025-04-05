@@ -18,25 +18,25 @@
  */
 
 #include "toplevelfixture.hpp"
-#include <ql/types.hpp>
-#include <ql/indexes/inflation/ukrpi.hpp>
-#include <ql/termstructures/bootstraphelper.hpp>
-#include <ql/time/calendars/unitedkingdom.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/termstructures/yield/zerocurve.hpp>
-#include <ql/indexes/ibor/gbplibor.hpp>
-#include <ql/termstructures/inflation/inflationhelpers.hpp>
-#include <ql/termstructures/inflation/piecewisezeroinflationcurve.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/cashflows/indexedcashflow.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/instruments/zerocouponinflationswap.hpp>
-#include <ql/pricingengines/bond/discountingbondengine.hpp>
-#include <ql/cashflows/cpicoupon.hpp>
-#include <ql/cashflows/cpicouponpricer.hpp>
-#include <ql/instruments/cpiswap.hpp>
-#include <ql/instruments/bonds/cpibond.hpp>
+#include <types.hpp>
+#include <indexes/inflation/ukrpi.hpp>
+#include <termstructures/bootstraphelper.hpp>
+#include <time/calendars/unitedkingdom.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <termstructures/yield/zerocurve.hpp>
+#include <indexes/ibor/gbplibor.hpp>
+#include <termstructures/inflation/inflationhelpers.hpp>
+#include <termstructures/inflation/piecewisezeroinflationcurve.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <cashflows/indexedcashflow.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <instruments/zerocouponinflationswap.hpp>
+#include <pricingengines/bond/discountingbondengine.hpp>
+#include <cashflows/cpicoupon.hpp>
+#include <cashflows/cpicouponpricer.hpp>
+#include <instruments/cpiswap.hpp>
+#include <instruments/bonds/cpibond.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;
@@ -350,7 +350,7 @@ BOOST_AUTO_TEST_CASE(consistency) {
                "failed stored consistency value test, ratio = " << diff);
 
     // remove circular refernce
-    common.hcpi.reset();
+    common.hcpi.linkTo(ext::shared_ptr<ZeroInflationTermStructure>());
 }
 
 BOOST_AUTO_TEST_CASE(zciisconsistency) {
@@ -403,7 +403,7 @@ BOOST_AUTO_TEST_CASE(zciisconsistency) {
         QL_REQUIRE(fabs(cS.legNPV(i)-zciis.legNPV(i))<1e-3,"zciis leg does not equal CPISwap leg");
     }
     // remove circular refernce
-    common.hcpi.reset();
+    common.hcpi.linkTo(ext::shared_ptr<ZeroInflationTermStructure>());
 }
 
 BOOST_AUTO_TEST_CASE(cpibondconsistency) {
@@ -493,7 +493,7 @@ BOOST_AUTO_TEST_CASE(cpibondconsistency) {
 
     QL_REQUIRE(fabs(cpiB.NPV() - zisV.legNPV(0))<1e-5,"cpi bond does not equal equivalent cpi swap leg");
     // remove circular reference
-    common.hcpi.reset();
+    common.hcpi.linkTo(ext::shared_ptr<ZeroInflationTermStructure>());
 }
 
 BOOST_AUTO_TEST_SUITE_END()

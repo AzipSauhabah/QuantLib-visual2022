@@ -21,10 +21,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/credit/isdacdsengine.hpp>
-#include <ql/pricingengines/credit/midpointcdsengine.hpp>
-#include <ql/termstructures/credit/defaultprobabilityhelpers.hpp>
-#include <ql/utilities/null_deleter.hpp>
+#include <pricingengines/credit/isdacdsengine.hpp>
+#include <pricingengines/credit/midpointcdsengine.hpp>
+#include <termstructures/credit/defaultprobabilityhelpers.hpp>
+#include <utilities/null_deleter.hpp>
 #include <utility>
 
 namespace QuantLib {

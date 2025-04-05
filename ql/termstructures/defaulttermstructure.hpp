@@ -27,8 +27,8 @@
 #ifndef quantlib_default_term_structure_hpp
 #define quantlib_default_term_structure_hpp
 
-#include <ql/termstructure.hpp>
-#include <ql/quote.hpp>
+#include <termstructure.hpp>
+#include <quote.hpp>
 
 namespace QuantLib {
 

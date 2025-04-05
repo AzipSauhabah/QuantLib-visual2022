@@ -28,10 +28,10 @@
 #ifndef quantlib_fixed_rate_bond_hpp
 #define quantlib_fixed_rate_bond_hpp
 
-#include <ql/instruments/bond.hpp>
-#include <ql/time/dategenerationrule.hpp>
-#include <ql/time/daycounter.hpp>
-#include <ql/interestrate.hpp>
+#include <instruments/bond.hpp>
+#include <time/dategenerationrule.hpp>
+#include <time/daycounter.hpp>
+#include <interestrate.hpp>
 
 namespace QuantLib {
 

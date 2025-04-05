@@ -19,9 +19,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/methods/lattices/binomialtree.hpp>
-#include <ql/math/distributions/binomialdistribution.hpp>
-#include <ql/stochasticprocess.hpp>
+#include <methods/lattices/binomialtree.hpp>
+#include <math/distributions/binomialdistribution.hpp>
+#include <stochasticprocess.hpp>
 
 namespace QuantLib {
 

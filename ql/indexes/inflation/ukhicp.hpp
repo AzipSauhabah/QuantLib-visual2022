@@ -24,8 +24,8 @@
 #ifndef quantlib_ukhicp_hpp
 #define quantlib_ukhicp_hpp
 
-#include <ql/currencies/europe.hpp>
-#include <ql/indexes/inflationindex.hpp>
+#include <currencies/europe.hpp>
+#include <indexes/inflationindex.hpp>
 
 namespace QuantLib {
 

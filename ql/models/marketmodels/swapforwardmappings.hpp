@@ -25,7 +25,7 @@
 #ifndef quantlib_swap_forward_mappings_hpp
 #define quantlib_swap_forward_mappings_hpp
 
-#include <ql/math/matrix.hpp>
+#include <math/matrix.hpp>
 
 namespace QuantLib {
 

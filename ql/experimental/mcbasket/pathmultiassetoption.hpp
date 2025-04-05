@@ -24,10 +24,10 @@
 #ifndef quantlib_path_multiasset_option_hpp
 #define quantlib_path_multiasset_option_hpp
 
-#include <ql/instrument.hpp>
-#include <ql/stochasticprocess.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/experimental/mcbasket/pathpayoff.hpp>
+#include <instrument.hpp>
+#include <stochasticprocess.hpp>
+#include <math/matrix.hpp>
+#include <experimental/mcbasket/pathpayoff.hpp>
 
 namespace QuantLib {
 

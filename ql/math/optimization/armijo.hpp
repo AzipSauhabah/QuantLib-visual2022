@@ -24,7 +24,7 @@
 #ifndef quantlib_optimization_armijo_hpp
 #define quantlib_optimization_armijo_hpp
 
-#include <ql/math/optimization/linesearch.hpp>
+#include <math/optimization/linesearch.hpp>
 
 namespace QuantLib {
 

@@ -23,7 +23,7 @@
 #define quantlib_swaption_pseudo_jacobian_hpp
 
 
-#include <ql/models/marketmodels/marketmodel.hpp>
+#include <models/marketmodels/marketmodel.hpp>
 
 /*! In order to compute market vegas, we need a class that gives the
 derivative of a swaption implied vol against changes in pseudo-root elements.

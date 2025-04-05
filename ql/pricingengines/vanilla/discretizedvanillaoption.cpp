@@ -18,7 +18,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/vanilla/discretizedvanillaoption.hpp>
+#include <pricingengines/vanilla/discretizedvanillaoption.hpp>
 #include <vector>
 
 namespace QuantLib {

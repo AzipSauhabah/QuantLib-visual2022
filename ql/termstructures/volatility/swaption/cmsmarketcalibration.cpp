@@ -19,11 +19,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/volatility/swaption/cmsmarketcalibration.hpp>
-#include <ql/termstructures/volatility/swaption/cmsmarket.hpp>
-#include <ql/termstructures/volatility/swaption/sabrswaptionvolatilitycube.hpp>
-#include <ql/math/optimization/problem.hpp>
-#include <ql/math/optimization/constraint.hpp>
+#include <termstructures/volatility/swaption/cmsmarketcalibration.hpp>
+#include <termstructures/volatility/swaption/cmsmarket.hpp>
+#include <termstructures/volatility/swaption/sabrswaptionvolatilitycube.hpp>
+#include <math/optimization/problem.hpp>
+#include <math/optimization/constraint.hpp>
 
 namespace {
     using namespace QuantLib;

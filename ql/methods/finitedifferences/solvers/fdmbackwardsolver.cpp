@@ -22,19 +22,19 @@
 /*! \file fdmbackwardsolver.cpp
 */
 
-#include <ql/methods/finitedifferences/finitedifferencemodel.hpp>
-#include <ql/methods/finitedifferences/schemes/craigsneydscheme.hpp>
-#include <ql/methods/finitedifferences/schemes/cranknicolsonscheme.hpp>
-#include <ql/methods/finitedifferences/schemes/douglasscheme.hpp>
-#include <ql/methods/finitedifferences/schemes/expliciteulerscheme.hpp>
-#include <ql/methods/finitedifferences/schemes/hundsdorferscheme.hpp>
-#include <ql/methods/finitedifferences/schemes/impliciteulerscheme.hpp>
-#include <ql/methods/finitedifferences/schemes/methodoflinesscheme.hpp>
-#include <ql/methods/finitedifferences/schemes/modifiedcraigsneydscheme.hpp>
-#include <ql/methods/finitedifferences/schemes/trbdf2scheme.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
-#include <ql/mathconstants.hpp>
+#include <methods/finitedifferences/finitedifferencemodel.hpp>
+#include <methods/finitedifferences/schemes/craigsneydscheme.hpp>
+#include <methods/finitedifferences/schemes/cranknicolsonscheme.hpp>
+#include <methods/finitedifferences/schemes/douglasscheme.hpp>
+#include <methods/finitedifferences/schemes/expliciteulerscheme.hpp>
+#include <methods/finitedifferences/schemes/hundsdorferscheme.hpp>
+#include <methods/finitedifferences/schemes/impliciteulerscheme.hpp>
+#include <methods/finitedifferences/schemes/methodoflinesscheme.hpp>
+#include <methods/finitedifferences/schemes/modifiedcraigsneydscheme.hpp>
+#include <methods/finitedifferences/schemes/trbdf2scheme.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
+#include <mathconstants.hpp>
 #include <utility>
 
 

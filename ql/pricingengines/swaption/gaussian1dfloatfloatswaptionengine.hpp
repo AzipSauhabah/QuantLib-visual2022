@@ -24,11 +24,11 @@
 #ifndef quantlib_pricers_gaussian1d_floatfloatswaption_hpp
 #define quantlib_pricers_gaussian1d_floatfloatswaption_hpp
 
-#include <ql/instruments/floatfloatswaption.hpp>
-#include <ql/models/shortrate/onefactormodels/gaussian1dmodel.hpp>
-#include <ql/rebatedexercise.hpp>
+#include <instruments/floatfloatswaption.hpp>
+#include <models/shortrate/onefactormodels/gaussian1dmodel.hpp>
+#include <rebatedexercise.hpp>
 
-#include <ql/pricingengines/genericmodelengine.hpp>
+#include <pricingengines/genericmodelengine.hpp>
 
 namespace QuantLib {
 

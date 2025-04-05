@@ -24,7 +24,7 @@
 #ifndef quantlib_risky_asset_swap_option_hpp
 #define quantlib_risky_asset_swap_option_hpp
 
-#include <ql/experimental/credit/riskyassetswap.hpp>
+#include <experimental/credit/riskyassetswap.hpp>
 
 namespace QuantLib {
 

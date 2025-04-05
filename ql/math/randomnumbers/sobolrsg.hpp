@@ -26,7 +26,7 @@
 #ifndef quantlib_sobol_ld_rsg_hpp
 #define quantlib_sobol_ld_rsg_hpp
 
-#include <ql/methods/montecarlo/sample.hpp>
+#include <methods/montecarlo/sample.hpp>
 #include <cstdint>
 #include <vector>
 

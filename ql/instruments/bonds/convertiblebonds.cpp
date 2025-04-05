@@ -18,13 +18,13 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/cashflows/simplecashflow.hpp>
-#include <ql/exercise.hpp>
-#include <ql/instruments/bonds/convertiblebonds.hpp>
-#include <ql/utilities/null_deleter.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <cashflows/simplecashflow.hpp>
+#include <exercise.hpp>
+#include <instruments/bonds/convertiblebonds.hpp>
+#include <utilities/null_deleter.hpp>
 #include <utility>
 
 namespace QuantLib {

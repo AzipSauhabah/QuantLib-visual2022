@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/event.hpp>
-#include <ql/experimental/credit/riskyassetswapoption.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <event.hpp>
+#include <experimental/credit/riskyassetswapoption.hpp>
+#include <math/distributions/normaldistribution.hpp>
 #include <utility>
 
 namespace QuantLib {

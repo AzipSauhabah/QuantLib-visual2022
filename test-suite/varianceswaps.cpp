@@ -20,18 +20,18 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/quotes/simplequote.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/instruments/varianceswap.hpp>
-#include <ql/pricingengines/forward/replicatingvarianceswapengine.hpp>
-#include <ql/pricingengines/forward/mcvarianceswapengine.hpp>
-#include <ql/math/randomnumbers/rngtraits.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvariancecurve.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvariancesurface.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <quotes/simplequote.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <instruments/varianceswap.hpp>
+#include <pricingengines/forward/replicatingvarianceswapengine.hpp>
+#include <pricingengines/forward/mcvarianceswapengine.hpp>
+#include <math/randomnumbers/rngtraits.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/volatility/equityfx/blackvariancecurve.hpp>
+#include <termstructures/volatility/equityfx/blackvariancesurface.hpp>
+#include <utilities/dataformatters.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

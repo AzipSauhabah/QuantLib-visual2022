@@ -24,11 +24,11 @@
 #ifndef quantlib_libor_forward_model_process_hpp
 #define quantlib_libor_forward_model_process_hpp
 
-#include <ql/cashflow.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
-#include <ql/stochasticprocess.hpp>
-#include <ql/legacy/libormarketmodels/lfmcovarparam.hpp>
+#include <cashflow.hpp>
+#include <indexes/iborindex.hpp>
+#include <termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
+#include <stochasticprocess.hpp>
+#include <legacy/libormarketmodels/lfmcovarparam.hpp>
 
 namespace QuantLib {
 

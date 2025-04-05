@@ -25,9 +25,9 @@
 #ifndef quantlib_caplet_variance_curve_hpp
 #define quantlib_caplet_variance_curve_hpp
 
-#include <ql/termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvariancecurve.hpp>
-#include <ql/termstructures/volatility/flatsmilesection.hpp>
+#include <termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
+#include <termstructures/volatility/equityfx/blackvariancecurve.hpp>
+#include <termstructures/volatility/flatsmilesection.hpp>
 
 namespace QuantLib {
 

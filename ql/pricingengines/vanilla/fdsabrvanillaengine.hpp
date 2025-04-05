@@ -24,9 +24,9 @@
 #ifndef quantlib_fd_sabr_vanilla_engine_hpp
 #define quantlib_fd_sabr_vanilla_engine_hpp
 
-#include <ql/handle.hpp>
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <handle.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
 
 namespace QuantLib {
     class YieldTermStructure;

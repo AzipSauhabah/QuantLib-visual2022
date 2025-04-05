@@ -24,12 +24,12 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef quantlib_tenorswaptionvts_hpp
 #define quantlib_tenorswaptionvts_hpp
 
-#include <ql/instruments/swaption.hpp>
-#include <ql/option.hpp>
-#include <ql/termstructures/volatility/smilesection.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionvolstructure.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/time/date.hpp>
+#include <instruments/swaption.hpp>
+#include <option.hpp>
+#include <termstructures/volatility/smilesection.hpp>
+#include <termstructures/volatility/swaption/swaptionvolstructure.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <time/date.hpp>
 #include <utility>
 
 namespace QuantLib {

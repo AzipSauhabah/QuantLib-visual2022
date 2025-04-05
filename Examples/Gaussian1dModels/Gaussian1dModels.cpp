@@ -17,31 +17,31 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #if !defined(BOOST_ALL_NO_LIB) && defined(BOOST_MSVC)
-#  include <ql/auto_link.hpp>
+#  include <auto_link.hpp>
 #endif
-#include <ql/instruments/floatfloatswap.hpp>
-#include <ql/instruments/floatfloatswaption.hpp>
-#include <ql/instruments/nonstandardswaption.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/pricingengines/swaption/gaussian1dswaptionengine.hpp>
-#include <ql/pricingengines/swaption/gaussian1dnonstandardswaptionengine.hpp>
-#include <ql/pricingengines/swaption/gaussian1dfloatfloatswaptionengine.hpp>
-#include <ql/models/shortrate/onefactormodels/gsr.hpp>
-#include <ql/models/shortrate/onefactormodels/markovfunctional.hpp>
-#include <ql/models/shortrate/calibrationhelpers/swaptionhelper.hpp>
-#include <ql/math/optimization/levenbergmarquardt.hpp>
-#include <ql/cashflows/lineartsrpricer.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/indexes/swap/euriborswap.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionconstantvol.hpp>
-#include <ql/rebatedexercise.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
+#include <instruments/floatfloatswap.hpp>
+#include <instruments/floatfloatswaption.hpp>
+#include <instruments/nonstandardswaption.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <pricingengines/swaption/gaussian1dswaptionengine.hpp>
+#include <pricingengines/swaption/gaussian1dnonstandardswaptionengine.hpp>
+#include <pricingengines/swaption/gaussian1dfloatfloatswaptionengine.hpp>
+#include <models/shortrate/onefactormodels/gsr.hpp>
+#include <models/shortrate/onefactormodels/markovfunctional.hpp>
+#include <models/shortrate/calibrationhelpers/swaptionhelper.hpp>
+#include <math/optimization/levenbergmarquardt.hpp>
+#include <cashflows/lineartsrpricer.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <indexes/swap/euriborswap.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/volatility/swaption/swaptionconstantvol.hpp>
+#include <rebatedexercise.hpp>
+#include <quotes/simplequote.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <time/daycounters/thirty360.hpp>
 
 #include <iostream>
 #include <iomanip>

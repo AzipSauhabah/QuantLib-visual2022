@@ -29,9 +29,9 @@
 #ifndef quantlib_overnight_indexed_coupon_pricer_hpp
 #define quantlib_overnight_indexed_coupon_pricer_hpp
 
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/cashflows/floatingratecoupon.hpp>
-#include <ql/cashflows/overnightindexedcoupon.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <cashflows/floatingratecoupon.hpp>
+#include <cashflows/overnightindexedcoupon.hpp>
 
 namespace QuantLib {
 

@@ -20,18 +20,18 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/cashflows/digitalcoupon.hpp>
-#include <ql/cashflows/capflooredcoupon.hpp>
-#include <ql/settings.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/volatility/optionlet/constantoptionletvol.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <utilities/dataformatters.hpp>
+#include <cashflows/digitalcoupon.hpp>
+#include <cashflows/capflooredcoupon.hpp>
+#include <settings.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/volatility/optionlet/constantoptionletvol.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <math/distributions/normaldistribution.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

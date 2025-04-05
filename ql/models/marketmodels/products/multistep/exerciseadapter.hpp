@@ -21,9 +21,9 @@
 #ifndef quantlib_multistep_exercise_adapter_hpp
 #define quantlib_multistep_exercise_adapter_hpp
 
-#include <ql/models/marketmodels/products/multiproductmultistep.hpp>
-#include <ql/models/marketmodels/callability/exercisevalue.hpp>
-#include <ql/utilities/clone.hpp>
+#include <models/marketmodels/products/multiproductmultistep.hpp>
+#include <models/marketmodels/callability/exercisevalue.hpp>
+#include <utilities/clone.hpp>
 
 namespace QuantLib {
 

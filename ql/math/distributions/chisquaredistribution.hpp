@@ -25,7 +25,7 @@
 #ifndef quantlib_chi_square_distribution_hpp
 #define quantlib_chi_square_distribution_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <functional>
 
 namespace QuantLib {

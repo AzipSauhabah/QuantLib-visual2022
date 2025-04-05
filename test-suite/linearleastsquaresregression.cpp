@@ -20,8 +20,8 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/randomnumbers/rngtraits.hpp>
-#include <ql/math/linearleastsquaresregression.hpp>
+#include <math/randomnumbers/rngtraits.hpp>
+#include <math/linearleastsquaresregression.hpp>
 #include <boost/circular_buffer.hpp>
 #include <functional>
 

@@ -25,8 +25,8 @@
 #ifndef quantlib_sabr_smile_section_hpp
 #define quantlib_sabr_smile_section_hpp
 
-#include <ql/termstructures/volatility/smilesection.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
+#include <termstructures/volatility/smilesection.hpp>
+#include <time/daycounters/actual365fixed.hpp>
 #include <vector>
 
 namespace QuantLib {

@@ -26,7 +26,7 @@
 #ifndef quantlib_second_order_mixed_derivative_hpp
 #define quantlib_second_order_mixed_derivative_hpp
 
-#include <ql/methods/finitedifferences/operators/ninepointlinearop.hpp>
+#include <methods/finitedifferences/operators/ninepointlinearop.hpp>
 
 namespace QuantLib {
 

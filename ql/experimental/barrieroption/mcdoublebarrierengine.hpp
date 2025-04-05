@@ -24,10 +24,10 @@
 #ifndef quantlib_mc_double_barrier_engines_hpp
 #define quantlib_mc_double_barrier_engines_hpp
 
-#include <ql/exercise.hpp>
-#include <ql/instruments/doublebarrieroption.hpp>
-#include <ql/pricingengines/mcsimulation.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <exercise.hpp>
+#include <instruments/doublebarrieroption.hpp>
+#include <pricingengines/mcsimulation.hpp>
+#include <processes/blackscholesprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

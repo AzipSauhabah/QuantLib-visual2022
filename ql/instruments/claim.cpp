@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/claim.hpp>
+#include <instruments/claim.hpp>
 
 namespace QuantLib {
 

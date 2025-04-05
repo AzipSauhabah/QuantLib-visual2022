@@ -21,8 +21,8 @@
     \brief Rounding implementation
 */
 
-#include <ql/math/rounding.hpp>
-#include <ql/errors.hpp>
+#include <math/rounding.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

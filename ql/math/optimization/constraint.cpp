@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/optimization/constraint.hpp>
+#include <math/optimization/constraint.hpp>
 #include <utility>
 
 namespace QuantLib {

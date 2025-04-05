@@ -24,9 +24,9 @@
 #ifndef quantlib_bma_index_hpp
 #define quantlib_bma_index_hpp
 
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/indexes/interestrateindex.hpp>
-#include <ql/time/schedule.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <indexes/interestrateindex.hpp>
+#include <time/schedule.hpp>
 
 namespace QuantLib {
 

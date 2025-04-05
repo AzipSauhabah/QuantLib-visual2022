@@ -23,7 +23,7 @@
 #ifndef quantlib_qd_fp_american_engine_hpp
 #define quantlib_qd_fp_american_engine_hpp
 
-#include <ql/pricingengines/vanilla/qdplusamericanengine.hpp>
+#include <pricingengines/vanilla/qdplusamericanengine.hpp>
 
 namespace QuantLib {
 

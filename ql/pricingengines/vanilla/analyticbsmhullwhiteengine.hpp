@@ -24,10 +24,10 @@
 #ifndef quantlib_analytic_bsm_hull_white_engine_hpp
 #define quantlib_analytic_bsm_hull_white_engine_hpp
 
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/pricingengines/genericmodelengine.hpp>
-#include <ql/models/shortrate/onefactormodels/hullwhite.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <pricingengines/genericmodelengine.hpp>
+#include <models/shortrate/onefactormodels/hullwhite.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

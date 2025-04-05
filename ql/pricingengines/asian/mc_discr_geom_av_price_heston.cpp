@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/asian/mc_discr_geom_av_price_heston.hpp>
+#include <pricingengines/asian/mc_discr_geom_av_price_heston.hpp>
 #include <utility>
 
 namespace QuantLib {

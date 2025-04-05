@@ -24,17 +24,17 @@
 #ifndef quantlib_vanna_volga_double_barrier_engine_hpp
 #define quantlib_vanna_volga_double_barrier_engine_hpp
 
-#include <ql/instruments/doublebarrieroption.hpp>
-#include <ql/experimental/barrieroption/vannavolgainterpolation.hpp>
-#include <ql/experimental/fx/blackdeltacalculator.hpp>
-#include <ql/experimental/fx/deltavolquote.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/pricingengines/barrier/analyticbarrierengine.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
+#include <instruments/doublebarrieroption.hpp>
+#include <experimental/barrieroption/vannavolgainterpolation.hpp>
+#include <experimental/fx/blackdeltacalculator.hpp>
+#include <experimental/fx/deltavolquote.hpp>
+#include <math/matrix.hpp>
+#include <pricingengines/barrier/analyticbarrierengine.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <time/calendars/nullcalendar.hpp>
 #include <utility>
 
 namespace QuantLib {

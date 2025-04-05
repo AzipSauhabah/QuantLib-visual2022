@@ -26,7 +26,7 @@
 #ifndef quantlib_caplet_constant_volatility_hpp
 #define quantlib_caplet_constant_volatility_hpp
 
-#include <ql/termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
+#include <termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
 
 namespace QuantLib {
 

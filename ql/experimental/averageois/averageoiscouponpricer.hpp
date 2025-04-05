@@ -21,8 +21,8 @@
 #define quantlib_average_ois_coupon_pricer_hpp
 
 // Deprecated in version 1.36
-#pragma message("Warning: this file will disappear in a future release; include <ql/cashflows/overnightindexedcouponpricer.hpp> instead")
+#pragma message("Warning: this file will disappear in a future release; include <cashflows/overnightindexedcouponpricer.hpp> instead")
 
-#include <ql/cashflows/overnightindexedcouponpricer.hpp>
+#include <cashflows/overnightindexedcouponpricer.hpp>
 
 #endif

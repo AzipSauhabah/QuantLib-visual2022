@@ -33,7 +33,7 @@
 */
 
 
-#include <ql/math/matrixutilities/svd.hpp>
+#include <math/matrixutilities/svd.hpp>
 
 namespace QuantLib {
 

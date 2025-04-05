@@ -18,7 +18,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/stickyratchet.hpp>
+#include <instruments/stickyratchet.hpp>
 
 namespace QuantLib {
 

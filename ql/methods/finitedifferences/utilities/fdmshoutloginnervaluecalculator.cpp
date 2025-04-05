@@ -21,11 +21,11 @@
     \brief inner value for a shout option
 */
 
-#include <ql/instruments/payoffs.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmshoutloginnervaluecalculator.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvoltermstructure.hpp>
+#include <instruments/payoffs.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/utilities/fdmshoutloginnervaluecalculator.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <termstructures/volatility/equityfx/blackvoltermstructure.hpp>
 
 #include <utility>
 

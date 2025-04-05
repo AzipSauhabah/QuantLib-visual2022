@@ -24,7 +24,7 @@
 #ifndef quantlib_simple_local_estimator_hpp
 #define quantlib_simple_local_estimator_hpp
 
-#include <ql/volatilitymodel.hpp>
+#include <volatilitymodel.hpp>
 #include <map>
 
 namespace QuantLib {

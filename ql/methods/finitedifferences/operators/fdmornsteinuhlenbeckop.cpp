@@ -20,13 +20,13 @@
 /*! \file fdmornsteinuhlenbeckop.cpp
 */
 
-#include <ql/math/functional.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/operators/fdmornsteinuhlenbeckop.hpp>
-#include <ql/methods/finitedifferences/operators/secondderivativeop.hpp>
-#include <ql/processes/ornsteinuhlenbeckprocess.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <math/functional.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/operators/fdmornsteinuhlenbeckop.hpp>
+#include <methods/finitedifferences/operators/secondderivativeop.hpp>
+#include <processes/ornsteinuhlenbeckprocess.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

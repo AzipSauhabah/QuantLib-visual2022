@@ -23,8 +23,8 @@
 #ifndef quantlib_operator_traits_hpp
 #define quantlib_operator_traits_hpp
 
-#include <ql/methods/finitedifferences/boundarycondition.hpp>
-#include <ql/methods/finitedifferences/stepcondition.hpp>
+#include <methods/finitedifferences/boundarycondition.hpp>
+#include <methods/finitedifferences/stepcondition.hpp>
 #include <vector>
 
 namespace QuantLib {

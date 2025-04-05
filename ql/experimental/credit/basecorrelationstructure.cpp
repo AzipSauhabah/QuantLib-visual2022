@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/credit/basecorrelationstructure.hpp>
+#include <experimental/credit/basecorrelationstructure.hpp>
 
 
 namespace QuantLib {

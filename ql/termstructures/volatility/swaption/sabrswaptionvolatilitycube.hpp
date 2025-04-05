@@ -29,15 +29,15 @@
 #ifndef quantlib_sabr_swaption_volatility_cube_hpp
 #define quantlib_sabr_swaption_volatility_cube_hpp
 
-#include <ql/math/interpolations/backwardflatlinearinterpolation.hpp>
-#include <ql/math/interpolations/bilinearinterpolation.hpp>
-#include <ql/math/interpolations/flatextrapolation2d.hpp>
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/math/interpolations/sabrinterpolation.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/quote.hpp>
-#include <ql/termstructures/volatility/sabrsmilesection.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionvolcube.hpp>
+#include <math/interpolations/backwardflatlinearinterpolation.hpp>
+#include <math/interpolations/bilinearinterpolation.hpp>
+#include <math/interpolations/flatextrapolation2d.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <math/interpolations/sabrinterpolation.hpp>
+#include <math/matrix.hpp>
+#include <quote.hpp>
+#include <termstructures/volatility/sabrsmilesection.hpp>
+#include <termstructures/volatility/swaption/swaptionvolcube.hpp>
 #include <utility>
 
 

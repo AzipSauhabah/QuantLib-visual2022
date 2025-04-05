@@ -18,7 +18,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/shortrate/generalizedornsteinuhlenbeckprocess.hpp>
+#include <experimental/shortrate/generalizedornsteinuhlenbeckprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

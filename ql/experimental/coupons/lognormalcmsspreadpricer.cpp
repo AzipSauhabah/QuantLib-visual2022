@@ -20,12 +20,12 @@
 /*! \file lognormalcmsspreadpricer.cpp
 */
 
-#include <ql/experimental/coupons/cmsspreadcoupon.hpp>
-#include <ql/experimental/coupons/lognormalcmsspreadpricer.hpp>
-#include <ql/math/integrals/kronrodintegral.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionvolcube.hpp>
-#include <ql/optional.hpp>
+#include <experimental/coupons/cmsspreadcoupon.hpp>
+#include <experimental/coupons/lognormalcmsspreadpricer.hpp>
+#include <math/integrals/kronrodintegral.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <termstructures/volatility/swaption/swaptionvolcube.hpp>
+#include <optional.hpp>
 #include <utility>
 
 using std::sqrt;

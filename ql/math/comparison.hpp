@@ -24,8 +24,8 @@
 #ifndef quantlib_comparison_hpp
 #define quantlib_comparison_hpp
 
-#include <ql/types.hpp>
-#include <ql/shared_ptr.hpp>
+#include <types.hpp>
+#include <shared_ptr.hpp>
 
 namespace QuantLib {
 

@@ -26,13 +26,13 @@
 #ifndef quantlib_fdm_heston_hull_white_op_hpp
 #define quantlib_fdm_heston_hull_white_op_hpp
 
-#include <ql/processes/hestonprocess.hpp>
-#include <ql/processes/hullwhiteprocess.hpp>
-#include <ql/methods/finitedifferences/operators/fdmhullwhiteop.hpp>
-#include <ql/methods/finitedifferences/operators/firstderivativeop.hpp>
-#include <ql/methods/finitedifferences/operators/triplebandlinearop.hpp>
-#include <ql/methods/finitedifferences/operators/ninepointlinearop.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
+#include <processes/hestonprocess.hpp>
+#include <processes/hullwhiteprocess.hpp>
+#include <methods/finitedifferences/operators/fdmhullwhiteop.hpp>
+#include <methods/finitedifferences/operators/firstderivativeop.hpp>
+#include <methods/finitedifferences/operators/triplebandlinearop.hpp>
+#include <methods/finitedifferences/operators/ninepointlinearop.hpp>
+#include <methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
 
 namespace QuantLib {
 

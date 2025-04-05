@@ -21,7 +21,7 @@
 #ifndef quantlib_onestep_forwards_hpp
 #define quantlib_onestep_forwards_hpp
 
-#include <ql/models/marketmodels/products/multiproductonestep.hpp>
+#include <models/marketmodels/products/multiproductonestep.hpp>
 
 namespace QuantLib {
 

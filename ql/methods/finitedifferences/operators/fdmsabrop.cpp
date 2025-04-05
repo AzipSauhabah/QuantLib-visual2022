@@ -21,13 +21,13 @@
     \brief FDM operator for the SABR model
 */
 
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/operators/fdmsabrop.hpp>
-#include <ql/methods/finitedifferences/operators/firstderivativeop.hpp>
-#include <ql/methods/finitedifferences/operators/secondderivativeop.hpp>
-#include <ql/methods/finitedifferences/operators/secondordermixedderivativeop.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/operators/fdmsabrop.hpp>
+#include <methods/finitedifferences/operators/firstderivativeop.hpp>
+#include <methods/finitedifferences/operators/secondderivativeop.hpp>
+#include <methods/finitedifferences/operators/secondordermixedderivativeop.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

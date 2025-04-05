@@ -26,9 +26,9 @@
 #ifndef quantlib_interpolation_hpp
 #define quantlib_interpolation_hpp
 
-#include <ql/math/interpolations/extrapolation.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/errors.hpp>
+#include <math/interpolations/extrapolation.hpp>
+#include <math/comparison.hpp>
+#include <errors.hpp>
 #include <vector>
 #include <algorithm>
 

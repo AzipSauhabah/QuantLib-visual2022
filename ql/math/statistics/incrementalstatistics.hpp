@@ -28,8 +28,8 @@
 #ifndef quantlib_incremental_statistics_hpp
 #define quantlib_incremental_statistics_hpp
 
-#include <ql/utilities/null.hpp>
-#include <ql/errors.hpp>
+#include <utilities/null.hpp>
+#include <errors.hpp>
 #include <boost/accumulators/accumulators.hpp>
 #include <boost/accumulators/statistics/stats.hpp>
 #include <boost/accumulators/statistics/count.hpp>

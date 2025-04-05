@@ -21,7 +21,7 @@
     \brief matrix used in linear algebra.
 */
 
-#include <ql/math/matrix.hpp>
+#include <math/matrix.hpp>
 #if defined(QL_PATCH_MSVC)
 #pragma warning(push)
 #pragma warning(disable:4180)

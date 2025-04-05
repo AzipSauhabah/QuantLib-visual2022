@@ -25,7 +25,7 @@
 #ifndef quantlib_mixed_scheme_hpp
 #define quantlib_mixed_scheme_hpp
 
-#include <ql/methods/finitedifferences/finitedifferencemodel.hpp>
+#include <methods/finitedifferences/finitedifferencemodel.hpp>
 #include <utility>
 
 namespace QuantLib {

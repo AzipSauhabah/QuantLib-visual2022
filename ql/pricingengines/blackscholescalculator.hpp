@@ -24,7 +24,7 @@
 #ifndef quantlib_blackscholescalculator_hpp
 #define quantlib_blackscholescalculator_hpp
 
-#include <ql/pricingengines/blackcalculator.hpp>
+#include <pricingengines/blackcalculator.hpp>
 
 namespace QuantLib {
 

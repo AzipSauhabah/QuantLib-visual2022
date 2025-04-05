@@ -21,8 +21,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/integrals/gaussianquadratures.hpp>
-#include <ql/termstructures/credit/hazardratestructure.hpp>
+#include <math/integrals/gaussianquadratures.hpp>
+#include <termstructures/credit/hazardratestructure.hpp>
 #include <utility>
 
 namespace QuantLib {

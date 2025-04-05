@@ -26,11 +26,11 @@
 #ifndef quantlib_mc_discrete_geometric_average_price_asian_engine_h
 #define quantlib_mc_discrete_geometric_average_price_asian_engine_h
 
-#include <ql/exercise.hpp>
-#include <ql/pricingengines/asian/mcdiscreteasianenginebase.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvariancecurve.hpp>
+#include <exercise.hpp>
+#include <pricingengines/asian/mcdiscreteasianenginebase.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <termstructures/volatility/equityfx/blackvariancecurve.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/processes/batesprocess.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/distributions/poissondistribution.hpp>
+#include <processes/batesprocess.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/distributions/poissondistribution.hpp>
 
 
 namespace QuantLib {

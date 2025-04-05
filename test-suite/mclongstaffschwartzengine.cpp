@@ -22,15 +22,15 @@
 #include "preconditions.hpp"
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/methods/montecarlo/lsmbasissystem.hpp>
-#include <ql/pricingengines/mclongstaffschwartzengine.hpp>
-#include <ql/pricingengines/vanilla/fdblackscholesvanillaengine.hpp>
-#include <ql/pricingengines/vanilla/mcamericanengine.hpp>
-#include <ql/processes/stochasticprocessarray.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <methods/montecarlo/lsmbasissystem.hpp>
+#include <pricingengines/mclongstaffschwartzengine.hpp>
+#include <pricingengines/vanilla/fdblackscholesvanillaengine.hpp>
+#include <pricingengines/vanilla/mcamericanengine.hpp>
+#include <processes/stochasticprocessarray.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <time/calendars/nullcalendar.hpp>
 #include <utility>
 
 using namespace QuantLib;

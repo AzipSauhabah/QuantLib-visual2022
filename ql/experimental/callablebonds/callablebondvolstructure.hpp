@@ -24,9 +24,9 @@
 #ifndef quantlib_callable_bond_volatility_structure_hpp
 #define quantlib_callable_bond_volatility_structure_hpp
 
-#include <ql/termstructure.hpp>
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/termstructures/volatility/smilesection.hpp>
+#include <termstructure.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <termstructures/volatility/smilesection.hpp>
 
 namespace QuantLib {
 

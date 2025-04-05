@@ -18,7 +18,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/calendars/thailand.hpp>
+#include <time/calendars/thailand.hpp>
 
 namespace QuantLib {
 

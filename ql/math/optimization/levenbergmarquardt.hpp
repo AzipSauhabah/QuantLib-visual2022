@@ -25,7 +25,7 @@
 #ifndef quantlib_optimization_levenberg_marquardt_hpp
 #define quantlib_optimization_levenberg_marquardt_hpp
 
-#include <ql/math/optimization/problem.hpp>
+#include <math/optimization/problem.hpp>
 
 namespace QuantLib {
 

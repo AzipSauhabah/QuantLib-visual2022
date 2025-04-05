@@ -24,10 +24,10 @@
 #ifndef quantlib_path_payoff_hpp
 #define quantlib_path_payoff_hpp
 
-#include <ql/math/matrix.hpp>
-#include <ql/patterns/visitor.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/handle.hpp>
+#include <math/matrix.hpp>
+#include <patterns/visitor.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <handle.hpp>
 #include <functional>
 
 namespace QuantLib {

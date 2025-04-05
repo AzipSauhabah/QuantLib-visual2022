@@ -24,9 +24,9 @@
 #ifndef quantlib_interest_rate_modelling_parameter_hpp
 #define quantlib_interest_rate_modelling_parameter_hpp
 
-#include <ql/handle.hpp>
-#include <ql/math/optimization/constraint.hpp>
-#include <ql/qldefines.hpp>
+#include <handle.hpp>
+#include <math/optimization/constraint.hpp>
+#include <qldefines.hpp>
 #include <utility>
 #include <vector>
 

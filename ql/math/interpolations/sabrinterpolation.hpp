@@ -30,8 +30,8 @@
 #ifndef quantlib_sabr_interpolation_hpp
 #define quantlib_sabr_interpolation_hpp
 
-#include <ql/math/interpolations/xabrinterpolation.hpp>
-#include <ql/termstructures/volatility/sabr.hpp>
+#include <math/interpolations/xabrinterpolation.hpp>
+#include <termstructures/volatility/sabr.hpp>
 #include <utility>
 
 namespace QuantLib {

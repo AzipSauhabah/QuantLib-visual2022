@@ -24,11 +24,11 @@
 #ifndef quantlib_nonstandard_swap_hpp
 #define quantlib_nonstandard_swap_hpp
 
-#include <ql/instruments/swap.hpp>
-#include <ql/instruments/fixedvsfloatingswap.hpp>
-#include <ql/time/daycounter.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/optional.hpp>
+#include <instruments/swap.hpp>
+#include <instruments/fixedvsfloatingswap.hpp>
+#include <time/daycounter.hpp>
+#include <time/schedule.hpp>
+#include <optional.hpp>
 
 namespace QuantLib {
 

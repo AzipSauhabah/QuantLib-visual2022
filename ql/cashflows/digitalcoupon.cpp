@@ -18,10 +18,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/capflooredcoupon.hpp>
-#include <ql/cashflows/digitalcoupon.hpp>
-#include <ql/indexes/indexmanager.hpp>
-#include <ql/indexes/interestrateindex.hpp>
+#include <cashflows/capflooredcoupon.hpp>
+#include <cashflows/digitalcoupon.hpp>
+#include <indexes/indexmanager.hpp>
+#include <indexes/interestrateindex.hpp>
 
 namespace QuantLib {
 

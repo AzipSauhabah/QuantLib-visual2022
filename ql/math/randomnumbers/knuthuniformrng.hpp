@@ -24,7 +24,7 @@
 #ifndef quantlib_knuth_uniform_rng_h
 #define quantlib_knuth_uniform_rng_h
 
-#include <ql/methods/montecarlo/sample.hpp>
+#include <methods/montecarlo/sample.hpp>
 #include <vector>
 
 namespace QuantLib {

@@ -20,11 +20,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/comparison.hpp>
-#include <ql/models/marketmodels/correlations/expcorrelations.hpp>
-#include <ql/models/marketmodels/correlations/timehomogeneousforwardcorrelation.hpp>
-#include <ql/models/marketmodels/utilities.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <math/comparison.hpp>
+#include <models/marketmodels/correlations/expcorrelations.hpp>
+#include <models/marketmodels/correlations/timehomogeneousforwardcorrelation.hpp>
+#include <models/marketmodels/utilities.hpp>
+#include <utilities/dataformatters.hpp>
 #include <utility>
 
 namespace QuantLib {

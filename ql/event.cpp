@@ -18,10 +18,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/event.hpp>
-#include <ql/patterns/visitor.hpp>
-#include <ql/optional.hpp>
-#include <ql/settings.hpp>
+#include <event.hpp>
+#include <patterns/visitor.hpp>
+#include <optional.hpp>
+#include <settings.hpp>
 
 namespace QuantLib {
 

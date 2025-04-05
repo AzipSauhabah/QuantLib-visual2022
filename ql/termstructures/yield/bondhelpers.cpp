@@ -19,11 +19,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/yield/bondhelpers.hpp>
-#include <ql/pricingengines/bond/discountingbondengine.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/settings.hpp>
-#include <ql/utilities/null_deleter.hpp>
+#include <termstructures/yield/bondhelpers.hpp>
+#include <pricingengines/bond/discountingbondengine.hpp>
+#include <time/schedule.hpp>
+#include <settings.hpp>
+#include <utilities/null_deleter.hpp>
 
 namespace QuantLib {
 

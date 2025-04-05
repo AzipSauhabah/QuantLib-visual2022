@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvariancecurve.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <termstructures/volatility/equityfx/blackvariancecurve.hpp>
 #include <utility>
 
 namespace QuantLib {

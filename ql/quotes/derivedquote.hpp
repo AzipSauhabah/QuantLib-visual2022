@@ -26,8 +26,8 @@
 #ifndef quantlib_derived_quote_hpp
 #define quantlib_derived_quote_hpp
 
-#include <ql/handle.hpp>
-#include <ql/quote.hpp>
+#include <handle.hpp>
+#include <quote.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -23,10 +23,10 @@
 #ifndef quantlib_fdm_ext_ou_jump_solver_hpp
 #define quantlib_fdm_ext_ou_jump_solver_hpp
 
-#include <ql/handle.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmsolverdesc.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <handle.hpp>
+#include <patterns/lazyobject.hpp>
+#include <methods/finitedifferences/solvers/fdmsolverdesc.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
 
 namespace QuantLib {
 

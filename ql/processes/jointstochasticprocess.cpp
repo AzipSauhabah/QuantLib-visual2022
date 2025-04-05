@@ -21,9 +21,9 @@
     \brief multi model process for hybrid products
 */
 
-#include <ql/math/matrixutilities/pseudosqrt.hpp>
-#include <ql/math/matrixutilities/svd.hpp>
-#include <ql/processes/jointstochasticprocess.hpp>
+#include <math/matrixutilities/pseudosqrt.hpp>
+#include <math/matrixutilities/svd.hpp>
+#include <processes/jointstochasticprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -25,10 +25,10 @@
 #ifndef quantlib_discounting_bond_engine_hpp
 #define quantlib_discounting_bond_engine_hpp
 
-#include <ql/instruments/bond.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/handle.hpp>
-#include <ql/optional.hpp>
+#include <instruments/bond.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <handle.hpp>
+#include <optional.hpp>
 
 namespace QuantLib {
 

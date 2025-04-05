@@ -21,20 +21,20 @@
 /*! \file lineartsrpricer.cpp
 */
 
-#include <ql/cashflows/cmscoupon.hpp>
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/cashflows/lineartsrpricer.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/instruments/vanillaswap.hpp>
-#include <ql/instruments/overnightindexedswap.hpp>
-#include <ql/math/integrals/kronrodintegral.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/volatility/atmsmilesection.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/cmscoupon.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <cashflows/lineartsrpricer.hpp>
+#include <indexes/iborindex.hpp>
+#include <instruments/vanillaswap.hpp>
+#include <instruments/overnightindexedswap.hpp>
+#include <math/integrals/kronrodintegral.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/volatility/atmsmilesection.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <time/schedule.hpp>
 #include <utility>
 
 namespace QuantLib {

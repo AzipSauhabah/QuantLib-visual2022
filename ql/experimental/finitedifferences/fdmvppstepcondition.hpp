@@ -24,10 +24,10 @@
 #ifndef quantlib_fdm_vpp_step_condition_hpp
 #define quantlib_fdm_vpp_step_condition_hpp
 
-#include <ql/methods/finitedifferences/stepcondition.hpp>
-#include <ql/shared_ptr.hpp>
-#include <ql/functional.hpp>
-#include <ql/methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
+#include <methods/finitedifferences/stepcondition.hpp>
+#include <shared_ptr.hpp>
+#include <functional.hpp>
+#include <methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
 #include <vector>
 
 namespace QuantLib {

@@ -25,8 +25,8 @@
 #ifndef quantlib_ukrpi_hpp
 #define quantlib_ukrpi_hpp
 
-#include <ql/currencies/europe.hpp>
-#include <ql/indexes/inflationindex.hpp>
+#include <currencies/europe.hpp>
+#include <indexes/inflationindex.hpp>
 
 namespace QuantLib {
 
@@ -42,21 +42,6 @@ namespace QuantLib {
     //! Quoted year-on-year UK RPI (i.e. not a ratio of UK RPI)
     class YYUKRPI : public YoYInflationIndex {
       public:
-        explicit YYUKRPI(const Handle<YoYInflationTermStructure>& ts = {})
-        : YoYInflationIndex("YY_RPI",
-                            UKRegion(),
-                            false,
-                            Monthly,
-                            Period(1, Months),
-                            GBPCurrency(),
-                            ts) {}
-
-        QL_DEPRECATED_DISABLE_WARNING
-
-        /*! \deprecated Use the overload without the interpolated parameter.
-                        Deprecated in version 1.38.
-        */
-        [[deprecated("Use the overload without the interpolated parameter")]]
         explicit YYUKRPI(
             bool interpolated,
             const Handle<YoYInflationTermStructure>& ts = {})
@@ -68,8 +53,6 @@ namespace QuantLib {
                             Period(1, Months),
                             GBPCurrency(),
                             ts) {}
-
-        QL_DEPRECATED_ENABLE_WARNING
     };
 
 }

@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/processes/endeulerdiscretization.hpp>
+#include <processes/endeulerdiscretization.hpp>
 
 namespace QuantLib {
 

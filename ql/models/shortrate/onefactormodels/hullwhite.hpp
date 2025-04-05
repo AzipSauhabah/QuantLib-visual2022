@@ -26,7 +26,7 @@
 #ifndef quantlib_hull_white_hpp
 #define quantlib_hull_white_hpp
 
-#include <ql/models/shortrate/onefactormodels/vasicek.hpp>
+#include <models/shortrate/onefactormodels/vasicek.hpp>
 #include <utility>
 
 namespace QuantLib {

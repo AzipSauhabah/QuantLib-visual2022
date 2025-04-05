@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/methods/finitedifferences/bsmoperator.hpp>
-#include <ql/math/transformedgrid.hpp>
-#include <ql/methods/finitedifferences/pdebsm.hpp>
+#include <methods/finitedifferences/bsmoperator.hpp>
+#include <math/transformedgrid.hpp>
+#include <methods/finitedifferences/pdebsm.hpp>
 
 namespace QuantLib {
 

@@ -19,11 +19,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/models/fwdtocotswapadapter.hpp>
-#include <ql/models/marketmodels/curvestates/lmmcurvestate.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/models/marketmodels/swapforwardmappings.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <models/marketmodels/models/fwdtocotswapadapter.hpp>
+#include <models/marketmodels/curvestates/lmmcurvestate.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/swapforwardmappings.hpp>
+#include <utilities/dataformatters.hpp>
 
 namespace QuantLib {
 

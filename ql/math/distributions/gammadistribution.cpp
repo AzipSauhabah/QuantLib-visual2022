@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/distributions/gammadistribution.hpp>
+#include <math/distributions/gammadistribution.hpp>
 
 namespace QuantLib {
 

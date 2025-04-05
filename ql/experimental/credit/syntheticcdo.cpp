@@ -17,17 +17,17 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/credit/syntheticcdo.hpp>
+#include <experimental/credit/syntheticcdo.hpp>
 
 #ifndef QL_PATCH_SOLARIS
 
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/event.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/experimental/credit/gaussianlhplossmodel.hpp>
-#include <ql/experimental/credit/midpointcdoengine.hpp>
-#include <ql/optional.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <event.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <experimental/credit/gaussianlhplossmodel.hpp>
+#include <experimental/credit/midpointcdoengine.hpp>
+#include <optional.hpp>
 
 using namespace std;
 

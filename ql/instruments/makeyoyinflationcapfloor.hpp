@@ -26,8 +26,8 @@
 #ifndef quantlib_instruments_make_yoyinflation_capfloor_hpp
 #define quantlib_instruments_make_yoyinflation_capfloor_hpp
 
-#include <ql/instruments/inflationcapfloor.hpp>
-#include <ql/instruments/makevanillaswap.hpp>
+#include <instruments/inflationcapfloor.hpp>
+#include <instruments/makevanillaswap.hpp>
 
 namespace QuantLib {
 

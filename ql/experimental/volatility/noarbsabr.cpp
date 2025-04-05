@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/volatility/noarbsabr.hpp>
+#include <experimental/volatility/noarbsabr.hpp>
 
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/math/modifiedbessel.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <math/modifiedbessel.hpp>
 #include <boost/math/special_functions/gamma.hpp>
 #include <boost/functional/hash.hpp>
 

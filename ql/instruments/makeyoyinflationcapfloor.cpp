@@ -19,9 +19,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
  */
 
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/instruments/makeyoyinflationcapfloor.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
+#include <cashflows/cashflows.hpp>
+#include <instruments/makeyoyinflationcapfloor.hpp>
+#include <time/daycounters/thirty360.hpp>
 #include <utility>
 
 namespace QuantLib {

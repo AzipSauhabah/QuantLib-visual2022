@@ -24,10 +24,10 @@
 #ifndef quantlib_pricers_gaussian1d_nonstandardswaption_hpp
 #define quantlib_pricers_gaussian1d_nonstandardswaption_hpp
 
-#include <ql/instruments/nonstandardswaption.hpp>
-#include <ql/models/shortrate/onefactormodels/gsr.hpp>
-#include <ql/pricingengines/genericmodelengine.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionvolstructure.hpp>
+#include <instruments/nonstandardswaption.hpp>
+#include <models/shortrate/onefactormodels/gsr.hpp>
+#include <pricingengines/genericmodelengine.hpp>
+#include <termstructures/volatility/swaption/swaptionvolstructure.hpp>
 
 namespace QuantLib {
 

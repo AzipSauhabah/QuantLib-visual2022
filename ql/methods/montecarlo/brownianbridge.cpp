@@ -27,7 +27,7 @@
 // granted, provided that this notice is preserved.
 // ===========================================================================
 
-#include <ql/methods/montecarlo/brownianbridge.hpp>
+#include <methods/montecarlo/brownianbridge.hpp>
 
 namespace QuantLib {
 

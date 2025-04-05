@@ -19,9 +19,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/averagetype.hpp>
-#include <ql/types.hpp>
-#include <ql/errors.hpp>
+#include <instruments/averagetype.hpp>
+#include <types.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

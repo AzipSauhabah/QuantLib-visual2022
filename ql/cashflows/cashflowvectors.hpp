@@ -31,13 +31,13 @@
 #ifndef quantlib_cash_flow_vectors_hpp
 #define quantlib_cash_flow_vectors_hpp
 
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/replication.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/utilities/vectors.hpp>
-#include <ql/position.hpp>
-#include <ql/indexes/swapindex.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <cashflows/replication.hpp>
+#include <time/schedule.hpp>
+#include <utilities/null.hpp>
+#include <utilities/vectors.hpp>
+#include <position.hpp>
+#include <indexes/swapindex.hpp>
 
 namespace QuantLib {
 

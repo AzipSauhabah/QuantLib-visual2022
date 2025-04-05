@@ -26,7 +26,7 @@
 #ifndef quantlib_zero_yield_structure_hpp
 #define quantlib_zero_yield_structure_hpp
 
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 
 namespace QuantLib {
 

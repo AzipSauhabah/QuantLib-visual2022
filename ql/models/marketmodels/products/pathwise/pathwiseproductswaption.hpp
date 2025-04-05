@@ -21,10 +21,10 @@
 #ifndef quantlib_market_model_pathwise_swaption_hpp
 #define quantlib_market_model_pathwise_swaption_hpp
 
-#include <ql/types.hpp>
-#include <ql/models/marketmodels/pathwisemultiproduct.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/models/marketmodels/curvestates/lmmcurvestate.hpp>
+#include <types.hpp>
+#include <models/marketmodels/pathwisemultiproduct.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/curvestates/lmmcurvestate.hpp>
 #include <vector>
 #include <memory>
 

@@ -17,8 +17,8 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/variancegamma/fftvariancegammaengine.hpp>
-#include <ql/exercise.hpp>
+#include <experimental/variancegamma/fftvariancegammaengine.hpp>
+#include <exercise.hpp>
 
 namespace QuantLib {
 

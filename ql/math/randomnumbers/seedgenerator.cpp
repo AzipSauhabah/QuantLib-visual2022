@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/randomnumbers/seedgenerator.hpp>
+#include <math/randomnumbers/seedgenerator.hpp>
 #include <ctime>
 #if defined(BOOST_NO_STDC_NAMESPACE)
     namespace std { using ::time; }

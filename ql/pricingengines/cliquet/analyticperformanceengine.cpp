@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/pricingengines/blackcalculator.hpp>
-#include <ql/pricingengines/cliquet/analyticperformanceengine.hpp>
+#include <exercise.hpp>
+#include <pricingengines/blackcalculator.hpp>
+#include <pricingengines/cliquet/analyticperformanceengine.hpp>
 #include <utility>
 
 namespace QuantLib {

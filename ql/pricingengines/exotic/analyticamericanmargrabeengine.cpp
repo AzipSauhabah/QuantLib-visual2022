@@ -17,13 +17,13 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/pricingengines/exotic/analyticamericanmargrabeengine.hpp>
-#include <ql/pricingengines/vanilla/bjerksundstenslandengine.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
+#include <exercise.hpp>
+#include <pricingengines/exotic/analyticamericanmargrabeengine.hpp>
+#include <pricingengines/vanilla/bjerksundstenslandengine.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <time/calendars/nullcalendar.hpp>
 #include <utility>
 
 namespace QuantLib {

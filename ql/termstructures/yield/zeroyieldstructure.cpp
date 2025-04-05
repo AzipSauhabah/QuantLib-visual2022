@@ -19,7 +19,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/yield/zeroyieldstructure.hpp>
+#include <termstructures/yield/zeroyieldstructure.hpp>
 
 namespace QuantLib {
 

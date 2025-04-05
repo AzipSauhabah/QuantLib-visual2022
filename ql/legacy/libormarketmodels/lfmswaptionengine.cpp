@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/legacy/libormarketmodels/lfmswaptionengine.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
+#include <legacy/libormarketmodels/lfmswaptionengine.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -19,7 +19,7 @@
 
 /*! \file numericaldifferentiation.cpp */
 
-#include <ql/methods/finitedifferences/operators/numericaldifferentiation.hpp>
+#include <methods/finitedifferences/operators/numericaldifferentiation.hpp>
 
 #pragma push_macro("BOOST_DISABLE_ASSERTS")
 #ifndef BOOST_DISABLE_ASSERTS

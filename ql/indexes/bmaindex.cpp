@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/indexes/bmaindex.hpp>
-#include <ql/currencies/america.hpp>
-#include <ql/time/calendars/unitedstates.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
+#include <indexes/bmaindex.hpp>
+#include <currencies/america.hpp>
+#include <time/calendars/unitedstates.hpp>
+#include <time/daycounters/actualactual.hpp>
 
 namespace QuantLib {
 

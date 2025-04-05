@@ -20,10 +20,10 @@
 #ifndef quantlib_mc_forward_european_heston_engine_hpp
 #define quantlib_mc_forward_european_heston_engine_hpp
 
-#include <ql/models/equity/hestonmodel.hpp>
-#include <ql/pricingengines/forward/mcforwardvanillaengine.hpp>
-#include <ql/pricingengines/vanilla/analytichestonengine.hpp>
-#include <ql/processes/hestonprocess.hpp>
+#include <models/equity/hestonmodel.hpp>
+#include <pricingengines/forward/mcforwardvanillaengine.hpp>
+#include <pricingengines/vanilla/analytichestonengine.hpp>
+#include <processes/hestonprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

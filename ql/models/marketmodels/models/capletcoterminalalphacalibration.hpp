@@ -21,7 +21,7 @@
 #ifndef quantlib_ctsmm_caplet_calibration_alfa_form_hpp
 #define quantlib_ctsmm_caplet_calibration_alfa_form_hpp
 
-#include <ql/models/marketmodels/models/ctsmmcapletcalibration.hpp>
+#include <models/marketmodels/models/ctsmmcapletcalibration.hpp>
 
 namespace QuantLib {
 

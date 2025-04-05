@@ -24,8 +24,8 @@
 #ifndef quantlib_energy_future_hpp
 #define quantlib_energy_future_hpp
 
-#include <ql/experimental/commodities/energycommodity.hpp>
-#include <ql/experimental/commodities/commodityindex.hpp>
+#include <experimental/commodities/energycommodity.hpp>
+#include <experimental/commodities/commodityindex.hpp>
 
 namespace QuantLib {
 

@@ -15,9 +15,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/pricingengines/asian/turnbullwakemanasianengine.hpp>
-#include <ql/pricingengines/blackcalculator.hpp>
+#include <exercise.hpp>
+#include <pricingengines/asian/turnbullwakemanasianengine.hpp>
+#include <pricingengines/blackcalculator.hpp>
 
 using namespace QuantLib;
 

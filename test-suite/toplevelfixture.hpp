@@ -22,8 +22,8 @@
 #define quantlib_top_level_fixture_hpp
 
 #include <boost/test/unit_test.hpp>
-#include <ql/indexes/indexmanager.hpp>
-#include <ql/settings.hpp>
+#include <indexes/indexmanager.hpp>
+#include <settings.hpp>
 
 namespace QuantLib {
 

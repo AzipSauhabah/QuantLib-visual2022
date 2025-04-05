@@ -24,8 +24,8 @@
 #ifndef quantlib_nth_order_derivative_op_hpp
 #define quantlib_nth_order_derivative_op_hpp
 
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearop.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearop.hpp>
 
 namespace QuantLib {
 

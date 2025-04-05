@@ -25,8 +25,8 @@
 #ifndef quantlib_trinomial_tree_hpp
 #define quantlib_trinomial_tree_hpp
 
-#include <ql/methods/lattices/tree.hpp>
-#include <ql/timegrid.hpp>
+#include <methods/lattices/tree.hpp>
+#include <timegrid.hpp>
 
 namespace QuantLib {
     class StochasticProcess1D;

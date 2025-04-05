@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/mcbasket/adaptedpathpayoff.hpp>
+#include <experimental/mcbasket/adaptedpathpayoff.hpp>
 
 namespace QuantLib {
 

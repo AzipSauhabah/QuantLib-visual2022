@@ -21,9 +21,9 @@
     \brief Geman-Roncoroni process
 */
 
-#include <ql/math/functional.hpp>
-#include <ql/processes/eulerdiscretization.hpp>
-#include <ql/experimental/processes/gemanroncoroniprocess.hpp>
+#include <math/functional.hpp>
+#include <processes/eulerdiscretization.hpp>
+#include <experimental/processes/gemanroncoroniprocess.hpp>
 
 
 namespace QuantLib {

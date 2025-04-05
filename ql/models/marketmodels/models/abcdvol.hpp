@@ -23,9 +23,9 @@
 #ifndef quantlib_exp_corr_abcd_vol_hpp
 #define quantlib_exp_corr_abcd_vol_hpp
 
-#include <ql/models/marketmodels/marketmodel.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/math/matrix.hpp>
+#include <models/marketmodels/marketmodel.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <math/matrix.hpp>
 #include <vector>
 
 namespace QuantLib {

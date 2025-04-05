@@ -27,12 +27,12 @@
 #ifndef quantlib_digital_mc_engine_hpp
 #define quantlib_digital_mc_engine_hpp
 
-#include <ql/exercise.hpp>
-#include <ql/methods/montecarlo/mctraits.hpp>
-#include <ql/pricingengines/vanilla/mcvanillaengine.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvoltermstructure.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <exercise.hpp>
+#include <methods/montecarlo/mctraits.hpp>
+#include <pricingengines/vanilla/mcvanillaengine.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <termstructures/volatility/equityfx/blackvoltermstructure.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

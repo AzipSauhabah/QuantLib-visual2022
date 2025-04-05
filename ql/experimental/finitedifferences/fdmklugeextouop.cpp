@@ -22,18 +22,18 @@
 */
 
 
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/experimental/processes/klugeextouprocess.hpp>
-#include <ql/experimental/processes/extouwithjumpsprocess.hpp>
-#include <ql/experimental/processes/extendedornsteinuhlenbeckprocess.hpp>
-#include <ql/experimental/finitedifferences/fdmextoujumpop.hpp>
-#include <ql/experimental/finitedifferences/fdmklugeextouop.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/experimental/finitedifferences/fdmextendedornsteinuhlenbeckop.hpp>
-#include <ql/methods/finitedifferences/operators/secondordermixedderivativeop.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <experimental/processes/klugeextouprocess.hpp>
+#include <experimental/processes/extouwithjumpsprocess.hpp>
+#include <experimental/processes/extendedornsteinuhlenbeckprocess.hpp>
+#include <experimental/finitedifferences/fdmextoujumpop.hpp>
+#include <experimental/finitedifferences/fdmklugeextouop.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <experimental/finitedifferences/fdmextendedornsteinuhlenbeckop.hpp>
+#include <methods/finitedifferences/operators/secondordermixedderivativeop.hpp>
 
 namespace QuantLib {
 

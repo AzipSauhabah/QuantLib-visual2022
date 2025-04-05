@@ -20,11 +20,11 @@
 /*! \file fdmg2solver.cpp
 */
 
-#include <ql/methods/finitedifferences/operators/fdmg2op.hpp>
-#include <ql/methods/finitedifferences/solvers/fdm2dimsolver.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmg2solver.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmsnapshotcondition.hpp>
-#include <ql/models/shortrate/twofactormodels/g2.hpp>
+#include <methods/finitedifferences/operators/fdmg2op.hpp>
+#include <methods/finitedifferences/solvers/fdm2dimsolver.hpp>
+#include <methods/finitedifferences/solvers/fdmg2solver.hpp>
+#include <methods/finitedifferences/stepconditions/fdmsnapshotcondition.hpp>
+#include <models/shortrate/twofactormodels/g2.hpp>
 #include <utility>
 
 namespace QuantLib {

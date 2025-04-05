@@ -22,13 +22,13 @@
 #ifndef quantlib_pathwise_accounting_engine_hpp
 #define quantlib_pathwise_accounting_engine_hpp
 
-#include <ql/models/marketmodels/pathwisemultiproduct.hpp>
-#include <ql/models/marketmodels/pathwisediscounter.hpp>
-#include <ql/math/statistics/sequencestatistics.hpp>
-#include <ql/models/marketmodels/pathwisegreeks/ratepseudorootjacobian.hpp>
+#include <models/marketmodels/pathwisemultiproduct.hpp>
+#include <models/marketmodels/pathwisediscounter.hpp>
+#include <math/statistics/sequencestatistics.hpp>
+#include <models/marketmodels/pathwisegreeks/ratepseudorootjacobian.hpp>
 
-#include <ql/utilities/clone.hpp>
-#include <ql/types.hpp>
+#include <utilities/clone.hpp>
+#include <types.hpp>
 #include <vector>
 
 namespace QuantLib {

@@ -22,20 +22,20 @@
     \brief local volatility risk neutral terminal density calculation
 */
 
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/integrals/discreteintegrals.hpp>
-#include <ql/math/integrals/gausslobattointegral.hpp>
-#include <ql/math/interpolations/cubicinterpolation.hpp>
-#include <ql/methods/finitedifferences/meshers/concentrating1dmesher.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
-#include <ql/methods/finitedifferences/meshers/predefined1dmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlocalvolfwdop.hpp>
-#include <ql/methods/finitedifferences/schemes/douglasscheme.hpp>
-#include <ql/methods/finitedifferences/utilities/localvolrndcalculator.hpp>
-#include <ql/quote.hpp>
-#include <ql/termstructures/volatility/equityfx/localvoltermstructure.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/timegrid.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/integrals/discreteintegrals.hpp>
+#include <math/integrals/gausslobattointegral.hpp>
+#include <math/interpolations/cubicinterpolation.hpp>
+#include <methods/finitedifferences/meshers/concentrating1dmesher.hpp>
+#include <methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
+#include <methods/finitedifferences/meshers/predefined1dmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlocalvolfwdop.hpp>
+#include <methods/finitedifferences/schemes/douglasscheme.hpp>
+#include <methods/finitedifferences/utilities/localvolrndcalculator.hpp>
+#include <quote.hpp>
+#include <termstructures/volatility/equityfx/localvoltermstructure.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <timegrid.hpp>
 #include <utility>
 
 

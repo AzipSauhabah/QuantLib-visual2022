@@ -25,7 +25,7 @@
 #ifndef quantlib_saudi_arabian_calendar_hpp
 #define quantlib_saudi_arabian_calendar_hpp
 
-#include <ql/time/calendar.hpp>
+#include <time/calendar.hpp>
 
 namespace QuantLib {
 

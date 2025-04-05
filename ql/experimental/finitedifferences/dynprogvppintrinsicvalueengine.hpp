@@ -24,8 +24,8 @@
 #ifndef quantlib_dp_vpp_intrinsic_value_engine_hpp
 #define quantlib_dp_vpp_intrinsic_value_engine_hpp
 
-#include <ql/pricingengine.hpp>
-#include <ql/experimental/finitedifferences/vanillavppoption.hpp>
+#include <pricingengine.hpp>
+#include <experimental/finitedifferences/vanillavppoption.hpp>
 #include <vector>
 
 namespace QuantLib {

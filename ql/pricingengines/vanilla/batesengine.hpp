@@ -25,9 +25,9 @@
 #ifndef quantlib_bates_engine_hpp
 #define quantlib_bates_engine_hpp
 
-#include <ql/qldefines.hpp>
-#include <ql/models/equity/batesmodel.hpp>
-#include <ql/pricingengines/vanilla/analytichestonengine.hpp>
+#include <qldefines.hpp>
+#include <models/equity/batesmodel.hpp>
+#include <pricingengines/vanilla/analytichestonengine.hpp>
 
 namespace QuantLib {
 

@@ -26,9 +26,9 @@
 #ifndef quantlib_digital_cms_coupon_hpp
 #define quantlib_digital_cms_coupon_hpp
 
-#include <ql/cashflows/digitalcoupon.hpp>
-#include <ql/cashflows/cmscoupon.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/digitalcoupon.hpp>
+#include <cashflows/cmscoupon.hpp>
+#include <time/schedule.hpp>
 
 namespace QuantLib {
 

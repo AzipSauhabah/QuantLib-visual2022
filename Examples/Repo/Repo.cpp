@@ -28,18 +28,18 @@
    YieldTermStructure.
 */
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #if !defined(BOOST_ALL_NO_LIB) && defined(BOOST_MSVC)
-#  include <ql/auto_link.hpp>
+#  include <auto_link.hpp>
 #endif
-#include <ql/instruments/bondforward.hpp>
-#include <ql/instruments/bonds/fixedratebond.hpp>
-#include <ql/pricingengines/bond/discountingbondengine.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
+#include <instruments/bondforward.hpp>
+#include <instruments/bonds/fixedratebond.hpp>
+#include <pricingengines/bond/discountingbondengine.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <time/schedule.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <time/daycounters/thirty360.hpp>
 
 #include <iostream>
 #include <iomanip>

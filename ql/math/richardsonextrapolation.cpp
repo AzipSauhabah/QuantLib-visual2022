@@ -20,9 +20,9 @@
 /*! \file richardsonextrapolation.cpp
 */
 
-#include <ql/errors.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/math/richardsonextrapolation.hpp>
+#include <errors.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <math/richardsonextrapolation.hpp>
 
 #include <cmath>
 

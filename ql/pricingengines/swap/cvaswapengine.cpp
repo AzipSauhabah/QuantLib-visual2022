@@ -17,16 +17,16 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/swap/cvaswapengine.hpp>
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/floatingratecoupon.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/instruments/makevanillaswap.hpp>
-#include <ql/exercise.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/termstructures/credit/flathazardrate.hpp>
-#include <ql/pricingengines/swaption/blackswaptionengine.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
+#include <pricingengines/swap/cvaswapengine.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <cashflows/floatingratecoupon.hpp>
+#include <indexes/iborindex.hpp>
+#include <instruments/makevanillaswap.hpp>
+#include <exercise.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <termstructures/credit/flathazardrate.hpp>
+#include <pricingengines/swaption/blackswaptionengine.hpp>
+#include <time/calendars/nullcalendar.hpp>
 
 namespace QuantLib {
   

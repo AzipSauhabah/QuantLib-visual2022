@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/copulas/plackettcopula.hpp>
-#include <ql/errors.hpp>
+#include <math/copulas/plackettcopula.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

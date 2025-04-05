@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/overnightindexedcoupon.hpp>
-#include <ql/cashflows/overnightindexedcouponpricer.hpp>
-#include <ql/experimental/averageois/arithmeticaverageois.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <cashflows/overnightindexedcoupon.hpp>
+#include <cashflows/overnightindexedcouponpricer.hpp>
+#include <experimental/averageois/arithmeticaverageois.hpp>
 #include <utility>
 
 namespace QuantLib {

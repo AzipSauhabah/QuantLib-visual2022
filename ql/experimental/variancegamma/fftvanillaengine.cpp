@@ -17,9 +17,9 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/variancegamma/fftvanillaengine.hpp>
-#include <ql/exercise.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <experimental/variancegamma/fftvanillaengine.hpp>
+#include <exercise.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
 #include <complex>
 
 namespace QuantLib {

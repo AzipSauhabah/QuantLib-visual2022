@@ -22,10 +22,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/cashflows/floatingratecoupon.hpp>
-#include <ql/indexes/interestrateindex.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <cashflows/floatingratecoupon.hpp>
+#include <indexes/interestrateindex.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

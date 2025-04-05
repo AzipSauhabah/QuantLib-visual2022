@@ -21,9 +21,9 @@
     \brief Monte Carlo engine for vanilla american options
 */
 
-#include <ql/errors.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/pricingengines/vanilla/mcamericanengine.hpp>
+#include <errors.hpp>
+#include <instruments/payoffs.hpp>
+#include <pricingengines/vanilla/mcamericanengine.hpp>
 #include <utility>
 
 namespace QuantLib {

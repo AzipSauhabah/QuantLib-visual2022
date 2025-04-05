@@ -24,9 +24,9 @@
 #ifndef quantlib_fd_black_scholes_asian_engine_hpp
 #define quantlib_fd_black_scholes_asian_engine_hpp
 
-#include <ql/pricingengine.hpp>
-#include <ql/instruments/asianoption.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <pricingengine.hpp>
+#include <instruments/asianoption.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
 
 namespace QuantLib {
 

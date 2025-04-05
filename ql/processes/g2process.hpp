@@ -24,8 +24,8 @@
 #ifndef quantlib_g2_process_hpp
 #define quantlib_g2_process_hpp
 
-#include <ql/processes/forwardmeasureprocess.hpp>
-#include <ql/processes/ornsteinuhlenbeckprocess.hpp>
+#include <processes/forwardmeasureprocess.hpp>
+#include <processes/ornsteinuhlenbeckprocess.hpp>
 
 namespace QuantLib {
 

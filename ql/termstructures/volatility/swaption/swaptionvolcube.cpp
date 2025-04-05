@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/indexes/swapindex.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionvolcube.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <indexes/swapindex.hpp>
+#include <termstructures/volatility/swaption/swaptionvolcube.hpp>
+#include <utilities/dataformatters.hpp>
 #include <utility>
 
 namespace QuantLib {

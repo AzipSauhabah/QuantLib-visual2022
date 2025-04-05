@@ -24,7 +24,7 @@
 #ifndef quantlib_singleton_hpp
 #define quantlib_singleton_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <type_traits>
 
 namespace QuantLib {

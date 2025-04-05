@@ -18,7 +18,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/lookbackoption.hpp>
+#include <instruments/lookbackoption.hpp>
 
 namespace QuantLib {
 

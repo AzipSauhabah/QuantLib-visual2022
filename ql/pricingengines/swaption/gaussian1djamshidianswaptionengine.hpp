@@ -25,9 +25,9 @@
 #ifndef quantlib_pricers_gaussian1d_jamshidian_swaption_hpp
 #define quantlib_pricers_gaussian1d_jamshidian_swaption_hpp
 
-#include <ql/instruments/swaption.hpp>
-#include <ql/models/shortrate/onefactormodels/gsr.hpp>
-#include <ql/pricingengines/genericmodelengine.hpp>
+#include <instruments/swaption.hpp>
+#include <models/shortrate/onefactormodels/gsr.hpp>
+#include <pricingengines/genericmodelengine.hpp>
 
 namespace QuantLib {
 

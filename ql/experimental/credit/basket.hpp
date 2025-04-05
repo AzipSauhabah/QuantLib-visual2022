@@ -25,14 +25,14 @@
 #ifndef quantlib_basket_hpp
 #define quantlib_basket_hpp
 
-#include <ql/instruments/claim.hpp>
-#include <ql/termstructures/defaulttermstructure.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/experimental/credit/defaultprobabilitykey.hpp>
-#include <ql/experimental/credit/issuer.hpp>
-#include <ql/experimental/credit/recoveryratemodel.hpp>
-#include <ql/experimental/credit/pool.hpp>
-#include <ql/experimental/credit/loss.hpp>
+#include <instruments/claim.hpp>
+#include <termstructures/defaulttermstructure.hpp>
+#include <patterns/lazyobject.hpp>
+#include <experimental/credit/defaultprobabilitykey.hpp>
+#include <experimental/credit/issuer.hpp>
+#include <experimental/credit/recoveryratemodel.hpp>
+#include <experimental/credit/pool.hpp>
+#include <experimental/credit/loss.hpp>
 
 namespace QuantLib {
 

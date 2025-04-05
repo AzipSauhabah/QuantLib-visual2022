@@ -26,11 +26,11 @@
 #ifndef quantlib_stripped_optionlet_adapter_h
 #define quantlib_stripped_optionlet_adapter_h
 
-#include <ql/termstructures/volatility/optionlet/strippedoptionletbase.hpp>
-#include <ql/termstructures/volatility/optionlet/optionletstripper.hpp>
-#include <ql/termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
-#include <ql/math/interpolation.hpp>
-#include <ql/math/interpolations/sabrinterpolation.hpp>
+#include <termstructures/volatility/optionlet/strippedoptionletbase.hpp>
+#include <termstructures/volatility/optionlet/optionletstripper.hpp>
+#include <termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
+#include <math/interpolation.hpp>
+#include <math/interpolations/sabrinterpolation.hpp>
 
 namespace QuantLib {
 

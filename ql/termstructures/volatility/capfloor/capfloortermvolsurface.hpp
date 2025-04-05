@@ -25,11 +25,11 @@
 #ifndef quantlib_cap_floor_term_vol_surface_hpp
 #define quantlib_cap_floor_term_vol_surface_hpp
 
-#include <ql/termstructures/volatility/capfloor/capfloortermvolatilitystructure.hpp>
-#include <ql/math/interpolations/interpolation2d.hpp>
-#include <ql/quote.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
+#include <termstructures/volatility/capfloor/capfloortermvolatilitystructure.hpp>
+#include <math/interpolations/interpolation2d.hpp>
+#include <quote.hpp>
+#include <patterns/lazyobject.hpp>
+#include <time/daycounters/actual365fixed.hpp>
 #include <vector>
 
 namespace QuantLib {

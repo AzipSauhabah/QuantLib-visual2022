@@ -26,11 +26,11 @@
 #ifndef quantlib_interest_rate_model_hpp
 #define quantlib_interest_rate_model_hpp
 
-#include <ql/math/optimization/endcriteria.hpp>
-#include <ql/methods/lattices/lattice.hpp>
-#include <ql/models/calibrationhelper.hpp>
-#include <ql/models/parameter.hpp>
-#include <ql/option.hpp>
+#include <math/optimization/endcriteria.hpp>
+#include <methods/lattices/lattice.hpp>
+#include <models/calibrationhelper.hpp>
+#include <models/parameter.hpp>
+#include <option.hpp>
 #include <utility>
 
 namespace QuantLib {

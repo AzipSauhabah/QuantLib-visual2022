@@ -21,9 +21,9 @@
 #ifndef quantlib_bermudan_swaption_exercise_value_hpp
 #define quantlib_bermudan_swaption_exercise_value_hpp
 
-#include <ql/models/marketmodels/callability/exercisevalue.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/shared_ptr.hpp>
+#include <models/marketmodels/callability/exercisevalue.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <shared_ptr.hpp>
 #include <valarray>
 
 namespace QuantLib {

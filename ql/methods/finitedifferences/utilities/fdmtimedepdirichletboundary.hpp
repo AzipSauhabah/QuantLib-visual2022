@@ -25,9 +25,9 @@
 #ifndef quantlib_fdm_time_dep_dirichlet_boundary_hpp
 #define quantlib_fdm_time_dep_dirichlet_boundary_hpp
 
-#include <ql/methods/finitedifferences/boundarycondition.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearop.hpp>
-#include <ql/functional.hpp>
+#include <methods/finitedifferences/boundarycondition.hpp>
+#include <methods/finitedifferences/operators/fdmlinearop.hpp>
+#include <functional.hpp>
 
 namespace QuantLib {
 

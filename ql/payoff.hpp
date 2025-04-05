@@ -25,9 +25,9 @@
 #ifndef quantlib_payoff_hpp
 #define quantlib_payoff_hpp
 
-#include <ql/types.hpp>
-#include <ql/patterns/visitor.hpp>
-#include <ql/errors.hpp>
+#include <types.hpp>
+#include <patterns/visitor.hpp>
+#include <errors.hpp>
 #include <functional>
 
 namespace QuantLib {

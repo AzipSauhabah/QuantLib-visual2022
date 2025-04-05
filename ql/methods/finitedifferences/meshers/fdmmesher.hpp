@@ -25,8 +25,8 @@
 #ifndef quantlib_fdm_mesher_hpp
 #define quantlib_fdm_mesher_hpp
 
-#include <ql/math/array.hpp>
-#include <ql/shared_ptr.hpp>
+#include <math/array.hpp>
+#include <shared_ptr.hpp>
 #include <utility>
 #include <vector>
 

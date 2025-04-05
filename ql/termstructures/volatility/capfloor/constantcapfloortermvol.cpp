@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/volatility/capfloor/constantcapfloortermvol.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/volatility/capfloor/constantcapfloortermvol.hpp>
 #include <utility>
 
 namespace QuantLib {

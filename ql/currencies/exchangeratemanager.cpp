@@ -18,10 +18,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/currencies/exchangeratemanager.hpp>
-#include <ql/currencies/europe.hpp>
-#include <ql/currencies/america.hpp>
-#include <ql/settings.hpp>
+#include <currencies/exchangeratemanager.hpp>
+#include <currencies/europe.hpp>
+#include <currencies/america.hpp>
+#include <settings.hpp>
 #include <algorithm>
 
 namespace QuantLib {

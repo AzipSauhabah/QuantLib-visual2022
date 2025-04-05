@@ -15,7 +15,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-/*! \file ql/pricingengines/asian/turnbullwakemanasianengine.hpp
+/*! \file pricingengines/asian/turnbullwakemanasianengine.hpp
     \brief Turnbull Wakeman moment-matching Asian option Engine
     \ingroup asianengines
 */
@@ -23,8 +23,8 @@
 #ifndef quantlib_turnbull_wakeman_asian_engine_hpp
 #define quantlib_turnbull_wakeman_asian_engine_hpp
 
-#include <ql/instruments/asianoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <instruments/asianoption.hpp>
+#include <processes/blackscholesprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -25,7 +25,7 @@
 #ifndef quantlib_convergence_statistics_hpp
 #define quantlib_convergence_statistics_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <vector>
 
 namespace QuantLib {

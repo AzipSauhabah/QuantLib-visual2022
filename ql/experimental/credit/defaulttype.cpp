@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/credit/defaulttype.hpp>
-#include <ql/errors.hpp>
+#include <experimental/credit/defaulttype.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

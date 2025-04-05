@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/basket/bjerksundstenslandspreadengine.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <pricingengines/basket/bjerksundstenslandspreadengine.hpp>
+#include <math/distributions/normaldistribution.hpp>
 #include <utility>
 
 namespace QuantLib {

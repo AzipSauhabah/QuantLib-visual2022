@@ -20,14 +20,14 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
-#include <ql/instruments/europeanoption.hpp>
-#include <ql/experimental/variancegamma/analyticvariancegammaengine.hpp>
-#include <ql/experimental/variancegamma/fftvariancegammaengine.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <time/daycounters/thirty360.hpp>
+#include <instruments/europeanoption.hpp>
+#include <experimental/variancegamma/analyticvariancegammaengine.hpp>
+#include <experimental/variancegamma/fftvariancegammaengine.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <utilities/dataformatters.hpp>
 #include <map>
 
 using namespace QuantLib;

@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/integrals/simpsonintegral.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanvasicekengine.hpp>
+#include <exercise.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/integrals/simpsonintegral.hpp>
+#include <pricingengines/vanilla/analyticeuropeanvasicekengine.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -24,7 +24,7 @@
 #ifndef quantlib_kirk_engine_hpp
 #define quantlib_kirk_engine_hpp
 
-#include <ql/pricingengines/basket/spreadblackscholesvanillaengine.hpp>
+#include <pricingengines/basket/spreadblackscholesvanillaengine.hpp>
 
 namespace QuantLib {
 

@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/statistics/histogram.hpp>
-#include <ql/math/statistics/incrementalstatistics.hpp>
-#include <ql/math/comparison.hpp>
+#include <math/statistics/histogram.hpp>
+#include <math/statistics/incrementalstatistics.hpp>
+#include <math/comparison.hpp>
 #include <algorithm>
 
 namespace QuantLib {

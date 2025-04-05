@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/indexes/ibor/sofr.hpp>
-#include <ql/time/calendars/unitedstates.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/currencies/america.hpp>
+#include <indexes/ibor/sofr.hpp>
+#include <time/calendars/unitedstates.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <currencies/america.hpp>
 
 namespace QuantLib {
 

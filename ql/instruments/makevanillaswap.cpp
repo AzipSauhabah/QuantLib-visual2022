@@ -21,19 +21,19 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/makevanillaswap.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/currencies/america.hpp>
-#include <ql/currencies/asia.hpp>
-#include <ql/currencies/europe.hpp>
-#include <ql/currencies/oceania.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/optional.hpp>
+#include <instruments/makevanillaswap.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <time/daycounters/thirty360.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <indexes/iborindex.hpp>
+#include <time/schedule.hpp>
+#include <currencies/america.hpp>
+#include <currencies/asia.hpp>
+#include <currencies/europe.hpp>
+#include <currencies/oceania.hpp>
+#include <utilities/null.hpp>
+#include <optional.hpp>
 
 namespace QuantLib {
 

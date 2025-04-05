@@ -27,9 +27,9 @@
 #ifndef quantlib_general_linear_least_squares_hpp
 #define quantlib_general_linear_least_squares_hpp
 
-#include <ql/qldefines.hpp>
-#include <ql/math/matrixutilities/svd.hpp>
-#include <ql/math/array.hpp>
+#include <qldefines.hpp>
+#include <math/matrixutilities/svd.hpp>
+#include <math/array.hpp>
 #include <vector>
 
 namespace QuantLib {

@@ -18,11 +18,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/experimental/callablebonds/blackcallablebondengine.hpp>
-#include <ql/experimental/callablebonds/callablebond.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/termstructures/yield/zerospreadedtermstructure.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <experimental/callablebonds/blackcallablebondengine.hpp>
+#include <experimental/callablebonds/callablebond.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <termstructures/yield/zerospreadedtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

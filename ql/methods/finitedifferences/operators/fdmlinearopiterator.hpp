@@ -26,7 +26,7 @@
 #ifndef quantlib_linear_op_iterator_hpp
 #define quantlib_linear_op_iterator_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <numeric>
 #include <utility>
 #include <vector>

@@ -20,9 +20,9 @@
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
 
-#include <ql/math/matrix.hpp>
-#include <ql/math/factorial.hpp>
-#include <ql/methods/finitedifferences/operators/numericaldifferentiation.hpp>
+#include <math/matrix.hpp>
+#include <math/factorial.hpp>
+#include <methods/finitedifferences/operators/numericaldifferentiation.hpp>
 #include <cmath>
 #include <algorithm>
 

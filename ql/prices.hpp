@@ -26,8 +26,8 @@
 #ifndef quantlib_prices_hpp
 #define quantlib_prices_hpp
 
-#include <ql/timeseries.hpp>
-#include <ql/utilities/null.hpp>
+#include <timeseries.hpp>
+#include <utilities/null.hpp>
 
 namespace QuantLib {
 

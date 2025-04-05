@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/methods/finitedifferences/schemes/expliciteulerscheme.hpp>
-#include <ql/methods/finitedifferences/schemes/cranknicolsonscheme.hpp>
+#include <methods/finitedifferences/schemes/expliciteulerscheme.hpp>
+#include <methods/finitedifferences/schemes/cranknicolsonscheme.hpp>
 
 namespace QuantLib {
     CrankNicolsonScheme::CrankNicolsonScheme(

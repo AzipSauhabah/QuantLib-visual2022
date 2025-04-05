@@ -25,8 +25,8 @@
 #ifndef quantlib_swaption_volatility_cube_h
 #define quantlib_swaption_volatility_cube_h
 
-#include <ql/termstructures/volatility/swaption/swaptionvoldiscrete.hpp>
-#include <ql/termstructures/volatility/smilesection.hpp>
+#include <termstructures/volatility/swaption/swaptionvoldiscrete.hpp>
+#include <termstructures/volatility/smilesection.hpp>
 
 namespace QuantLib {
 

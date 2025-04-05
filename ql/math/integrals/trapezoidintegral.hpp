@@ -25,9 +25,9 @@
 #ifndef quantlib_trapezoid_integral_hpp
 #define quantlib_trapezoid_integral_hpp
 
-#include <ql/math/integrals/integral.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/errors.hpp>
+#include <math/integrals/integral.hpp>
+#include <utilities/null.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

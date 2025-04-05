@@ -19,17 +19,17 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/instruments/barrieroption.hpp>
-#include <ql/models/equity/hestonmodel.hpp>
-#include <ql/pricingengines/barrier/fdhestonbarrierengine.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
-#include <ql/pricingengines/vanilla/fdblackscholesvanillaengine.hpp>
-#include <ql/pricingengines/vanilla/fdcirvanillaengine.hpp>
-#include <ql/processes/coxingersollrossprocess.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/volatility/equityfx/localconstantvol.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
+#include <instruments/barrieroption.hpp>
+#include <models/equity/hestonmodel.hpp>
+#include <pricingengines/barrier/fdhestonbarrierengine.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <pricingengines/vanilla/fdblackscholesvanillaengine.hpp>
+#include <pricingengines/vanilla/fdcirvanillaengine.hpp>
+#include <processes/coxingersollrossprocess.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/volatility/equityfx/localconstantvol.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <time/daycounters/actual365fixed.hpp>
 
 using namespace QuantLib;
 using boost::unit_test_framework::test_suite;

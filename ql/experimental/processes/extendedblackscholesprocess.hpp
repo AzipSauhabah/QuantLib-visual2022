@@ -24,7 +24,7 @@
 #ifndef quantlib_extended_black_scholes_process_hpp
 #define quantlib_extended_black_scholes_process_hpp
 
-#include <ql/processes/blackscholesprocess.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

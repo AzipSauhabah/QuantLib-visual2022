@@ -24,7 +24,7 @@
 #ifndef quantlib_estr_hpp
 #define quantlib_estr_hpp
 
-#include <ql/indexes/iborindex.hpp>
+#include <indexes/iborindex.hpp>
 
 namespace QuantLib {
 

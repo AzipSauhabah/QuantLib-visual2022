@@ -25,10 +25,10 @@
 #ifndef quantlib_asian_option_hpp
 #define quantlib_asian_option_hpp
 
-#include <ql/instruments/oneassetoption.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/instruments/averagetype.hpp>
-#include <ql/time/date.hpp>
+#include <instruments/oneassetoption.hpp>
+#include <instruments/payoffs.hpp>
+#include <instruments/averagetype.hpp>
+#include <time/date.hpp>
 #include <vector>
 
 namespace QuantLib {

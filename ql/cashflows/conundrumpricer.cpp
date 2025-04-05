@@ -22,20 +22,20 @@
     \brief
 */
 
-#include <ql/cashflows/cmscoupon.hpp>
-#include <ql/cashflows/conundrumpricer.hpp>
-#include <ql/functional.hpp>
-#include <ql/indexes/interestrateindex.hpp>
-#include <ql/indexes/swapindex.hpp>
-#include <ql/instruments/vanillaswap.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/integrals/kronrodintegral.hpp>
-#include <ql/math/solvers1d/newton.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/volatility/smilesection.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/cmscoupon.hpp>
+#include <cashflows/conundrumpricer.hpp>
+#include <functional.hpp>
+#include <indexes/interestrateindex.hpp>
+#include <indexes/swapindex.hpp>
+#include <instruments/vanillaswap.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/integrals/kronrodintegral.hpp>
+#include <math/solvers1d/newton.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/volatility/smilesection.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <time/schedule.hpp>
 #include <utility>
 
 namespace QuantLib {

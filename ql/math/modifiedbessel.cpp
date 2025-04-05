@@ -21,8 +21,8 @@
     \brief modified Bessel functions of first and second kind
 */
 
-#include <ql/math/modifiedbessel.hpp>
-#include <ql/math/distributions/gammadistribution.hpp>
+#include <math/modifiedbessel.hpp>
+#include <math/distributions/gammadistribution.hpp>
 
 #include <cmath>
 

@@ -19,11 +19,11 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/money.hpp>
-#include <ql/currencies/europe.hpp>
-#include <ql/currencies/america.hpp>
-#include <ql/currencies/exchangeratemanager.hpp>
-#include <ql/math/comparison.hpp>
+#include <money.hpp>
+#include <currencies/europe.hpp>
+#include <currencies/america.hpp>
+#include <currencies/exchangeratemanager.hpp>
+#include <math/comparison.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

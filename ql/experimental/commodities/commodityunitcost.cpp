@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/commodities/commodityunitcost.hpp>
+#include <experimental/commodities/commodityunitcost.hpp>
 
 namespace QuantLib {
 

@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/commodities/paymentterm.hpp>
+#include <experimental/commodities/paymentterm.hpp>
 
 namespace QuantLib {
 

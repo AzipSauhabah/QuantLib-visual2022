@@ -23,20 +23,20 @@
   based on fourier transformation
 */
 
-#include <ql/functional.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/math/integrals/discreteintegrals.hpp>
-#include <ql/math/integrals/exponentialintegrals.hpp>
-#include <ql/math/integrals/gausslobattointegral.hpp>
-#include <ql/math/integrals/kronrodintegral.hpp>
-#include <ql/math/integrals/simpsonintegral.hpp>
-#include <ql/math/integrals/trapezoidintegral.hpp>
-#include <ql/math/integrals/expsinhintegral.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/math/expm1.hpp>
-#include <ql/math/functional.hpp>
-#include <ql/pricingengines/blackcalculator.hpp>
-#include <ql/pricingengines/vanilla/analytichestonengine.hpp>
+#include <functional.hpp>
+#include <instruments/payoffs.hpp>
+#include <math/integrals/discreteintegrals.hpp>
+#include <math/integrals/exponentialintegrals.hpp>
+#include <math/integrals/gausslobattointegral.hpp>
+#include <math/integrals/kronrodintegral.hpp>
+#include <math/integrals/simpsonintegral.hpp>
+#include <math/integrals/trapezoidintegral.hpp>
+#include <math/integrals/expsinhintegral.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <math/expm1.hpp>
+#include <math/functional.hpp>
+#include <pricingengines/blackcalculator.hpp>
+#include <pricingengines/vanilla/analytichestonengine.hpp>
 
 #include <boost/math/tools/minima.hpp>
 #include <boost/math/special_functions/sign.hpp>

@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/math/multidimquadrature.hpp>
+#include <experimental/math/multidimquadrature.hpp>
 
 #ifndef QL_PATCH_SOLARIS
 

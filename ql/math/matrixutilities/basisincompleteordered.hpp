@@ -21,7 +21,7 @@
 #ifndef quantlib_basis_incomplete_ordered_hpp
 #define quantlib_basis_incomplete_ordered_hpp
 
-#include <ql/math/matrix.hpp>
+#include <math/matrix.hpp>
 #include <valarray>
 
 namespace QuantLib {

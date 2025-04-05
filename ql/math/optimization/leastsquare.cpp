@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/optimization/conjugategradient.hpp>
-#include <ql/math/optimization/leastsquare.hpp>
-#include <ql/math/optimization/problem.hpp>
+#include <math/optimization/conjugategradient.hpp>
+#include <math/optimization/leastsquare.hpp>
+#include <math/optimization/problem.hpp>
 #include <utility>
 
 namespace QuantLib {

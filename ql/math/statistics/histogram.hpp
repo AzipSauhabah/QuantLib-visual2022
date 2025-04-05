@@ -24,7 +24,7 @@
 #ifndef quantlib_histogram_hpp
 #define quantlib_histogram_hpp
 
-#include <ql/utilities/null.hpp>
+#include <utilities/null.hpp>
 #include <vector>
 
 namespace QuantLib {

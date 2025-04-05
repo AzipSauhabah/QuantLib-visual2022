@@ -24,8 +24,8 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef quantlib_fft_vanilla_engine_hpp
 #define quantlib_fft_vanilla_engine_hpp
 
-#include <ql/experimental/variancegamma/fftengine.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <experimental/variancegamma/fftengine.hpp>
+#include <processes/blackscholesprocess.hpp>
 #include <complex>
 
 namespace QuantLib {

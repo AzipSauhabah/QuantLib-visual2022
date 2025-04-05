@@ -20,14 +20,14 @@
 /*! \file fdmextendedornsteinuhlenbeckop.cpp
 */
 
-#include <ql/experimental/finitedifferences/fdmextendedornsteinuhlenbeckop.hpp>
-#include <ql/experimental/processes/extendedornsteinuhlenbeckprocess.hpp>
-#include <ql/math/functional.hpp>
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/operators/secondderivativeop.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <experimental/finitedifferences/fdmextendedornsteinuhlenbeckop.hpp>
+#include <experimental/processes/extendedornsteinuhlenbeckprocess.hpp>
+#include <math/functional.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/operators/secondderivativeop.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

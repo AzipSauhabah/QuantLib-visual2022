@@ -24,8 +24,8 @@
 #ifndef quantlib_burley2020_scrambled_sobolrsg_hpp
 #define quantlib_burley2020_scrambled_sobolrsg_hpp
 
-#include <ql/math/randomnumbers/sobolrsg.hpp>
-#include <ql/shared_ptr.hpp>
+#include <math/randomnumbers/sobolrsg.hpp>
+#include <shared_ptr.hpp>
 
 namespace QuantLib {
 

@@ -19,22 +19,22 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/instruments/vanillaswap.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/time/daycounters/simpledaycounter.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/termstructures/volatility/optionlet/constantoptionletvol.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/currencies/europe.hpp>
+#include <instruments/vanillaswap.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <time/daycounters/thirty360.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <time/daycounters/simpledaycounter.hpp>
+#include <time/schedule.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <termstructures/volatility/optionlet/constantoptionletvol.hpp>
+#include <utilities/dataformatters.hpp>
+#include <cashflows/cashflows.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <currencies/europe.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

@@ -22,11 +22,11 @@
     \brief Black volatility surface back by Heston model
 */
 
-#include <ql/math/functional.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/termstructures/volatility/equityfx/hestonblackvolsurface.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
+#include <math/functional.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <termstructures/volatility/equityfx/hestonblackvolsurface.hpp>
+#include <time/calendars/nullcalendar.hpp>
 #include <limits>
 #include <utility>
 

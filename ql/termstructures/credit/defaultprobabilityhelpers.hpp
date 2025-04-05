@@ -28,10 +28,10 @@
 #ifndef quantlib_default_probability_helpers_hpp
 #define quantlib_default_probability_helpers_hpp
 
-#include <ql/termstructures/defaulttermstructure.hpp>
-#include <ql/termstructures/bootstraphelper.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/instruments/creditdefaultswap.hpp>
+#include <termstructures/defaulttermstructure.hpp>
+#include <termstructures/bootstraphelper.hpp>
+#include <time/schedule.hpp>
+#include <instruments/creditdefaultswap.hpp>
 
 namespace QuantLib {
 

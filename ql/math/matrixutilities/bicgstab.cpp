@@ -23,7 +23,7 @@
 */
 
 
-#include <ql/math/matrixutilities/bicgstab.hpp>
+#include <math/matrixutilities/bicgstab.hpp>
 #include <utility>
 
 namespace QuantLib {

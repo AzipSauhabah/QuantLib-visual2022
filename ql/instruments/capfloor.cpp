@@ -21,15 +21,15 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/any.hpp>
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/instruments/capfloor.hpp>
-#include <ql/math/solvers1d/newtonsafe.hpp>
-#include <ql/pricingengines/capfloor/bacheliercapfloorengine.hpp>
-#include <ql/pricingengines/capfloor/blackcapfloorengine.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <any.hpp>
+#include <cashflows/cashflows.hpp>
+#include <instruments/capfloor.hpp>
+#include <math/solvers1d/newtonsafe.hpp>
+#include <pricingengines/capfloor/bacheliercapfloorengine.hpp>
+#include <pricingengines/capfloor/blackcapfloorengine.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <utilities/dataformatters.hpp>
 #include <utility>
 
 namespace QuantLib {

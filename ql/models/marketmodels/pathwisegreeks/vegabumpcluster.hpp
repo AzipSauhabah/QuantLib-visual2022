@@ -22,8 +22,8 @@
 #ifndef quantlib_vega_bump_cluster_hpp
 #define quantlib_vega_bump_cluster_hpp
 
-#include <ql/types.hpp>
-#include <ql/models/marketmodels/marketmodel.hpp>
+#include <types.hpp>
+#include <models/marketmodels/marketmodel.hpp>
 
 /*! When bumping vols, bumping every pseudo-root element individually seems 
 excessive so we need to couple some together. 

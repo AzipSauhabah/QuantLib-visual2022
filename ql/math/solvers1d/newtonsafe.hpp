@@ -24,7 +24,7 @@
 #ifndef quantlib_solver1d_newtonsafe_h
 #define quantlib_solver1d_newtonsafe_h
 
-#include <ql/math/solver1d.hpp>
+#include <math/solver1d.hpp>
 
 namespace QuantLib {
 

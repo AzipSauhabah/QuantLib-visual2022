@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/indexes/interestrateindex.hpp>
-#include <ql/models/marketmodels/historicalratesanalysis.hpp>
-#include <ql/time/calendar.hpp>
+#include <indexes/interestrateindex.hpp>
+#include <models/marketmodels/historicalratesanalysis.hpp>
+#include <time/calendar.hpp>
 #include <utility>
 
 namespace QuantLib {

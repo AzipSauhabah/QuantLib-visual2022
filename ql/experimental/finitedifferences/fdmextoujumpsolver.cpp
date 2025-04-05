@@ -20,10 +20,10 @@
 /*! \file fdmextoujumpsolver.cpp
 */
 
-#include <ql/experimental/finitedifferences/fdmextoujumpop.hpp>
-#include <ql/experimental/finitedifferences/fdmextoujumpsolver.hpp>
-#include <ql/experimental/processes/extouwithjumpsprocess.hpp>
-#include <ql/methods/finitedifferences/solvers/fdm2dimsolver.hpp>
+#include <experimental/finitedifferences/fdmextoujumpop.hpp>
+#include <experimental/finitedifferences/fdmextoujumpsolver.hpp>
+#include <experimental/processes/extouwithjumpsprocess.hpp>
+#include <methods/finitedifferences/solvers/fdm2dimsolver.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -28,8 +28,8 @@
 #ifndef quantlib_gsr_process_core_hpp
 #define quantlib_gsr_process_core_hpp
 
-#include <ql/math/array.hpp>
-#include <ql/math/comparison.hpp>
+#include <math/array.hpp>
+#include <math/comparison.hpp>
 #include <map>
 
 namespace QuantLib::detail {

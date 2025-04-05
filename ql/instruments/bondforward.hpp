@@ -25,8 +25,8 @@
 #ifndef quantlib_bond_forward_hpp
 #define quantlib_bond_forward_hpp
 
-#include <ql/instruments/forward.hpp>
-#include <ql/instruments/bond.hpp>
+#include <instruments/forward.hpp>
+#include <instruments/bond.hpp>
 
 namespace QuantLib {
 

@@ -21,11 +21,11 @@
 /*! \file fdmwienerop.cpp
 */
 
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmwienerop.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/operators/secondderivativeop.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/fdmwienerop.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/operators/secondderivativeop.hpp>
 
 #include <boost/numeric/ublas/matrix.hpp>
 

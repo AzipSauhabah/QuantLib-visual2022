@@ -24,9 +24,9 @@
 #ifndef quantlib_single_factor_bsm_basket_engine_hpp
 #define quantlib_single_factor_bsm_basket_engine_hpp
 
-#include <ql/pricingengine.hpp>
-#include <ql/instruments/basketoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <pricingengine.hpp>
+#include <instruments/basketoption.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

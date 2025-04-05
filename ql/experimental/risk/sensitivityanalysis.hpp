@@ -24,9 +24,9 @@
 #ifndef quantlib_sensitivity_analysis_hpp
 #define quantlib_sensitivity_analysis_hpp
 
-#include <ql/types.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/shared_ptr.hpp>
+#include <types.hpp>
+#include <utilities/null.hpp>
+#include <shared_ptr.hpp>
 #include <vector>
 
 namespace QuantLib {

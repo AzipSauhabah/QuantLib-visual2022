@@ -18,12 +18,12 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/matrixutilities/pseudosqrt.hpp>
-#include <ql/models/marketmodels/models/alphafinder.hpp>
-#include <ql/models/marketmodels/models/alphaformconcrete.hpp>
-#include <ql/models/marketmodels/models/capletcoterminalalphacalibration.hpp>
-#include <ql/models/marketmodels/models/piecewiseconstantvariance.hpp>
-#include <ql/models/marketmodels/swapforwardmappings.hpp>
+#include <math/matrixutilities/pseudosqrt.hpp>
+#include <models/marketmodels/models/alphafinder.hpp>
+#include <models/marketmodels/models/alphaformconcrete.hpp>
+#include <models/marketmodels/models/capletcoterminalalphacalibration.hpp>
+#include <models/marketmodels/models/piecewiseconstantvariance.hpp>
+#include <models/marketmodels/swapforwardmappings.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -17,16 +17,16 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/makecms.hpp>
-#include <ql/instruments/swap.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/indexes/swapindex.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/time/daycounters/actual360.hpp>
+#include <instruments/makecms.hpp>
+#include <instruments/swap.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <cashflows/cashflows.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <indexes/swapindex.hpp>
+#include <indexes/iborindex.hpp>
+#include <time/schedule.hpp>
+#include <time/daycounters/actual360.hpp>
 
 namespace QuantLib {
 

@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/volatility/smilesectionutils.hpp>
-#include <ql/math/comparison.hpp>
+#include <termstructures/volatility/smilesectionutils.hpp>
+#include <math/comparison.hpp>
 #include <algorithm>
 
 namespace QuantLib {

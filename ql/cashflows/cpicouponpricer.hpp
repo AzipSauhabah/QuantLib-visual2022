@@ -24,11 +24,11 @@
 #ifndef quantlib_cpicouponpricer_hpp
 #define quantlib_cpicouponpricer_hpp
 
-#include <ql/cashflow.hpp>
-#include <ql/option.hpp>
-#include <ql/cashflows/inflationcouponpricer.hpp>
-#include <ql/cashflows/cpicoupon.hpp>
-#include <ql/termstructures/volatility/inflation/cpivolatilitystructure.hpp>
+#include <cashflow.hpp>
+#include <option.hpp>
+#include <cashflows/inflationcouponpricer.hpp>
+#include <cashflows/cpicoupon.hpp>
+#include <termstructures/volatility/inflation/cpivolatilitystructure.hpp>
 
 namespace QuantLib {
 

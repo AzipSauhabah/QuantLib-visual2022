@@ -19,14 +19,14 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/cashflows/overnightindexedcoupon.hpp>
-#include <ql/cashflows/simplecashflow.hpp>
-#include <ql/instruments/assetswap.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <cashflows/overnightindexedcoupon.hpp>
+#include <cashflows/simplecashflow.hpp>
+#include <instruments/assetswap.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
 #include <utility>
 
 using std::vector;

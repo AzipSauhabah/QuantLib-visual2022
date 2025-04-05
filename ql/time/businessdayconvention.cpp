@@ -20,9 +20,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/businessdayconvention.hpp>
-#include <ql/types.hpp>
-#include <ql/errors.hpp>
+#include <time/businessdayconvention.hpp>
+#include <types.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

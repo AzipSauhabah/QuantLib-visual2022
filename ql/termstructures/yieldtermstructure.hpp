@@ -26,9 +26,9 @@
 #ifndef quantlib_yield_term_structure_hpp
 #define quantlib_yield_term_structure_hpp
 
-#include <ql/termstructure.hpp>
-#include <ql/interestrate.hpp>
-#include <ql/quote.hpp>
+#include <termstructure.hpp>
+#include <interestrate.hpp>
+#include <quote.hpp>
 #include <vector>
 
 namespace QuantLib {

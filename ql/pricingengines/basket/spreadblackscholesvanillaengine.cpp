@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/pricingengines/basket/spreadblackscholesvanillaengine.hpp>
+#include <exercise.hpp>
+#include <pricingengines/basket/spreadblackscholesvanillaengine.hpp>
 
 namespace QuantLib {
 

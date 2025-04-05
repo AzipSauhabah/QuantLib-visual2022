@@ -24,9 +24,9 @@
 #ifndef quantlib_creditriskplus_hpp
 #define quantlib_creditriskplus_hpp
 
-#include <ql/qldefines.hpp>
-#include <ql/types.hpp>
-#include <ql/math/matrix.hpp>
+#include <qldefines.hpp>
+#include <types.hpp>
+#include <math/matrix.hpp>
 #include <vector>
 
 namespace QuantLib {

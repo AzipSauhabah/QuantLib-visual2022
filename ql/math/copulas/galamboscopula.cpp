@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/copulas/galamboscopula.hpp>
-#include <ql/errors.hpp>
+#include <math/copulas/galamboscopula.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

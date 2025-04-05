@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/dividend.hpp>
-#include <ql/patterns/visitor.hpp>
+#include <cashflows/dividend.hpp>
+#include <patterns/visitor.hpp>
 
 namespace QuantLib {
 

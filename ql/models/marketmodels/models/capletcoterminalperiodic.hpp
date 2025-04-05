@@ -23,13 +23,13 @@
 #define quantlib_ctsmm_caplet_calibration_periodic_hpp
 
 
-#include <ql/models/marketmodels/models/piecewiseconstantvariance.hpp>
-#include <ql/models/marketmodels/models/volatilityinterpolationspecifier.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/models/marketmodels/curvestate.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/models/marketmodels/piecewiseconstantcorrelation.hpp>
-#include <ql/shared_ptr.hpp>
+#include <models/marketmodels/models/piecewiseconstantvariance.hpp>
+#include <models/marketmodels/models/volatilityinterpolationspecifier.hpp>
+#include <math/matrix.hpp>
+#include <models/marketmodels/curvestate.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/piecewiseconstantcorrelation.hpp>
+#include <shared_ptr.hpp>
 #include <vector>
 
 namespace QuantLib {

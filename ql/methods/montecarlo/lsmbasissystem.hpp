@@ -27,9 +27,9 @@
 #ifndef quantlib_lsm_basis_system_hpp
 #define quantlib_lsm_basis_system_hpp
 
-#include <ql/qldefines.hpp>
-#include <ql/math/array.hpp>
-#include <ql/functional.hpp>
+#include <qldefines.hpp>
+#include <math/array.hpp>
+#include <functional.hpp>
 #include <vector>
 
 namespace QuantLib {

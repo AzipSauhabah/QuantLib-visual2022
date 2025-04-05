@@ -26,8 +26,8 @@
 #ifndef quantlib_bootstrap_error_hpp
 #define quantlib_bootstrap_error_hpp
 
-#include <ql/shared_ptr.hpp>
-#include <ql/types.hpp>
+#include <shared_ptr.hpp>
+#include <types.hpp>
 #include <utility>
 
 namespace QuantLib {

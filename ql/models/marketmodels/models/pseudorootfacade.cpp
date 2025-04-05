@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/matrixutilities/pseudosqrt.hpp>
-#include <ql/models/marketmodels/models/pseudorootfacade.hpp>
-#include <ql/models/marketmodels/utilities.hpp>
+#include <math/matrixutilities/pseudosqrt.hpp>
+#include <models/marketmodels/models/pseudorootfacade.hpp>
+#include <models/marketmodels/utilities.hpp>
 #include <utility>
 
 namespace QuantLib {

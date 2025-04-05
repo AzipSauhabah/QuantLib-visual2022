@@ -18,14 +18,14 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/functional.hpp>
-#include <ql/math/integrals/gausslobattointegral.hpp>
-#include <ql/methods/finitedifferences/utilities/bsmrndcalculator.hpp>
-#include <ql/methods/finitedifferences/utilities/hestonrndcalculator.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/processes/hestonprocess.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
+#include <math/functional.hpp>
+#include <math/integrals/gausslobattointegral.hpp>
+#include <methods/finitedifferences/utilities/bsmrndcalculator.hpp>
+#include <methods/finitedifferences/utilities/hestonrndcalculator.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <processes/hestonprocess.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <time/calendars/nullcalendar.hpp>
 #include <complex>
 #include <utility>
 

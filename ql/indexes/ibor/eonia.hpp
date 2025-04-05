@@ -24,7 +24,7 @@
 #ifndef quantlib_eonia_hpp
 #define quantlib_eonia_hpp
 
-#include <ql/indexes/iborindex.hpp>
+#include <indexes/iborindex.hpp>
 
 namespace QuantLib {
 

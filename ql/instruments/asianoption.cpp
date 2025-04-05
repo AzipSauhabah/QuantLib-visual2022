@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/asianoption.hpp>
-#include <ql/time/date.hpp>
-#include <ql/settings.hpp>
+#include <instruments/asianoption.hpp>
+#include <time/date.hpp>
+#include <settings.hpp>
 #include <algorithm>
 #include <utility>
 

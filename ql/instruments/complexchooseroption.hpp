@@ -24,7 +24,7 @@
 #ifndef quantlib_complex_chooser_option_hpp
 #define quantlib_complex_chooser_option_hpp
 
-#include <ql/instruments/oneassetoption.hpp>
+#include <instruments/oneassetoption.hpp>
 
 namespace QuantLib{
 

@@ -25,7 +25,7 @@
 #ifndef quantlib_blackcalculator_hpp
 #define quantlib_blackcalculator_hpp
 
-#include <ql/instruments/payoffs.hpp>
+#include <instruments/payoffs.hpp>
 
 namespace QuantLib {
 

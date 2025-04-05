@@ -29,9 +29,9 @@
 #ifndef quantlib_cubic_interpolation_hpp
 #define quantlib_cubic_interpolation_hpp
 
-#include <ql/math/matrix.hpp>
-#include <ql/math/interpolation.hpp>
-#include <ql/methods/finitedifferences/tridiagonaloperator.hpp>
+#include <math/matrix.hpp>
+#include <math/interpolation.hpp>
+#include <methods/finitedifferences/tridiagonaloperator.hpp>
 #include <vector>
 
 namespace QuantLib {

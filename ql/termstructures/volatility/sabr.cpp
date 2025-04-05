@@ -21,12 +21,12 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/volatility/sabr.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/math/functional.hpp>
-#include <ql/errors.hpp>
-#include <ql/termstructures/volatility/volatilitytype.hpp>
+#include <termstructures/volatility/sabr.hpp>
+#include <utilities/dataformatters.hpp>
+#include <math/comparison.hpp>
+#include <math/functional.hpp>
+#include <errors.hpp>
+#include <termstructures/volatility/volatilitytype.hpp>
 
 namespace QuantLib {
 

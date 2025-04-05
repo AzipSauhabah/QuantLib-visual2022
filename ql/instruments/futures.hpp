@@ -25,7 +25,7 @@
 #ifndef quantlib_futures_hpp
 #define quantlib_futures_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #include <iosfwd>
 
 namespace QuantLib {

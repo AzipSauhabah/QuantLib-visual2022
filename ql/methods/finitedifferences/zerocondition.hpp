@@ -25,7 +25,7 @@
 #ifndef quantlib_fd_zero_condition_h
 #define quantlib_fd_zero_condition_h
 
-#include <ql/methods/finitedifferences/stepcondition.hpp>
+#include <methods/finitedifferences/stepcondition.hpp>
 
 namespace QuantLib {
 

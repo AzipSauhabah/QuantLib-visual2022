@@ -21,11 +21,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/cashflows/overnightindexedcouponpricer.hpp>
-#include <ql/cashflows/overnightindexedcoupon.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/utilities/vectors.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <cashflows/overnightindexedcouponpricer.hpp>
+#include <cashflows/overnightindexedcoupon.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <utilities/vectors.hpp>
 #include <utility>
 #include <algorithm>
 

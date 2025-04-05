@@ -19,13 +19,13 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/randomnumbers/rngtraits.hpp>
-#include <ql/math/integrals/gausslobattointegral.hpp>
-#include <ql/math/statistics/generalstatistics.hpp>
-#include <ql/pricingengines/vanilla/analyticcevengine.hpp>
-#include <ql/pricingengines/vanilla/fdcevvanillaengine.hpp>
-#include <ql/methods/finitedifferences/utilities/cevrndcalculator.hpp>
-#include <ql/shared_ptr.hpp>
+#include <math/randomnumbers/rngtraits.hpp>
+#include <math/integrals/gausslobattointegral.hpp>
+#include <math/statistics/generalstatistics.hpp>
+#include <pricingengines/vanilla/analyticcevengine.hpp>
+#include <pricingengines/vanilla/fdcevvanillaengine.hpp>
+#include <methods/finitedifferences/utilities/cevrndcalculator.hpp>
+#include <shared_ptr.hpp>
 
 using namespace QuantLib;
 using boost::unit_test_framework::test_suite;

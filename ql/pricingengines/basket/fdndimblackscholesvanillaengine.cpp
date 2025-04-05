@@ -17,19 +17,19 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/math/matrixutilities/getcovariance.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/matrixutilities/symmetricschurdecomposition.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
-#include <ql/methods/finitedifferences/meshers/predefined1dmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmwienerop.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmndimsolver.hpp>
-#include <ql/methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
-#include <ql/pricingengines/basket/fdndimblackscholesvanillaengine.hpp>
-#include <ql/pricingengines/basket/vectorbsmprocessextractor.hpp>
+#include <exercise.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <math/matrixutilities/getcovariance.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/matrixutilities/symmetricschurdecomposition.hpp>
+#include <methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
+#include <methods/finitedifferences/meshers/predefined1dmesher.hpp>
+#include <methods/finitedifferences/operators/fdmwienerop.hpp>
+#include <methods/finitedifferences/solvers/fdmndimsolver.hpp>
+#include <methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
+#include <methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
+#include <pricingengines/basket/fdndimblackscholesvanillaengine.hpp>
+#include <pricingengines/basket/vectorbsmprocessextractor.hpp>
 #include <boost/preprocessor/iteration/local.hpp>
 #include <utility>
 

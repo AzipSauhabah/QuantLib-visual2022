@@ -20,8 +20,8 @@
 #ifndef quantlib_lagrange_interpolation_hpp
 #define quantlib_lagrange_interpolation_hpp
 
-#include <ql/math/array.hpp>
-#include <ql/math/interpolation.hpp>
+#include <math/array.hpp>
+#include <math/interpolation.hpp>
 #if defined(QL_EXTRA_SAFETY_CHECKS)
 #include <set>
 #endif

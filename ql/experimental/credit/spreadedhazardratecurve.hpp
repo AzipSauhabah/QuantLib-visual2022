@@ -24,8 +24,8 @@
 #ifndef quantlib_spreaded_hazard_rate_curve_hpp
 #define quantlib_spreaded_hazard_rate_curve_hpp
 
-#include <ql/quote.hpp>
-#include <ql/termstructures/credit/hazardratestructure.hpp>
+#include <quote.hpp>
+#include <termstructures/credit/hazardratestructure.hpp>
 #include <utility>
 
 namespace QuantLib {

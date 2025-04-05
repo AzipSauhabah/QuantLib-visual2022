@@ -20,11 +20,11 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/statistics/riskstatistics.hpp>
-#include <ql/math/statistics/incrementalstatistics.hpp>
-#include <ql/math/statistics/sequencestatistics.hpp>
-#include <ql/math/randomnumbers/sobolrsg.hpp>
-#include <ql/math/comparison.hpp>
+#include <math/statistics/riskstatistics.hpp>
+#include <math/statistics/incrementalstatistics.hpp>
+#include <math/statistics/sequencestatistics.hpp>
+#include <math/randomnumbers/sobolrsg.hpp>
+#include <math/comparison.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

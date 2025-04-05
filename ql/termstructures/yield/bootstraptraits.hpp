@@ -27,11 +27,11 @@
 #ifndef ql_bootstrap_traits_hpp
 #define ql_bootstrap_traits_hpp
 
-#include <ql/termstructures/yield/discountcurve.hpp>
-#include <ql/termstructures/yield/zerocurve.hpp>
-#include <ql/termstructures/yield/interpolatedsimplezerocurve.hpp>
-#include <ql/termstructures/yield/forwardcurve.hpp>
-#include <ql/termstructures/bootstraphelper.hpp>
+#include <termstructures/yield/discountcurve.hpp>
+#include <termstructures/yield/zerocurve.hpp>
+#include <termstructures/yield/interpolatedsimplezerocurve.hpp>
+#include <termstructures/yield/forwardcurve.hpp>
+#include <termstructures/bootstraphelper.hpp>
 
 namespace QuantLib {
 

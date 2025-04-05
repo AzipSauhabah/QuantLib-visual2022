@@ -19,11 +19,11 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/volatilitymodel.hpp>
-#include <ql/models/volatility/constantestimator.hpp>
-#include <ql/models/volatility/simplelocalestimator.hpp>
-#include <ql/models/volatility/garmanklass.hpp>
-#include <ql/timeseries.hpp>
+#include <volatilitymodel.hpp>
+#include <models/volatility/constantestimator.hpp>
+#include <models/volatility/simplelocalestimator.hpp>
+#include <models/volatility/garmanklass.hpp>
+#include <timeseries.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

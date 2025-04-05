@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/commodities/unitofmeasure.hpp>
+#include <experimental/commodities/unitofmeasure.hpp>
 #include <ostream>
 #include <utility>
 

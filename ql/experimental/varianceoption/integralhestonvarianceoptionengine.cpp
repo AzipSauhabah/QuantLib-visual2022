@@ -21,9 +21,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/errors.hpp>
-#include <ql/experimental/varianceoption/integralhestonvarianceoptionengine.hpp>
-#include <ql/functional.hpp>
+#include <errors.hpp>
+#include <experimental/varianceoption/integralhestonvarianceoptionengine.hpp>
+#include <functional.hpp>
 #include <complex>
 #include <utility>
 #include <memory>

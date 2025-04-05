@@ -21,16 +21,16 @@
    engine and compares to Bloomberg's Hull White price/yield calculations.
 */
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #if !defined(BOOST_ALL_NO_LIB) && defined(BOOST_MSVC)
-#  include <ql/auto_link.hpp>
+#  include <auto_link.hpp>
 #endif
-#include <ql/experimental/callablebonds/callablebond.hpp>
-#include <ql/experimental/callablebonds/treecallablebondengine.hpp>
-#include <ql/models/shortrate/onefactormodels/hullwhite.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/time/calendars/unitedstates.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
+#include <experimental/callablebonds/callablebond.hpp>
+#include <experimental/callablebonds/treecallablebondengine.hpp>
+#include <models/shortrate/onefactormodels/hullwhite.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <time/calendars/unitedstates.hpp>
+#include <time/daycounters/actualactual.hpp>
 
 #include <vector>
 #include <cmath>

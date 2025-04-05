@@ -22,9 +22,9 @@
     \brief Heston stochastic local volatility process
 */
 
-#include <ql/processes/hestonslvprocess.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/methods/finitedifferences/utilities/squarerootprocessrndcalculator.hpp>
+#include <processes/hestonslvprocess.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <methods/finitedifferences/utilities/squarerootprocessrndcalculator.hpp>
 #include <utility>
 
 namespace QuantLib {

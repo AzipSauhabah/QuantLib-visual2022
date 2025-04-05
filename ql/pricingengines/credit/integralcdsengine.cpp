@@ -19,11 +19,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/instruments/claim.hpp>
-#include <ql/pricingengines/credit/integralcdsengine.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/optional.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <instruments/claim.hpp>
+#include <pricingengines/credit/integralcdsengine.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <optional.hpp>
 #include <utility>
 
 namespace QuantLib {

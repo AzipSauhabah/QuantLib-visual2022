@@ -28,9 +28,9 @@ synthetic rates which are interleaved
 
 
 
-#include <ql/models/marketmodels/models/piecewiseconstantvariance.hpp>
-#include <ql/types.hpp>
-#include <ql/shared_ptr.hpp>
+#include <models/marketmodels/models/piecewiseconstantvariance.hpp>
+#include <types.hpp>
+#include <shared_ptr.hpp>
 #include <vector>
 
 

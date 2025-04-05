@@ -24,8 +24,8 @@
 #ifndef quantlib_gauss_laguerre_cosine_polynomial_hpp
 #define quantlib_gauss_laguerre_cosine_polynomial_hpp
 
-#include <ql/math/functional.hpp>
-#include <ql/math/integrals/momentbasedgaussianpolynomial.hpp>
+#include <math/functional.hpp>
+#include <math/integrals/momentbasedgaussianpolynomial.hpp>
 #include <cmath>
 
 namespace QuantLib {

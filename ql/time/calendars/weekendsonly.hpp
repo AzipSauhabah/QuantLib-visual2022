@@ -24,7 +24,7 @@
 #ifndef quantlib_target_weekends_only_hpp
 #define quantlib_target_weekends_only_hpp
 
-#include <ql/time/calendar.hpp>
+#include <time/calendar.hpp>
 
 namespace QuantLib {
 

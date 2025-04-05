@@ -20,19 +20,19 @@
 /*! \file qrplusamericanengine.cpp
 */
 
-#include <ql/exercise.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/math/functional.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/math/solvers1d/ridder.hpp>
-#include <ql/math/solvers1d/newton.hpp>
-#include <ql/math/interpolations/chebyshevinterpolation.hpp>
-#include <ql/pricingengines/blackcalculator.hpp>
-#include <ql/pricingengines/vanilla/qdplusamericanengine.hpp>
-#include <ql/math/integrals/tanhsinhintegral.hpp>
+#include <exercise.hpp>
+#include <utilities/null.hpp>
+#include <math/functional.hpp>
+#include <math/comparison.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <math/solvers1d/ridder.hpp>
+#include <math/solvers1d/newton.hpp>
+#include <math/interpolations/chebyshevinterpolation.hpp>
+#include <pricingengines/blackcalculator.hpp>
+#include <pricingengines/vanilla/qdplusamericanengine.hpp>
+#include <math/integrals/tanhsinhintegral.hpp>
 #ifndef QL_BOOST_HAS_TANH_SINH
-#include <ql/math/integrals/gausslobattointegral.hpp>
+#include <math/integrals/gausslobattointegral.hpp>
 #endif
 
 namespace QuantLib {

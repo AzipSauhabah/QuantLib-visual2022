@@ -19,7 +19,7 @@
 
 /*! \file escroweddividendadjustment.cpp
 */
-#include <ql/methods/finitedifferences/utilities/escroweddividendadjustment.hpp>
+#include <methods/finitedifferences/utilities/escroweddividendadjustment.hpp>
 
 namespace QuantLib {
 

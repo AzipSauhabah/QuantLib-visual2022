@@ -25,8 +25,8 @@
 #ifndef quantlib_floating_rate_bond_hpp
 #define quantlib_floating_rate_bond_hpp
 
-#include <ql/instruments/bond.hpp>
-#include <ql/time/dategenerationrule.hpp>
+#include <instruments/bond.hpp>
+#include <time/dategenerationrule.hpp>
 
 namespace QuantLib {
 

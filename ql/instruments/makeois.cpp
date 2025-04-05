@@ -20,10 +20,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/makeois.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/time/schedule.hpp>
+#include <instruments/makeois.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <indexes/iborindex.hpp>
+#include <time/schedule.hpp>
 
 namespace QuantLib {
 

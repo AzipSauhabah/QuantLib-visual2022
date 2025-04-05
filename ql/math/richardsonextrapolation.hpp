@@ -23,9 +23,9 @@
 #ifndef quantlib_richardson_extrapolation_hpp
 #define quantlib_richardson_extrapolation_hpp
 
-#include <ql/types.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/functional.hpp>
+#include <types.hpp>
+#include <utilities/null.hpp>
+#include <functional.hpp>
 
 namespace QuantLib {
 

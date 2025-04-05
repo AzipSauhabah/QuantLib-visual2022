@@ -24,8 +24,8 @@
 #ifndef quantlib_himalaya_option_hpp
 #define quantlib_himalaya_option_hpp
 
-#include <ql/instruments/multiassetoption.hpp>
-#include <ql/time/date.hpp>
+#include <instruments/multiassetoption.hpp>
+#include <time/date.hpp>
 #include <vector>
 
 namespace QuantLib {

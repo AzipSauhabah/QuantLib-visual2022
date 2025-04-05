@@ -26,7 +26,7 @@
 #ifndef quantlib_fdm_indices_on_boundary_hpp
 #define quantlib_fdm_indices_on_boundary_hpp
 
-#include <ql/methods/finitedifferences/utilities/fdmdirichletboundary.hpp>
+#include <methods/finitedifferences/utilities/fdmdirichletboundary.hpp>
 
 namespace QuantLib {
 

@@ -24,9 +24,9 @@
 #ifndef quantlib_implied_volatility_hpp
 #define quantlib_implied_volatility_hpp
 
-#include <ql/instrument.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <instrument.hpp>
+#include <quotes/simplequote.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib::detail {
 

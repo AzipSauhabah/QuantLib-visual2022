@@ -26,12 +26,12 @@
 #ifndef quantlib_credit_default_swap_hpp
 #define quantlib_credit_default_swap_hpp
 
-#include <ql/instrument.hpp>
-#include <ql/cashflows/simplecashflow.hpp>
-#include <ql/default.hpp>
-#include <ql/termstructures/defaulttermstructure.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/optional.hpp>
+#include <instrument.hpp>
+#include <cashflows/simplecashflow.hpp>
+#include <default.hpp>
+#include <termstructures/defaulttermstructure.hpp>
+#include <time/schedule.hpp>
+#include <optional.hpp>
 
 namespace QuantLib {
 

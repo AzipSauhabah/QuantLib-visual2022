@@ -18,10 +18,10 @@
  or FITNESS FOR A PARTICULAR PURPOSE. See the license for more details.
 */
 
-#include <ql/cashflows/capflooredcoupon.hpp>
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/cashflows/cmscoupon.hpp>
-#include <ql/indexes/swapindex.hpp>
+#include <cashflows/capflooredcoupon.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <cashflows/cmscoupon.hpp>
+#include <indexes/swapindex.hpp>
 #include <utility>
 
 namespace QuantLib {

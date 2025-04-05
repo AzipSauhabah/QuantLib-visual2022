@@ -24,10 +24,10 @@
 #ifndef quantlib_energy_swap_hpp
 #define quantlib_energy_swap_hpp
 
-#include <ql/experimental/commodities/energycommodity.hpp>
-#include <ql/experimental/commodities/pricingperiod.hpp>
-#include <ql/experimental/commodities/commoditycashflow.hpp>
-#include <ql/time/calendar.hpp>
+#include <experimental/commodities/energycommodity.hpp>
+#include <experimental/commodities/pricingperiod.hpp>
+#include <experimental/commodities/commoditycashflow.hpp>
+#include <time/calendar.hpp>
 
 namespace QuantLib {
 

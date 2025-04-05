@@ -24,7 +24,7 @@
 #ifndef quantlib_forward_measure_processes_hpp
 #define quantlib_forward_measure_processes_hpp
 
-#include <ql/stochasticprocess.hpp>
+#include <stochasticprocess.hpp>
 
 namespace QuantLib {
 

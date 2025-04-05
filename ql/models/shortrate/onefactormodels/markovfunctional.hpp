@@ -24,12 +24,12 @@
 #ifndef quantlib_markovfunctional_hpp
 #define quantlib_markovfunctional_hpp
 
-#include <ql/math/interpolation.hpp>
-#include <ql/models/shortrate/onefactormodels/gaussian1dmodel.hpp>
-#include <ql/processes/mfstateprocess.hpp>
-#include <ql/termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
-#include <ql/termstructures/volatility/smilesection.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionvolstructure.hpp>
+#include <math/interpolation.hpp>
+#include <models/shortrate/onefactormodels/gaussian1dmodel.hpp>
+#include <processes/mfstateprocess.hpp>
+#include <termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
+#include <termstructures/volatility/smilesection.hpp>
+#include <termstructures/volatility/swaption/swaptionvolstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

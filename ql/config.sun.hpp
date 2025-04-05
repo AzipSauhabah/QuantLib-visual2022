@@ -20,7 +20,7 @@
 #ifndef quantlib_config_sun_hpp
 #define quantlib_config_sun_hpp
 
-#include <ql/userconfig.hpp>
+#include <userconfig.hpp>
 
 /*******************************************
    System configuration section:

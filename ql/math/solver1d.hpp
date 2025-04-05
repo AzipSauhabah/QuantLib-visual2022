@@ -24,10 +24,10 @@
 #ifndef quantlib_solver1d_hpp
 #define quantlib_solver1d_hpp
 
-#include <ql/math/comparison.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/patterns/curiouslyrecurring.hpp>
-#include <ql/errors.hpp>
+#include <math/comparison.hpp>
+#include <utilities/null.hpp>
+#include <patterns/curiouslyrecurring.hpp>
+#include <errors.hpp>
 #include <algorithm>
 #include <iomanip>
 

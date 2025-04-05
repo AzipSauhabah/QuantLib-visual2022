@@ -22,9 +22,9 @@
 #ifndef quantlib_swap_rate_pc_evolver_hpp
 #define quantlib_swap_rate_pc_evolver_hpp
 
-#include <ql/models/marketmodels/evolver.hpp>
-#include <ql/models/marketmodels/curvestates/cmswapcurvestate.hpp>
-#include <ql/models/marketmodels/driftcomputation/cmsmmdriftcalculator.hpp>
+#include <models/marketmodels/evolver.hpp>
+#include <models/marketmodels/curvestates/cmswapcurvestate.hpp>
+#include <models/marketmodels/driftcomputation/cmsmmdriftcalculator.hpp>
 
 namespace QuantLib {
 

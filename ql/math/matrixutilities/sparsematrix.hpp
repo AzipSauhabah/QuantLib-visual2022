@@ -24,8 +24,8 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef quantlib_sparse_matrix_hpp
 #define quantlib_sparse_matrix_hpp
 
-#include <ql/qldefines.hpp>
-#include <ql/math/array.hpp>
+#include <qldefines.hpp>
+#include <math/array.hpp>
 
 #if defined(QL_PATCH_MSVC)
 #pragma warning(push)

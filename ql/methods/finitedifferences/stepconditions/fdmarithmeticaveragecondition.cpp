@@ -21,9 +21,9 @@
     \brief step condition to handle arithmetic average
 */
 
-#include <ql/math/interpolations/cubicinterpolation.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmarithmeticaveragecondition.hpp>
+#include <math/interpolations/cubicinterpolation.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/stepconditions/fdmarithmeticaveragecondition.hpp>
 #include <utility>
 
 namespace QuantLib {

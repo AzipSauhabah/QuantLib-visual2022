@@ -25,10 +25,10 @@
 #ifndef quantlib_random_default_model_hpp
 #define quantlib_random_default_model_hpp
 
-#include <ql/math/randomnumbers/rngtraits.hpp>
-#include <ql/experimental/credit/pool.hpp>
-#include <ql/experimental/credit/onefactorcopula.hpp>
-#include <ql/experimental/credit/defaultprobabilitykey.hpp>
+#include <math/randomnumbers/rngtraits.hpp>
+#include <experimental/credit/pool.hpp>
+#include <experimental/credit/onefactorcopula.hpp>
+#include <experimental/credit/defaultprobabilitykey.hpp>
 
 namespace QuantLib {
 

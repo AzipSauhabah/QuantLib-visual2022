@@ -22,8 +22,8 @@
 #define quantlib_sub_period_coupon_hpp
 
 // Deprecated in version 1.37
-#pragma message("Warning: this file will disappear in a future release; include <ql/cashflows/multipleresetscoupon.hpp> instead.")
+#pragma message("Warning: this file will disappear in a future release; include <cashflows/multipleresetscoupon.hpp> instead.")
 
-#include <ql/cashflows/multipleresetscoupon.hpp>
+#include <cashflows/multipleresetscoupon.hpp>
 
 #endif

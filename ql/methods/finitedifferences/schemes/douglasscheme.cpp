@@ -19,7 +19,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/methods/finitedifferences/schemes/douglasscheme.hpp>
+#include <methods/finitedifferences/schemes/douglasscheme.hpp>
 #include <utility>
 
 namespace QuantLib {

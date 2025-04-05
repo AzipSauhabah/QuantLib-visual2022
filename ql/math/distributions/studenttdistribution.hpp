@@ -24,8 +24,8 @@
 #ifndef quantlib_student_t_distribution_hpp
 #define quantlib_student_t_distribution_hpp
 
-#include <ql/errors.hpp>
-#include <ql/types.hpp>
+#include <errors.hpp>
+#include <types.hpp>
 #include <functional>
 
 namespace QuantLib {

@@ -26,9 +26,9 @@
 #ifndef quantlib_fdm_dividend_handler_hpp
 #define quantlib_fdm_dividend_handler_hpp
 
-#include <ql/instruments/dividendschedule.hpp>
-#include <ql/methods/finitedifferences/stepcondition.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <instruments/dividendschedule.hpp>
+#include <methods/finitedifferences/stepcondition.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
 
 namespace QuantLib {
     

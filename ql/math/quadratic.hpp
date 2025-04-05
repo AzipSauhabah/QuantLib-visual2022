@@ -24,8 +24,8 @@
 #ifndef quantlib_quadratic_hpp
 #define quantlib_quadratic_hpp
 
-#include <ql/types.hpp>
-#include <ql/errors.hpp>
+#include <types.hpp>
+#include <errors.hpp>
 
 namespace QuantLib
 {

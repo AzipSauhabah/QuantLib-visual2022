@@ -24,7 +24,7 @@
 #ifndef quantlib_ranlux_uniform_rng_h
 #define quantlib_ranlux_uniform_rng_h
 
-#include <ql/methods/montecarlo/sample.hpp>
+#include <methods/montecarlo/sample.hpp>
 
 #include <random>
 

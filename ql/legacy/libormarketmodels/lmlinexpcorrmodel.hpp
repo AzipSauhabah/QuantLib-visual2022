@@ -24,7 +24,7 @@
 #ifndef quantlib_libor_forward_linear_exp_correlation_model_hpp
 #define quantlib_libor_forward_linear_exp_correlation_model_hpp
 
-#include <ql/legacy/libormarketmodels/lmcorrmodel.hpp>
+#include <legacy/libormarketmodels/lmcorrmodel.hpp>
 
 namespace QuantLib {
 

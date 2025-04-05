@@ -15,18 +15,18 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/exercise.hpp>
-#include <ql/experimental/swaptions/haganirregularswaptionengine.hpp>
-#include <ql/instruments/swaption.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/math/matrixutilities/svd.hpp>
-#include <ql/math/solvers1d/bisection.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/pricingengines/swaption/blackswaptionengine.hpp>
+#include <cashflows/cashflows.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <exercise.hpp>
+#include <experimental/swaptions/haganirregularswaptionengine.hpp>
+#include <instruments/swaption.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <math/matrixutilities/svd.hpp>
+#include <math/solvers1d/bisection.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <pricingengines/swaption/blackswaptionengine.hpp>
 #include <utility>
 
 namespace QuantLib {

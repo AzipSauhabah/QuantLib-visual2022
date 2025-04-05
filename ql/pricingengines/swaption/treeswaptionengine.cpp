@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/swaption/discretizedswaption.hpp>
-#include <ql/pricingengines/swaption/treeswaptionengine.hpp>
+#include <pricingengines/swaption/discretizedswaption.hpp>
+#include <pricingengines/swaption/treeswaptionengine.hpp>
 #include <utility>
 
 namespace QuantLib {

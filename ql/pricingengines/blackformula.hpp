@@ -34,8 +34,8 @@
 #ifndef quantlib_blackformula_hpp
 #define quantlib_blackformula_hpp
 
-#include <ql/instruments/payoffs.hpp>
-#include <ql/option.hpp>
+#include <instruments/payoffs.hpp>
+#include <option.hpp>
 
 namespace QuantLib {
 

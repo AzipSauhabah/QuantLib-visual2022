@@ -20,23 +20,23 @@
 #include "preconditions.hpp"
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/cashflows/simplecashflow.hpp>
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/floatingratecoupon.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/cashflows/overnightindexedcoupon.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/termstructures/volatility/optionlet/constantoptionletvol.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/indexes/ibor/usdlibor.hpp>
-#include <ql/indexes/ibor/sofr.hpp>
-#include <ql/optional.hpp>
-#include <ql/settings.hpp>
+#include <cashflows/cashflows.hpp>
+#include <cashflows/simplecashflow.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <cashflows/floatingratecoupon.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <cashflows/overnightindexedcoupon.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <termstructures/volatility/optionlet/constantoptionletvol.hpp>
+#include <quotes/simplequote.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <time/schedule.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <indexes/ibor/usdlibor.hpp>
+#include <indexes/ibor/sofr.hpp>
+#include <optional.hpp>
+#include <settings.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

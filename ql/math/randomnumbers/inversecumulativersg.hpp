@@ -25,7 +25,7 @@
 #ifndef quantlib_inversecumulative_rsg_h
 #define quantlib_inversecumulative_rsg_h
 
-#include <ql/methods/montecarlo/sample.hpp>
+#include <methods/montecarlo/sample.hpp>
 #include <utility>
 #include <vector>
 

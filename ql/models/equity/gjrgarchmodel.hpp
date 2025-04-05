@@ -24,8 +24,8 @@
 #ifndef quantlib_gjrgarch_model_hpp
 #define quantlib_gjrgarch_model_hpp
 
-#include <ql/models/model.hpp>
-#include <ql/processes/gjrgarchprocess.hpp>
+#include <models/model.hpp>
+#include <processes/gjrgarchprocess.hpp>
 
 namespace QuantLib {
 

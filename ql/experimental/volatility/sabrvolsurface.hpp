@@ -24,10 +24,10 @@
 #ifndef quantlib_sabr_vol_surface_hpp
 #define quantlib_sabr_vol_surface_hpp
 
-#include <ql/experimental/volatility/interestratevolsurface.hpp>
-#include <ql/experimental/volatility/blackatmvolcurve.hpp>
-#include <ql/quote.hpp>
-#include <ql/termstructures/volatility/sabrinterpolatedsmilesection.hpp>
+#include <experimental/volatility/interestratevolsurface.hpp>
+#include <experimental/volatility/blackatmvolcurve.hpp>
+#include <quote.hpp>
+#include <termstructures/volatility/sabrinterpolatedsmilesection.hpp>
 #include <array>
 
 namespace QuantLib {

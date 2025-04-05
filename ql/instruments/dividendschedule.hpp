@@ -25,7 +25,7 @@
 #ifndef quantlib_dividend_schedule_hpp
 #define quantlib_dividend_schedule_hpp
 
-#include <ql/cashflows/dividend.hpp>
+#include <cashflows/dividend.hpp>
 #include <vector>
 
 namespace QuantLib {

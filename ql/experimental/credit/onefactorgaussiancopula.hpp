@@ -24,8 +24,8 @@
 #ifndef quantlib_one_factor_gaussian_copula_hpp
 #define quantlib_one_factor_gaussian_copula_hpp
 
-#include <ql/experimental/credit/onefactorcopula.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <experimental/credit/onefactorcopula.hpp>
+#include <math/distributions/normaldistribution.hpp>
 
 namespace QuantLib {
 

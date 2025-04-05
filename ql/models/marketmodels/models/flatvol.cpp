@@ -19,12 +19,12 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/math/matrixutilities/pseudosqrt.hpp>
-#include <ql/models/marketmodels/correlations/expcorrelations.hpp>
-#include <ql/models/marketmodels/correlations/timehomogeneousforwardcorrelation.hpp>
-#include <ql/models/marketmodels/models/flatvol.hpp>
-#include <ql/models/marketmodels/piecewiseconstantcorrelation.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <math/matrixutilities/pseudosqrt.hpp>
+#include <models/marketmodels/correlations/expcorrelations.hpp>
+#include <models/marketmodels/correlations/timehomogeneousforwardcorrelation.hpp>
+#include <models/marketmodels/models/flatvol.hpp>
+#include <models/marketmodels/piecewiseconstantcorrelation.hpp>
 #include <utility>
 
 using std::vector;

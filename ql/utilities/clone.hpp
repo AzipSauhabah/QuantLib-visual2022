@@ -24,7 +24,7 @@
 #ifndef quantlib_clone_hpp
 #define quantlib_clone_hpp
 
-#include <ql/errors.hpp>
+#include <errors.hpp>
 #include <algorithm>
 #include <memory>
 

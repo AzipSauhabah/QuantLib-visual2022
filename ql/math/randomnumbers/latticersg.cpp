@@ -21,7 +21,7 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 \brief lattice rule code for low discrepancy numbers
 */
 
-#include <ql/math/randomnumbers/latticersg.hpp>
+#include <math/randomnumbers/latticersg.hpp>
 #include <utility>
 namespace QuantLib {
 

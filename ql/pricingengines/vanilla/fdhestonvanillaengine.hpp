@@ -26,12 +26,12 @@
 #ifndef quantlib_fd_heston_vanilla_engine_hpp
 #define quantlib_fd_heston_vanilla_engine_hpp
 
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/models/equity/hestonmodel.hpp>
-#include <ql/pricingengines/genericmodelengine.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmsolverdesc.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
-#include <ql/termstructures/volatility/equityfx/localvoltermstructure.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <models/equity/hestonmodel.hpp>
+#include <pricingengines/genericmodelengine.hpp>
+#include <methods/finitedifferences/solvers/fdmsolverdesc.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <termstructures/volatility/equityfx/localvoltermstructure.hpp>
 
 namespace QuantLib {
 

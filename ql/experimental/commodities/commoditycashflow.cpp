@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/commodities/commoditycashflow.hpp>
-#include <ql/patterns/visitor.hpp>
+#include <experimental/commodities/commoditycashflow.hpp>
+#include <patterns/visitor.hpp>
 #include <iomanip>
 
 namespace QuantLib {

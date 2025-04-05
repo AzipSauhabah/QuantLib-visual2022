@@ -21,19 +21,19 @@
 #ifndef quantlib_randomdefault_latent_model_hpp
 #define quantlib_randomdefault_latent_model_hpp
 
-#include <ql/experimental/credit/basket.hpp>
-#include <ql/experimental/credit/constantlosslatentmodel.hpp>
-#include <ql/experimental/credit/defaultlossmodel.hpp>
-#include <ql/experimental/math/gaussiancopulapolicy.hpp>
-#include <ql/experimental/math/latentmodel.hpp>
-#include <ql/experimental/math/tcopulapolicy.hpp>
-#include <ql/math/beta.hpp>
-#include <ql/math/randomnumbers/mt19937uniformrng.hpp>
-#include <ql/math/randomnumbers/sobolrsg.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/math/statistics/histogram.hpp>
-#include <ql/math/statistics/riskstatistics.hpp>
-#include <ql/tuple.hpp>
+#include <experimental/credit/basket.hpp>
+#include <experimental/credit/constantlosslatentmodel.hpp>
+#include <experimental/credit/defaultlossmodel.hpp>
+#include <experimental/math/gaussiancopulapolicy.hpp>
+#include <experimental/math/latentmodel.hpp>
+#include <experimental/math/tcopulapolicy.hpp>
+#include <math/beta.hpp>
+#include <math/randomnumbers/mt19937uniformrng.hpp>
+#include <math/randomnumbers/sobolrsg.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <math/statistics/histogram.hpp>
+#include <math/statistics/riskstatistics.hpp>
+#include <tuple.hpp>
 #include <utility>
 
 /* Intended to replace

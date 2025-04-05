@@ -23,9 +23,9 @@
 */
 
 
-#include <ql/math/randomnumbers/latticerules.hpp>
-#include <ql/types.hpp>
-#include <ql/errors.hpp>
+#include <math/randomnumbers/latticerules.hpp>
+#include <types.hpp>
+#include <errors.hpp>
 
 namespace QuantLib
 {

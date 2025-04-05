@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/commodities/commoditypricinghelpers.hpp>
+#include <experimental/commodities/commoditypricinghelpers.hpp>
 
 namespace QuantLib {
 

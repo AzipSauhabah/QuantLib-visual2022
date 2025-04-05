@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/interpolations/bilinearinterpolation.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvariancesurface.hpp>
+#include <math/interpolations/bilinearinterpolation.hpp>
+#include <termstructures/volatility/equityfx/blackvariancesurface.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -19,11 +19,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/integrals/segmentintegral.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/models/shortrate/twofactormodels/g2.hpp>
-#include <ql/pricingengines/blackformula.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/integrals/segmentintegral.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <models/shortrate/twofactormodels/g2.hpp>
+#include <pricingengines/blackformula.hpp>
 #include <utility>
 
 namespace QuantLib {

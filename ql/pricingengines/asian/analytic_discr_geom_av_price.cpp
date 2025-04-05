@@ -19,11 +19,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/pricingengines/asian/analytic_discr_geom_av_price.hpp>
-#include <ql/pricingengines/blackcalculator.hpp>
-#include <ql/pricingengines/greeks.hpp>
+#include <exercise.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <pricingengines/asian/analytic_discr_geom_av_price.hpp>
+#include <pricingengines/blackcalculator.hpp>
+#include <pricingengines/greeks.hpp>
 #include <numeric>
 #include <utility>
 

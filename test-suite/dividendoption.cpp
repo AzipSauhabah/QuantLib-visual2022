@@ -23,14 +23,14 @@
 #include "preconditions.hpp"
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/pricingengines/vanilla/analyticdividendeuropeanengine.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
-#include <ql/pricingengines/vanilla/fdblackscholesvanillaengine.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <pricingengines/vanilla/analyticdividendeuropeanengine.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <pricingengines/vanilla/fdblackscholesvanillaengine.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <utilities/dataformatters.hpp>
 #include <map>
 
 using namespace QuantLib;

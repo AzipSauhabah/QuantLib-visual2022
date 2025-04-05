@@ -19,8 +19,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/errors.hpp>
-#include <ql/time/calendars/jointcalendar.hpp>
+#include <errors.hpp>
+#include <time/calendars/jointcalendar.hpp>
 #include <sstream>
 #include <utility>
 

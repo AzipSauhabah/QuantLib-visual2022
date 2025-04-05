@@ -26,8 +26,8 @@
 #ifndef quantlib_mid_point_cds_engine_hpp
 #define quantlib_mid_point_cds_engine_hpp
 
-#include <ql/instruments/creditdefaultswap.hpp>
-#include <ql/optional.hpp>
+#include <instruments/creditdefaultswap.hpp>
+#include <optional.hpp>
 
 namespace QuantLib {
 

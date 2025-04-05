@@ -24,14 +24,14 @@
 #ifndef quantlib_local_bootstrap_hpp
 #define quantlib_local_bootstrap_hpp
 
-#include <ql/termstructures/bootstraphelper.hpp>
-#include <ql/math/optimization/costfunction.hpp>
-#include <ql/math/optimization/constraint.hpp>
-#include <ql/math/optimization/armijo.hpp>
-#include <ql/math/optimization/levenbergmarquardt.hpp>
-#include <ql/math/optimization/problem.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/shared_ptr.hpp>
+#include <termstructures/bootstraphelper.hpp>
+#include <math/optimization/costfunction.hpp>
+#include <math/optimization/constraint.hpp>
+#include <math/optimization/armijo.hpp>
+#include <math/optimization/levenbergmarquardt.hpp>
+#include <math/optimization/problem.hpp>
+#include <utilities/dataformatters.hpp>
+#include <shared_ptr.hpp>
 
 namespace QuantLib {
 

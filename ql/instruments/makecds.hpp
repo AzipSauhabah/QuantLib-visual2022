@@ -25,8 +25,8 @@
 #ifndef quantlib_makecds_hpp
 #define quantlib_makecds_hpp
 
-#include <ql/instruments/creditdefaultswap.hpp>
-#include <ql/optional.hpp>
+#include <instruments/creditdefaultswap.hpp>
+#include <optional.hpp>
 
 namespace QuantLib {
 

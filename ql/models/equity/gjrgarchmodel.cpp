@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/equity/gjrgarchmodel.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/shared_ptr.hpp>
+#include <models/equity/gjrgarchmodel.hpp>
+#include <quotes/simplequote.hpp>
+#include <shared_ptr.hpp>
 
 namespace QuantLib {
 

@@ -25,7 +25,7 @@
 #ifndef quantlib_generic_inflation_indexes_hpp
 #define quantlib_generic_inflation_indexes_hpp
 
-#include <ql/indexes/inflationindex.hpp>
+#include <indexes/inflationindex.hpp>
 
 namespace QuantLib {
 
@@ -58,25 +58,6 @@ namespace QuantLib {
       public:
         YYGenericCPI(Frequency frequency,
                      bool revised,
-                     const Period &lag,
-                     const Currency &ccy,
-                     const Handle<YoYInflationTermStructure>& ts = {})
-        : YoYInflationIndex("YY_CPI",
-                            GenericRegion(),
-                            revised,
-                            frequency,
-                            lag,
-                            ccy,
-                            ts) {}
-
-        QL_DEPRECATED_DISABLE_WARNING
-
-        /*! \deprecated Use the overload without the interpolated parameter.
-                        Deprecated in version 1.38.
-        */
-        [[deprecated("Use the overload without the interpolated parameter")]]
-        YYGenericCPI(Frequency frequency,
-                     bool revised,
                      bool interpolated,
                      const Period &lag,
                      const Currency &ccy,
@@ -89,8 +70,6 @@ namespace QuantLib {
                             lag,
                             ccy,
                             ts) {}
-
-        QL_DEPRECATED_ENABLE_WARNING
     };
 
 }

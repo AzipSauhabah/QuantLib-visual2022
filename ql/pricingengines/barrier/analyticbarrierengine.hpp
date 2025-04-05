@@ -28,9 +28,9 @@
 #ifndef quantlib_analytic_barrier_engine_hpp
 #define quantlib_analytic_barrier_engine_hpp
 
-#include <ql/instruments/barrieroption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <instruments/barrieroption.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <math/distributions/normaldistribution.hpp>
 
 namespace QuantLib {
 

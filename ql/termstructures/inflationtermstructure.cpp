@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/indexes/inflationindex.hpp>
-#include <ql/termstructures/inflationtermstructure.hpp>
+#include <indexes/inflationindex.hpp>
+#include <termstructures/inflationtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

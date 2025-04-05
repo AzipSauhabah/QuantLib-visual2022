@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/pricingengines/exotic/analyticcomplexchooserengine.hpp>
-#include <ql/math/distributions/bivariatenormaldistribution.hpp>
+#include <exercise.hpp>
+#include <pricingengines/exotic/analyticcomplexchooserengine.hpp>
+#include <math/distributions/bivariatenormaldistribution.hpp>
 #include <utility>
 
 using std::pow;

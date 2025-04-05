@@ -19,14 +19,14 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/types.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/math/randomnumbers/mt19937uniformrng.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/integrals/gaussianquadratures.hpp>
-#include <ql/math/integrals/momentbasedgaussianpolynomial.hpp>
-#include <ql/math/integrals/gausslaguerrecosinepolynomial.hpp>
-#include <ql/experimental/math/gaussiannoncentralchisquaredpolynomial.hpp>
+#include <types.hpp>
+#include <math/matrix.hpp>
+#include <math/randomnumbers/mt19937uniformrng.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/integrals/gaussianquadratures.hpp>
+#include <math/integrals/momentbasedgaussianpolynomial.hpp>
+#include <math/integrals/gausslaguerrecosinepolynomial.hpp>
+#include <experimental/math/gaussiannoncentralchisquaredpolynomial.hpp>
 
 #include <boost/math/distributions/non_central_chi_squared.hpp>
 

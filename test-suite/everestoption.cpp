@@ -19,11 +19,11 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/experimental/exoticoptions/everestoption.hpp>
-#include <ql/experimental/exoticoptions/mceverestengine.hpp>
-#include <ql/math/randomnumbers/rngtraits.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <experimental/exoticoptions/everestoption.hpp>
+#include <experimental/exoticoptions/mceverestengine.hpp>
+#include <math/randomnumbers/rngtraits.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <quotes/simplequote.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

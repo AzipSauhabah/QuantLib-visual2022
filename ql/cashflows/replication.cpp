@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/replication.hpp>
-#include <ql/types.hpp>
-#include <ql/errors.hpp>
+#include <cashflows/replication.hpp>
+#include <types.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

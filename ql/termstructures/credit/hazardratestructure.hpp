@@ -28,7 +28,7 @@
 #ifndef quantlib_hazard_rate_structure_hpp
 #define quantlib_hazard_rate_structure_hpp
 
-#include <ql/termstructures/defaulttermstructure.hpp>
+#include <termstructures/defaulttermstructure.hpp>
 
 namespace QuantLib {
 

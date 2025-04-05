@@ -18,15 +18,15 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
  */
 
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/yoyinflationcoupon.hpp>
-#include <ql/indexes/inflationindex.hpp>
-#include <ql/instruments/yearonyearinflationswap.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/cashflows.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <cashflows/yoyinflationcoupon.hpp>
+#include <indexes/inflationindex.hpp>
+#include <instruments/yearonyearinflationswap.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <time/schedule.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -20,10 +20,10 @@
 #ifndef quantlib_longstaff_schwartz_exercise_strategy_hpp
 #define quantlib_longstaff_schwartz_exercise_strategy_hpp
 
-#include <ql/methods/montecarlo/exercisestrategy.hpp>
-#include <ql/models/marketmodels/callability/marketmodelbasissystem.hpp>
-#include <ql/models/marketmodels/callability/exercisevalue.hpp>
-#include <ql/utilities/clone.hpp>
+#include <methods/montecarlo/exercisestrategy.hpp>
+#include <models/marketmodels/callability/marketmodelbasissystem.hpp>
+#include <models/marketmodels/callability/exercisevalue.hpp>
+#include <utilities/clone.hpp>
 
 namespace QuantLib {
 

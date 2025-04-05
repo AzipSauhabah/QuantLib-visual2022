@@ -24,16 +24,16 @@
     \brief One-dimensional grid mesher concentrating around critical points
 */ 
 
-#include <ql/errors.hpp>
-#include <ql/timegrid.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/math/array.hpp>
-#include <ql/math/functional.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/math/ode/adaptiverungekutta.hpp>
-#include <ql/methods/finitedifferences/meshers/concentrating1dmesher.hpp>
+#include <errors.hpp>
+#include <timegrid.hpp>
+#include <utilities/null.hpp>
+#include <math/array.hpp>
+#include <math/functional.hpp>
+#include <math/comparison.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <math/ode/adaptiverungekutta.hpp>
+#include <methods/finitedifferences/meshers/concentrating1dmesher.hpp>
 #include <cmath>
 
 namespace QuantLib {

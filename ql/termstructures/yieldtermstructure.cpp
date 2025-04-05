@@ -19,8 +19,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <utilities/dataformatters.hpp>
 #include <utility>
 
 namespace QuantLib {

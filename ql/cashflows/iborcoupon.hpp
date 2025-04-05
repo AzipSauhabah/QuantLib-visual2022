@@ -29,11 +29,11 @@
 #ifndef quantlib_ibor_coupon_hpp
 #define quantlib_ibor_coupon_hpp
 
-#include <ql/cashflows/floatingratecoupon.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/patterns/singleton.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/optional.hpp>
+#include <cashflows/floatingratecoupon.hpp>
+#include <indexes/iborindex.hpp>
+#include <patterns/singleton.hpp>
+#include <time/schedule.hpp>
+#include <optional.hpp>
 
 namespace QuantLib {
 

@@ -19,7 +19,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/barrier/mcbarrierengine.hpp>
+#include <pricingengines/barrier/mcbarrierengine.hpp>
 #include <utility>
 
 namespace QuantLib {

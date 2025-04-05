@@ -21,9 +21,9 @@
  \brief yoy inflation volatility structures
  */
 
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/inflationtermstructure.hpp>
-#include <ql/termstructures/volatility/inflation/yoyinflationoptionletvolatilitystructure.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/inflationtermstructure.hpp>
+#include <termstructures/volatility/inflation/yoyinflationoptionletvolatilitystructure.hpp>
 #include <utility>
 
 namespace QuantLib {

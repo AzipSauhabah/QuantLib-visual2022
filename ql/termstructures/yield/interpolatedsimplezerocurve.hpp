@@ -26,11 +26,11 @@
 #ifndef quantlib_zero_curve_simple_hpp
 #define quantlib_zero_curve_simple_hpp
 
-#include <ql/math/comparison.hpp>
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/termstructures/interpolatedcurve.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <math/comparison.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <termstructures/interpolatedcurve.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <utilities/dataformatters.hpp>
 #include <utility>
 
 namespace QuantLib {

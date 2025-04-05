@@ -25,8 +25,8 @@
 #ifndef quantlib_lmm_normal_drift_calculator_hpp
 #define quantlib_lmm_normal_drift_calculator_hpp
 
-#include <ql/math/matrix.hpp>
-#include <ql/models/marketmodels/curvestates/lmmcurvestate.hpp>
+#include <math/matrix.hpp>
+#include <models/marketmodels/curvestates/lmmcurvestate.hpp>
 #include <vector>
 
 namespace QuantLib {

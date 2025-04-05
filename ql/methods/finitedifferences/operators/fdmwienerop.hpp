@@ -24,7 +24,7 @@
 #ifndef quantlib_fdm_wiener_op_hpp
 #define quantlib_fdm_wiener_op_hpp
 
-#include <ql/methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
+#include <methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
 
 namespace QuantLib {
 

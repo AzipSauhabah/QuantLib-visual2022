@@ -24,9 +24,9 @@
 #ifndef quantlib_commodity_hpp
 #define quantlib_commodity_hpp
 
-#include <ql/any.hpp>
-#include <ql/instrument.hpp>
-#include <ql/money.hpp>
+#include <any.hpp>
+#include <instrument.hpp>
+#include <money.hpp>
 #include <iosfwd>
 #include <utility>
 #include <vector>

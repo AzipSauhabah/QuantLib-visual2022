@@ -29,11 +29,11 @@
 #ifndef quantlib_fixed_rate_coupon_hpp
 #define quantlib_fixed_rate_coupon_hpp
 
-#include <ql/cashflows/coupon.hpp>
-#include <ql/patterns/visitor.hpp>
-#include <ql/interestrate.hpp>
-#include <ql/time/daycounter.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/coupon.hpp>
+#include <patterns/visitor.hpp>
+#include <interestrate.hpp>
+#include <time/daycounter.hpp>
+#include <time/schedule.hpp>
 
 namespace QuantLib {
 

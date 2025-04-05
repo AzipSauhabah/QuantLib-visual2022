@@ -17,11 +17,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/functional.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/termstructures/volatility/equityfx/andreasenhugevolatilityadapter.hpp>
-#include <ql/termstructures/volatility/equityfx/andreasenhugevolatilityinterpl.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <math/functional.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <termstructures/volatility/equityfx/andreasenhugevolatilityadapter.hpp>
+#include <termstructures/volatility/equityfx/andreasenhugevolatilityinterpl.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

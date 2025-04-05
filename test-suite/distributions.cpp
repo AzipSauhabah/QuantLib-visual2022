@@ -24,13 +24,13 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/distributions/bivariatenormaldistribution.hpp>
-#include <ql/math/distributions/bivariatestudenttdistribution.hpp>
-#include <ql/math/distributions/chisquaredistribution.hpp>
-#include <ql/math/distributions/poissondistribution.hpp>
-#include <ql/math/randomnumbers/stochasticcollocationinvcdf.hpp>
-#include <ql/math/comparison.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/distributions/bivariatenormaldistribution.hpp>
+#include <math/distributions/bivariatestudenttdistribution.hpp>
+#include <math/distributions/chisquaredistribution.hpp>
+#include <math/distributions/poissondistribution.hpp>
+#include <math/randomnumbers/stochasticcollocationinvcdf.hpp>
+#include <math/comparison.hpp>
 #include <boost/math/distributions/non_central_chi_squared.hpp>
 
 using namespace QuantLib;

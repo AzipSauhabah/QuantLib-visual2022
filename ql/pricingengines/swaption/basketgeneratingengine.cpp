@@ -17,13 +17,13 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/swaption/basketgeneratingengine.hpp>
-#include <ql/rebatedexercise.hpp>
-#include <ql/math/optimization/levenbergmarquardt.hpp>
-#include <ql/math/optimization/simplex.hpp>
-#include <ql/models/shortrate/calibrationhelpers/swaptionhelper.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionvolcube.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <pricingengines/swaption/basketgeneratingengine.hpp>
+#include <rebatedexercise.hpp>
+#include <math/optimization/levenbergmarquardt.hpp>
+#include <math/optimization/simplex.hpp>
+#include <models/shortrate/calibrationhelpers/swaptionhelper.hpp>
+#include <termstructures/volatility/swaption/swaptionvolcube.hpp>
+#include <quotes/simplequote.hpp>
 #include <cmath>
 
 using std::exp;

@@ -28,9 +28,9 @@
 #ifndef quantlib_instruments_irregular_swaption_hpp
 #define quantlib_instruments_irregular_swaption_hpp
 
-#include <ql/option.hpp>
-#include <ql/experimental/swaptions/irregularswap.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <option.hpp>
+#include <experimental/swaptions/irregularswap.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 
 namespace QuantLib {
 

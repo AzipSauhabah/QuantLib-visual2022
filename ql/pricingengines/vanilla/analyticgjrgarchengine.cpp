@@ -22,9 +22,9 @@
   based on Edgeworth expansion
 */
 
-#include <ql/pricingengines/vanilla/analyticgjrgarchengine.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/instruments/payoffs.hpp>
+#include <pricingengines/vanilla/analyticgjrgarchengine.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <instruments/payoffs.hpp>
 #include <cmath>
 
 using std::exp;

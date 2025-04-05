@@ -25,11 +25,11 @@
 #ifndef quantlib_kronrod_integral_hpp
 #define quantlib_kronrod_integral_hpp
 
-#include <ql/errors.hpp>
-#include <ql/types.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/math/integrals/integral.hpp>
-#include <ql/functional.hpp>
+#include <errors.hpp>
+#include <types.hpp>
+#include <utilities/null.hpp>
+#include <math/integrals/integral.hpp>
+#include <functional.hpp>
 
 namespace QuantLib {
 

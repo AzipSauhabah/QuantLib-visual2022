@@ -18,12 +18,12 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/bonds/floatingratebond.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/cashflows/simplecashflow.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/indexes/swapindex.hpp>
-#include <ql/indexes/iborindex.hpp>
+#include <instruments/bonds/floatingratebond.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <cashflows/simplecashflow.hpp>
+#include <time/schedule.hpp>
+#include <indexes/swapindex.hpp>
+#include <indexes/iborindex.hpp>
 
 namespace QuantLib {
 

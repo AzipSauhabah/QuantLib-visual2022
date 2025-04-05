@@ -28,7 +28,7 @@
 #ifndef quantlib_weekday_hpp
 #define quantlib_weekday_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #include <iosfwd>
 
 namespace QuantLib {

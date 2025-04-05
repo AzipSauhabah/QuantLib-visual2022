@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/curvestate.hpp>
-#include <ql/models/marketmodels/utilities.hpp>
+#include <models/marketmodels/curvestate.hpp>
+#include <models/marketmodels/utilities.hpp>
 
 namespace QuantLib {
 

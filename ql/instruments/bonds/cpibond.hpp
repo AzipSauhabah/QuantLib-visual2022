@@ -25,11 +25,11 @@
 #define quantlib_cpibond_hpp
 
 
-#include <ql/instruments/bond.hpp>
-#include <ql/time/dategenerationrule.hpp>
-#include <ql/time/daycounter.hpp>
-#include <ql/interestrate.hpp>
-#include <ql/cashflows/cpicoupon.hpp>
+#include <instruments/bond.hpp>
+#include <time/dategenerationrule.hpp>
+#include <time/daycounter.hpp>
+#include <interestrate.hpp>
+#include <cashflows/cpicoupon.hpp>
 
 namespace QuantLib {
 

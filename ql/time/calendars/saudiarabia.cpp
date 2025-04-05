@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/calendars/saudiarabia.hpp>
-#include <ql/errors.hpp>
+#include <time/calendars/saudiarabia.hpp>
+#include <errors.hpp>
 #include <algorithm>
 
 namespace QuantLib {

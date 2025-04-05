@@ -24,12 +24,12 @@
 #ifndef quantlib_interpolated_yoy_optionlet_stripper_hpp
 #define quantlib_interpolated_yoy_optionlet_stripper_hpp
 
-#include <ql/experimental/inflation/genericindexes.hpp>
-#include <ql/experimental/inflation/piecewiseyoyoptionletvolatility.hpp>
-#include <ql/experimental/inflation/yoyoptionlethelpers.hpp>
-#include <ql/experimental/inflation/yoyoptionletstripper.hpp>
-#include <ql/instruments/makeyoyinflationcapfloor.hpp>
-#include <ql/math/solvers1d/brent.hpp>
+#include <experimental/inflation/genericindexes.hpp>
+#include <experimental/inflation/piecewiseyoyoptionletvolatility.hpp>
+#include <experimental/inflation/yoyoptionlethelpers.hpp>
+#include <experimental/inflation/yoyoptionletstripper.hpp>
+#include <instruments/makeyoyinflationcapfloor.hpp>
+#include <math/solvers1d/brent.hpp>
 #include <utility>
 
 
@@ -184,7 +184,7 @@ namespace QuantLib {
         RelinkableHandle<YoYInflationTermStructure> hYoY(
                                        YoYCapFloorTermPriceSurface_->YoYTS());
         ext::shared_ptr<YoYInflationIndex> anIndex(
-                                           new YYGenericCPI(frequency_,
+                                           new YYGenericCPI(frequency_, false,
                                                             false, lag_,
                                                             Currency(), hYoY));
 

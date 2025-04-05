@@ -18,10 +18,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/optimization/armijo.hpp>
-#include <ql/math/optimization/linesearch.hpp>
-#include <ql/math/optimization/linesearchbasedmethod.hpp>
-#include <ql/math/optimization/problem.hpp>
+#include <math/optimization/armijo.hpp>
+#include <math/optimization/linesearch.hpp>
+#include <math/optimization/linesearchbasedmethod.hpp>
+#include <math/optimization/problem.hpp>
 #include <utility>
 
 namespace QuantLib {

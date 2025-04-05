@@ -28,11 +28,11 @@
 #ifndef quantlib_overnight_indexed_coupon_hpp
 #define quantlib_overnight_indexed_coupon_hpp
 
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/cashflows/floatingratecoupon.hpp>
-#include <ql/cashflows/rateaveraging.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <cashflows/floatingratecoupon.hpp>
+#include <cashflows/rateaveraging.hpp>
+#include <indexes/iborindex.hpp>
+#include <time/schedule.hpp>
 
 namespace QuantLib {
 

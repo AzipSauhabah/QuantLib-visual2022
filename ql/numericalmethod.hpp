@@ -25,8 +25,8 @@
 #ifndef quantlib_lattice_hpp
 #define quantlib_lattice_hpp
 
-#include <ql/math/array.hpp>
-#include <ql/timegrid.hpp>
+#include <math/array.hpp>
+#include <timegrid.hpp>
 #include <utility>
 
 namespace QuantLib {

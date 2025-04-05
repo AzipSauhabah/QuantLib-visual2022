@@ -24,9 +24,9 @@
 #ifndef quantlib_fdm_cev_op_hpp
 #define quantlib_fdm_cev_op_hpp
 
-#include <ql/methods/finitedifferences/operators/ninepointlinearop.hpp>
-#include <ql/methods/finitedifferences/operators/triplebandlinearop.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
+#include <methods/finitedifferences/operators/ninepointlinearop.hpp>
+#include <methods/finitedifferences/operators/triplebandlinearop.hpp>
+#include <methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
 
 namespace QuantLib {
 

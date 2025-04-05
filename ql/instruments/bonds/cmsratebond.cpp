@@ -19,11 +19,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/bonds/cmsratebond.hpp>
-#include <ql/cashflows/cmscoupon.hpp>
-#include <ql/cashflows/simplecashflow.hpp>
-#include <ql/indexes/swapindex.hpp>
-#include <ql/time/schedule.hpp>
+#include <instruments/bonds/cmsratebond.hpp>
+#include <cashflows/cmscoupon.hpp>
+#include <cashflows/simplecashflow.hpp>
+#include <indexes/swapindex.hpp>
+#include <time/schedule.hpp>
 
 namespace QuantLib {
 

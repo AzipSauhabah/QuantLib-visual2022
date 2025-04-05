@@ -25,7 +25,7 @@
 #ifndef quantlib_extended_cox_ingersoll_ross_hpp
 #define quantlib_extended_cox_ingersoll_ross_hpp
 
-#include <ql/models/shortrate/onefactormodels/coxingersollross.hpp>
+#include <models/shortrate/onefactormodels/coxingersollross.hpp>
 #include <utility>
 
 namespace QuantLib {

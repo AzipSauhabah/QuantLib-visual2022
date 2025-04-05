@@ -17,14 +17,14 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/catbonds/catbond.hpp>
-#include <ql/settings.hpp>
-#include <ql/experimental/credit/loss.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/cashflows/simplecashflow.hpp>
+#include <experimental/catbonds/catbond.hpp>
+#include <settings.hpp>
+#include <experimental/credit/loss.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <cashflows/simplecashflow.hpp>
 
 using namespace std;
 

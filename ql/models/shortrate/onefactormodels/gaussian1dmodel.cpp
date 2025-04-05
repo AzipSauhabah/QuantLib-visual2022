@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/shortrate/onefactormodels/gaussian1dmodel.hpp>
-#include <ql/math/interpolations/cubicinterpolation.hpp>
-#include <ql/payoff.hpp>
+#include <models/shortrate/onefactormodels/gaussian1dmodel.hpp>
+#include <math/interpolations/cubicinterpolation.hpp>
+#include <payoff.hpp>
 #include <cmath>
 
 namespace QuantLib {

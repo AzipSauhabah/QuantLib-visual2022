@@ -21,17 +21,17 @@
     \brief Laplace interpolation of missing values
 */
 
-#include <ql/experimental/math/laplaceinterpolation.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/math/matrixutilities/bicgstab.hpp>
-#include <ql/math/matrixutilities/sparsematrix.hpp>
-#include <ql/methods/finitedifferences/meshers/fdm1dmesher.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
-#include <ql/methods/finitedifferences/meshers/predefined1dmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/operators/secondderivativeop.hpp>
-#include <ql/methods/finitedifferences/operators/triplebandlinearop.hpp>
+#include <experimental/math/laplaceinterpolation.hpp>
+#include <math/matrix.hpp>
+#include <math/matrixutilities/bicgstab.hpp>
+#include <math/matrixutilities/sparsematrix.hpp>
+#include <methods/finitedifferences/meshers/fdm1dmesher.hpp>
+#include <methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
+#include <methods/finitedifferences/meshers/predefined1dmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/operators/secondderivativeop.hpp>
+#include <methods/finitedifferences/operators/triplebandlinearop.hpp>
 
 namespace QuantLib {
 

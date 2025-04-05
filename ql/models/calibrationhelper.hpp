@@ -25,10 +25,10 @@
 #ifndef quantlib_interest_rate_modelling_calibration_helper_h
 #define quantlib_interest_rate_modelling_calibration_helper_h
 
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/quote.hpp>
-#include <ql/termstructures/volatility/volatilitytype.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <patterns/lazyobject.hpp>
+#include <quote.hpp>
+#include <termstructures/volatility/volatilitytype.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <list>
 #include <utility>
 

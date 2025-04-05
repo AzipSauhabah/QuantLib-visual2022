@@ -26,9 +26,9 @@
 #ifndef quantlib_pricers_jamshidian_swaption_hpp
 #define quantlib_pricers_jamshidian_swaption_hpp
 
-#include <ql/instruments/swaption.hpp>
-#include <ql/models/shortrate/onefactormodel.hpp>
-#include <ql/pricingengines/genericmodelengine.hpp>
+#include <instruments/swaption.hpp>
+#include <models/shortrate/onefactormodel.hpp>
+#include <pricingengines/genericmodelengine.hpp>
 #include <utility>
 
 namespace QuantLib {

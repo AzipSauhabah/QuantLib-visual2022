@@ -24,11 +24,11 @@
 #ifndef quantlib_risky_asset_swap_hpp
 #define quantlib_risky_asset_swap_hpp
 
-#include <ql/instrument.hpp>
-#include <ql/termstructures/defaulttermstructure.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/termstructures/credit/defaultprobabilityhelpers.hpp>
-#include <ql/time/schedule.hpp>
+#include <instrument.hpp>
+#include <termstructures/defaulttermstructure.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <termstructures/credit/defaultprobabilityhelpers.hpp>
+#include <time/schedule.hpp>
 
 namespace QuantLib {
 

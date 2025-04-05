@@ -25,7 +25,7 @@
 #ifndef quantlib_cev_rnd_calculator_hpp
 #define quantlib_cev_rnd_calculator_hpp
 
-#include <ql/methods/finitedifferences/utilities/riskneutraldensitycalculator.hpp>
+#include <methods/finitedifferences/utilities/riskneutraldensitycalculator.hpp>
 
 namespace QuantLib {
     //! constant elasticity of variance process (absorbing boundary at f=0)

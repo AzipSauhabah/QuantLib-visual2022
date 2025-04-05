@@ -20,12 +20,12 @@
 #ifndef quantlib_base_correl_structure_hpp
 #define quantlib_base_correl_structure_hpp
 
-#include <ql/quote.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/math/interpolations/bilinearinterpolation.hpp>
-#include <ql/math/interpolations/bicubicsplineinterpolation.hpp>
+#include <quote.hpp>
+#include <utilities/dataformatters.hpp>
+#include <math/interpolations/bilinearinterpolation.hpp>
+#include <math/interpolations/bicubicsplineinterpolation.hpp>
 
-#include <ql/experimental/credit/correlationstructure.hpp>
+#include <experimental/credit/correlationstructure.hpp>
 
 namespace QuantLib {
 

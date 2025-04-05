@@ -24,7 +24,7 @@
 #ifndef quantlib_factorial_hpp
 #define quantlib_factorial_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 
 namespace QuantLib {
 

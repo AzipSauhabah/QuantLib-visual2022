@@ -21,7 +21,7 @@
 #ifndef quantlib_polynomial_math_function_hpp
 #define quantlib_polynomial_math_function_hpp
 
-#include <ql/math/matrix.hpp>
+#include <math/matrix.hpp>
 
 #include <vector>
 

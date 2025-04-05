@@ -24,7 +24,7 @@
 #ifndef quantlib_visitor_h
 #define quantlib_visitor_h
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 
 namespace QuantLib {
 

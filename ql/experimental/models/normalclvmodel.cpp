@@ -20,17 +20,17 @@
 /*! \file normalclvmodel.cpp
 */
 
-#include <ql/exercise.hpp>
-#include <ql/experimental/models/normalclvmodel.hpp>
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/integrals/gaussianquadratures.hpp>
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/methods/finitedifferences/utilities/gbsmrndcalculator.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/processes/ornsteinuhlenbeckprocess.hpp>
+#include <exercise.hpp>
+#include <experimental/models/normalclvmodel.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/integrals/gaussianquadratures.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <methods/finitedifferences/utilities/gbsmrndcalculator.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <processes/ornsteinuhlenbeckprocess.hpp>
 #include <utility>
 
 

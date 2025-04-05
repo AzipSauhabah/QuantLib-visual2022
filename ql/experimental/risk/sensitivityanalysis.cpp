@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/risk/sensitivityanalysis.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/instrument.hpp>
+#include <experimental/risk/sensitivityanalysis.hpp>
+#include <quotes/simplequote.hpp>
+#include <instrument.hpp>
 
 using std::vector;
 using std::pair;

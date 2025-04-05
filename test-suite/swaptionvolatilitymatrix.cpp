@@ -22,12 +22,12 @@
 #include "toplevelfixture.hpp"
 #include "swaptionvolstructuresutilities.hpp"
 #include "utilities.hpp"
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/indexes/swap/euriborswap.hpp>
-#include <ql/instruments/makeswaption.hpp>
-#include <ql/pricingengines/swaption/blackswaptionengine.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/math/comparison.hpp>
+#include <utilities/dataformatters.hpp>
+#include <indexes/swap/euriborswap.hpp>
+#include <instruments/makeswaption.hpp>
+#include <pricingengines/swaption/blackswaptionengine.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <math/comparison.hpp>
 #include <string>
 
 using namespace QuantLib;

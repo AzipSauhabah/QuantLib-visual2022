@@ -20,7 +20,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/volatility/flatsmilesection.hpp>
+#include <termstructures/volatility/flatsmilesection.hpp>
 
 namespace QuantLib {
 

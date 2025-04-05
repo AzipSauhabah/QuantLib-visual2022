@@ -26,10 +26,10 @@
 #ifndef quantlib_fdm_step_condition_composite_hpp
 #define quantlib_fdm_step_condition_composite_hpp
 
-#include <ql/time/date.hpp>
-#include <ql/time/daycounter.hpp>
-#include <ql/instruments/dividendschedule.hpp>
-#include <ql/methods/finitedifferences/stepcondition.hpp>
+#include <time/date.hpp>
+#include <time/daycounter.hpp>
+#include <instruments/dividendschedule.hpp>
+#include <methods/finitedifferences/stepcondition.hpp>
 
 #include <list>
 

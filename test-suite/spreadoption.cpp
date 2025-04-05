@@ -19,11 +19,11 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/experimental/exoticoptions/kirkspreadoptionengine.hpp>
-#include <ql/exercise.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <experimental/exoticoptions/kirkspreadoptionengine.hpp>
+#include <exercise.hpp>
+#include <quotes/simplequote.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <utilities/dataformatters.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

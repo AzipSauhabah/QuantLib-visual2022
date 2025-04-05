@@ -25,11 +25,11 @@
 #ifndef quantlib_instrument_hpp
 #define quantlib_instrument_hpp
 
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/pricingengine.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/time/date.hpp>
-#include <ql/any.hpp>
+#include <patterns/lazyobject.hpp>
+#include <pricingengine.hpp>
+#include <utilities/null.hpp>
+#include <time/date.hpp>
+#include <any.hpp>
 #include <map>
 #include <string>
 

@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/europeanoption.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <instruments/europeanoption.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
 
 namespace QuantLib {
 

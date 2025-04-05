@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/version.hpp>
+#include <version.hpp>
 #include <boost/version.hpp>
 
 // Macros for forcing the compiler not to inline code

@@ -23,8 +23,8 @@
 #define quantlib_bump_instrument_jacobian_hpp
 
 
-#include <ql/models/marketmodels/marketmodel.hpp>
-#include <ql/models/marketmodels/pathwisegreeks/vegabumpcluster.hpp>
+#include <models/marketmodels/marketmodel.hpp>
+#include <models/marketmodels/pathwisegreeks/vegabumpcluster.hpp>
 #include <valarray>
 
 namespace QuantLib

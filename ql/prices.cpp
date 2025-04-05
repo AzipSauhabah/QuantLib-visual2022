@@ -19,8 +19,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/prices.hpp>
-#include <ql/errors.hpp>
+#include <prices.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

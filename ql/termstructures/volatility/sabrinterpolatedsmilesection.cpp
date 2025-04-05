@@ -19,9 +19,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/quotes/simplequote.hpp>
-#include <ql/settings.hpp>
-#include <ql/termstructures/volatility/sabrinterpolatedsmilesection.hpp>
+#include <quotes/simplequote.hpp>
+#include <settings.hpp>
+#include <termstructures/volatility/sabrinterpolatedsmilesection.hpp>
 #include <utility>
 
 namespace QuantLib {

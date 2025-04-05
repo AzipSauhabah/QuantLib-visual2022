@@ -20,12 +20,12 @@
 #ifndef quantlib_american_path_montecarlo_engine_hpp
 #define quantlib_american_path_montecarlo_engine_hpp
 
-#include <ql/experimental/mcbasket/longstaffschwartzmultipathpricer.hpp>
-#include <ql/experimental/mcbasket/mclongstaffschwartzpathengine.hpp>
-#include <ql/experimental/mcbasket/pathmultiassetoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/processes/stochasticprocessarray.hpp>
-#include <ql/termstructures/yield/impliedtermstructure.hpp>
+#include <experimental/mcbasket/longstaffschwartzmultipathpricer.hpp>
+#include <experimental/mcbasket/mclongstaffschwartzpathengine.hpp>
+#include <experimental/mcbasket/pathmultiassetoption.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <processes/stochasticprocessarray.hpp>
+#include <termstructures/yield/impliedtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

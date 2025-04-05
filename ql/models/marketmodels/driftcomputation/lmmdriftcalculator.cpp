@@ -21,8 +21,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/driftcomputation/lmmdriftcalculator.hpp>
-#include <ql/models/marketmodels/curvestates/lmmcurvestate.hpp>
+#include <models/marketmodels/driftcomputation/lmmdriftcalculator.hpp>
+#include <models/marketmodels/curvestates/lmmcurvestate.hpp>
 
 namespace QuantLib {
 

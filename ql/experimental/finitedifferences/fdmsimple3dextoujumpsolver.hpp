@@ -25,14 +25,14 @@
 #ifndef quantlib_fdm_3d_ext_ou_jump_solver_hpp
 #define quantlib_fdm_3d_ext_ou_jump_solver_hpp
 
-#include <ql/experimental/finitedifferences/fdmextoujumpop.hpp>
-#include <ql/experimental/processes/extouwithjumpsprocess.hpp>
-#include <ql/handle.hpp>
-#include <ql/methods/finitedifferences/solvers/fdm3dimsolver.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmsolverdesc.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <experimental/finitedifferences/fdmextoujumpop.hpp>
+#include <experimental/processes/extouwithjumpsprocess.hpp>
+#include <handle.hpp>
+#include <methods/finitedifferences/solvers/fdm3dimsolver.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <methods/finitedifferences/solvers/fdmsolverdesc.hpp>
+#include <patterns/lazyobject.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

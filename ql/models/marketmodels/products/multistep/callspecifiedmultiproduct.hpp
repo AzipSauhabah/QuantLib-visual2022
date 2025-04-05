@@ -21,10 +21,10 @@
 #ifndef quantlib_callspecified_multiproduct_hpp
 #define quantlib_callspecified_multiproduct_hpp
 
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/models/marketmodels/multiproduct.hpp>
-#include <ql/methods/montecarlo/exercisestrategy.hpp>
-#include <ql/utilities/clone.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/multiproduct.hpp>
+#include <methods/montecarlo/exercisestrategy.hpp>
+#include <utilities/clone.hpp>
 #include <valarray>
 
 namespace QuantLib {

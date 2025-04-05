@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/credit/onefactorcopula.hpp>
+#include <experimental/credit/onefactorcopula.hpp>
 
 using namespace std;
 

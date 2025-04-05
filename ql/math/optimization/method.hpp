@@ -26,7 +26,7 @@
 #ifndef quantlib_optimization_method_h
 #define quantlib_optimization_method_h
 
-#include <ql/math/optimization/endcriteria.hpp>
+#include <math/optimization/endcriteria.hpp>
 
 namespace QuantLib {
 

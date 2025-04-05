@@ -22,7 +22,7 @@
 #ifndef quantlib_coterminal_to_forward_adapter_hpp
 #define quantlib_coterminal_to_forward_adapter_hpp
 
-#include <ql/models/marketmodels/marketmodel.hpp>
+#include <models/marketmodels/marketmodel.hpp>
 
 namespace QuantLib {
 

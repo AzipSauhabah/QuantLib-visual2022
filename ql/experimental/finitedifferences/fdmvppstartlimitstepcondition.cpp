@@ -20,12 +20,12 @@
 /*! \file fdmvppstartlimitstepcondition.cpp
 */
 
-#include <ql/math/array.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/experimental/finitedifferences/fdmvppstartlimitstepcondition.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearopiterator.hpp>
-#include <ql/methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
+#include <math/array.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <experimental/finitedifferences/fdmvppstartlimitstepcondition.hpp>
+#include <methods/finitedifferences/operators/fdmlinearopiterator.hpp>
+#include <methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
 
 
 namespace QuantLib {

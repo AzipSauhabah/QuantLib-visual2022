@@ -24,9 +24,9 @@
 #ifndef quantlib_moment_based_gaussian_polynomial_hpp
 #define quantlib_moment_based_gaussian_polynomial_hpp
 
-#include <ql/math/comparison.hpp>
-#include <ql/math/integrals/gaussianorthogonalpolynomial.hpp>
-#include <ql/errors.hpp>
+#include <math/comparison.hpp>
+#include <math/integrals/gaussianorthogonalpolynomial.hpp>
+#include <errors.hpp>
 #include <cmath>
 #include <vector>
 

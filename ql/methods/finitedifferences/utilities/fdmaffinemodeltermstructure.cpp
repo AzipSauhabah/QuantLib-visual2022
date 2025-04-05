@@ -20,8 +20,8 @@
 /*! \file fdmaffinemodeltermstructure.cpp
 */
 
-#include <ql/methods/finitedifferences/utilities/fdmaffinemodeltermstructure.hpp>
-#include <ql/models/model.hpp>
+#include <methods/finitedifferences/utilities/fdmaffinemodeltermstructure.hpp>
+#include <models/model.hpp>
 #include <utility>
 
 namespace QuantLib {

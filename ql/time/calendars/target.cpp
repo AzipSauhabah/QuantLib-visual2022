@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/calendars/target.hpp>
+#include <time/calendars/target.hpp>
 
 namespace QuantLib {
 

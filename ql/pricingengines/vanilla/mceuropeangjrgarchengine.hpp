@@ -24,8 +24,8 @@
 #ifndef quantlib_mc_european_gjrgarch_engine_hpp
 #define quantlib_mc_european_gjrgarch_engine_hpp
 
-#include <ql/pricingengines/vanilla/mcvanillaengine.hpp>
-#include <ql/processes/gjrgarchprocess.hpp>
+#include <pricingengines/vanilla/mcvanillaengine.hpp>
+#include <processes/gjrgarchprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -25,10 +25,10 @@
 #ifndef quantlib_swaption_calibration_helper_hpp
 #define quantlib_swaption_calibration_helper_hpp
 
-#include <ql/models/calibrationhelper.hpp>
-#include <ql/instruments/swaption.hpp>
-#include <ql/termstructures/volatility/volatilitytype.hpp>
-#include <ql/cashflows/rateaveraging.hpp>
+#include <models/calibrationhelper.hpp>
+#include <instruments/swaption.hpp>
+#include <termstructures/volatility/volatilitytype.hpp>
+#include <cashflows/rateaveraging.hpp>
 
 namespace QuantLib {
 

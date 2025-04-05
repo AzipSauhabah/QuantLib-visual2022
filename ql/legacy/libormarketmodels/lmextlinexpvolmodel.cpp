@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/legacy/libormarketmodels/lmextlinexpvolmodel.hpp>
+#include <legacy/libormarketmodels/lmextlinexpvolmodel.hpp>
 
 namespace QuantLib {
 

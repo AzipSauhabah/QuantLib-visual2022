@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmbermudanstepcondition.hpp>
-#include <ql/methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/stepconditions/fdmbermudanstepcondition.hpp>
+#include <methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
 #include <utility>
 
 namespace QuantLib {

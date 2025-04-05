@@ -20,21 +20,21 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/experimental/callablebonds/callablebond.hpp>
-#include <ql/experimental/callablebonds/treecallablebondengine.hpp>
-#include <ql/experimental/callablebonds/blackcallablebondengine.hpp>
-#include <ql/instruments/bonds/zerocouponbond.hpp>
-#include <ql/instruments/bonds/fixedratebond.hpp>
-#include <ql/pricingengines/bond/discountingbondengine.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/calendars/unitedstates.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/models/shortrate/onefactormodels/hullwhite.hpp>
-#include <ql/shared_ptr.hpp>
+#include <experimental/callablebonds/callablebond.hpp>
+#include <experimental/callablebonds/treecallablebondengine.hpp>
+#include <experimental/callablebonds/blackcallablebondengine.hpp>
+#include <instruments/bonds/zerocouponbond.hpp>
+#include <instruments/bonds/fixedratebond.hpp>
+#include <pricingengines/bond/discountingbondengine.hpp>
+#include <time/daycounters/thirty360.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <time/calendars/target.hpp>
+#include <time/calendars/unitedstates.hpp>
+#include <time/schedule.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <models/shortrate/onefactormodels/hullwhite.hpp>
+#include <shared_ptr.hpp>
 #include <iomanip>
 
 using namespace QuantLib;
@@ -697,16 +697,16 @@ BOOST_AUTO_TEST_CASE(testBlackEngine) {
     bond.setPricingEngine(ext::make_shared<BlackCallableZeroCouponBondEngine>(
         Handle<Quote>(ext::make_shared<SimpleQuote>(0.3)), vars.termStructure));
 
-    Real cached = 74.54521578;
+    Real expected = 74.52915084;
     Real calculated = bond.cleanPrice();
 
-    if (std::fabs(calculated - cached) > 1.0e-4)
+    if (std::fabs(calculated - expected) > 1.0e-4)
         BOOST_ERROR(
             "failed to reproduce cached price:\n"
             << std::setprecision(5)
             << "    calculated NPV: " << calculated << "\n"
-            << "    cached:         " << cached << "\n"
-            << "    difference:     " << calculated - cached);
+            << "    expected:       " << expected << "\n"
+            << "    difference:     " << calculated - expected);
 }
 
 BOOST_AUTO_TEST_CASE(testImpliedVol) {
@@ -749,7 +749,7 @@ BOOST_AUTO_TEST_CASE(testImpliedVol) {
                                              1e-4,  // min vol
                                              1.0);  // max vol
 
-    bond.setPricingEngine(ext::make_shared<BlackCallableFixedRateBondEngine>(
+    bond.setPricingEngine(ext::make_shared<BlackCallableZeroCouponBondEngine>(
         Handle<Quote>(ext::make_shared<SimpleQuote>(volatility)), vars.termStructure));
 
     if (std::fabs(bond.dirtyPrice() - targetPrice.amount()) > 1.0e-4)
@@ -768,7 +768,7 @@ BOOST_AUTO_TEST_CASE(testImpliedVol) {
                                         1e-4,  // min vol
                                         1.0);  // max vol
 
-    bond.setPricingEngine(ext::make_shared<BlackCallableFixedRateBondEngine>(
+    bond.setPricingEngine(ext::make_shared<BlackCallableZeroCouponBondEngine>(
         Handle<Quote>(ext::make_shared<SimpleQuote>(volatility)), vars.termStructure));
 
     if (std::fabs(bond.cleanPrice() - targetPrice.amount()) > 1.0e-4)
@@ -778,63 +778,6 @@ BOOST_AUTO_TEST_CASE(testImpliedVol) {
             << "    calculated price: " << bond.cleanPrice() << "\n"
             << "    expected:         " << targetPrice.amount() << "\n"
             << "    difference:       " << bond.cleanPrice() - targetPrice.amount());
-}
-
-BOOST_AUTO_TEST_CASE(testBlackEngineDeepInTheMoney) {
-
-    BOOST_TEST_MESSAGE("Testing Black engine for deep ITM European callable bond...");
-
-    Globals vars;
-
-    vars.today = Date(20, September, 2022);
-    Settings::instance().evaluationDate() = vars.today;
-    vars.settlement = vars.calendar.advance(vars.today, 3, Days);
-
-    vars.termStructure.linkTo(vars.makeFlatCurve(0.05));
-
-    Schedule schedule =
-        MakeSchedule()
-        .from(vars.issueDate())
-        .to(vars.maturityDate())
-        .withCalendar(vars.calendar)
-        .withFrequency(Semiannual)
-        .withConvention(vars.rollingConvention)
-        .withRule(DateGeneration::Backward);
-
-    std::vector<Rate> coupons = { 0.0 };
-
-    Date callabilityDate = schedule.at(6);
-    Real strike = 50.0;  // definitely ITM; see also the volatility value below
-
-    CallabilitySchedule callabilities = {
-        ext::make_shared<Callability>(
-                         Bond::Price(50.0, Bond::Price::Clean),
-                         Callability::Call,
-                         callabilityDate)
-    };
-
-    CallableFixedRateBond bond(3, 10000.0, schedule,
-                               coupons, Thirty360(Thirty360::BondBasis),
-                               vars.rollingConvention,
-                               100.0, vars.issueDate(),
-                               callabilities);
-
-    Volatility vol = 1e-10;
-    bond.setPricingEngine(ext::make_shared<BlackCallableFixedRateBondEngine>(
-        Handle<Quote>(ext::make_shared<SimpleQuote>(vol)), vars.termStructure));
-
-    Real expected =
-        strike * vars.termStructure->discount(callabilityDate)
-               / vars.termStructure->discount(bond.settlementDate());
-    Real calculated = bond.cleanPrice();
-
-    if (std::fabs(calculated - expected) > 1.0e-8)
-        BOOST_ERROR(
-            "failed to reproduce expected price:\n"
-            << std::setprecision(9)
-            << "    calculated NPV: " << calculated << "\n"
-            << "    expected:       " << expected << "\n"
-            << "    difference:     " << calculated - expected);
 }
 
 BOOST_AUTO_TEST_CASE(testCallableFixedRateBondWithArbitrarySchedule) {

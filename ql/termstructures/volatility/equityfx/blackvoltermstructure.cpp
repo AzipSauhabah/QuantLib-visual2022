@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/volatility/equityfx/blackvoltermstructure.hpp>
+#include <termstructures/volatility/equityfx/blackvoltermstructure.hpp>
 
 namespace QuantLib {
 

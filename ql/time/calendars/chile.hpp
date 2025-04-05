@@ -24,7 +24,7 @@
 #ifndef quantlib_chilean_calendar_hpp
 #define quantlib_chilean_calendar_hpp
 
-#include <ql/time/calendar.hpp>
+#include <time/calendar.hpp>
 
 namespace QuantLib {
 

@@ -19,13 +19,13 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/any.hpp>
-#include <ql/exercise.hpp>
-#include <ql/math/functional.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/pricingengines/blackcalculator.hpp>
-#include <ql/pricingengines/vanilla/bjerksundstenslandengine.hpp>
+#include <any.hpp>
+#include <exercise.hpp>
+#include <math/functional.hpp>
+#include <math/comparison.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <pricingengines/blackcalculator.hpp>
+#include <pricingengines/vanilla/bjerksundstenslandengine.hpp>
 #include <utility>
 #include <cmath>
 

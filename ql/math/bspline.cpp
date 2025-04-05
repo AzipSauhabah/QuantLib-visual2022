@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/bspline.hpp>
-#include <ql/errors.hpp>
+#include <math/bspline.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

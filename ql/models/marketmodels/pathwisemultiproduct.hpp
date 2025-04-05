@@ -21,7 +21,7 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef quantlib_market_model_pathwise_multi_product_hpp
 #define quantlib_market_model_pathwise_multi_product_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <vector>
 #include <memory>
 

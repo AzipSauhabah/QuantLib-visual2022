@@ -17,14 +17,14 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/coupons/quantocouponpricer.hpp>
-#include <ql/cashflows/capflooredcoupon.hpp>
-#include <ql/cashflows/digitalcoupon.hpp>
-#include <ql/cashflows/digitalcmscoupon.hpp>
-#include <ql/cashflows/digitaliborcoupon.hpp>
-#include <ql/cashflows/rangeaccrual.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/indexes/interestrateindex.hpp>
+#include <experimental/coupons/quantocouponpricer.hpp>
+#include <cashflows/capflooredcoupon.hpp>
+#include <cashflows/digitalcoupon.hpp>
+#include <cashflows/digitalcmscoupon.hpp>
+#include <cashflows/digitaliborcoupon.hpp>
+#include <cashflows/rangeaccrual.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <indexes/interestrateindex.hpp>
 
 namespace QuantLib {
 

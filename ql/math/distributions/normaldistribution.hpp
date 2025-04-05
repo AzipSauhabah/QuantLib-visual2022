@@ -26,8 +26,8 @@
 #ifndef quantlib_normal_distribution_hpp
 #define quantlib_normal_distribution_hpp
 
-#include <ql/math/errorfunction.hpp>
-#include <ql/errors.hpp>
+#include <math/errorfunction.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

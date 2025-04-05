@@ -24,9 +24,9 @@
 #ifndef quantlib_analytic_h1_hw_engine_hpp
 #define quantlib_analytic_h1_hw_engine_hpp
 
-#include <ql/models/equity/hestonmodel.hpp>
-#include <ql/models/shortrate/onefactormodels/hullwhite.hpp>
-#include <ql/pricingengines/vanilla/analytichestonhullwhiteengine.hpp>
+#include <models/equity/hestonmodel.hpp>
+#include <models/shortrate/onefactormodels/hullwhite.hpp>
+#include <pricingengines/vanilla/analytichestonhullwhiteengine.hpp>
 
 namespace QuantLib {
 

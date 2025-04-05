@@ -24,7 +24,7 @@
 #ifndef quantlib_ecb_hpp
 #define quantlib_ecb_hpp
 
-#include <ql/time/date.hpp>
+#include <time/date.hpp>
 #include <set>
 #include <vector>
 

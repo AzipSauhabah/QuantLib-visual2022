@@ -19,7 +19,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/methods/finitedifferences/stepconditions/fdmsnapshotcondition.hpp>
+#include <methods/finitedifferences/stepconditions/fdmsnapshotcondition.hpp>
 
 namespace QuantLib {
 

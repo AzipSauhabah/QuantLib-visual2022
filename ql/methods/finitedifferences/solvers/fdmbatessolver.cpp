@@ -20,10 +20,10 @@
 /*! \file fdmbatessolver.cpp
 */
 
-#include <ql/methods/finitedifferences/operators/fdmbatesop.hpp>
-#include <ql/methods/finitedifferences/solvers/fdm2dimsolver.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbatessolver.hpp>
-#include <ql/processes/batesprocess.hpp>
+#include <methods/finitedifferences/operators/fdmbatesop.hpp>
+#include <methods/finitedifferences/solvers/fdm2dimsolver.hpp>
+#include <methods/finitedifferences/solvers/fdmbatessolver.hpp>
+#include <processes/batesprocess.hpp>
 #include <utility>
 
 

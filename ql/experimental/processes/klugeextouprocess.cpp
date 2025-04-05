@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/processes/extendedornsteinuhlenbeckprocess.hpp>
-#include <ql/experimental/processes/extouwithjumpsprocess.hpp>
-#include <ql/experimental/processes/klugeextouprocess.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <experimental/processes/extendedornsteinuhlenbeckprocess.hpp>
+#include <experimental/processes/extouwithjumpsprocess.hpp>
+#include <experimental/processes/klugeextouprocess.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -26,8 +26,8 @@
 #ifndef quantlib_square_root_process_hpp
 #define quantlib_square_root_process_hpp
 
-#include <ql/stochasticprocess.hpp>
-#include <ql/processes/eulerdiscretization.hpp>
+#include <stochasticprocess.hpp>
+#include <processes/eulerdiscretization.hpp>
 
 namespace QuantLib {
 

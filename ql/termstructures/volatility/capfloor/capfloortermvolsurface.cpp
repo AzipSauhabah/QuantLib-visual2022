@@ -18,10 +18,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/volatility/capfloor/capfloortermvolsurface.hpp>
-#include <ql/math/interpolations/bicubicsplineinterpolation.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <termstructures/volatility/capfloor/capfloortermvolsurface.hpp>
+#include <math/interpolations/bicubicsplineinterpolation.hpp>
+#include <utilities/dataformatters.hpp>
+#include <quotes/simplequote.hpp>
 
 namespace QuantLib {
 

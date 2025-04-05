@@ -25,7 +25,7 @@
 #ifndef quantlib_risk_neutral_density_calculator_hpp
 #define quantlib_risk_neutral_density_calculator_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 
 namespace QuantLib {
     class RiskNeutralDensityCalculator {

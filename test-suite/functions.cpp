@@ -21,11 +21,11 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/comparison.hpp>
-#include <ql/math/factorial.hpp>
-#include <ql/math/distributions/gammadistribution.hpp>
-#include <ql/math/modifiedbessel.hpp>
-#include <ql/math/expm1.hpp>
+#include <math/comparison.hpp>
+#include <math/factorial.hpp>
+#include <math/distributions/gammadistribution.hpp>
+#include <math/modifiedbessel.hpp>
+#include <math/expm1.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

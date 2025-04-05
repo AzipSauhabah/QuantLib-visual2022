@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/volatility/sviinterpolation.hpp>
-#include <ql/experimental/volatility/svismilesection.hpp>
+#include <experimental/volatility/sviinterpolation.hpp>
+#include <experimental/volatility/svismilesection.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -24,14 +24,14 @@
 #ifndef quantlib_analytic_heston_forward_european_engine_hpp
 #define quantlib_analytic_heston_forward_european_engine_hpp
 
-#include <ql/instruments/forwardvanillaoption.hpp>
-#include <ql/pricingengines/vanilla/analytichestonengine.hpp>
-#include <ql/processes/hestonprocess.hpp>
-#include <ql/models/equity/hestonmodel.hpp>
-#include <ql/math/modifiedbessel.hpp>
-#include <ql/math/integrals/gaussianquadratures.hpp>
-#include <ql/exercise.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <instruments/forwardvanillaoption.hpp>
+#include <pricingengines/vanilla/analytichestonengine.hpp>
+#include <processes/hestonprocess.hpp>
+#include <models/equity/hestonmodel.hpp>
+#include <math/modifiedbessel.hpp>
+#include <math/integrals/gaussianquadratures.hpp>
+#include <exercise.hpp>
+#include <quotes/simplequote.hpp>
 
 namespace QuantLib {
 

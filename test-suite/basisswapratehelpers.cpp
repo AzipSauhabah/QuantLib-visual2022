@@ -19,15 +19,15 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/experimental/termstructures/basisswapratehelpers.hpp>
-#include <ql/indexes/ibor/sofr.hpp>
-#include <ql/indexes/ibor/usdlibor.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/cashflows/overnightindexedcoupon.hpp>
-#include <ql/instruments/swap.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/termstructures/yield/piecewiseyieldcurve.hpp>
-#include <ql/time/calendars/unitedstates.hpp>
+#include <experimental/termstructures/basisswapratehelpers.hpp>
+#include <indexes/ibor/sofr.hpp>
+#include <indexes/ibor/usdlibor.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <cashflows/overnightindexedcoupon.hpp>
+#include <instruments/swap.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <termstructures/yield/piecewiseyieldcurve.hpp>
+#include <time/calendars/unitedstates.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

@@ -24,11 +24,11 @@
 #ifndef quantlib_fdm_black_scholes_mesher_hpp
 #define quantlib_fdm_black_scholes_mesher_hpp
 
-#include <ql/instruments/dividendschedule.hpp>
-#include <ql/methods/finitedifferences/meshers/fdm1dmesher.hpp>
+#include <instruments/dividendschedule.hpp>
+#include <methods/finitedifferences/meshers/fdm1dmesher.hpp>
 
-#include <ql/handle.hpp>
-#include <ql/quote.hpp>
+#include <handle.hpp>
+#include <quote.hpp>
 
 namespace QuantLib {
 

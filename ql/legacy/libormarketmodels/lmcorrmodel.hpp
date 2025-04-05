@@ -24,10 +24,10 @@
 #ifndef quantlib_libor_forward_correlation_model_hpp
 #define quantlib_libor_forward_correlation_model_hpp
 
-#include <ql/math/array.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/models/parameter.hpp>
-#include <ql/utilities/null.hpp>
+#include <math/array.hpp>
+#include <math/matrix.hpp>
+#include <models/parameter.hpp>
+#include <utilities/null.hpp>
 
 namespace QuantLib {
 

@@ -17,10 +17,10 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/products/multistep/multisteppathwisewrapper.hpp>
-#include <ql/models/marketmodels/curvestate.hpp>
-#include <ql/models/marketmodels/utilities.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/products/multistep/multisteppathwisewrapper.hpp>
+#include <models/marketmodels/curvestate.hpp>
+#include <models/marketmodels/utilities.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
 
 namespace QuantLib 
 {

@@ -20,7 +20,7 @@
 #ifndef quantlib_correl_term_structure_hpp
 #define quantlib_correl_term_structure_hpp
 
-#include <ql/termstructure.hpp>
+#include <termstructure.hpp>
 
 namespace QuantLib {
 

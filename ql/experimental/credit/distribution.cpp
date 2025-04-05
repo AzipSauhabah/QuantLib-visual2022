@@ -21,9 +21,9 @@
     \brief Discretized probability density and cumulative probability
 */
 
-#include <ql/experimental/credit/distribution.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/errors.hpp>
+#include <experimental/credit/distribution.hpp>
+#include <math/comparison.hpp>
+#include <errors.hpp>
 #include <algorithm>
 #include <functional>
 

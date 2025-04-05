@@ -20,9 +20,9 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/matrixutilities/getcovariance.hpp>
-#include <ql/math/matrixutilities/pseudosqrt.hpp>
-#include <ql/math/statistics/sequencestatistics.hpp>
+#include <math/matrixutilities/getcovariance.hpp>
+#include <math/matrixutilities/pseudosqrt.hpp>
+#include <math/statistics/sequencestatistics.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

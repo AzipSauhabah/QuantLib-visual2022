@@ -24,7 +24,7 @@
 #ifndef quantlib_tree_lattice_1d_hpp
 #define quantlib_tree_lattice_1d_hpp
 
-#include <ql/methods/lattices/lattice.hpp>
+#include <methods/lattices/lattice.hpp>
 
 namespace QuantLib {
 

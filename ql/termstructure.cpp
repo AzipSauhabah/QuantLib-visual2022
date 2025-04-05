@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/comparison.hpp>
-#include <ql/termstructure.hpp>
+#include <math/comparison.hpp>
+#include <termstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

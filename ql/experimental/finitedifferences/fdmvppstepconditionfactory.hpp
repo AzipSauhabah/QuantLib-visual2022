@@ -24,10 +24,10 @@
 #ifndef quantlib_fdm_vpp_step_condition_factory_hpp
 #define quantlib_fdm_vpp_step_condition_factory_hpp
 
-#include <ql/math/array.hpp>
-#include <ql/methods/finitedifferences/stepcondition.hpp>
-#include <ql/experimental/finitedifferences/vanillavppoption.hpp>
-#include <ql/experimental/finitedifferences/fdmvppstepcondition.hpp>
+#include <math/array.hpp>
+#include <methods/finitedifferences/stepcondition.hpp>
+#include <experimental/finitedifferences/vanillavppoption.hpp>
+#include <experimental/finitedifferences/fdmvppstepcondition.hpp>
 
 namespace QuantLib {
     class Fdm1dMesher;

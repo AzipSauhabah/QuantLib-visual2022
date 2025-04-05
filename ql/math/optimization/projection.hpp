@@ -26,7 +26,7 @@
 #ifndef quantlib_math_projection_h
 #define quantlib_math_projection_h
 
-#include <ql/math/array.hpp>
+#include <math/array.hpp>
 
 namespace QuantLib {
 

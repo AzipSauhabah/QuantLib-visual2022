@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/daycounters/actualactual.hpp>
+#include <time/daycounters/actualactual.hpp>
 #include <algorithm>
 #include <cmath>
 

@@ -26,9 +26,9 @@
 #ifndef quantlib_spreaded_caplet_volstructure_h
 #define quantlib_spreaded_caplet_volstructure_h
 
-#include <ql/termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
-#include <ql/termstructures/volatility/optionlet/optionletstripper.hpp>
-#include <ql/termstructures/volatility/optionlet/strippedoptionletadapter.hpp>
+#include <termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
+#include <termstructures/volatility/optionlet/optionletstripper.hpp>
+#include <termstructures/volatility/optionlet/strippedoptionletadapter.hpp>
 
 namespace QuantLib {
 

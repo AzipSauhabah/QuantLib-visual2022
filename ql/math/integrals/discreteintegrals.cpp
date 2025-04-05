@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/integrals/discreteintegrals.hpp>
+#include <math/integrals/discreteintegrals.hpp>
 
 namespace QuantLib {
 

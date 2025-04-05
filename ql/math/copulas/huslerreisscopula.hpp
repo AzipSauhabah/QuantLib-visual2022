@@ -25,7 +25,7 @@
 #ifndef quantlib_math_husler_reiss_copula_hpp
 #define quantlib_math_husler_reiss_copula_hpp
 
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <math/distributions/normaldistribution.hpp>
 #include <functional>
 
 namespace QuantLib {

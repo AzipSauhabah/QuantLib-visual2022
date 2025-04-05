@@ -18,19 +18,19 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/models/capletcoterminalperiodic.hpp>
-#include <ql/models/marketmodels/models/capletcoterminalmaxhomogeneity.hpp>
-#include <ql/models/marketmodels/models/piecewiseconstantvariance.hpp>
-#include <ql/models/marketmodels/models/volatilityinterpolationspecifier.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/models/marketmodels/curvestate.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/models/marketmodels/piecewiseconstantcorrelation.hpp>
-#include <ql/models/marketmodels/models/pseudorootfacade.hpp>
-#include <ql/models/marketmodels/models/cotswaptofwdadapter.hpp>
-#include <ql/models/marketmodels/models/fwdperiodadapter.hpp>
-#include <ql/models/marketmodels/models/fwdtocotswapadapter.hpp>
-#include <ql/shared_ptr.hpp>
+#include <models/marketmodels/models/capletcoterminalperiodic.hpp>
+#include <models/marketmodels/models/capletcoterminalmaxhomogeneity.hpp>
+#include <models/marketmodels/models/piecewiseconstantvariance.hpp>
+#include <models/marketmodels/models/volatilityinterpolationspecifier.hpp>
+#include <math/matrix.hpp>
+#include <models/marketmodels/curvestate.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/piecewiseconstantcorrelation.hpp>
+#include <models/marketmodels/models/pseudorootfacade.hpp>
+#include <models/marketmodels/models/cotswaptofwdadapter.hpp>
+#include <models/marketmodels/models/fwdperiodadapter.hpp>
+#include <models/marketmodels/models/fwdtocotswapadapter.hpp>
+#include <shared_ptr.hpp>
 #include <vector>
 
 namespace QuantLib

@@ -24,7 +24,7 @@
 #ifndef quantlib_composite_instrument_hpp
 #define quantlib_composite_instrument_hpp
 
-#include <ql/instrument.hpp>
+#include <instrument.hpp>
 #include <list>
 #include <utility>
 

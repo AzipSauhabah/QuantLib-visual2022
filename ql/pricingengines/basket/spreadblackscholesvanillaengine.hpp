@@ -24,8 +24,8 @@
 #ifndef quantlib_spread_black_scholes_vanilla_engine_hpp
 #define quantlib_spread_black_scholes_vanilla_engine_hpp
 
-#include <ql/instruments/basketoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <instruments/basketoption.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

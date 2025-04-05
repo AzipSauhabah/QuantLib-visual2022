@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/event.hpp>
-#include <ql/instruments/forward.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <event.hpp>
+#include <instruments/forward.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

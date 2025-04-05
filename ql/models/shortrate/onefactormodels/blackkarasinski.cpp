@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/shortrate/onefactormodels/blackkarasinski.hpp>
-#include <ql/methods/lattices/trinomialtree.hpp>
-#include <ql/math/solvers1d/brent.hpp>
+#include <models/shortrate/onefactormodels/blackkarasinski.hpp>
+#include <methods/lattices/trinomialtree.hpp>
+#include <math/solvers1d/brent.hpp>
 
 namespace QuantLib {
 

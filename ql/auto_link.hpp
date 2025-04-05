@@ -21,7 +21,7 @@
 #ifndef quantlib_autolink_hpp
 #define quantlib_autolink_hpp
 
-#include <ql/version.hpp>
+#include <version.hpp>
 #include <boost/config.hpp>
 
 #ifdef _M_X64

@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflow.hpp>
-#include <ql/settings.hpp>
-#include <ql/patterns/visitor.hpp>
+#include <cashflow.hpp>
+#include <settings.hpp>
+#include <patterns/visitor.hpp>
 
 namespace QuantLib {
 

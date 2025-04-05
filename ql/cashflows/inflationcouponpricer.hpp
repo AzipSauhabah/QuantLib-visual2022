@@ -24,10 +24,10 @@
 #ifndef quantlib_inflation_coupon_pricer_hpp
 #define quantlib_inflation_coupon_pricer_hpp
 
-#include <ql/cashflow.hpp>
-#include <ql/option.hpp>
-#include <ql/cashflows/yoyinflationcoupon.hpp>
-#include <ql/termstructures/volatility/inflation/yoyinflationoptionletvolatilitystructure.hpp>
+#include <cashflow.hpp>
+#include <option.hpp>
+#include <cashflows/yoyinflationcoupon.hpp>
+#include <termstructures/volatility/inflation/yoyinflationoptionletvolatilitystructure.hpp>
 
 namespace QuantLib {
 

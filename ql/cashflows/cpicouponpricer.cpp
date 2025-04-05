@@ -18,7 +18,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
  */
 
-#include <ql/cashflows/cpicouponpricer.hpp>
+#include <cashflows/cpicouponpricer.hpp>
 #include <utility>
 
 namespace QuantLib {

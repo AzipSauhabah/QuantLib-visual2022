@@ -25,9 +25,9 @@
 #ifndef quantlib_overnightindexfuture_hpp
 #define quantlib_overnightindexfuture_hpp
 
-#include <ql/indexes/iborindex.hpp>
-#include <ql/instruments/forward.hpp>
-#include <ql/cashflows/rateaveraging.hpp>
+#include <indexes/iborindex.hpp>
+#include <instruments/forward.hpp>
+#include <cashflows/rateaveraging.hpp>
 
 namespace QuantLib {
 

@@ -18,10 +18,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/credit/defaultevent.hpp>
-#include <ql/experimental/credit/recoveryratequote.hpp>
-#include <ql/patterns/visitor.hpp>
-#include <ql/settings.hpp>
+#include <experimental/credit/defaultevent.hpp>
+#include <experimental/credit/recoveryratequote.hpp>
+#include <patterns/visitor.hpp>
+#include <settings.hpp>
 #include <utility>
 
 namespace QuantLib {

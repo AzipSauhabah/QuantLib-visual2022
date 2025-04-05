@@ -20,10 +20,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/utilities/dataparsers.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/time/period.hpp>
-#include <ql/errors.hpp>
+#include <utilities/dataparsers.hpp>
+#include <utilities/null.hpp>
+#include <time/period.hpp>
+#include <errors.hpp>
 #ifndef QL_PATCH_SOLARIS
 #include <boost/algorithm/string/case_conv.hpp>
 #include <boost/date_time/gregorian/gregorian.hpp>

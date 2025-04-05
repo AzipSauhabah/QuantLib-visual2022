@@ -19,11 +19,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/instruments/barrieroption.hpp>
-#include <ql/instruments/impliedvolatility.hpp>
-#include <ql/pricingengines/barrier/analyticbarrierengine.hpp>
-#include <ql/pricingengines/barrier/fdblackscholesbarrierengine.hpp>
+#include <exercise.hpp>
+#include <instruments/barrieroption.hpp>
+#include <instruments/impliedvolatility.hpp>
+#include <pricingengines/barrier/analyticbarrierengine.hpp>
+#include <pricingengines/barrier/fdblackscholesbarrierengine.hpp>
 #include <memory>
 
 namespace QuantLib {

@@ -24,10 +24,10 @@
 #ifndef quantlib_equitytotalreturnswap_hpp
 #define quantlib_equitytotalreturnswap_hpp
 
-#include <ql/instruments/swap.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/time/calendar.hpp>
-#include <ql/time/daycounter.hpp>
+#include <instruments/swap.hpp>
+#include <time/schedule.hpp>
+#include <time/calendar.hpp>
+#include <time/daycounter.hpp>
 
 namespace QuantLib {
     class InterestRateIndex;

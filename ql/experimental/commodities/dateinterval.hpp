@@ -24,8 +24,8 @@
 #ifndef quantlib_date_interval_hpp
 #define quantlib_date_interval_hpp
 
-#include <ql/time/date.hpp>
-#include <ql/errors.hpp>
+#include <time/date.hpp>
+#include <errors.hpp>
 #include <algorithm>
 
 namespace QuantLib {

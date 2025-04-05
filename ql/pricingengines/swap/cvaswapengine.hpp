@@ -20,9 +20,9 @@
 #ifndef quantlib_cva_swap_engine_hpp
 #define quantlib_cva_swap_engine_hpp
 
-#include <ql/handle.hpp>
-#include <ql/instruments/vanillaswap.hpp>
-#include <ql/termstructures/defaulttermstructure.hpp>
+#include <handle.hpp>
+#include <instruments/vanillaswap.hpp>
+#include <termstructures/defaulttermstructure.hpp>
 
 namespace QuantLib {
 

@@ -24,10 +24,10 @@
 #ifndef quantlib_yoy_optionlet_helpers_hpp
 #define quantlib_yoy_optionlet_helpers_hpp
 
-#include <ql/experimental/inflation/yoyinflationoptionletvolatilitystructure2.hpp>
-#include <ql/instruments/inflationcapfloor.hpp>
-#include <ql/pricingengines/inflation/inflationcapfloorengines.hpp>
-#include <ql/termstructures/bootstraphelper.hpp>
+#include <experimental/inflation/yoyinflationoptionletvolatilitystructure2.hpp>
+#include <instruments/inflationcapfloor.hpp>
+#include <pricingengines/inflation/inflationcapfloorengines.hpp>
+#include <termstructures/bootstraphelper.hpp>
 
 namespace QuantLib {
 

@@ -26,10 +26,10 @@
 #ifndef quantlib_asset_swap_hpp
 #define quantlib_asset_swap_hpp
 
-#include <ql/instruments/swap.hpp>
-#include <ql/instruments/bond.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/time/daycounter.hpp>
+#include <instruments/swap.hpp>
+#include <instruments/bond.hpp>
+#include <time/schedule.hpp>
+#include <time/daycounter.hpp>
 
 namespace QuantLib {
 

@@ -25,8 +25,8 @@
 #ifndef quantlib_interpolated_swaption_volatility_cube_hpp
 #define quantlib_interpolated_swaption_volatility_cube_hpp
 
-#include <ql/termstructures/volatility/swaption/swaptionvolcube.hpp>
-#include <ql/math/interpolations/interpolation2d.hpp>
+#include <termstructures/volatility/swaption/swaptionvolcube.hpp>
+#include <math/interpolations/interpolation2d.hpp>
 
 namespace QuantLib {    
 

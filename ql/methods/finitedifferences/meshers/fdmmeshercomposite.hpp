@@ -26,9 +26,9 @@
 #ifndef quantlib_fdm_mesher_composite_hpp
 #define quantlib_fdm_mesher_composite_hpp
 
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/meshers/fdm1dmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearopiterator.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/meshers/fdm1dmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearopiterator.hpp>
 
 namespace QuantLib {
 

@@ -25,8 +25,8 @@
 #ifndef quantlib_optimization_costfunction_h
 #define quantlib_optimization_costfunction_h
 
-#include <ql/math/array.hpp>
-#include <ql/math/matrix.hpp>
+#include <math/array.hpp>
+#include <math/matrix.hpp>
 
 namespace QuantLib {
 

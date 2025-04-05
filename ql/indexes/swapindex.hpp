@@ -23,9 +23,9 @@
 #ifndef quantlib_swapindex_hpp
 #define quantlib_swapindex_hpp
 
-#include <ql/indexes/interestrateindex.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/cashflows/rateaveraging.hpp>
+#include <indexes/interestrateindex.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <cashflows/rateaveraging.hpp>
 
 namespace QuantLib {
 

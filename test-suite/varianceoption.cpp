@@ -19,10 +19,10 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/experimental/varianceoption/varianceoption.hpp>
-#include <ql/experimental/varianceoption/integralhestonvarianceoptionengine.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <experimental/varianceoption/varianceoption.hpp>
+#include <experimental/varianceoption/integralhestonvarianceoptionengine.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <quotes/simplequote.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

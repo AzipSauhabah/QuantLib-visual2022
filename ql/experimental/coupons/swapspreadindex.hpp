@@ -22,7 +22,7 @@
 #ifndef quantlib_swapspreadindex_hpp
 #define quantlib_swapspreadindex_hpp
 
-#include <ql/indexes/swapindex.hpp>
+#include <indexes/swapindex.hpp>
 
 namespace QuantLib {
 

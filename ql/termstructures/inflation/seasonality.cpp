@@ -20,9 +20,9 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
 
-#include <ql/termstructures/inflation/seasonality.hpp>
-#include <ql/termstructures/inflationtermstructure.hpp>
-#include <ql/errors.hpp>
+#include <termstructures/inflation/seasonality.hpp>
+#include <termstructures/inflationtermstructure.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

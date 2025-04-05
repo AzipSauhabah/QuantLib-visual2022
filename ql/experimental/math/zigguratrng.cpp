@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/math/zigguratrng.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <experimental/math/zigguratrng.hpp>
+#include <math/distributions/normaldistribution.hpp>
 #include <cmath>
 
 namespace QuantLib {

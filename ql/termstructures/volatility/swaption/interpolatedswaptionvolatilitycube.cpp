@@ -20,11 +20,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/volatility/swaption/interpolatedswaptionvolatilitycube.hpp>
-#include <ql/termstructures/volatility/interpolatedsmilesection.hpp>
-#include <ql/math/interpolations/bilinearinterpolation.hpp>
-#include <ql/math/rounding.hpp>
-#include <ql/indexes/swapindex.hpp>
+#include <termstructures/volatility/swaption/interpolatedswaptionvolatilitycube.hpp>
+#include <termstructures/volatility/interpolatedsmilesection.hpp>
+#include <math/interpolations/bilinearinterpolation.hpp>
+#include <math/rounding.hpp>
+#include <indexes/swapindex.hpp>
 
 namespace QuantLib {
 

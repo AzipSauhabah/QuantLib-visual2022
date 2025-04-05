@@ -20,8 +20,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/lattices/extendedbinomialtree.hpp>
-#include <ql/math/distributions/binomialdistribution.hpp>
+#include <experimental/lattices/extendedbinomialtree.hpp>
+#include <math/distributions/binomialdistribution.hpp>
 
 namespace QuantLib {
 

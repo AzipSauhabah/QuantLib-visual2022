@@ -24,8 +24,8 @@
 #ifndef quantlib_spread_option_hpp
 #define quantlib_spread_option_hpp
 
-#include <ql/instruments/multiassetoption.hpp>
-#include <ql/instruments/payoffs.hpp>
+#include <instruments/multiassetoption.hpp>
+#include <instruments/payoffs.hpp>
 
 namespace QuantLib {
 

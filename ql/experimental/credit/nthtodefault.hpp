@@ -24,12 +24,12 @@
 #ifndef quantlib_nth_to_default_hpp
 #define quantlib_nth_to_default_hpp
 
-#include <ql/instrument.hpp>
-#include <ql/cashflow.hpp>
-#include <ql/default.hpp>
-#include <ql/termstructures/defaulttermstructure.hpp>
-#include <ql/experimental/credit/onefactorcopula.hpp>
-#include <ql/time/schedule.hpp>
+#include <instrument.hpp>
+#include <cashflow.hpp>
+#include <default.hpp>
+#include <termstructures/defaulttermstructure.hpp>
+#include <experimental/credit/onefactorcopula.hpp>
+#include <time/schedule.hpp>
 
 namespace QuantLib {
 

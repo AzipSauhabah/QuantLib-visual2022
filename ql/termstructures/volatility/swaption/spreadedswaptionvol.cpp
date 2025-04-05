@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/quote.hpp>
-#include <ql/termstructures/volatility/spreadedsmilesection.hpp>
-#include <ql/termstructures/volatility/swaption/spreadedswaptionvol.hpp>
+#include <quote.hpp>
+#include <termstructures/volatility/spreadedsmilesection.hpp>
+#include <termstructures/volatility/swaption/spreadedswaptionvol.hpp>
 #include <utility>
 
 namespace QuantLib {

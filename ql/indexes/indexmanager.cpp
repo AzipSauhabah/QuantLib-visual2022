@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/indexes/indexmanager.hpp>
+#include <indexes/indexmanager.hpp>
 
 namespace QuantLib {
 

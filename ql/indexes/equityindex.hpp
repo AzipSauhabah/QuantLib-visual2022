@@ -24,10 +24,10 @@
 #ifndef quantlib_equityindex_hpp
 #define quantlib_equityindex_hpp
 
-#include <ql/index.hpp>
-#include <ql/time/calendar.hpp>
-#include <ql/currency.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <index.hpp>
+#include <time/calendar.hpp>
+#include <currency.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 
 namespace QuantLib {
 

@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/zeroinflationcashflow.hpp>
-#include <ql/indexes/inflationindex.hpp>
-#include <ql/termstructures/inflationtermstructure.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
+#include <cashflows/zeroinflationcashflow.hpp>
+#include <indexes/inflationindex.hpp>
+#include <termstructures/inflationtermstructure.hpp>
+#include <time/calendars/nullcalendar.hpp>
 
 namespace QuantLib {
 

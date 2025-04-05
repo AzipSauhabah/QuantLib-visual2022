@@ -31,8 +31,8 @@
 #define quantlib_parallel_test_runner_hpp
 
 
-#include <ql/types.hpp>
-#include <ql/errors.hpp>
+#include <types.hpp>
+#include <errors.hpp>
 
 #ifdef VERSION
 /* This comes from ./configure, and for some reason it interferes with

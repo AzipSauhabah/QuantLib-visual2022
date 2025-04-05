@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/exoticoptions/himalayaoption.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/exercise.hpp>
+#include <experimental/exoticoptions/himalayaoption.hpp>
+#include <instruments/payoffs.hpp>
+#include <exercise.hpp>
 
 namespace QuantLib {
 

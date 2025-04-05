@@ -24,8 +24,8 @@
 #ifndef quantlib_inflation_termstructure_hpp
 #define quantlib_inflation_termstructure_hpp
 
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/termstructures/inflation/seasonality.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <termstructures/inflation/seasonality.hpp>
 
 namespace QuantLib {
 

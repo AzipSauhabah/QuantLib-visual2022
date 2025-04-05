@@ -24,7 +24,7 @@
 #ifndef quantlib_expm_hpp
 #define quantlib_expm_hpp
 
-#include <ql/math/matrix.hpp>
+#include <math/matrix.hpp>
 
 namespace QuantLib {
 

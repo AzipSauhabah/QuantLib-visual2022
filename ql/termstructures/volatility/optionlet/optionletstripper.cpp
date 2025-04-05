@@ -19,8 +19,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/indexes/iborindex.hpp>
-#include <ql/termstructures/volatility/optionlet/optionletstripper.hpp>
+#include <indexes/iborindex.hpp>
+#include <termstructures/volatility/optionlet/optionletstripper.hpp>
 #include <utility>
 
 using std::vector;

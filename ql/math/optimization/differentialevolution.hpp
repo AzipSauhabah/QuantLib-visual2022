@@ -25,9 +25,9 @@
 #ifndef quantlib_optimization_differential_evolution_hpp
 #define quantlib_optimization_differential_evolution_hpp
 
-#include <ql/math/optimization/constraint.hpp>
-#include <ql/math/optimization/problem.hpp>
-#include <ql/math/randomnumbers/mt19937uniformrng.hpp>
+#include <math/optimization/constraint.hpp>
+#include <math/optimization/problem.hpp>
+#include <math/randomnumbers/mt19937uniformrng.hpp>
 
 namespace QuantLib {
 

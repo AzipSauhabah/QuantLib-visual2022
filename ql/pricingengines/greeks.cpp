@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/greeks.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <pricingengines/greeks.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

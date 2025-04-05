@@ -25,10 +25,10 @@
 #ifndef quantlib_cash_flow_hpp
 #define quantlib_cash_flow_hpp
 
-#include <ql/event.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/optional.hpp>
-#include <ql/patterns/lazyobject.hpp>
+#include <event.hpp>
+#include <math/comparison.hpp>
+#include <optional.hpp>
+#include <patterns/lazyobject.hpp>
 #include <vector>
 
 namespace QuantLib {

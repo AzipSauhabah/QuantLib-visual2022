@@ -20,14 +20,14 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/methods/finitedifferences/dzero.hpp>
-#include <ql/methods/finitedifferences/dplusdminus.hpp>
-#include <ql/methods/finitedifferences/bsmoperator.hpp>
-#include <ql/methods/finitedifferences/pdebsm.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <methods/finitedifferences/dzero.hpp>
+#include <methods/finitedifferences/dplusdminus.hpp>
+#include <methods/finitedifferences/bsmoperator.hpp>
+#include <methods/finitedifferences/pdebsm.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <quotes/simplequote.hpp>
+#include <utilities/dataformatters.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

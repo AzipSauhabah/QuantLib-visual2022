@@ -22,17 +22,17 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/models/marketmodels/curvestates/lmmcurvestate.hpp>
-#include <ql/models/marketmodels/curvestates/coterminalswapcurvestate.hpp>
-#include <ql/models/marketmodels/curvestates/cmswapcurvestate.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/models/marketmodels/driftcomputation/lmmdriftcalculator.hpp>
-#include <ql/models/marketmodels/driftcomputation/cmsmmdriftcalculator.hpp>
-#include <ql/models/marketmodels/driftcomputation/smmdriftcalculator.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/time/daycounters/simpledaycounter.hpp>
+#include <models/marketmodels/curvestates/lmmcurvestate.hpp>
+#include <models/marketmodels/curvestates/coterminalswapcurvestate.hpp>
+#include <models/marketmodels/curvestates/cmswapcurvestate.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/driftcomputation/lmmdriftcalculator.hpp>
+#include <models/marketmodels/driftcomputation/cmsmmdriftcalculator.hpp>
+#include <models/marketmodels/driftcomputation/smmdriftcalculator.hpp>
+#include <utilities/dataformatters.hpp>
+#include <math/matrix.hpp>
+#include <time/schedule.hpp>
+#include <time/daycounters/simpledaycounter.hpp>
 #include <sstream>
 
 using namespace QuantLib;

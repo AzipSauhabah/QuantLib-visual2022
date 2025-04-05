@@ -25,11 +25,11 @@
 #ifndef quantlib_analytic_continuous_geometric_average_price_asian_heston_engine_hpp
 #define quantlib_analytic_continuous_geometric_average_price_asian_heston_engine_hpp
 
-#include <ql/instruments/asianoption.hpp>
-#include <ql/processes/hestonprocess.hpp>
-#include <ql/math/integrals/gaussianquadratures.hpp>
-#include <ql/math/integrals/simpsonintegral.hpp>
-#include <ql/exercise.hpp>
+#include <instruments/asianoption.hpp>
+#include <processes/hestonprocess.hpp>
+#include <math/integrals/gaussianquadratures.hpp>
+#include <math/integrals/simpsonintegral.hpp>
+#include <exercise.hpp>
 #include <complex>
 
 namespace QuantLib {

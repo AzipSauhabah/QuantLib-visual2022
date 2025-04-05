@@ -24,9 +24,9 @@
 #ifndef quantlib_instruments_inflationcapfloor_hpp
 #define quantlib_instruments_inflationcapfloor_hpp
 
-#include <ql/instrument.hpp>
-#include <ql/cashflows/yoyinflationcoupon.hpp>
-#include <ql/handle.hpp>
+#include <instrument.hpp>
+#include <cashflows/yoyinflationcoupon.hpp>
+#include <handle.hpp>
 
 namespace QuantLib {
 

@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/volatility/noarbsabrsmilesection.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/termstructures/volatility/sabr.hpp>
+#include <experimental/volatility/noarbsabrsmilesection.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <termstructures/volatility/sabr.hpp>
 #include <utility>
 
 

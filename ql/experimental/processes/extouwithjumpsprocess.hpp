@@ -24,8 +24,8 @@
 #ifndef quantlib_ext_ou_with_jumps_process_hpp
 #define quantlib_ext_ou_with_jumps_process_hpp
 
-#include <ql/stochasticprocess.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <stochasticprocess.hpp>
+#include <math/distributions/normaldistribution.hpp>
 
 namespace QuantLib {
 

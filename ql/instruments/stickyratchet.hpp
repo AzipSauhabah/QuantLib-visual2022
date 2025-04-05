@@ -25,8 +25,8 @@
 #ifndef quantlib_stickyratchet_hpp
 #define quantlib_stickyratchet_hpp
 
-#include <ql/option.hpp>
-#include <ql/payoff.hpp>
+#include <option.hpp>
+#include <payoff.hpp>
 
 namespace QuantLib {
     

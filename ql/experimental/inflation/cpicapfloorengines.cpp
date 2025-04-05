@@ -19,9 +19,9 @@
 */
 
 
-#include <ql/experimental/inflation/cpicapfloorengines.hpp>
-#include <ql/experimental/inflation/cpicapfloortermpricesurface.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
+#include <experimental/inflation/cpicapfloorengines.hpp>
+#include <experimental/inflation/cpicapfloortermpricesurface.hpp>
+#include <time/daycounters/actualactual.hpp>
 #include <utility>
 
 

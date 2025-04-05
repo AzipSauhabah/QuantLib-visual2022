@@ -24,8 +24,8 @@
 #ifndef quantlib_levy_flight_distribution_hpp
 #define quantlib_levy_flight_distribution_hpp
 
-#include <ql/types.hpp>
-#include <ql/errors.hpp>
+#include <types.hpp>
+#include <errors.hpp>
 #include <random>
 
 namespace QuantLib {

@@ -25,11 +25,11 @@
 #ifndef quantlib_interpolation2D_hpp
 #define quantlib_interpolation2D_hpp
 
-#include <ql/math/interpolations/extrapolation.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/errors.hpp>
-#include <ql/types.hpp>
+#include <math/interpolations/extrapolation.hpp>
+#include <math/comparison.hpp>
+#include <math/matrix.hpp>
+#include <errors.hpp>
+#include <types.hpp>
 #include <vector>
 
 namespace QuantLib {

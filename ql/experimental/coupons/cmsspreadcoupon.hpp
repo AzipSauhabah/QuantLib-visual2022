@@ -22,11 +22,11 @@
 #ifndef quantlib_cmsspread_coupon_hpp
 #define quantlib_cmsspread_coupon_hpp
 
-#include <ql/cashflows/capflooredcoupon.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/cashflows/floatingratecoupon.hpp>
-#include <ql/experimental/coupons/swapspreadindex.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/capflooredcoupon.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <cashflows/floatingratecoupon.hpp>
+#include <experimental/coupons/swapspreadindex.hpp>
+#include <time/schedule.hpp>
 #include <utility>
 
 namespace QuantLib {

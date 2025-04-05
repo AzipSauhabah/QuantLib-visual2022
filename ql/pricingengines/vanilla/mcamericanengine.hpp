@@ -27,15 +27,15 @@
 #ifndef quantlib_mc_american_engine_hpp
 #define quantlib_mc_american_engine_hpp
 
-#include <ql/qldefines.hpp>
-#include <ql/payoff.hpp>
-#include <ql/exercise.hpp>
-#include <ql/optional.hpp>
-#include <ql/methods/montecarlo/lsmbasissystem.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/pricingengines/mclongstaffschwartzengine.hpp>
-#include <ql/pricingengines/vanilla/mceuropeanengine.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <qldefines.hpp>
+#include <payoff.hpp>
+#include <exercise.hpp>
+#include <optional.hpp>
+#include <methods/montecarlo/lsmbasissystem.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <pricingengines/mclongstaffschwartzengine.hpp>
+#include <pricingengines/vanilla/mceuropeanengine.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
 
 namespace QuantLib {
 

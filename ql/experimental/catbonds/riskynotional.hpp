@@ -24,9 +24,9 @@
 #ifndef quantlib_risky_notional_hpp
 #define quantlib_risky_notional_hpp
 
-#include <ql/errors.hpp>
-#include <ql/shared_ptr.hpp>
-#include <ql/time/date.hpp>
+#include <errors.hpp>
+#include <shared_ptr.hpp>
+#include <time/date.hpp>
 #include <algorithm>
 #include <utility>
 #include <vector>

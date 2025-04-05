@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/timebasket.hpp>
-#include <ql/errors.hpp>
+#include <cashflows/timebasket.hpp>
+#include <errors.hpp>
 #include <algorithm>
 
 namespace QuantLib {

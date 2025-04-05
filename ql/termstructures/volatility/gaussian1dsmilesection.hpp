@@ -24,12 +24,12 @@
 #ifndef quantlib_gaussian1dsmilesection_hpp
 #define quantlib_gaussian1dsmilesection_hpp
 
-#include <ql/termstructures/volatility/smilesection.hpp>
-#include <ql/indexes/swapindex.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/models/shortrate/onefactormodels/gaussian1dmodel.hpp>
-#include <ql/pricingengines/swaption/gaussian1dswaptionengine.hpp>
-#include <ql/pricingengines/capfloor/gaussian1dcapfloorengine.hpp>
+#include <termstructures/volatility/smilesection.hpp>
+#include <indexes/swapindex.hpp>
+#include <indexes/iborindex.hpp>
+#include <models/shortrate/onefactormodels/gaussian1dmodel.hpp>
+#include <pricingengines/swaption/gaussian1dswaptionengine.hpp>
+#include <pricingengines/capfloor/gaussian1dcapfloorengine.hpp>
 
 namespace QuantLib {
 

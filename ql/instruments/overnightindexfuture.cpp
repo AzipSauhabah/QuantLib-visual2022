@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/overnightindexfuture.hpp>
-#include <ql/indexes/indexmanager.hpp>
-#include <ql/event.hpp>
+#include <instruments/overnightindexfuture.hpp>
+#include <indexes/indexmanager.hpp>
+#include <event.hpp>
 #include <utility>
 
 namespace QuantLib {
@@ -35,8 +35,6 @@ namespace QuantLib {
       averagingMethod_(averagingMethod) {
         QL_REQUIRE(overnightIndex_, "null overnight index");
         registerWith(overnightIndex_);
-        registerWith(convexityAdjustment_);
-        registerWith(Settings::instance().evaluationDate());
     }
 
     Real OvernightIndexFuture::averagedRate() const {

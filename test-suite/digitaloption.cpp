@@ -22,16 +22,16 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/shared_ptr.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
-#include <ql/pricingengines/vanilla/analyticdigitalamericanengine.hpp>
-#include <ql/pricingengines/vanilla/mcdigitalengine.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <shared_ptr.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <pricingengines/vanilla/analyticdigitalamericanengine.hpp>
+#include <pricingengines/vanilla/mcdigitalengine.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <utilities/dataformatters.hpp>
 #include <map>
 
 using namespace QuantLib;

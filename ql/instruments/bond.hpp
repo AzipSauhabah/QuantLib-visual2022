@@ -29,11 +29,11 @@
 #ifndef quantlib_bond_hpp
 #define quantlib_bond_hpp
 
-#include <ql/instrument.hpp>
+#include <instrument.hpp>
 
-#include <ql/time/calendar.hpp>
-#include <ql/cashflow.hpp>
-#include <ql/compounding.hpp>
+#include <time/calendar.hpp>
+#include <cashflow.hpp>
+#include <compounding.hpp>
 
 #include <vector>
 

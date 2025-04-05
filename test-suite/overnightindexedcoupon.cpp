@@ -19,10 +19,10 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/cashflows/overnightindexedcoupon.hpp>
-#include <ql/indexes/ibor/sofr.hpp>
-#include <ql/settings.hpp>
-#include <ql/time/daycounters/actual360.hpp>
+#include <cashflows/overnightindexedcoupon.hpp>
+#include <indexes/ibor/sofr.hpp>
+#include <settings.hpp>
+#include <time/daycounters/actual360.hpp>
 #include <iomanip>
 
 using namespace QuantLib;

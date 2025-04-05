@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/shortrate/twofactormodel.hpp>
-#include <ql/processes/stochasticprocessarray.hpp>
+#include <models/shortrate/twofactormodel.hpp>
+#include <processes/stochasticprocessarray.hpp>
 
 namespace QuantLib {
 

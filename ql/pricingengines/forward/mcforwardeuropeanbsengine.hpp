@@ -20,8 +20,8 @@
 #ifndef quantlib_mc_forward_european_bs_engine_hpp
 #define quantlib_mc_forward_european_bs_engine_hpp
 
-#include <ql/pricingengines/forward/mcforwardvanillaengine.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <pricingengines/forward/mcforwardvanillaengine.hpp>
+#include <processes/blackscholesprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

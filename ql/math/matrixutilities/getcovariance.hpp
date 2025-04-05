@@ -25,9 +25,9 @@
 #ifndef quantlib_montecarlo_get_covariance_h
 #define quantlib_montecarlo_get_covariance_h
 
-#include <ql/math/matrix.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/math/matrixutilities/pseudosqrt.hpp>
+#include <math/matrix.hpp>
+#include <utilities/dataformatters.hpp>
+#include <math/matrixutilities/pseudosqrt.hpp>
 
 namespace QuantLib {
 

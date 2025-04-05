@@ -17,11 +17,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/mcbasket/pathmultiassetoption.hpp>
-#include <ql/processes/stochasticprocessarray.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/event.hpp>
+#include <experimental/mcbasket/pathmultiassetoption.hpp>
+#include <processes/stochasticprocessarray.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <event.hpp>
 
 namespace QuantLib {
 

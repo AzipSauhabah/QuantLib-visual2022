@@ -26,10 +26,10 @@
 #ifndef quantlib_optionletstripper_hpp
 #define quantlib_optionletstripper_hpp
 
-#include <ql/termstructures/volatility/optionlet/strippedoptionletbase.hpp>
-#include <ql/termstructures/volatility/capfloor/capfloortermvolsurface.hpp>
-#include <ql/termstructures/volatility/volatilitytype.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <termstructures/volatility/optionlet/strippedoptionletbase.hpp>
+#include <termstructures/volatility/capfloor/capfloortermvolsurface.hpp>
+#include <termstructures/volatility/volatilitytype.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 
 namespace QuantLib {
 

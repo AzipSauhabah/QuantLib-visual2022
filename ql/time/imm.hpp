@@ -27,7 +27,7 @@
 #ifndef quantlib_imm_hpp
 #define quantlib_imm_hpp
 
-#include <ql/time/date.hpp>
+#include <time/date.hpp>
 
 namespace QuantLib {
 

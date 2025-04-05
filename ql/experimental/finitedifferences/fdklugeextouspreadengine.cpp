@@ -18,21 +18,21 @@
 */
 
 
-#include <ql/exercise.hpp>
-#include <ql/experimental/finitedifferences/fdklugeextouspreadengine.hpp>
-#include <ql/experimental/finitedifferences/fdmklugeextousolver.hpp>
-#include <ql/experimental/finitedifferences/fdmspreadpayoffinnervalue.hpp>
-#include <ql/experimental/processes/extendedornsteinuhlenbeckprocess.hpp>
-#include <ql/experimental/processes/extouwithjumpsprocess.hpp>
-#include <ql/experimental/processes/klugeextouprocess.hpp>
-#include <ql/methods/finitedifferences/meshers/exponentialjump1dmesher.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmsimpleprocess1dmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmamericanstepcondition.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmbermudanstepcondition.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <exercise.hpp>
+#include <experimental/finitedifferences/fdklugeextouspreadengine.hpp>
+#include <experimental/finitedifferences/fdmklugeextousolver.hpp>
+#include <experimental/finitedifferences/fdmspreadpayoffinnervalue.hpp>
+#include <experimental/processes/extendedornsteinuhlenbeckprocess.hpp>
+#include <experimental/processes/extouwithjumpsprocess.hpp>
+#include <experimental/processes/klugeextouprocess.hpp>
+#include <methods/finitedifferences/meshers/exponentialjump1dmesher.hpp>
+#include <methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
+#include <methods/finitedifferences/meshers/fdmsimpleprocess1dmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/stepconditions/fdmamericanstepcondition.hpp>
+#include <methods/finitedifferences/stepconditions/fdmbermudanstepcondition.hpp>
+#include <methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

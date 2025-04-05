@@ -24,7 +24,7 @@
 #ifndef quantlib_boundary_condition_scheme_helper_hpp
 #define quantlib_boundary_condition_scheme_helper_hpp
 
-#include <ql/methods/finitedifferences/utilities/fdmboundaryconditionset.hpp>
+#include <methods/finitedifferences/utilities/fdmboundaryconditionset.hpp>
 #include <utility>
 
 namespace QuantLib {

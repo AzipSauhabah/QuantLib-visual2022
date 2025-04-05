@@ -26,9 +26,9 @@
 #ifndef ql_inflation_bootstrap_traits_hpp
 #define ql_inflation_bootstrap_traits_hpp
 
-#include <ql/termstructures/inflation/interpolatedzeroinflationcurve.hpp>
-#include <ql/termstructures/inflation/interpolatedyoyinflationcurve.hpp>
-#include <ql/termstructures/bootstraphelper.hpp>
+#include <termstructures/inflation/interpolatedzeroinflationcurve.hpp>
+#include <termstructures/inflation/interpolatedyoyinflationcurve.hpp>
+#include <termstructures/bootstraphelper.hpp>
 
 namespace QuantLib {
 

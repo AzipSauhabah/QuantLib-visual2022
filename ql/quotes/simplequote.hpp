@@ -25,7 +25,7 @@
 #ifndef quantlib_simple_quote_hpp
 #define quantlib_simple_quote_hpp
 
-#include <ql/quote.hpp>
+#include <quote.hpp>
 
 namespace QuantLib {
 

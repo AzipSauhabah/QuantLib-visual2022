@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/methods/lattices/trinomialtree.hpp>
-#include <ql/stochasticprocess.hpp>
+#include <methods/lattices/trinomialtree.hpp>
+#include <stochasticprocess.hpp>
 
 namespace QuantLib {
 

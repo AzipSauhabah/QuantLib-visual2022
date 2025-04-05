@@ -24,10 +24,10 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef quantlib_mosprime_hpp
 #define quantlib_mosprime_hpp
 
-#include <ql/indexes/iborindex.hpp>
-#include <ql/time/calendars/russia.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/currencies/europe.hpp>
+#include <indexes/iborindex.hpp>
+#include <time/calendars/russia.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <currencies/europe.hpp>
 
 namespace QuantLib {
 

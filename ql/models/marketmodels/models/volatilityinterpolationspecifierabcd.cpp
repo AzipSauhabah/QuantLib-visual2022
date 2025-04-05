@@ -25,10 +25,10 @@ here we work with abcd curves and interpolate the a, b, c and d
 
 */
 
-#include <ql/models/marketmodels/models/volatilityinterpolationspecifierabcd.hpp>
-#include <ql/types.hpp>
-#include <ql/errors.hpp>
-#include <ql/shared_ptr.hpp>
+#include <models/marketmodels/models/volatilityinterpolationspecifierabcd.hpp>
+#include <types.hpp>
+#include <errors.hpp>
+#include <shared_ptr.hpp>
 #include <vector>
 
 namespace QuantLib

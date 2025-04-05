@@ -20,8 +20,8 @@
 #ifndef quantlib_recoveryrate_quote_hpp
 #define quantlib_recoveryrate_quote_hpp
 
-#include <ql/quote.hpp>
-#include <ql/experimental/credit/defaulttype.hpp>
+#include <quote.hpp>
+#include <experimental/credit/defaulttype.hpp>
 #include <map>
 
 namespace QuantLib {

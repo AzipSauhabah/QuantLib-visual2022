@@ -22,11 +22,11 @@
            Black-Scholes-Merton model with skew dependent volatility
 */
 
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/methods/finitedifferences/utilities/gbsmrndcalculator.hpp>
-#include <ql/pricingengines/blackcalculator.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <methods/finitedifferences/utilities/gbsmrndcalculator.hpp>
+#include <pricingengines/blackcalculator.hpp>
+#include <processes/blackscholesprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

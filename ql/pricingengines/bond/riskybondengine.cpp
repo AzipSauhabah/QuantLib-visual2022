@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/bond/riskybondengine.hpp>
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/cashflows/coupon.hpp>
+#include <pricingengines/bond/riskybondengine.hpp>
+#include <cashflows/cashflows.hpp>
+#include <cashflows/coupon.hpp>
 #include <utility>
 
 

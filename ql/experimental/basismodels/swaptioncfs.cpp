@@ -21,12 +21,12 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
     \brief translate swaption into deterministic fixed and float cash flows
 */
 
-#include <ql/experimental/basismodels/swaptioncfs.hpp>
-#include <ql/cashflows/coupon.hpp>
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/simplecashflow.hpp>
-#include <ql/exercise.hpp>
-#include <ql/settings.hpp>
+#include <experimental/basismodels/swaptioncfs.hpp>
+#include <cashflows/coupon.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <cashflows/simplecashflow.hpp>
+#include <exercise.hpp>
+#include <settings.hpp>
 
 
 namespace QuantLib {

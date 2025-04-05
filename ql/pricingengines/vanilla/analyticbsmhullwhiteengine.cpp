@@ -21,9 +21,9 @@
     \brief analytic Black-Scholes engines including stochastic interest rates
 */
 
-#include <ql/pricingengines/vanilla/analyticbsmhullwhiteengine.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvoltermstructure.hpp>
+#include <pricingengines/vanilla/analyticbsmhullwhiteengine.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <termstructures/volatility/equityfx/blackvoltermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

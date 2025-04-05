@@ -24,10 +24,10 @@
 #ifndef quantlib_cdor_hpp
 #define quantlib_cdor_hpp
 
-#include <ql/indexes/iborindex.hpp>
-#include <ql/time/calendars/canada.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/currencies/america.hpp>
+#include <indexes/iborindex.hpp>
+#include <time/calendars/canada.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <currencies/america.hpp>
 
 namespace QuantLib {
 

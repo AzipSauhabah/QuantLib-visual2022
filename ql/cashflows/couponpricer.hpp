@@ -27,13 +27,13 @@
 #ifndef quantlib_coupon_pricer_hpp
 #define quantlib_coupon_pricer_hpp
 
-#include <ql/cashflow.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/option.hpp>
-#include <ql/optional.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionvolstructure.hpp>
+#include <cashflow.hpp>
+#include <indexes/iborindex.hpp>
+#include <option.hpp>
+#include <optional.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
+#include <termstructures/volatility/swaption/swaptionvolstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -25,7 +25,7 @@
 // to be removed using forward declaration
 
 
-#include <ql/models/marketmodels/driftcomputation/lmmdriftcalculator.hpp>
+#include <models/marketmodels/driftcomputation/lmmdriftcalculator.hpp>
 
 /*! Classes for computing derivative of the map taking rates one step 
 to the next with respect to a change in the pseudo-root. We do it both

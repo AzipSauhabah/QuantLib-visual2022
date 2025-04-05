@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/browniangenerators/sobolbrowniangenerator.hpp>
+#include <models/marketmodels/browniangenerators/sobolbrowniangenerator.hpp>
 #include <boost/iterator/permutation_iterator.hpp>
 
 namespace QuantLib {

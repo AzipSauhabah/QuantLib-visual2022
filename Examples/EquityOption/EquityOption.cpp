@@ -17,26 +17,26 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #if !defined(BOOST_ALL_NO_LIB) && defined(BOOST_MSVC)
-#  include <ql/auto_link.hpp>
+#  include <auto_link.hpp>
 #endif
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/math/integrals/tanhsinhintegral.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanvasicekengine.hpp>
-#include <ql/pricingengines/vanilla/analytichestonengine.hpp>
-#include <ql/pricingengines/vanilla/baroneadesiwhaleyengine.hpp>
-#include <ql/pricingengines/vanilla/batesengine.hpp>
-#include <ql/pricingengines/vanilla/binomialengine.hpp>
-#include <ql/pricingengines/vanilla/bjerksundstenslandengine.hpp>
-#include <ql/pricingengines/vanilla/fdblackscholesvanillaengine.hpp>
-#include <ql/pricingengines/vanilla/integralengine.hpp>
-#include <ql/pricingengines/vanilla/mcamericanengine.hpp>
-#include <ql/pricingengines/vanilla/mceuropeanengine.hpp>
-#include <ql/pricingengines/vanilla/qdfpamericanengine.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <math/integrals/tanhsinhintegral.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <pricingengines/vanilla/analyticeuropeanvasicekengine.hpp>
+#include <pricingengines/vanilla/analytichestonengine.hpp>
+#include <pricingengines/vanilla/baroneadesiwhaleyengine.hpp>
+#include <pricingengines/vanilla/batesengine.hpp>
+#include <pricingengines/vanilla/binomialengine.hpp>
+#include <pricingengines/vanilla/bjerksundstenslandengine.hpp>
+#include <pricingengines/vanilla/fdblackscholesvanillaengine.hpp>
+#include <pricingengines/vanilla/integralengine.hpp>
+#include <pricingengines/vanilla/mcamericanengine.hpp>
+#include <pricingengines/vanilla/mceuropeanengine.hpp>
+#include <pricingengines/vanilla/qdfpamericanengine.hpp>
+#include <time/calendars/target.hpp>
+#include <utilities/dataformatters.hpp>
 
 #include <iostream>
 #include <iomanip>

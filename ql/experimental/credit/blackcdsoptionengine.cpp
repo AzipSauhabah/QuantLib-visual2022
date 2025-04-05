@@ -18,11 +18,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/experimental/credit/blackcdsoptionengine.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/quote.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <exercise.hpp>
+#include <experimental/credit/blackcdsoptionengine.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <quote.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

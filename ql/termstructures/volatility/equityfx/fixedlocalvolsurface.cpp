@@ -18,10 +18,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/termstructures/volatility/equityfx/fixedlocalvolsurface.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/time/daycounters/yearfractiontodate.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <termstructures/volatility/equityfx/fixedlocalvolsurface.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <time/daycounters/yearfractiontodate.hpp>
 #include <utility>
 
 

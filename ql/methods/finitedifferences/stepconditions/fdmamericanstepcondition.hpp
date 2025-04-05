@@ -26,9 +26,9 @@
 #ifndef quantlib_fdm_american_step_condition_hpp
 #define quantlib_fdm_american_step_condition_hpp
 
-#include <ql/methods/finitedifferences/stepcondition.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
+#include <methods/finitedifferences/stepcondition.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
 
 namespace QuantLib {
 

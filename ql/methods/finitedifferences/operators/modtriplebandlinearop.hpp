@@ -24,8 +24,8 @@
 #ifndef quantlib_mod_triple_band_linear_op_hpp
 #define quantlib_mod_triple_band_linear_op_hpp
 
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/triplebandlinearop.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/triplebandlinearop.hpp>
 
 namespace QuantLib {
 

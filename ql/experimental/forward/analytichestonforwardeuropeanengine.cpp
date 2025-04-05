@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/forward/analytichestonforwardeuropeanengine.hpp>
+#include <experimental/forward/analytichestonforwardeuropeanengine.hpp>
 #include <complex>
 #include <utility>
 

@@ -20,12 +20,12 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 
 
 
-#include <ql/models/marketmodels/pathwisegreeks/swaptionpseudojacobian.hpp>
-#include <ql/models/marketmodels/curvestates/lmmcurvestate.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/models/marketmodels/swapforwardmappings.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/math/solvers1d/brent.hpp>
+#include <models/marketmodels/pathwisegreeks/swaptionpseudojacobian.hpp>
+#include <models/marketmodels/curvestates/lmmcurvestate.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/swapforwardmappings.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <math/solvers1d/brent.hpp>
 
 
 namespace QuantLib

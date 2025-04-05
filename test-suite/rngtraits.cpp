@@ -20,9 +20,9 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/randomnumbers/rngtraits.hpp>
-#include <ql/math/randomnumbers/ranluxuniformrng.hpp>
-#include <ql/math/comparison.hpp>
+#include <math/randomnumbers/rngtraits.hpp>
+#include <math/randomnumbers/ranluxuniformrng.hpp>
+#include <math/comparison.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

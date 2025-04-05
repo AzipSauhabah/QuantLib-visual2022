@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/capfloor/analyticcapfloorengine.hpp>
-#include <ql/optional.hpp>
+#include <pricingengines/capfloor/analyticcapfloorengine.hpp>
+#include <optional.hpp>
 #include <utility>
 
 namespace QuantLib {

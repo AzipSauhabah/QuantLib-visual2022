@@ -18,15 +18,15 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/comparison.hpp>
-#include <ql/math/matrixutilities/pseudosqrt.hpp>
-#include <ql/models/marketmodels/marketmodel.hpp>
-#include <ql/models/marketmodels/models/cotswaptofwdadapter.hpp>
-#include <ql/models/marketmodels/models/ctsmmcapletcalibration.hpp>
-#include <ql/models/marketmodels/models/piecewiseconstantvariance.hpp>
-#include <ql/models/marketmodels/models/pseudorootfacade.hpp>
-#include <ql/models/marketmodels/swapforwardmappings.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <math/comparison.hpp>
+#include <math/matrixutilities/pseudosqrt.hpp>
+#include <models/marketmodels/marketmodel.hpp>
+#include <models/marketmodels/models/cotswaptofwdadapter.hpp>
+#include <models/marketmodels/models/ctsmmcapletcalibration.hpp>
+#include <models/marketmodels/models/piecewiseconstantvariance.hpp>
+#include <models/marketmodels/models/pseudorootfacade.hpp>
+#include <models/marketmodels/swapforwardmappings.hpp>
+#include <utilities/dataformatters.hpp>
 #include <utility>
 
 namespace QuantLib {

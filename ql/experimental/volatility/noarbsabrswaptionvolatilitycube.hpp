@@ -26,8 +26,8 @@
 #ifndef quantlib_noarb_sabr_swaption_volatility_cube_hpp
 #define quantlib_noarb_sabr_swaption_volatility_cube_hpp
 
-#include <ql/termstructures/volatility/swaption/sabrswaptionvolatilitycube.hpp>
-#include <ql/experimental/volatility/noarbsabrinterpolation.hpp>
+#include <termstructures/volatility/swaption/sabrswaptionvolatilitycube.hpp>
+#include <experimental/volatility/noarbsabrinterpolation.hpp>
 
 namespace QuantLib {
 

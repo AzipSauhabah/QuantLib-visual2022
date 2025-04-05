@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/math/gaussiancopulapolicy.hpp>
+#include <experimental/math/gaussiancopulapolicy.hpp>
 
 namespace QuantLib {
 

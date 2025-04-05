@@ -25,8 +25,8 @@
 #ifndef quantlib_exchange_rate_hpp
 #define quantlib_exchange_rate_hpp
 
-#include <ql/money.hpp>
-#include <ql/utilities/null.hpp>
+#include <money.hpp>
+#include <utilities/null.hpp>
 #include <utility>
 
 namespace QuantLib {

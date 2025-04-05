@@ -26,7 +26,7 @@
 #ifndef quantlib_fdm_snapshot_condition_hpp
 #define quantlib_fdm_snapshot_condition_hpp
 
-#include <ql/methods/finitedifferences/stepcondition.hpp>
+#include <methods/finitedifferences/stepcondition.hpp>
 
 namespace QuantLib {
 

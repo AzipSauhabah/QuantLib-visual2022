@@ -24,11 +24,11 @@
 #ifndef quantlib_commodity_pricing_helpers_hpp
 #define quantlib_commodity_pricing_helpers_hpp
 
-#include <ql/experimental/commodities/energycommodity.hpp>
-#include <ql/experimental/commodities/paymentterm.hpp>
-#include <ql/experimental/commodities/pricingperiod.hpp>
-#include <ql/experimental/commodities/unitofmeasureconversionmanager.hpp>
-#include <ql/currencies/exchangeratemanager.hpp>
+#include <experimental/commodities/energycommodity.hpp>
+#include <experimental/commodities/paymentterm.hpp>
+#include <experimental/commodities/pricingperiod.hpp>
+#include <experimental/commodities/unitofmeasureconversionmanager.hpp>
+#include <currencies/exchangeratemanager.hpp>
 
 namespace QuantLib {
 

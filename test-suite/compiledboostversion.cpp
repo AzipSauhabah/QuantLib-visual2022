@@ -20,7 +20,7 @@
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
 
-#include <ql/version.hpp>
+#include <version.hpp>
 
 #include <boost/version.hpp>
 

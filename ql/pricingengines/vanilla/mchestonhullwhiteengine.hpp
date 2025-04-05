@@ -24,11 +24,11 @@
 #ifndef quantlib_mc_heston_hull_white_engine_hpp
 #define quantlib_mc_heston_hull_white_engine_hpp
 
-#include <ql/pricingengines/vanilla/analytichestonhullwhiteengine.hpp>
-#include <ql/pricingengines/vanilla/mcvanillaengine.hpp>
-#include <ql/processes/hestonprocess.hpp>
-#include <ql/processes/hullwhiteprocess.hpp>
-#include <ql/processes/hybridhestonhullwhiteprocess.hpp>
+#include <pricingengines/vanilla/analytichestonhullwhiteengine.hpp>
+#include <pricingengines/vanilla/mcvanillaengine.hpp>
+#include <processes/hestonprocess.hpp>
+#include <processes/hullwhiteprocess.hpp>
+#include <processes/hybridhestonhullwhiteprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -24,7 +24,7 @@
 #ifndef quantlib_d_zero_h
 #define quantlib_d_zero_h
 
-#include <ql/methods/finitedifferences/tridiagonaloperator.hpp>
+#include <methods/finitedifferences/tridiagonaloperator.hpp>
 
 namespace QuantLib {
 

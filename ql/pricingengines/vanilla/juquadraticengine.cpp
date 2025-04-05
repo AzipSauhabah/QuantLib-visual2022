@@ -19,12 +19,12 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/pricingengines/blackcalculator.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/pricingengines/vanilla/baroneadesiwhaleyengine.hpp>
-#include <ql/pricingengines/vanilla/juquadraticengine.hpp>
+#include <exercise.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <pricingengines/blackcalculator.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <pricingengines/vanilla/baroneadesiwhaleyengine.hpp>
+#include <pricingengines/vanilla/juquadraticengine.hpp>
 #include <utility>
 
 namespace QuantLib {

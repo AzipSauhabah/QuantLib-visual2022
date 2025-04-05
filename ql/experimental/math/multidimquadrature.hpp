@@ -20,7 +20,7 @@
 #ifndef quantlib_math_multidimquadrature_hpp
 #define quantlib_math_multidimquadrature_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 
 /* Currently, this doesn't compile under Sun C++ (see
    https://github.com/lballabio/QuantLib/issues/223).  Until that's
@@ -29,8 +29,8 @@
 
 #ifndef QL_PATCH_SOLARIS
 
-#include <ql/math/integrals/gaussianquadratures.hpp>
-#include <ql/functional.hpp>
+#include <math/integrals/gaussianquadratures.hpp>
+#include <functional.hpp>
 
 namespace QuantLib {
 

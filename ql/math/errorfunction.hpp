@@ -24,7 +24,7 @@
 #ifndef quantlib_error_function_h
 #define quantlib_error_function_h
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <functional>
 
 namespace QuantLib {

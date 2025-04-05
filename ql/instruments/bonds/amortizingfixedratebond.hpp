@@ -24,10 +24,10 @@
 #ifndef quantlib_amortizing_fixed_rate_bond_hpp
 #define quantlib_amortizing_fixed_rate_bond_hpp
 
-#include <ql/instruments/bond.hpp>
-#include <ql/time/daycounter.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/interestrate.hpp>
+#include <instruments/bond.hpp>
+#include <time/daycounter.hpp>
+#include <time/schedule.hpp>
+#include <interestrate.hpp>
 
 namespace QuantLib {
 

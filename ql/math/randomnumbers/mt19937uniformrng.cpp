@@ -66,8 +66,8 @@
 */
 
 
-#include <ql/math/randomnumbers/seedgenerator.hpp>
-#include <ql/math/randomnumbers/mt19937uniformrng.hpp>
+#include <math/randomnumbers/seedgenerator.hpp>
+#include <math/randomnumbers/mt19937uniformrng.hpp>
 
 namespace QuantLib {
 

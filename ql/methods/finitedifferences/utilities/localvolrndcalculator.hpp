@@ -25,12 +25,12 @@
 #ifndef quantlib_local_vol_rnd_calculator_hpp
 #define quantlib_local_vol_rnd_calculator_hpp
 
-#include <ql/math/matrix.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/methods/finitedifferences/meshers/fdm1dmesher.hpp>
-#include <ql/methods/finitedifferences/utilities/riskneutraldensitycalculator.hpp>
+#include <math/matrix.hpp>
+#include <quotes/simplequote.hpp>
+#include <patterns/lazyobject.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <methods/finitedifferences/meshers/fdm1dmesher.hpp>
+#include <methods/finitedifferences/utilities/riskneutraldensitycalculator.hpp>
 
 #include <vector>
 

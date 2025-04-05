@@ -26,8 +26,8 @@
 #ifndef quantlib_merton_76_process_hpp
 #define quantlib_merton_76_process_hpp
 
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/processes/eulerdiscretization.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <processes/eulerdiscretization.hpp>
 
 namespace QuantLib {
 

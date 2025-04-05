@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/pricingengines/exotic/analyticsimplechooserengine.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <exercise.hpp>
+#include <pricingengines/exotic/analyticsimplechooserengine.hpp>
+#include <instruments/payoffs.hpp>
+#include <math/distributions/normaldistribution.hpp>
 #include <utility>
 
 namespace QuantLib {

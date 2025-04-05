@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/event.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/instruments/forwardrateagreement.hpp>
+#include <event.hpp>
+#include <indexes/iborindex.hpp>
+#include <instruments/forwardrateagreement.hpp>
 #include <utility>
 #include <iostream>
 

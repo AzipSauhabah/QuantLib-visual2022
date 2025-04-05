@@ -21,9 +21,9 @@
     \brief analytic Heston expansion engine
 */
 
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/pricingengines/vanilla/hestonexpansionengine.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <instruments/payoffs.hpp>
+#include <pricingengines/vanilla/hestonexpansionengine.hpp>
 
 #if defined(QL_PATCH_MSVC)
 #pragma warning(disable: 4180)

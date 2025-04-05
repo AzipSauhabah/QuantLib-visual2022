@@ -25,12 +25,12 @@
 #ifndef quantlib_fd_kluge_extou_spread_engine_hpp
 #define quantlib_fd_kluge_extou_spread_engine_hpp
 
-#include <ql/pricingengine.hpp>
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
-#include <ql/experimental/finitedifferences/fdmextoujumpmodelinnervalue.hpp>
-#include <ql/experimental/finitedifferences/fdmexpextouinnervaluecalculator.hpp>
-#include <ql/experimental/processes/klugeextouprocess.hpp>
+#include <pricingengine.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <experimental/finitedifferences/fdmextoujumpmodelinnervalue.hpp>
+#include <experimental/finitedifferences/fdmexpextouinnervaluecalculator.hpp>
+#include <experimental/processes/klugeextouprocess.hpp>
 
 namespace QuantLib {
 

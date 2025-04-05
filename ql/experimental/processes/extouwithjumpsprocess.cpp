@@ -21,8 +21,8 @@
     \brief Ornstein Uhlenbeck process plus exp jumps (Kluge Model)
 */
 
-#include <ql/experimental/processes/extendedornsteinuhlenbeckprocess.hpp>
-#include <ql/experimental/processes/extouwithjumpsprocess.hpp>
+#include <experimental/processes/extendedornsteinuhlenbeckprocess.hpp>
+#include <experimental/processes/extouwithjumpsprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

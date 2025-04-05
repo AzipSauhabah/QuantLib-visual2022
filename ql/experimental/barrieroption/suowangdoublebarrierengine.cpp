@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/experimental/barrieroption/suowangdoublebarrierengine.hpp>
-#include <ql/instruments/europeanoption.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <exercise.hpp>
+#include <experimental/barrieroption/suowangdoublebarrierengine.hpp>
+#include <instruments/europeanoption.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
 #include <utility>
 
 namespace QuantLib {

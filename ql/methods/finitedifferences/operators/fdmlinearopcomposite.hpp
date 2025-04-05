@@ -26,8 +26,8 @@
 #ifndef quantlib_fdm_affine_map_composite_hpp
 #define quantlib_fdm_affine_map_composite_hpp
 
-#include <ql/math/matrixutilities/sparsematrix.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearop.hpp>
+#include <math/matrixutilities/sparsematrix.hpp>
+#include <methods/finitedifferences/operators/fdmlinearop.hpp>
 #include <numeric>
 
 namespace QuantLib {

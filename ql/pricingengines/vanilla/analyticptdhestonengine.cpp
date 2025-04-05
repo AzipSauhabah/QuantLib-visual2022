@@ -21,10 +21,10 @@
     \brief analytic piecewise time dependent Heston-model engine
 */
 
-#include <ql/math/functional.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/pricingengines/vanilla/analyticptdhestonengine.hpp>
-#include <ql/pricingengines/blackcalculator.hpp>
+#include <math/functional.hpp>
+#include <instruments/payoffs.hpp>
+#include <pricingengines/vanilla/analyticptdhestonengine.hpp>
+#include <pricingengines/blackcalculator.hpp>
 
 namespace QuantLib {
 

@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvoltermstructure.hpp>
-#include <ql/termstructures/volatility/equityfx/localvolsurface.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/volatility/equityfx/blackvoltermstructure.hpp>
+#include <termstructures/volatility/equityfx/localvolsurface.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

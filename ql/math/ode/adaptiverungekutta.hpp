@@ -27,9 +27,9 @@
 #ifndef quantlib_adaptive_runge_kutta_hpp
 #define quantlib_adaptive_runge_kutta_hpp
 
-#include <ql/types.hpp>
-#include <ql/errors.hpp>
-#include <ql/functional.hpp>
+#include <types.hpp>
+#include <errors.hpp>
+#include <functional.hpp>
 #include <vector>
 #include <cmath>
 #include <complex>

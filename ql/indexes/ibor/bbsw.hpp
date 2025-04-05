@@ -24,10 +24,10 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef quantlib_bbsw_hpp
 #define quantlib_bbsw_hpp
 
-#include <ql/indexes/iborindex.hpp>
-#include <ql/time/calendars/australia.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/currencies/oceania.hpp>
+#include <indexes/iborindex.hpp>
+#include <time/calendars/australia.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <currencies/oceania.hpp>
 
 namespace QuantLib {
 

@@ -21,10 +21,10 @@
     \brief Integral of a 1-dimensional function using the Gauss quadratures
 */
 
-#include <ql/math/integrals/gaussianorthogonalpolynomial.hpp>
-#include <ql/math/distributions/gammadistribution.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/errors.hpp>
+#include <math/integrals/gaussianorthogonalpolynomial.hpp>
+#include <math/distributions/gammadistribution.hpp>
+#include <math/comparison.hpp>
+#include <errors.hpp>
 #include <cmath>
 
 namespace QuantLib {

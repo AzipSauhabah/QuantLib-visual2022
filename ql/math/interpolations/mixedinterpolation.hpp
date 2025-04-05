@@ -24,9 +24,9 @@
 #ifndef quantlib_mixed_interpolation_hpp
 #define quantlib_mixed_interpolation_hpp
 
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/math/interpolations/cubicinterpolation.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <math/interpolations/cubicinterpolation.hpp>
+#include <utilities/dataformatters.hpp>
 
 namespace QuantLib {
 

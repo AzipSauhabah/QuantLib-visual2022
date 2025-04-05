@@ -21,8 +21,8 @@
 #ifndef quantlib_kernel_interpolation_hpp
 #define quantlib_kernel_interpolation_hpp
 
-#include <ql/math/interpolation.hpp>
-#include <ql/math/matrixutilities/qrdecomposition.hpp>
+#include <math/interpolation.hpp>
+#include <math/matrixutilities/qrdecomposition.hpp>
 #include <utility>
 
 /*! \file kernelinterpolation.hpp

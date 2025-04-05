@@ -22,15 +22,21 @@
     and http://www.thefinancials.com/vortex/CurrencyFormats.html
 */
 
-#include <ql/currencies/crypto.hpp>
+#include <currencies/crypto.hpp>
 
 namespace QuantLib {
+
+    QL_DEPRECATED_DISABLE_WARNING
 
     // Bitcoin
     /* https://bitcoin.org/
     */
     BTCCurrency::BTCCurrency() {
-        static auto btcData = ext::make_shared<Data>("Bitcoin", "BTC", 10000, "BTC", "", 100000, Rounding());
+        static ext::shared_ptr<Data> btcData(
+                                    new Data("Bitcoin", "BTC", 10000,
+                                             "BTC", "", 100000,
+                                             Rounding(),
+                                             "%3% %1$.5f"));
         data_ = btcData;
     }
 
@@ -38,7 +44,11 @@ namespace QuantLib {
     /*! https://www.ethereum.org/
     */
     ETHCurrency::ETHCurrency() {
-        static auto ethData = ext::make_shared<Data>("Ethereum", "ETH", 10001, "ETH", "", 100000, Rounding());
+        static ext::shared_ptr<Data> ethData(
+                                      new Data("Ethereum", "ETH", 10001,
+                                               "ETH", "", 100000,
+                                               Rounding(),
+                                               "%3% %1$.5f"));
         data_ = ethData;
     }
 
@@ -46,7 +56,11 @@ namespace QuantLib {
     /*! https://ethereumclassic.github.io/
     */
     ETCCurrency::ETCCurrency() {
-        static auto etcData = ext::make_shared<Data>("Ethereum Classic", "ETC", 10002, "ETC", "", 100000, Rounding());
+        static ext::shared_ptr<Data> etcData(
+                                  new Data("Ethereum Classic", "ETC", 10002,
+                                           "ETC", "", 100000,
+                                           Rounding(),
+                                           "%3% %1$.5f"));
         data_ = etcData;
     }
 
@@ -54,7 +68,11 @@ namespace QuantLib {
     /*! https://www.bitcoincash.org/
     */
     BCHCurrency::BCHCurrency() {
-        static auto bchData = ext::make_shared<Data>("Bitcoin Cash", "BCH", 10003, "BCH", "", 100000, Rounding());
+        static ext::shared_ptr<Data> bchData(
+                                    new Data("Bitcoin Cash", "BCH", 10003,
+                                             "BCH", "", 100000,
+                                             Rounding(),
+                                             "%3% %1$.5f"));
         data_ = bchData;
     }
 
@@ -62,7 +80,11 @@ namespace QuantLib {
     /*! https://ripple.com/
     */
     XRPCurrency::XRPCurrency() {
-        static auto xrpData = ext::make_shared<Data>("Ripple", "XRP", 10004, "XRP", "", 100000, Rounding());
+        static ext::shared_ptr<Data> xrpData(
+                                    new Data("Ripple", "XRP", 10004,
+                                             "XRP", "", 100000,
+                                             Rounding(),
+                                             "%3% %1$.5f"));
         data_ = xrpData;
     }
 
@@ -70,15 +92,23 @@ namespace QuantLib {
     /*! https://litecoin.com/
     */
     LTCCurrency::LTCCurrency() {
-        static auto ltcData = ext::make_shared<Data>("Litecoin", "LTC", 10005, "LTC", "", 100000, Rounding());
-        data_ = ltcData;
-    }
+            static ext::shared_ptr<Data> ltcData(
+                                          new Data("Litecoin", "LTC", 10005,
+                                                   "LTC", "", 100000,
+                                                   Rounding(),
+                                                   "%3% %1$.5f"));
+            data_ = ltcData;
+        }
 
     //! Dash coin
     /*! https://www.dash.org/
     */
     DASHCurrency::DASHCurrency() {
-        static auto dashData = ext::make_shared<Data>("Dash coin", "DASH", 10006, "DASH", "", 100000, Rounding());
+        static ext::shared_ptr<Data> dashData(
+                                       new Data("Dash coin", "DASH", 10006,
+                                                "DASH", "", 100000,
+                                                Rounding(),
+                                                "%2% %1$.5f"));
         data_ = dashData;
     }
 
@@ -86,9 +116,15 @@ namespace QuantLib {
     /*! https://z.cash/
     */
     ZECCurrency::ZECCurrency() {
-        static auto zecData = ext::make_shared<Data>("Zcash", "ZEC", 10007, "ZEC", "", 100000, Rounding());
+        static ext::shared_ptr<Data> zecData(
+                                      new Data("Zcash", "ZEC", 10007,
+                                               "ZEC", "", 100000,
+                                               Rounding(),
+                                               "%3% %1$.5f"));
         data_ = zecData;
     }
+
+    QL_DEPRECATED_ENABLE_WARNING
 
 }
 

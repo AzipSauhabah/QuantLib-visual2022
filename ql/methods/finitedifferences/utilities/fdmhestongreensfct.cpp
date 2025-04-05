@@ -21,13 +21,13 @@
     \brief Heston Fokker-Planck Green's function
 */
 
-#include <ql/math/functional.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearopiterator.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmhestongreensfct.hpp>
-#include <ql/methods/finitedifferences/utilities/squarerootprocessrndcalculator.hpp>
-#include <ql/processes/hestonprocess.hpp>
+#include <math/functional.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearopiterator.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/utilities/fdmhestongreensfct.hpp>
+#include <methods/finitedifferences/utilities/squarerootprocessrndcalculator.hpp>
+#include <processes/hestonprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

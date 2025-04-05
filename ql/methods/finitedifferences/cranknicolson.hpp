@@ -24,7 +24,7 @@
 #ifndef quantlib_crank_nicolson_hpp
 #define quantlib_crank_nicolson_hpp
 
-#include <ql/methods/finitedifferences/mixedscheme.hpp>
+#include <methods/finitedifferences/mixedscheme.hpp>
 
 namespace QuantLib {
 

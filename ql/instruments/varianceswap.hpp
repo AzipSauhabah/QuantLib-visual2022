@@ -25,10 +25,10 @@
 #ifndef quantlib_variance_swap_hpp
 #define quantlib_variance_swap_hpp
 
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/option.hpp>
-#include <ql/position.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <instruments/payoffs.hpp>
+#include <option.hpp>
+#include <position.hpp>
 
 namespace QuantLib {
 

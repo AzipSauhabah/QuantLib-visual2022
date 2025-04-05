@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/methods/montecarlo/parametricexercise.hpp>
-#include <ql/math/optimization/problem.hpp>
-#include <ql/math/optimization/constraint.hpp>
+#include <methods/montecarlo/parametricexercise.hpp>
+#include <math/optimization/problem.hpp>
+#include <math/optimization/constraint.hpp>
 
 namespace QuantLib {
 

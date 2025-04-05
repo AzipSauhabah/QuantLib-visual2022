@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
  */
 
-#include <ql/cashflows/capflooredinflationcoupon.hpp>
-#include <ql/cashflows/inflationcouponpricer.hpp>
+#include <cashflows/capflooredinflationcoupon.hpp>
+#include <cashflows/inflationcouponpricer.hpp>
 
 namespace QuantLib {
 

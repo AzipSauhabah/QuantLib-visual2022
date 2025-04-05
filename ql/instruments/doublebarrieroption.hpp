@@ -24,9 +24,9 @@
 #ifndef quantlib_double_barrier_option_hpp
 #define quantlib_double_barrier_option_hpp
 
-#include <ql/instruments/oneassetoption.hpp>
-#include <ql/instruments/doublebarriertype.hpp>
-#include <ql/instruments/payoffs.hpp>
+#include <instruments/oneassetoption.hpp>
+#include <instruments/doublebarriertype.hpp>
+#include <instruments/payoffs.hpp>
 
 namespace QuantLib {
 

@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instrument.hpp>
-#include <ql/settings.hpp>
+#include <instrument.hpp>
+#include <settings.hpp>
 
 namespace QuantLib {
 

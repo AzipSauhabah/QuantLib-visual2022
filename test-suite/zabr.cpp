@@ -20,8 +20,8 @@
 #include "preconditions.hpp"
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/termstructures/volatility/sabrsmilesection.hpp>
-#include <ql/experimental/volatility/zabrsmilesection.hpp>
+#include <termstructures/volatility/sabrsmilesection.hpp>
+#include <experimental/volatility/zabrsmilesection.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

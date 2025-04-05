@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/makecapfloor.hpp>
-#include <ql/instruments/makeswaption.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/termstructures/volatility/gaussian1dsmilesection.hpp>
+#include <instruments/makecapfloor.hpp>
+#include <instruments/makeswaption.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <termstructures/volatility/gaussian1dsmilesection.hpp>
 #include <utility>
 
 using std::sqrt;

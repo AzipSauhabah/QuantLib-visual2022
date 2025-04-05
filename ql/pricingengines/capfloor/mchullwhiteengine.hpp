@@ -25,10 +25,10 @@
 #ifndef quantlib_mc_hull_white_cap_floor_engine_hpp
 #define quantlib_mc_hull_white_cap_floor_engine_hpp
 
-#include <ql/instruments/capfloor.hpp>
-#include <ql/models/shortrate/onefactormodels/hullwhite.hpp>
-#include <ql/pricingengines/mcsimulation.hpp>
-#include <ql/processes/hullwhiteprocess.hpp>
+#include <instruments/capfloor.hpp>
+#include <models/shortrate/onefactormodels/hullwhite.hpp>
+#include <pricingengines/mcsimulation.hpp>
+#include <processes/hullwhiteprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

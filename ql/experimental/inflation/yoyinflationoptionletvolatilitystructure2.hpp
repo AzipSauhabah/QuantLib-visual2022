@@ -24,12 +24,12 @@
 #ifndef quantlib_yoy_optionlet_volatility_structures2_hpp
 #define quantlib_yoy_optionlet_volatility_structures2_hpp
 
-#include <ql/termstructures/voltermstructure.hpp>
-#include <ql/math/interpolation.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/termstructures/inflationtermstructure.hpp>
-#include <ql/termstructures/interpolatedcurve.hpp>
-#include <ql/termstructures/volatility/inflation/yoyinflationoptionletvolatilitystructure.hpp>
+#include <termstructures/voltermstructure.hpp>
+#include <math/interpolation.hpp>
+#include <time/calendars/target.hpp>
+#include <termstructures/inflationtermstructure.hpp>
+#include <termstructures/interpolatedcurve.hpp>
+#include <termstructures/volatility/inflation/yoyinflationoptionletvolatilitystructure.hpp>
 
 namespace QuantLib {
 

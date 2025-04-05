@@ -24,12 +24,12 @@
 #ifndef quantlib_cdo_hpp
 #define quantlib_cdo_hpp
 
-#include <ql/instrument.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/termstructures/defaulttermstructure.hpp>
-#include <ql/experimental/credit/lossdistribution.hpp>
-#include <ql/experimental/credit/onefactorcopula.hpp>
-#include <ql/time/schedule.hpp>
+#include <instrument.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <termstructures/defaulttermstructure.hpp>
+#include <experimental/credit/lossdistribution.hpp>
+#include <experimental/credit/onefactorcopula.hpp>
+#include <time/schedule.hpp>
 
 namespace QuantLib {
 

@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/interpolations/lagrangeinterpolation.hpp>
-#include <ql/math/interpolations/chebyshevinterpolation.hpp>
+#include <math/interpolations/lagrangeinterpolation.hpp>
+#include <math/interpolations/chebyshevinterpolation.hpp>
 
 namespace QuantLib {
     namespace chebyshev_interpolation_detail {

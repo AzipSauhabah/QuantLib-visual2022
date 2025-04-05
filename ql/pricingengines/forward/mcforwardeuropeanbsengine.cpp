@@ -13,7 +13,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/forward/mcforwardeuropeanbsengine.hpp>
+#include <pricingengines/forward/mcforwardeuropeanbsengine.hpp>
 
 namespace QuantLib {
 

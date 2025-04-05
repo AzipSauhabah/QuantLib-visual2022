@@ -17,12 +17,12 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/evolvers/svddfwdratepc.hpp>
-#include <ql/models/marketmodels/marketmodel.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/models/marketmodels/browniangenerator.hpp>
-#include <ql/models/marketmodels/driftcomputation/lmmdriftcalculator.hpp>
-#include <ql/models/marketmodels/evolvers/marketmodelvolprocess.hpp>
+#include <models/marketmodels/evolvers/svddfwdratepc.hpp>
+#include <models/marketmodels/marketmodel.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/browniangenerator.hpp>
+#include <models/marketmodels/driftcomputation/lmmdriftcalculator.hpp>
+#include <models/marketmodels/evolvers/marketmodelvolprocess.hpp>
 
 namespace QuantLib {
 

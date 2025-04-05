@@ -25,7 +25,7 @@
 #ifndef quantlib_forward_performance_engine_hpp
 #define quantlib_forward_performance_engine_hpp
 
-#include <ql/pricingengines/forward/forwardengine.hpp>
+#include <pricingengines/forward/forwardengine.hpp>
 
 namespace QuantLib {
 

@@ -20,11 +20,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/errors.hpp>
-#include <ql/exercise.hpp>
-#include <ql/experimental/barrieroption/perturbativebarrieroptionengine.hpp>
-#include <ql/functional.hpp>
-#include <ql/types.hpp>
+#include <errors.hpp>
+#include <exercise.hpp>
+#include <experimental/barrieroption/perturbativebarrieroptionengine.hpp>
+#include <functional.hpp>
+#include <types.hpp>
 #include <algorithm>
 #include <cmath>
 #include <utility>

@@ -18,7 +18,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/daycounters/actual365fixed.hpp>
+#include <time/daycounters/actual365fixed.hpp>
 #include <cmath>
 
 namespace QuantLib {

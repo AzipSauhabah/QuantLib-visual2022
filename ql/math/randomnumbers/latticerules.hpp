@@ -26,7 +26,7 @@
 #define quantlib_lattice_rules_hpp
 
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <vector>
 
 namespace QuantLib

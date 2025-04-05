@@ -25,7 +25,7 @@
 #ifndef quantlib_handle_hpp
 #define quantlib_handle_hpp
 
-#include <ql/patterns/observable.hpp>
+#include <patterns/observable.hpp>
 
 namespace QuantLib {
 
@@ -135,7 +135,6 @@ namespace QuantLib {
                     bool registerAsObserver = true);
         void linkTo(ext::shared_ptr<T>&& h,
                     bool registerAsObserver = true);
-        void reset();
     };
 
 
@@ -220,11 +219,6 @@ namespace QuantLib {
     inline void RelinkableHandle<T>::linkTo(ext::shared_ptr<T>&& h,
                                             bool registerAsObserver) {
         this->link_->linkTo(std::move(h), registerAsObserver);
-    }
-
-    template <class T>
-    inline void RelinkableHandle<T>::reset() {
-        this->link_->linkTo(nullptr, true);
     }
 
 }

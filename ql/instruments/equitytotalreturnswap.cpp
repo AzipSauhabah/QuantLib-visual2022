@@ -17,11 +17,11 @@ Copyright (C) 2023 Marcin Rybacki
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/equitycashflow.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/cashflows/overnightindexedcoupon.hpp>
-#include <ql/indexes/equityindex.hpp>
-#include <ql/instruments/equitytotalreturnswap.hpp>
+#include <cashflows/equitycashflow.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <cashflows/overnightindexedcoupon.hpp>
+#include <indexes/equityindex.hpp>
+#include <instruments/equitytotalreturnswap.hpp>
 #include <utility>
 
 namespace QuantLib {

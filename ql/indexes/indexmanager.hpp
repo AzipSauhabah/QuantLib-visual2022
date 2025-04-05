@@ -24,10 +24,10 @@
 #ifndef quantlib_index_manager_hpp
 #define quantlib_index_manager_hpp
 
-#include <ql/patterns/singleton.hpp>
-#include <ql/timeseries.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/utilities/observablevalue.hpp>
+#include <patterns/singleton.hpp>
+#include <timeseries.hpp>
+#include <math/comparison.hpp>
+#include <utilities/observablevalue.hpp>
 #include <algorithm>
 #include <cctype>
 

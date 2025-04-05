@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/callability/bermudanswaptionexercisevalue.hpp>
-#include <ql/models/marketmodels/curvestate.hpp>
-#include <ql/models/marketmodels/utilities.hpp>
-#include <ql/payoff.hpp>
+#include <models/marketmodels/callability/bermudanswaptionexercisevalue.hpp>
+#include <models/marketmodels/curvestate.hpp>
+#include <models/marketmodels/utilities.hpp>
+#include <payoff.hpp>
 #include <utility>
 
 namespace QuantLib {

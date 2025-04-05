@@ -21,14 +21,14 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/interpolations/abcdinterpolation.hpp>
-#include <ql/math/optimization/constraint.hpp>
-#include <ql/math/optimization/levenbergmarquardt.hpp>
-#include <ql/math/optimization/method.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/termstructures/volatility/abcd.hpp>
-#include <ql/termstructures/volatility/abcdcalibration.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/interpolations/abcdinterpolation.hpp>
+#include <math/optimization/constraint.hpp>
+#include <math/optimization/levenbergmarquardt.hpp>
+#include <math/optimization/method.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <termstructures/volatility/abcd.hpp>
+#include <termstructures/volatility/abcdcalibration.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -25,7 +25,7 @@
 #ifndef quantlib_no_except_localvolsurface_hpp
 #define quantlib_no_except_localvolsurface_hpp
 
-#include <ql/termstructures/volatility/equityfx/localvolsurface.hpp>
+#include <termstructures/volatility/equityfx/localvolsurface.hpp>
 
 namespace QuantLib {
 

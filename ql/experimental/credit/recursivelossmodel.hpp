@@ -20,8 +20,8 @@
 #ifndef quantlib_recursive_loss_model_hpp
 #define quantlib_recursive_loss_model_hpp
 
-#include <ql/experimental/credit/constantlosslatentmodel.hpp>
-#include <ql/experimental/credit/defaultlossmodel.hpp>
+#include <experimental/credit/constantlosslatentmodel.hpp>
+#include <experimental/credit/defaultlossmodel.hpp>
 #include <map>
 #include <algorithm>
 

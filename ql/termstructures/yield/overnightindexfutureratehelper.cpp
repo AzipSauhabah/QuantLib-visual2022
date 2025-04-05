@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/yield/overnightindexfutureratehelper.hpp>
-#include <ql/indexes/ibor/sofr.hpp>
-#include <ql/utilities/null_deleter.hpp>
+#include <termstructures/yield/overnightindexfutureratehelper.hpp>
+#include <indexes/ibor/sofr.hpp>
+#include <utilities/null_deleter.hpp>
 
 namespace QuantLib {
 
@@ -53,11 +53,11 @@ namespace QuantLib {
         const Handle<Quote>& convexityAdjustment,
         RateAveraging::Type averagingMethod)
     : RateHelper(price) {
+        ext::shared_ptr<Payoff> payoff;
         ext::shared_ptr<OvernightIndex> index =
             ext::dynamic_pointer_cast<OvernightIndex>(overnightIndex->clone(termStructureHandle_));
         future_ = ext::make_shared<OvernightIndexFuture>(
             index, valueDate, maturityDate, convexityAdjustment, averagingMethod);
-        registerWithObservables(future_);
         earliestDate_ = valueDate;
         latestDate_ = maturityDate;
     }

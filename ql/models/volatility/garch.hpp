@@ -25,9 +25,9 @@
 #ifndef quantlib_garch_volatility_model_hpp
 #define quantlib_garch_volatility_model_hpp
 
-#include <ql/volatilitymodel.hpp>
-#include <ql/math/optimization/problem.hpp>
-#include <ql/math/optimization/constraint.hpp>
+#include <volatilitymodel.hpp>
+#include <math/optimization/problem.hpp>
+#include <math/optimization/constraint.hpp>
 #include <vector>
 
 namespace QuantLib {

@@ -19,7 +19,7 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/experimental/volatility/svismilesection.hpp>
+#include <experimental/volatility/svismilesection.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

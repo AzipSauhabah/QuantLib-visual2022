@@ -19,14 +19,14 @@
 #ifndef quantlib_randomloss_latent_model_hpp
 #define quantlib_randomloss_latent_model_hpp
 
-#include <ql/experimental/credit/basket.hpp>
-#include <ql/experimental/credit/randomdefaultlatentmodel.hpp>
-#include <ql/experimental/credit/spotlosslatentmodel.hpp> 
-#include <ql/experimental/math/gaussiancopulapolicy.hpp>
-#include <ql/experimental/math/latentmodel.hpp>
-#include <ql/experimental/math/tcopulapolicy.hpp>
-#include <ql/math/randomnumbers/mt19937uniformrng.hpp>
-#include <ql/math/solvers1d/brent.hpp>
+#include <experimental/credit/basket.hpp>
+#include <experimental/credit/randomdefaultlatentmodel.hpp>
+#include <experimental/credit/spotlosslatentmodel.hpp> 
+#include <experimental/math/gaussiancopulapolicy.hpp>
+#include <experimental/math/latentmodel.hpp>
+#include <experimental/math/tcopulapolicy.hpp>
+#include <math/randomnumbers/mt19937uniformrng.hpp>
+#include <math/solvers1d/brent.hpp>
 #include <cmath>
 
 namespace QuantLib {

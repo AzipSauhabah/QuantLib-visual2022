@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/doublebarriertype.hpp>
-#include <ql/types.hpp>
-#include <ql/errors.hpp>
+#include <instruments/doublebarriertype.hpp>
+#include <types.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

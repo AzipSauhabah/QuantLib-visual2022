@@ -17,14 +17,14 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/instruments/basketoption.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/pricingengines/asian/choiasianengine.hpp>
-#include <ql/pricingengines/basket/choibasketengine.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <exercise.hpp>
+#include <quotes/simplequote.hpp>
+#include <instruments/basketoption.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <pricingengines/asian/choiasianengine.hpp>
+#include <pricingengines/basket/choibasketengine.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
 
 namespace QuantLib {
 
@@ -85,7 +85,7 @@ namespace QuantLib {
             == fixingDates.end(), "two fixing dates are the same");
 
         const Real accruedAverage = (pastFixings != 0)
-            ? Real(runningAccumulator / (pastFixings + futureFixings))
+            ? runningAccumulator / (pastFixings + futureFixings)
             : 0.0;
 
         const Real strike = payoff->strike() - accruedAverage;

@@ -18,9 +18,9 @@
 */
 
 #include "toplevelfixture.hpp"
-#include <ql/math/randomnumbers/xoshiro256starstaruniformrng.hpp>
-#include <ql/math/randomnumbers/zigguratgaussianrng.hpp>
-#include <ql/math/statistics/incrementalstatistics.hpp>
+#include <math/randomnumbers/xoshiro256starstaruniformrng.hpp>
+#include <math/randomnumbers/zigguratgaussianrng.hpp>
+#include <math/statistics/incrementalstatistics.hpp>
 #include <iostream>
 #include <numeric>
 

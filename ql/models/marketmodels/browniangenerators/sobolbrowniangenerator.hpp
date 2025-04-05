@@ -21,12 +21,12 @@
 #ifndef quantlib_sobol_brownian_generator_hpp
 #define quantlib_sobol_brownian_generator_hpp
 
-#include <ql/models/marketmodels/browniangenerator.hpp>
-#include <ql/math/randomnumbers/inversecumulativersg.hpp>
-#include <ql/math/randomnumbers/sobolrsg.hpp>
-#include <ql/math/randomnumbers/burley2020sobolrsg.hpp>
-#include <ql/methods/montecarlo/brownianbridge.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <models/marketmodels/browniangenerator.hpp>
+#include <math/randomnumbers/inversecumulativersg.hpp>
+#include <math/randomnumbers/sobolrsg.hpp>
+#include <math/randomnumbers/burley2020sobolrsg.hpp>
+#include <methods/montecarlo/brownianbridge.hpp>
+#include <math/distributions/normaldistribution.hpp>
 #include <vector>
 
 namespace QuantLib {

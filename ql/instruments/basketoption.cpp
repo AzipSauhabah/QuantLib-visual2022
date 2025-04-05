@@ -20,7 +20,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/basketoption.hpp>
+#include <instruments/basketoption.hpp>
 
 namespace QuantLib {
 

@@ -24,9 +24,9 @@
 #ifndef quantlib_discrete_integrals_hpp
 #define quantlib_discrete_integrals_hpp
 
-#include <ql/math/array.hpp>
-#include <ql/math/integrals/integral.hpp>
-#include <ql/utilities/null.hpp>
+#include <math/array.hpp>
+#include <math/integrals/integral.hpp>
+#include <utilities/null.hpp>
 
 namespace QuantLib {
 

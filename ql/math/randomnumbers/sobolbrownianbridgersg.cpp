@@ -22,7 +22,7 @@
            to the "conventional" sequence generator interface
 */
 
-#include <ql/math/randomnumbers/sobolbrownianbridgersg.hpp>
+#include <math/randomnumbers/sobolbrownianbridgersg.hpp>
 
 namespace QuantLib {
 

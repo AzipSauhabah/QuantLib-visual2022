@@ -19,7 +19,7 @@
 */
 
 
-#include <ql/methods/finitedifferences/utilities/squarerootprocessrndcalculator.hpp>
+#include <methods/finitedifferences/utilities/squarerootprocessrndcalculator.hpp>
 
 #include <boost/math/distributions/non_central_chi_squared.hpp>
 

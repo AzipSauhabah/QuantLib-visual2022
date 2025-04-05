@@ -24,10 +24,10 @@
 #ifndef quantlib_try_libor_hpp
 #define quantlib_try_libor_hpp
 
-#include <ql/indexes/iborindex.hpp>
-#include <ql/time/calendars/turkey.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/currencies/europe.hpp>
+#include <indexes/iborindex.hpp>
+#include <time/calendars/turkey.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <currencies/europe.hpp>
 
 namespace QuantLib {
 

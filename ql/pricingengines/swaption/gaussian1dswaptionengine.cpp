@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/swaption/gaussian1dswaptionengine.hpp>
-#include <ql/math/interpolations/cubicinterpolation.hpp>
-#include <ql/payoff.hpp>
+#include <pricingengines/swaption/gaussian1dswaptionengine.hpp>
+#include <math/interpolations/cubicinterpolation.hpp>
+#include <payoff.hpp>
 
 namespace QuantLib {
 

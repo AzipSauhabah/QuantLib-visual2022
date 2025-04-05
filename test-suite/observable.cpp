@@ -19,15 +19,15 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/math/randomnumbers/mt19937uniformrng.hpp>
-#include <ql/patterns/observable.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/volatility/capfloor/capfloortermvolsurface.hpp>
-#include <ql/termstructures/volatility/optionlet/strippedoptionlet.hpp>
-#include <ql/termstructures/volatility/optionlet/strippedoptionletadapter.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <math/randomnumbers/mt19937uniformrng.hpp>
+#include <patterns/observable.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/volatility/capfloor/capfloortermvolsurface.hpp>
+#include <termstructures/volatility/optionlet/strippedoptionlet.hpp>
+#include <termstructures/volatility/optionlet/strippedoptionletadapter.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <time/calendars/nullcalendar.hpp>
 #include <chrono>
 #include <thread>
 

@@ -26,9 +26,9 @@
 #ifndef quantlib_cms_market_h
 #define quantlib_cms_market_h
 
-#include <ql/cashflows/conundrumpricer.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/quote.hpp>
+#include <cashflows/conundrumpricer.hpp>
+#include <math/matrix.hpp>
+#include <quote.hpp>
 
 namespace QuantLib {
 

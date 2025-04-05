@@ -23,10 +23,10 @@
 #ifndef quantlib_qd_plus_american_engine_hpp
 #define quantlib_qd_plus_american_engine_hpp
 
-#include <ql/utilities/null.hpp>
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <utilities/null.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <math/distributions/normaldistribution.hpp>
 
 
 namespace QuantLib {

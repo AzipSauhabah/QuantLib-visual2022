@@ -18,11 +18,11 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/instruments/bondforward.hpp>
-#include <ql/instruments/bonds/fixedratebond.hpp>
-#include <ql/pricingengines/bond/discountingbondengine.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <instruments/bondforward.hpp>
+#include <instruments/bonds/fixedratebond.hpp>
+#include <pricingengines/bond/discountingbondengine.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

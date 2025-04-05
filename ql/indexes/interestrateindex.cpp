@@ -19,8 +19,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/indexes/interestrateindex.hpp>
-#include <ql/settings.hpp>
+#include <indexes/interestrateindex.hpp>
+#include <settings.hpp>
 #include <sstream>
 #include <utility>
 

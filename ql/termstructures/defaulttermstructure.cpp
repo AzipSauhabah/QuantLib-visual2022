@@ -20,8 +20,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/defaulttermstructure.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <termstructures/defaulttermstructure.hpp>
+#include <utilities/dataformatters.hpp>
 #include <utility>
 
 namespace QuantLib {

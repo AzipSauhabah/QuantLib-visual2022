@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/utilities/tracing.hpp>
+#include <utilities/tracing.hpp>
 #include <iostream>
 
 namespace QuantLib::detail {

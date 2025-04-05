@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/optimization/steepestdescent.hpp>
-#include <ql/math/optimization/problem.hpp>
-#include <ql/math/optimization/linesearch.hpp>
+#include <math/optimization/steepestdescent.hpp>
+#include <math/optimization/problem.hpp>
+#include <math/optimization/linesearch.hpp>
 
 namespace QuantLib {
 

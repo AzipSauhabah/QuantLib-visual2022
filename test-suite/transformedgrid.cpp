@@ -19,9 +19,9 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/transformedgrid.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/grid.hpp>
+#include <math/transformedgrid.hpp>
+#include <utilities/dataformatters.hpp>
+#include <grid.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

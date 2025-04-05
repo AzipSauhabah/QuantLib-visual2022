@@ -25,8 +25,8 @@
 #ifndef quantlib_forward_value_quote_hpp
 #define quantlib_forward_value_quote_hpp
 
-#include <ql/quote.hpp>
-#include <ql/index.hpp>
+#include <quote.hpp>
+#include <index.hpp>
 
 namespace QuantLib {
 

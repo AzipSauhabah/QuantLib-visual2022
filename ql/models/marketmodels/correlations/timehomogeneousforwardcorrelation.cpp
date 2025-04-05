@@ -19,9 +19,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/correlations/timehomogeneousforwardcorrelation.hpp>
-#include <ql/models/marketmodels/utilities.hpp>
-#include <ql/math/matrixutilities/pseudosqrt.hpp>
+#include <models/marketmodels/correlations/timehomogeneousforwardcorrelation.hpp>
+#include <models/marketmodels/utilities.hpp>
+#include <math/matrixutilities/pseudosqrt.hpp>
 
 namespace QuantLib {
 

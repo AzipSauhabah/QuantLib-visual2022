@@ -24,10 +24,10 @@
 #ifndef quantlib_analytic_gjrgarch_engine_hpp
 #define quantlib_analytic_gjrgarch_engine_hpp
 
-#include <ql/pricingengines/genericmodelengine.hpp>
-#include <ql/models/equity/gjrgarchmodel.hpp>
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/math/integrals/gaussianquadratures.hpp>
+#include <pricingengines/genericmodelengine.hpp>
+#include <models/equity/gjrgarchmodel.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <math/integrals/gaussianquadratures.hpp>
 #include <complex>
 
 namespace QuantLib {

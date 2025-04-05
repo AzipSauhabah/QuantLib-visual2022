@@ -24,7 +24,7 @@
 #ifndef quantlib_option_hpp
 #define quantlib_option_hpp
 
-#include <ql/instrument.hpp>
+#include <instrument.hpp>
 #include <utility>
 
 namespace QuantLib {

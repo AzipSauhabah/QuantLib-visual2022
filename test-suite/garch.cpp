@@ -19,12 +19,12 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/models/volatility/garch.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/math/optimization/levenbergmarquardt.hpp>
-#include <ql/math/randomnumbers/inversecumulativerng.hpp>
-#include <ql/math/randomnumbers/mt19937uniformrng.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <models/volatility/garch.hpp>
+#include <time/calendars/target.hpp>
+#include <math/optimization/levenbergmarquardt.hpp>
+#include <math/randomnumbers/inversecumulativerng.hpp>
+#include <math/randomnumbers/mt19937uniformrng.hpp>
+#include <math/distributions/normaldistribution.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

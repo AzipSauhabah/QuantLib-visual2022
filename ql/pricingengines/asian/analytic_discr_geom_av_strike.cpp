@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/pricingengines/asian/analytic_discr_geom_av_strike.hpp>
+#include <exercise.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <pricingengines/asian/analytic_discr_geom_av_strike.hpp>
 #include <utility>
 
 namespace QuantLib {

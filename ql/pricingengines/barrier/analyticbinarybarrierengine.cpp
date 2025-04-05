@@ -17,11 +17,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/pricingengines/barrier/analyticbinarybarrierengine.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <exercise.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <pricingengines/barrier/analyticbinarybarrierengine.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
 #include <utility>
 
 namespace QuantLib {

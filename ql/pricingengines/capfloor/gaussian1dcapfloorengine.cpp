@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/capfloor/gaussian1dcapfloorengine.hpp>
-#include <ql/math/interpolations/cubicinterpolation.hpp>
-#include <ql/payoff.hpp>
+#include <pricingengines/capfloor/gaussian1dcapfloorengine.hpp>
+#include <math/interpolations/cubicinterpolation.hpp>
+#include <payoff.hpp>
 
 namespace QuantLib {
 

@@ -21,7 +21,7 @@
     \brief Monte Carlo vanilla option engine for stochastic interest rates
 */
 
-#include <ql/pricingengines/vanilla/mchestonhullwhiteengine.hpp>
+#include <pricingengines/vanilla/mchestonhullwhiteengine.hpp>
 #include <utility>
 
 namespace QuantLib {

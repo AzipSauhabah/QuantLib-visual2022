@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/methods/montecarlo/genericlsregression.hpp>
-#include <ql/math/statistics/sequencestatistics.hpp>
-#include <ql/math/matrixutilities/svd.hpp>
+#include <methods/montecarlo/genericlsregression.hpp>
+#include <math/statistics/sequencestatistics.hpp>
+#include <math/matrixutilities/svd.hpp>
 
 namespace QuantLib {
 

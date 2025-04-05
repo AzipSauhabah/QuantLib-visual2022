@@ -19,11 +19,11 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/instruments/twoassetcorrelationoption.hpp>
-#include <ql/pricingengines/exotic/analytictwoassetcorrelationengine.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/time/daycounters/actual360.hpp>
+#include <experimental/exoticoptions/twoassetcorrelationoption.hpp>
+#include <experimental/exoticoptions/analytictwoassetcorrelationengine.hpp>
+#include <quotes/simplequote.hpp>
+#include <utilities/dataformatters.hpp>
+#include <time/daycounters/actual360.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

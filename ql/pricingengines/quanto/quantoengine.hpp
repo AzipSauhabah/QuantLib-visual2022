@@ -25,10 +25,10 @@
 #ifndef quantlib_quanto_engine_hpp
 #define quantlib_quanto_engine_hpp
 
-#include <ql/instruments/payoffs.hpp>
-#include <ql/instruments/quantovanillaoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/termstructures/yield/quantotermstructure.hpp>
+#include <instruments/payoffs.hpp>
+#include <instruments/quantovanillaoption.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <termstructures/yield/quantotermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

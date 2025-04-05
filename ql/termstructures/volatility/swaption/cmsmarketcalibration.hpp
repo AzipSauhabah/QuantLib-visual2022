@@ -25,10 +25,10 @@
 #ifndef quantlib_cms_market_calibration_h
 #define quantlib_cms_market_calibration_h
 
-#include <ql/math/optimization/endcriteria.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/math/array.hpp>
-#include <ql/handle.hpp>
+#include <math/optimization/endcriteria.hpp>
+#include <math/matrix.hpp>
+#include <math/array.hpp>
+#include <handle.hpp>
 
 namespace QuantLib {
 

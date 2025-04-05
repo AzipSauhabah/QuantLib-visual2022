@@ -18,10 +18,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/comparison.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/settings.hpp>
-#include <ql/termstructures/volatility/smilesection.hpp>
+#include <math/comparison.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <settings.hpp>
+#include <termstructures/volatility/smilesection.hpp>
 #include <utility>
 
 using std::sqrt;

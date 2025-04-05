@@ -17,10 +17,10 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/errors.hpp>
-#include <ql/experimental/variancegamma/variancegammaprocess.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/processes/eulerdiscretization.hpp>
+#include <errors.hpp>
+#include <experimental/variancegamma/variancegammaprocess.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <processes/eulerdiscretization.hpp>
 #include <utility>
 
 namespace QuantLib {

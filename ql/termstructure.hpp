@@ -24,12 +24,12 @@
 #ifndef quantlib_term_structure_hpp
 #define quantlib_term_structure_hpp
 
-#include <ql/time/calendar.hpp>
-#include <ql/time/daycounter.hpp>
-#include <ql/settings.hpp>
-#include <ql/handle.hpp>
-#include <ql/math/interpolations/extrapolation.hpp>
-#include <ql/utilities/null.hpp>
+#include <time/calendar.hpp>
+#include <time/daycounter.hpp>
+#include <settings.hpp>
+#include <handle.hpp>
+#include <math/interpolations/extrapolation.hpp>
+#include <utilities/null.hpp>
 
 namespace QuantLib {
 

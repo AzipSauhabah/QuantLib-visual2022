@@ -20,8 +20,8 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/math/fastfouriertransform.hpp>
-#include <ql/math/array.hpp>
+#include <math/fastfouriertransform.hpp>
+#include <math/array.hpp>
 #include <complex>
 #include <vector>
 #include <functional>

@@ -20,10 +20,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/volatility/capfloor/capfloortermvolcurve.hpp>
-#include <ql/math/interpolations/cubicinterpolation.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <termstructures/volatility/capfloor/capfloortermvolcurve.hpp>
+#include <math/interpolations/cubicinterpolation.hpp>
+#include <quotes/simplequote.hpp>
+#include <utilities/dataformatters.hpp>
 
 namespace QuantLib {
 

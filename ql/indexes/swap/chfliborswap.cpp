@@ -18,11 +18,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/indexes/swap/chfliborswap.hpp>
-#include <ql/indexes/ibor/chflibor.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
-#include <ql/currencies/europe.hpp>
+#include <indexes/swap/chfliborswap.hpp>
+#include <indexes/ibor/chflibor.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/thirty360.hpp>
+#include <currencies/europe.hpp>
 
 namespace QuantLib {
 

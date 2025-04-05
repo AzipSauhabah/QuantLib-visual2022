@@ -19,11 +19,11 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/experimental/exoticoptions/pagodaoption.hpp>
-#include <ql/experimental/exoticoptions/mcpagodaengine.hpp>
-#include <ql/math/randomnumbers/rngtraits.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <experimental/exoticoptions/pagodaoption.hpp>
+#include <experimental/exoticoptions/mcpagodaengine.hpp>
+#include <math/randomnumbers/rngtraits.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <quotes/simplequote.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

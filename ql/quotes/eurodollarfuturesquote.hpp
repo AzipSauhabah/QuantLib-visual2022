@@ -25,9 +25,9 @@
 #ifndef quantlib_eurodollar_futures_quote_hpp
 #define quantlib_eurodollar_futures_quote_hpp
 
-#include <ql/quote.hpp>
-#include <ql/handle.hpp>
-#include <ql/patterns/lazyobject.hpp>
+#include <quote.hpp>
+#include <handle.hpp>
+#include <patterns/lazyobject.hpp>
 
 namespace QuantLib {
 

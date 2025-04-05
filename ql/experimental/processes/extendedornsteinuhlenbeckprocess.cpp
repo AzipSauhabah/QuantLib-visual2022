@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/processes/extendedornsteinuhlenbeckprocess.hpp>
-#include <ql/math/integrals/gausslobattointegral.hpp>
-#include <ql/processes/ornsteinuhlenbeckprocess.hpp>
+#include <experimental/processes/extendedornsteinuhlenbeckprocess.hpp>
+#include <math/integrals/gausslobattointegral.hpp>
+#include <processes/ornsteinuhlenbeckprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/copulas/independentcopula.hpp>
-#include <ql/errors.hpp>
+#include <math/copulas/independentcopula.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

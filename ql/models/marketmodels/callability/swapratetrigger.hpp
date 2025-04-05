@@ -20,8 +20,8 @@
 #ifndef quantlib_swap_rate_trigger_hpp
 #define quantlib_swap_rate_trigger_hpp
 
-#include <ql/methods/montecarlo/exercisestrategy.hpp>
-#include <ql/models/marketmodels/curvestate.hpp>
+#include <methods/montecarlo/exercisestrategy.hpp>
+#include <models/marketmodels/curvestate.hpp>
 #include <vector>
 
 namespace QuantLib {

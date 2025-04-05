@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/equity/batesmodel.hpp>
-#include <ql/shared_ptr.hpp>
+#include <models/equity/batesmodel.hpp>
+#include <shared_ptr.hpp>
 
 namespace QuantLib {
 

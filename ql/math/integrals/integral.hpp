@@ -22,8 +22,8 @@
 #ifndef quantlib_math_integrator_hpp
 #define quantlib_math_integrator_hpp
 
-#include <ql/types.hpp>
-#include <ql/functional.hpp>
+#include <types.hpp>
+#include <functional.hpp>
 
 namespace QuantLib {
 

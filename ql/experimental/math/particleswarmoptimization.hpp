@@ -27,12 +27,12 @@ Computation, 6(2): 58–73.
 #ifndef quantlib_optimization_particleswarmoptimization_hpp
 #define quantlib_optimization_particleswarmoptimization_hpp
 
-#include <ql/math/optimization/problem.hpp>
-#include <ql/math/optimization/constraint.hpp>
-#include <ql/math/randomnumbers/mt19937uniformrng.hpp>
-#include <ql/experimental/math/isotropicrandomwalk.hpp>
-#include <ql/experimental/math/levyflightdistribution.hpp>
-#include <ql/math/randomnumbers/seedgenerator.hpp>
+#include <math/optimization/problem.hpp>
+#include <math/optimization/constraint.hpp>
+#include <math/randomnumbers/mt19937uniformrng.hpp>
+#include <experimental/math/isotropicrandomwalk.hpp>
+#include <experimental/math/levyflightdistribution.hpp>
+#include <math/randomnumbers/seedgenerator.hpp>
 
 #include <random>
 

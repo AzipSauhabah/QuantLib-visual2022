@@ -29,11 +29,11 @@
 #ifndef quantlib_floating_rate_coupon_hpp
 #define quantlib_floating_rate_coupon_hpp
 
-#include <ql/cashflows/coupon.hpp>
-#include <ql/patterns/visitor.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/time/daycounter.hpp>
-#include <ql/handle.hpp>
+#include <cashflows/coupon.hpp>
+#include <patterns/visitor.hpp>
+#include <patterns/lazyobject.hpp>
+#include <time/daycounter.hpp>
+#include <handle.hpp>
 
 namespace QuantLib {
 

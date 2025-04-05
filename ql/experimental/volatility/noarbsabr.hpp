@@ -50,9 +50,9 @@
 #ifndef quantlib_noarb_sabr
 #define quantlib_noarb_sabr
 
-#include <ql/qldefines.hpp>
-#include <ql/types.hpp>
-#include <ql/math/integrals/gausslobattointegral.hpp>
+#include <qldefines.hpp>
+#include <types.hpp>
+#include <math/integrals/gausslobattointegral.hpp>
 
 #include <vector>
 

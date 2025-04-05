@@ -24,7 +24,7 @@
 #ifndef quantlib_chfliborswap_hpp
 #define quantlib_chfliborswap_hpp
 
-#include <ql/indexes/swapindex.hpp>
+#include <indexes/swapindex.hpp>
 
 namespace QuantLib {
 

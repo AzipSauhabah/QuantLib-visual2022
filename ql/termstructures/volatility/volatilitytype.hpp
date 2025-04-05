@@ -24,7 +24,7 @@
 #ifndef quantlib_volatility_type_hpp
 #define quantlib_volatility_type_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <ostream>
 
 namespace QuantLib {

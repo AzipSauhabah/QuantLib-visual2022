@@ -21,10 +21,10 @@
     \brief One-dimensional grid mesher combining two existing ones
 */
 
-#include <ql/experimental/finitedifferences/glued1dmesher.hpp>
-#include <ql/errors.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/utilities/null.hpp>
+#include <experimental/finitedifferences/glued1dmesher.hpp>
+#include <errors.hpp>
+#include <math/comparison.hpp>
+#include <utilities/null.hpp>
 
 namespace QuantLib {
 

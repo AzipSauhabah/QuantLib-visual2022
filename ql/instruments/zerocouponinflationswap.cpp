@@ -19,10 +19,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
  */
 
-#include <ql/cashflows/zeroinflationcashflow.hpp>
-#include <ql/cashflows/simplecashflow.hpp>
-#include <ql/instruments/zerocouponinflationswap.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
+#include <cashflows/zeroinflationcashflow.hpp>
+#include <cashflows/simplecashflow.hpp>
+#include <instruments/zerocouponinflationswap.hpp>
+#include <time/calendars/nullcalendar.hpp>
 #include <utility>
 
 namespace QuantLib {

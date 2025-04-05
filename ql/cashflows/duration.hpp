@@ -26,7 +26,7 @@
 #ifndef quantlib_duration_hpp
 #define quantlib_duration_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #include <iosfwd>
 
 namespace QuantLib {

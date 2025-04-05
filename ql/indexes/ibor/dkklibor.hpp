@@ -25,10 +25,10 @@
 #ifndef quantlib_dkk_libor_hpp
 #define quantlib_dkk_libor_hpp
 
-#include <ql/indexes/ibor/libor.hpp>
-#include <ql/time/calendars/denmark.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/currencies/europe.hpp>
+#include <indexes/ibor/libor.hpp>
+#include <time/calendars/denmark.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <currencies/europe.hpp>
 
 namespace QuantLib {
 

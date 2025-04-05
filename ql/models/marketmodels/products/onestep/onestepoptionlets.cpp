@@ -18,10 +18,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/curvestate.hpp>
-#include <ql/models/marketmodels/products/onestep/onestepoptionlets.hpp>
-#include <ql/models/marketmodels/utilities.hpp>
-#include <ql/payoff.hpp>
+#include <models/marketmodels/curvestate.hpp>
+#include <models/marketmodels/products/onestep/onestepoptionlets.hpp>
+#include <models/marketmodels/utilities.hpp>
+#include <payoff.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -24,8 +24,8 @@
 #ifndef quantlib_kernel_interpolation2D_hpp
 #define quantlib_kernel_interpolation2D_hpp
 
-#include <ql/math/interpolations/interpolation2d.hpp>
-#include <ql/math/matrixutilities/qrdecomposition.hpp>
+#include <math/interpolations/interpolation2d.hpp>
+#include <math/matrixutilities/qrdecomposition.hpp>
 #include <utility>
 
 /*

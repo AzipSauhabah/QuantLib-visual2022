@@ -21,10 +21,10 @@
 #ifndef quantlib_mt_brownian_generator_hpp
 #define quantlib_mt_brownian_generator_hpp
 
-#include <ql/models/marketmodels/browniangenerator.hpp>
-#include <ql/math/randomnumbers/randomsequencegenerator.hpp>
-#include <ql/math/randomnumbers/mt19937uniformrng.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <models/marketmodels/browniangenerator.hpp>
+#include <math/randomnumbers/randomsequencegenerator.hpp>
+#include <math/randomnumbers/mt19937uniformrng.hpp>
+#include <math/distributions/normaldistribution.hpp>
 
 namespace QuantLib {
 

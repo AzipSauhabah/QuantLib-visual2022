@@ -17,12 +17,12 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/experimental/callablebonds/blackcallablebondengine.hpp>
-#include <ql/experimental/callablebonds/callablebondconstantvol.hpp>
-#include <ql/experimental/callablebonds/callablebondvolstructure.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
+#include <cashflows/cashflows.hpp>
+#include <experimental/callablebonds/blackcallablebondengine.hpp>
+#include <experimental/callablebonds/callablebondconstantvol.hpp>
+#include <experimental/callablebonds/callablebondvolstructure.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <time/calendars/nullcalendar.hpp>
 #include <utility>
 
 using namespace std;
@@ -155,10 +155,6 @@ namespace QuantLib {
         Time exerciseTime = volatility_->dayCounter().yearFraction(
                                                  volatility_->referenceDate(),
                                                  exerciseDate);
-
-        Real discount = discountCurve_->discount(exerciseDate);
-        Real discountToSettlement = discount / discountCurve_->discount(settle);
-
         Real embeddedOptionValue =
             blackFormula(type,
                          cashStrike,
@@ -166,11 +162,11 @@ namespace QuantLib {
                          priceVol*std::sqrt(exerciseTime));
 
         if (type == Option::Call) {
-            results_.value = npv - embeddedOptionValue * discount;
-            results_.settlementValue = value - embeddedOptionValue * discountToSettlement;
+            results_.value = npv - embeddedOptionValue;
+            results_.settlementValue = value - embeddedOptionValue;
         } else {
-            results_.value = npv + embeddedOptionValue * discount;
-            results_.settlementValue = value + embeddedOptionValue * discountToSettlement;
+            results_.value = npv + embeddedOptionValue;
+            results_.settlementValue = value + embeddedOptionValue;
         }
     }
 

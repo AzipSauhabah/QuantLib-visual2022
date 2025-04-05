@@ -22,13 +22,13 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/any.hpp>
-#include <ql/exercise.hpp>
-#include <ql/instruments/swaption.hpp>
-#include <ql/math/solvers1d/newtonsafe.hpp>
-#include <ql/pricingengines/swaption/blackswaptionengine.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/shared_ptr.hpp>
+#include <any.hpp>
+#include <exercise.hpp>
+#include <instruments/swaption.hpp>
+#include <math/solvers1d/newtonsafe.hpp>
+#include <pricingengines/swaption/blackswaptionengine.hpp>
+#include <quotes/simplequote.hpp>
+#include <shared_ptr.hpp>
 #include <utility>
 
 namespace QuantLib {

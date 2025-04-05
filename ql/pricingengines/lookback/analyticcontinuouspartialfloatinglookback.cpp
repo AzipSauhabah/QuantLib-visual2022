@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/pricingengines/lookback/analyticcontinuouspartialfloatinglookback.hpp>
+#include <exercise.hpp>
+#include <pricingengines/lookback/analyticcontinuouspartialfloatinglookback.hpp>
 #include <utility>
 
 namespace QuantLib {

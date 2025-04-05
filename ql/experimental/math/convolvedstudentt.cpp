@@ -17,12 +17,12 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/math/convolvedstudentt.hpp>
-#include <ql/errors.hpp>
-#include <ql/math/factorial.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/math/functional.hpp>
+#include <experimental/math/convolvedstudentt.hpp>
+#include <errors.hpp>
+#include <math/factorial.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <math/functional.hpp>
 #include <boost/math/distributions/students_t.hpp>
 
 namespace QuantLib {

@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/shortrate/onefactormodels/vasicek.hpp>
-#include <ql/pricingengines/blackformula.hpp>
+#include <models/shortrate/onefactormodels/vasicek.hpp>
+#include <pricingengines/blackformula.hpp>
 
 namespace QuantLib {
 

@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/inflation/yoycapfloortermpricesurface.hpp>
+#include <experimental/inflation/yoycapfloortermpricesurface.hpp>
 #include <utility>
 
 namespace QuantLib {

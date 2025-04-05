@@ -25,9 +25,9 @@
 #ifndef quantlib_two_factor_models_g2_h
 #define quantlib_two_factor_models_g2_h
 
-#include <ql/instruments/swaption.hpp>
-#include <ql/models/shortrate/twofactormodel.hpp>
-#include <ql/processes/ornsteinuhlenbeckprocess.hpp>
+#include <instruments/swaption.hpp>
+#include <models/shortrate/twofactormodel.hpp>
+#include <processes/ornsteinuhlenbeckprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/bonds/amortizingfixedratebond.hpp>
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/cashflows/simplecashflow.hpp>
-#include <ql/time/schedule.hpp>
+#include <instruments/bonds/amortizingfixedratebond.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <cashflows/simplecashflow.hpp>
+#include <time/schedule.hpp>
 
 namespace QuantLib {
 

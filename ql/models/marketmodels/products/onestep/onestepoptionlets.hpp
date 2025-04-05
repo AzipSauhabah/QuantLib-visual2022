@@ -22,8 +22,8 @@
 #ifndef quantlib_onestep_optionlets_hpp
 #define quantlib_onestep_optionlets_hpp
 
-#include <ql/models/marketmodels/products/multiproductonestep.hpp>
-#include <ql/shared_ptr.hpp>
+#include <models/marketmodels/products/multiproductonestep.hpp>
+#include <shared_ptr.hpp>
 
 namespace QuantLib {
 

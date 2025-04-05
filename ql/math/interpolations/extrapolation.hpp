@@ -24,7 +24,7 @@
 #ifndef quantlib_extrapolation_hpp
 #define quantlib_extrapolation_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 
 namespace QuantLib {
 

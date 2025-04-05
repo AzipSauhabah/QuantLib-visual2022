@@ -25,8 +25,8 @@
 #ifndef quantlib_tree_swap_engine_hpp
 #define quantlib_tree_swap_engine_hpp
 
-#include <ql/instruments/vanillaswap.hpp>
-#include <ql/pricingengines/latticeshortratemodelengine.hpp>
+#include <instruments/vanillaswap.hpp>
+#include <pricingengines/latticeshortratemodelengine.hpp>
 
 namespace QuantLib {
 

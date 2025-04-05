@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/americanpayoffatexpiry.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <pricingengines/americanpayoffatexpiry.hpp>
+#include <math/distributions/normaldistribution.hpp>
 
 namespace QuantLib {
 

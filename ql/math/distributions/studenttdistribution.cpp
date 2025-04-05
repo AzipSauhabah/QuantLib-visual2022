@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/distributions/studenttdistribution.hpp>
-#include <ql/math/distributions/gammadistribution.hpp>
-#include <ql/math/beta.hpp>
+#include <math/distributions/studenttdistribution.hpp>
+#include <math/distributions/gammadistribution.hpp>
+#include <math/beta.hpp>
 
 namespace QuantLib {
 

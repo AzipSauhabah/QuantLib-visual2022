@@ -24,8 +24,8 @@
 #ifndef quantlib_exponential_fitting_heston_engine_hpp
 #define quantlib_exponential_fitting_heston_engine_hpp
 
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/pricingengines/vanilla/analytichestonengine.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <pricingengines/vanilla/analytichestonengine.hpp>
 
 #include <vector>
 

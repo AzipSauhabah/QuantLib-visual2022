@@ -24,8 +24,8 @@
 #ifndef quantlib_fdm_boundary_condition_set_hpp
 #define quantlib_fdm_boundary_condition_set_hpp
 
-#include <ql/methods/finitedifferences/operatortraits.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearop.hpp>
+#include <methods/finitedifferences/operatortraits.hpp>
+#include <methods/finitedifferences/operators/fdmlinearop.hpp>
 
 namespace QuantLib {
 

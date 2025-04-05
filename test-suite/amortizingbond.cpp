@@ -17,15 +17,15 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/instruments/bonds/amortizingfixedratebond.hpp>
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/settings.hpp>
-#include <ql/time/calendars/brazil.hpp>
-#include <ql/time/calendars/unitedstates.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/time/daycounters/business252.hpp>
+#include <instruments/bonds/amortizingfixedratebond.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <settings.hpp>
+#include <time/calendars/brazil.hpp>
+#include <time/calendars/unitedstates.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <time/daycounters/business252.hpp>
 #include <iostream>
 
 using namespace QuantLib;

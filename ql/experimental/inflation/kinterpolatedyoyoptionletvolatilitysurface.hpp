@@ -24,7 +24,7 @@
 #ifndef quantlib_k_interpolated_yoy_optionlet_volatility_surface_hpp
 #define quantlib_k_interpolated_yoy_optionlet_volatility_surface_hpp
 
-#include <ql/experimental/inflation/yoyoptionletstripper.hpp>
+#include <experimental/inflation/yoyoptionletstripper.hpp>
 #include <utility>
 
 namespace QuantLib {

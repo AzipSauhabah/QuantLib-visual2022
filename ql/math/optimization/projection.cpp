@@ -19,7 +19,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/optimization/projection.hpp>
+#include <math/optimization/projection.hpp>
 #include <utility>
 
 namespace QuantLib {

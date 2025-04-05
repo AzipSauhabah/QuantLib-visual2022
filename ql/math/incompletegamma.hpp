@@ -24,8 +24,8 @@
 #ifndef quantlib_math_incompletegamma_h
 #define quantlib_math_incompletegamma_h
 
-#include <ql/errors.hpp>
-#include <ql/types.hpp>
+#include <errors.hpp>
+#include <types.hpp>
 #include <functional>
 
 namespace QuantLib {

@@ -24,7 +24,7 @@
 #ifndef quantlib_nulldeleter_hpp
 #define quantlib_nulldeleter_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 
 namespace QuantLib {
 struct null_deleter {

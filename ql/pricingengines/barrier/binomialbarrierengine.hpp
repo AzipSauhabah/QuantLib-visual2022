@@ -24,13 +24,13 @@
 #ifndef quantlib_binomial_barrier_engine_hpp
 #define quantlib_binomial_barrier_engine_hpp
 
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/methods/lattices/binomialtree.hpp>
-#include <ql/methods/lattices/bsmlattice.hpp>
-#include <ql/pricingengines/barrier/discretizedbarrieroption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <methods/lattices/binomialtree.hpp>
+#include <methods/lattices/bsmlattice.hpp>
+#include <pricingengines/barrier/discretizedbarrieroption.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <termstructures/yield/flatforward.hpp>
 #include <type_traits>
 #include <utility>
 

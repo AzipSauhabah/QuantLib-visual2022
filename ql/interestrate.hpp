@@ -24,8 +24,8 @@
 #ifndef quantlib_interest_rate_hpp
 #define quantlib_interest_rate_hpp
 
-#include <ql/compounding.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
+#include <compounding.hpp>
+#include <time/daycounters/actual365fixed.hpp>
 
 namespace QuantLib {
 

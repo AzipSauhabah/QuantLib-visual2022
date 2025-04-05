@@ -18,10 +18,10 @@
 */
 
 #include "utilities.hpp"
-#include <ql/instruments/payoffs.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
+#include <instruments/payoffs.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <time/calendars/nullcalendar.hpp>
 
 #define CHECK_DOWNCAST(Derived,Description) { \
     ext::shared_ptr<Derived> hd = ext::dynamic_pointer_cast<Derived>(h); \
@@ -53,21 +53,6 @@ namespace QuantLib {
         CHECK_DOWNCAST(BermudanExercise, "Bermudan");
 
         QL_FAIL("unknown exercise type");
-    }
-
-    std::string barrierTypeToString(Barrier::Type type) {
-        switch(type){
-        case Barrier::DownIn:
-            return std::string("Down-and-in");
-        case Barrier::UpIn:
-            return std::string("Up-and-in");
-        case Barrier::DownOut:
-            return std::string("Down-and-out");
-        case Barrier::UpOut:
-            return std::string("Up-and-out");
-        default:
-            QL_FAIL("unknown exercise type");
-        }
     }
 
 

@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/copulas/maxcopula.hpp>
-#include <ql/errors.hpp>
+#include <math/copulas/maxcopula.hpp>
+#include <errors.hpp>
 #include <algorithm>
 
 namespace QuantLib {

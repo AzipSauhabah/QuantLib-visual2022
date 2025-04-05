@@ -24,12 +24,12 @@
 #ifndef quantlib_instruments_floatfloatswaption_hpp
 #define quantlib_instruments_floatfloatswaption_hpp
 
-#include <ql/instruments/swaption.hpp>
-#include <ql/instruments/floatfloatswap.hpp>
-#include <ql/pricingengines/swaption/basketgeneratingengine.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionvolstructure.hpp>
-#include <ql/models/calibrationhelper.hpp>
+#include <instruments/swaption.hpp>
+#include <instruments/floatfloatswap.hpp>
+#include <pricingengines/swaption/basketgeneratingengine.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <termstructures/volatility/swaption/swaptionvolstructure.hpp>
+#include <models/calibrationhelper.hpp>
 
 namespace QuantLib {
 

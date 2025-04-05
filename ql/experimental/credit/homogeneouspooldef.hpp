@@ -21,10 +21,10 @@
 #ifndef quantlib_homogenous_pool_default_model_hpp
 #define quantlib_homogenous_pool_default_model_hpp
 
-#include <ql/experimental/credit/lossdistribution.hpp>
-#include <ql/experimental/credit/basket.hpp>
-#include <ql/experimental/credit/constantlosslatentmodel.hpp>
-#include <ql/experimental/credit/defaultlossmodel.hpp>
+#include <experimental/credit/lossdistribution.hpp>
+#include <experimental/credit/basket.hpp>
+#include <experimental/credit/constantlosslatentmodel.hpp>
+#include <experimental/credit/defaultlossmodel.hpp>
 
 // Intended to replace HomogeneousPoolCDOEngine in syntheticcdoengines.hpp
 

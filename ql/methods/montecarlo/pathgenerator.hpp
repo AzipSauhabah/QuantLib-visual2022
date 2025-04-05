@@ -26,8 +26,8 @@
 #ifndef quantlib_montecarlo_path_generator_hpp
 #define quantlib_montecarlo_path_generator_hpp
 
-#include <ql/methods/montecarlo/brownianbridge.hpp>
-#include <ql/stochasticprocess.hpp>
+#include <methods/montecarlo/brownianbridge.hpp>
+#include <stochasticprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

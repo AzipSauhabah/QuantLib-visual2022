@@ -27,12 +27,12 @@
 #ifndef quantlib_overnight_indexed_swap_hpp
 #define quantlib_overnight_indexed_swap_hpp
 
-#include <ql/cashflows/rateaveraging.hpp>
-#include <ql/instruments/fixedvsfloatingswap.hpp>
-#include <ql/time/businessdayconvention.hpp>
-#include <ql/time/calendar.hpp>
-#include <ql/time/daycounter.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/rateaveraging.hpp>
+#include <instruments/fixedvsfloatingswap.hpp>
+#include <time/businessdayconvention.hpp>
+#include <time/calendar.hpp>
+#include <time/daycounter.hpp>
+#include <time/schedule.hpp>
 
 namespace QuantLib {
 

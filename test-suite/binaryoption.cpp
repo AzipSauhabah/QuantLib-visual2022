@@ -19,19 +19,19 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/math/interpolations/bicubicsplineinterpolation.hpp>
-#include <ql/instruments/barrieroption.hpp>
-#include <ql/models/equity/hestonmodel.hpp>
-#include <ql/pricingengines/barrier/analyticbinarybarrierengine.hpp>
-#include <ql/termstructures/yield/zerocurve.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvariancecurve.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvariancesurface.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <math/interpolations/bicubicsplineinterpolation.hpp>
+#include <instruments/barrieroption.hpp>
+#include <models/equity/hestonmodel.hpp>
+#include <pricingengines/barrier/analyticbinarybarrierengine.hpp>
+#include <termstructures/yield/zerocurve.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <termstructures/volatility/equityfx/blackvariancecurve.hpp>
+#include <termstructures/volatility/equityfx/blackvariancesurface.hpp>
+#include <utilities/dataformatters.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;
@@ -58,6 +58,21 @@ BOOST_AUTO_TEST_SUITE(BinaryOptionTests)
                << "    calculated " << greekName << ": " << calculated << "\n"\
                << "    error:            " << error << "\n" \
                << "    tolerance:        " << tolerance << "\n");
+
+std::string barrierTypeToString(Barrier::Type type) {
+    switch(type){
+      case Barrier::DownIn:
+        return std::string("Down-and-in");
+      case Barrier::UpIn:
+        return std::string("Up-and-in");
+      case Barrier::DownOut:
+        return std::string("Down-and-out");
+      case Barrier::UpOut:
+        return std::string("Up-and-out");
+      default:
+        QL_FAIL("unknown exercise type");
+    }
+}
 
 struct BinaryOptionData {
     Barrier::Type barrierType;

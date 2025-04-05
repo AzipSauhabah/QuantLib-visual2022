@@ -27,10 +27,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/math/functional.hpp>
-#include <ql/math/solvers1d/newtonsafe.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <math/functional.hpp>
+#include <math/solvers1d/newtonsafe.hpp>
+#include <math/distributions/normaldistribution.hpp>
 #include <boost/math/distributions/normal.hpp>
 #include <boost/math/special_functions/fpclassify.hpp>
 #include <boost/math/special_functions/atanh.hpp>

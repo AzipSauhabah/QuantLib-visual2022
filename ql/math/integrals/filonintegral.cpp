@@ -21,11 +21,11 @@
     \brief Filon's formulae for sine and cosine Integrals
 */
 
-#include <ql/errors.hpp>
-#include <ql/utilities/null.hpp>
-#include <ql/math/array.hpp>
-#include <ql/math/functional.hpp>
-#include <ql/math/integrals/filonintegral.hpp>
+#include <errors.hpp>
+#include <utilities/null.hpp>
+#include <math/array.hpp>
+#include <math/functional.hpp>
+#include <math/integrals/filonintegral.hpp>
 
 #include <cmath>
 

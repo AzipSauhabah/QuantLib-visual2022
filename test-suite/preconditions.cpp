@@ -19,7 +19,7 @@
 
 #include "preconditions.hpp"
 #include "quantlibglobalfixture.hpp"
-#include <ql/cashflows/iborcoupon.hpp>
+#include <cashflows/iborcoupon.hpp>
 
 using namespace QuantLib;
 namespace utf = boost::unit_test;

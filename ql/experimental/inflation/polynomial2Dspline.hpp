@@ -26,8 +26,8 @@
 #ifndef quantlib_polynomial2D_spline_hpp
 #define quantlib_polynomial2D_spline_hpp
 
-#include <ql/math/interpolations/interpolation2d.hpp>
-#include <ql/math/interpolations/cubicinterpolation.hpp>
+#include <math/interpolations/interpolation2d.hpp>
+#include <math/interpolations/cubicinterpolation.hpp>
 
 namespace QuantLib {
 

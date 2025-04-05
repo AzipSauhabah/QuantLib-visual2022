@@ -21,10 +21,10 @@
 #ifndef quantlib_tap_correlations_hpp
 #define quantlib_tap_correlations_hpp
 
-#include <ql/functional.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/math/optimization/costfunction.hpp>
-#include <ql/types.hpp>
+#include <functional.hpp>
+#include <math/matrix.hpp>
+#include <math/optimization/costfunction.hpp>
+#include <types.hpp>
 #include <utility>
 #include <vector>
 

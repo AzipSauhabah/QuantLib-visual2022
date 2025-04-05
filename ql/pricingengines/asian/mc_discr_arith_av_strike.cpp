@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/asian/mc_discr_arith_av_strike.hpp>
+#include <pricingengines/asian/mc_discr_arith_av_strike.hpp>
 
 namespace QuantLib {
 

@@ -24,7 +24,7 @@
 #ifndef quantlib_default_hpp
 #define quantlib_default_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 
 namespace QuantLib {
 

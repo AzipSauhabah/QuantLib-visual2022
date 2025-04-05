@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/experimental/catbonds/montecarlocatbondengine.hpp>
-#include <ql/optional.hpp>
+#include <cashflows/cashflows.hpp>
+#include <experimental/catbonds/montecarlocatbondengine.hpp>
+#include <optional.hpp>
 #include <algorithm>
 #include <utility>
 

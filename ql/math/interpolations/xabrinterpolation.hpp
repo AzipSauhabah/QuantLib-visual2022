@@ -32,17 +32,17 @@
 #ifndef ql_xabr_interpolation_hpp
 #define ql_xabr_interpolation_hpp
 
-#include <ql/math/interpolation.hpp>
-#include <ql/math/optimization/constraint.hpp>
-#include <ql/math/optimization/levenbergmarquardt.hpp>
-#include <ql/math/optimization/method.hpp>
-#include <ql/math/optimization/projectedcostfunction.hpp>
-#include <ql/math/optimization/simplex.hpp>
-#include <ql/math/randomnumbers/haltonrsg.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/termstructures/volatility/volatilitytype.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/utilities/null.hpp>
+#include <math/interpolation.hpp>
+#include <math/optimization/constraint.hpp>
+#include <math/optimization/levenbergmarquardt.hpp>
+#include <math/optimization/method.hpp>
+#include <math/optimization/projectedcostfunction.hpp>
+#include <math/optimization/simplex.hpp>
+#include <math/randomnumbers/haltonrsg.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <termstructures/volatility/volatilitytype.hpp>
+#include <utilities/dataformatters.hpp>
+#include <utilities/null.hpp>
 #include <utility>
 
 namespace QuantLib::detail {

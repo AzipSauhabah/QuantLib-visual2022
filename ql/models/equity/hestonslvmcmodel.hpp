@@ -25,12 +25,12 @@
 #ifndef quantlib_heston_slv_mc_model_hpp
 #define quantlib_heston_slv_mc_model_hpp
 
-#include <ql/handle.hpp>
-#include <ql/timegrid.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/models/equity/hestonmodel.hpp>
-#include <ql/models/marketmodels/browniangenerator.hpp>
-#include <ql/termstructures/volatility/equityfx/fixedlocalvolsurface.hpp>
+#include <handle.hpp>
+#include <timegrid.hpp>
+#include <patterns/lazyobject.hpp>
+#include <models/equity/hestonmodel.hpp>
+#include <models/marketmodels/browniangenerator.hpp>
+#include <termstructures/volatility/equityfx/fixedlocalvolsurface.hpp>
 
 namespace QuantLib {
     /*! References:

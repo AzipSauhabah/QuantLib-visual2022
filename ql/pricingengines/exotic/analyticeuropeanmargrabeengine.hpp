@@ -24,8 +24,8 @@
 #ifndef quantlib_analytic_european_margrabe_engine_hpp
 #define quantlib_analytic_european_margrabe_engine_hpp
 
-#include <ql/instruments/margrabeoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <instruments/margrabeoption.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

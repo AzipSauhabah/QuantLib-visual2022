@@ -25,7 +25,7 @@
 #ifndef quantlib_math_plackett_copula_hpp
 #define quantlib_math_plackett_copula_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <functional>
 
 namespace QuantLib {

@@ -25,10 +25,10 @@
 #ifndef quantlib_fdm_heston_fwd_op_hpp
 #define quantlib_fdm_heston_fwd_op_hpp
 
-#include <ql/types.hpp>
-#include <ql/methods/finitedifferences/operators/fdmsquarerootfwdop.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
-#include <ql/termstructures/volatility/equityfx/localvoltermstructure.hpp>
+#include <types.hpp>
+#include <methods/finitedifferences/operators/fdmsquarerootfwdop.hpp>
+#include <methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
+#include <termstructures/volatility/equityfx/localvoltermstructure.hpp>
 
 namespace QuantLib {
 

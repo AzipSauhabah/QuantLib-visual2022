@@ -20,7 +20,7 @@
 #ifndef quantlib_alpha_form_concrete_hpp
 #define quantlib_alpha_form_concrete_hpp
 
-#include <ql/models/marketmodels/models/alphaform.hpp>
+#include <models/marketmodels/models/alphaform.hpp>
 #include <vector>
 
 namespace QuantLib {

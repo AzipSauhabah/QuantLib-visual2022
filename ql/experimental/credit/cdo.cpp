@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/event.hpp>
-#include <ql/experimental/credit/cdo.hpp>
+#include <event.hpp>
+#include <experimental/credit/cdo.hpp>
 #include <utility>
 
 using namespace std;

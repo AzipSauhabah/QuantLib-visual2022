@@ -24,7 +24,7 @@
 #ifndef quantlib_proxyibor_hpp
 #define quantlib_proxyibor_hpp
 
-#include <ql/indexes/iborindex.hpp>
+#include <indexes/iborindex.hpp>
 
 namespace QuantLib {
 

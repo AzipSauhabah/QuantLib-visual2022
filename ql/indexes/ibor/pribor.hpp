@@ -24,10 +24,10 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef quantlib_pribor_hpp
 #define quantlib_pribor_hpp
 
-#include <ql/indexes/iborindex.hpp>
-#include <ql/time/calendars/czechrepublic.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/currencies/europe.hpp>
+#include <indexes/iborindex.hpp>
+#include <time/calendars/czechrepublic.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <currencies/europe.hpp>
 
 namespace QuantLib {
 

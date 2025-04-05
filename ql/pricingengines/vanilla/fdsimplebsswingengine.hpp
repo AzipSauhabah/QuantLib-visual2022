@@ -24,9 +24,9 @@
 #ifndef quantlib_fd_simple_bs_swing_engine_hpp
 #define quantlib_fd_simple_bs_swing_engine_hpp
 
-#include <ql/pricingengine.hpp>
-#include <ql/instruments/vanillaswingoption.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <pricingengine.hpp>
+#include <instruments/vanillaswingoption.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
 
 namespace QuantLib {
 

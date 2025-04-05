@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/inflation/yoyoptionlethelpers.hpp>
-#include <ql/instruments/makeyoyinflationcapfloor.hpp>
-#include <ql/utilities/null_deleter.hpp>
+#include <experimental/inflation/yoyoptionlethelpers.hpp>
+#include <instruments/makeyoyinflationcapfloor.hpp>
+#include <utilities/null_deleter.hpp>
 #include <utility>
 
 namespace QuantLib {

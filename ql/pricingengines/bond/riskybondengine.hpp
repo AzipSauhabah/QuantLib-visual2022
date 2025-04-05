@@ -25,10 +25,10 @@
 #ifndef quantlib_risky_bond_engine_hpp
 #define quantlib_risky_bond_engine_hpp
 
-#include <ql/instruments/bond.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/termstructures/defaulttermstructure.hpp>
-#include <ql/handle.hpp>
+#include <instruments/bond.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <termstructures/defaulttermstructure.hpp>
+#include <handle.hpp>
 
 namespace QuantLib {
 

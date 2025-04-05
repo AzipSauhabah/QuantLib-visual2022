@@ -24,7 +24,7 @@
 #ifndef quantlib_localvolsurface_hpp
 #define quantlib_localvolsurface_hpp
 
-#include <ql/termstructures/volatility/equityfx/localvoltermstructure.hpp>
+#include <termstructures/volatility/equityfx/localvoltermstructure.hpp>
 
 namespace QuantLib {
 

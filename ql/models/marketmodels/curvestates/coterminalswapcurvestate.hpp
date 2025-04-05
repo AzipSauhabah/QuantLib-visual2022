@@ -22,7 +22,7 @@
 #ifndef quantlib_coterminalswapcurvestate_hpp
 #define quantlib_coterminalswapcurvestate_hpp
 
-#include <ql/models/marketmodels/curvestate.hpp>
+#include <models/marketmodels/curvestate.hpp>
 
 namespace QuantLib {
 

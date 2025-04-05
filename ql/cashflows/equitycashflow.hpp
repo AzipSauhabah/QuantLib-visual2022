@@ -24,10 +24,10 @@
 #ifndef quantlib_equity_cash_flow_hpp
 #define quantlib_equity_cash_flow_hpp
 
-#include <ql/termstructures/volatility/equityfx/blackvoltermstructure.hpp>
-#include <ql/termstructures/yield/zeroyieldstructure.hpp>
-#include <ql/cashflows/indexedcashflow.hpp>
-#include <ql/patterns/visitor.hpp>
+#include <termstructures/volatility/equityfx/blackvoltermstructure.hpp>
+#include <termstructures/yield/zeroyieldstructure.hpp>
+#include <cashflows/indexedcashflow.hpp>
+#include <patterns/visitor.hpp>
 
 namespace QuantLib {
     

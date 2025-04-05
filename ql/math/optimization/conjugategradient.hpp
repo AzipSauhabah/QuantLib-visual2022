@@ -26,7 +26,7 @@
 #ifndef quantlib_optimization_conjugate_gradient_h
 #define quantlib_optimization_conjugate_gradient_h
 
-#include <ql/math/optimization/linesearchbasedmethod.hpp>
+#include <math/optimization/linesearchbasedmethod.hpp>
 
 namespace QuantLib {
 

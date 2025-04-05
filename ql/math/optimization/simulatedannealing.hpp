@@ -26,9 +26,9 @@
 #ifndef quantlib_optimization_simulatedannealing_hpp
 #define quantlib_optimization_simulatedannealing_hpp
 
-#include <ql/math/randomnumbers/mt19937uniformrng.hpp>
-#include <ql/math/optimization/problem.hpp>
-#include <ql/math/optimization/constraint.hpp>
+#include <math/randomnumbers/mt19937uniformrng.hpp>
+#include <math/optimization/problem.hpp>
+#include <math/optimization/constraint.hpp>
 #include <cmath>
 
 namespace QuantLib {

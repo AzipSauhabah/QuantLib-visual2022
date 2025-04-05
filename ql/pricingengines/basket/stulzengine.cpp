@@ -19,12 +19,12 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/math/distributions/bivariatenormaldistribution.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/pricingengines/basket/stulzengine.hpp>
-#include <ql/pricingengines/blackcalculator.hpp>
-#include <ql/pricingengines/blackformula.hpp>
+#include <exercise.hpp>
+#include <math/distributions/bivariatenormaldistribution.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <pricingengines/basket/stulzengine.hpp>
+#include <pricingengines/blackcalculator.hpp>
+#include <pricingengines/blackformula.hpp>
 #include <utility>
 
 namespace QuantLib {

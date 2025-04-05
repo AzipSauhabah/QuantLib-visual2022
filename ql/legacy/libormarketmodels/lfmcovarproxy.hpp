@@ -24,9 +24,9 @@
 #ifndef quantlib_libor_forward_market_covariance_proxy_hpp
 #define quantlib_libor_forward_market_covariance_proxy_hpp
 
-#include <ql/legacy/libormarketmodels/lfmcovarparam.hpp>
-#include <ql/legacy/libormarketmodels/lmvolmodel.hpp>
-#include <ql/legacy/libormarketmodels/lmcorrmodel.hpp>
+#include <legacy/libormarketmodels/lfmcovarparam.hpp>
+#include <legacy/libormarketmodels/lmvolmodel.hpp>
+#include <legacy/libormarketmodels/lmcorrmodel.hpp>
 
 namespace QuantLib {
 

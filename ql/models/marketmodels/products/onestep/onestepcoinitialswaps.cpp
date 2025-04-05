@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/curvestate.hpp>
-#include <ql/models/marketmodels/products/onestep/onestepcoinitialswaps.hpp>
-#include <ql/models/marketmodels/utilities.hpp>
+#include <models/marketmodels/curvestate.hpp>
+#include <models/marketmodels/products/onestep/onestepcoinitialswaps.hpp>
+#include <models/marketmodels/utilities.hpp>
 #include <utility>
 
 namespace QuantLib {

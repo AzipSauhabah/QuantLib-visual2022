@@ -18,10 +18,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/optional.hpp>
+#include <cashflows/cashflows.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <utilities/dataformatters.hpp>
+#include <optional.hpp>
 #include <utility>
 
 namespace QuantLib {

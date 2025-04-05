@@ -19,23 +19,23 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/compounding.hpp>
-#include <ql/experimental/basismodels/swaptioncfs.hpp>
-#include <ql/experimental/basismodels/tenoroptionletvts.hpp>
-#include <ql/experimental/basismodels/tenorswaptionvts.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/instruments/vanillaswap.hpp>
-#include <ql/instruments/swaption.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/termstructures/volatility/optionlet/strippedoptionlet.hpp>
-#include <ql/termstructures/volatility/optionlet/strippedoptionletadapter.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionvolmatrix.hpp>
-#include <ql/termstructures/yield/zerocurve.hpp>
-#include <ql/math/interpolations/cubicinterpolation.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <compounding.hpp>
+#include <experimental/basismodels/swaptioncfs.hpp>
+#include <experimental/basismodels/tenoroptionletvts.hpp>
+#include <experimental/basismodels/tenorswaptionvts.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <instruments/vanillaswap.hpp>
+#include <instruments/swaption.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <termstructures/volatility/optionlet/strippedoptionlet.hpp>
+#include <termstructures/volatility/optionlet/strippedoptionletadapter.hpp>
+#include <termstructures/volatility/swaption/swaptionvolmatrix.hpp>
+#include <termstructures/yield/zerocurve.hpp>
+#include <math/interpolations/cubicinterpolation.hpp>
+#include <quotes/simplequote.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/thirty360.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

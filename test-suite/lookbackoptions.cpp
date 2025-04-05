@@ -22,17 +22,17 @@
 #include "preconditions.hpp"
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/instruments/lookbackoption.hpp>
-#include <ql/pricingengines/lookback/analyticcontinuousfixedlookback.hpp>
-#include <ql/pricingengines/lookback/analyticcontinuousfloatinglookback.hpp>
-#include <ql/pricingengines/lookback/analyticcontinuouspartialfixedlookback.hpp>
-#include <ql/pricingengines/lookback/analyticcontinuouspartialfloatinglookback.hpp>
-#include <ql/pricingengines/lookback/mclookbackengine.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <instruments/lookbackoption.hpp>
+#include <pricingengines/lookback/analyticcontinuousfixedlookback.hpp>
+#include <pricingengines/lookback/analyticcontinuousfloatinglookback.hpp>
+#include <pricingengines/lookback/analyticcontinuouspartialfixedlookback.hpp>
+#include <pricingengines/lookback/analyticcontinuouspartialfloatinglookback.hpp>
+#include <pricingengines/lookback/mclookbackengine.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <utilities/dataformatters.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

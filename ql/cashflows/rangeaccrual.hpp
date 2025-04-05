@@ -26,10 +26,10 @@
 #ifndef quantlib_range_accrual_h
 #define quantlib_range_accrual_h
 
-#include <ql/termstructures/volatility/smilesection.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/cashflows/floatingratecoupon.hpp>
-#include <ql/time/schedule.hpp>
+#include <termstructures/volatility/smilesection.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <cashflows/floatingratecoupon.hpp>
+#include <time/schedule.hpp>
 #include <vector>
 
 namespace QuantLib {

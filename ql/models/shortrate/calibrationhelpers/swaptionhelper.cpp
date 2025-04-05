@@ -19,15 +19,15 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/indexes/iborindex.hpp>
-#include <ql/instruments/overnightindexedswap.hpp>
-#include <ql/instruments/vanillaswap.hpp>
-#include <ql/models/shortrate/calibrationhelpers/swaptionhelper.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/pricingengines/swaption/blackswaptionengine.hpp>
-#include <ql/pricingengines/swaption/discretizedswaption.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/time/schedule.hpp>
+#include <indexes/iborindex.hpp>
+#include <instruments/overnightindexedswap.hpp>
+#include <instruments/vanillaswap.hpp>
+#include <models/shortrate/calibrationhelpers/swaptionhelper.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <pricingengines/swaption/blackswaptionengine.hpp>
+#include <pricingengines/swaption/discretizedswaption.hpp>
+#include <quotes/simplequote.hpp>
+#include <time/schedule.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -25,9 +25,9 @@
 #ifndef quantlib_tree_based_lattice_hpp
 #define quantlib_tree_based_lattice_hpp
 
-#include <ql/numericalmethod.hpp>
-#include <ql/discretizedasset.hpp>
-#include <ql/patterns/curiouslyrecurring.hpp>
+#include <numericalmethod.hpp>
+#include <discretizedasset.hpp>
+#include <patterns/curiouslyrecurring.hpp>
 
 namespace QuantLib {
 

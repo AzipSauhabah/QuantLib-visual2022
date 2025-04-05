@@ -18,10 +18,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/optimization/constraint.hpp>
-#include <ql/math/optimization/lmdif.hpp>
-#include <ql/math/optimization/levenbergmarquardt.hpp>
-#include <ql/functional.hpp>
+#include <math/optimization/constraint.hpp>
+#include <math/optimization/lmdif.hpp>
+#include <math/optimization/levenbergmarquardt.hpp>
+#include <functional.hpp>
 #include <memory>
 
 namespace QuantLib {

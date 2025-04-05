@@ -17,17 +17,17 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/processes/ornsteinuhlenbeckprocess.hpp>
-#include <ql/pricingengines/swaption/fdg2swaptionengine.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmsolverdesc.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmsimpleprocess1dmesher.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmg2solver.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmaffinemodelswapinnervalue.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
+#include <exercise.hpp>
+#include <indexes/iborindex.hpp>
+#include <processes/ornsteinuhlenbeckprocess.hpp>
+#include <pricingengines/swaption/fdg2swaptionengine.hpp>
+#include <methods/finitedifferences/solvers/fdmsolverdesc.hpp>
+#include <methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/meshers/fdmsimpleprocess1dmesher.hpp>
+#include <methods/finitedifferences/solvers/fdmg2solver.hpp>
+#include <methods/finitedifferences/utilities/fdmaffinemodelswapinnervalue.hpp>
+#include <methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
 
 namespace QuantLib {
 

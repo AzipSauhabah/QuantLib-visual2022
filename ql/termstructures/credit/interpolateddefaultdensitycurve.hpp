@@ -26,8 +26,8 @@
 #ifndef quantlib_interpolated_default_density_curve_hpp
 #define quantlib_interpolated_default_density_curve_hpp
 
-#include <ql/termstructures/credit/defaultdensitystructure.hpp>
-#include <ql/termstructures/interpolatedcurve.hpp>
+#include <termstructures/credit/defaultdensitystructure.hpp>
+#include <termstructures/interpolatedcurve.hpp>
 #include <utility>
 
 namespace QuantLib {

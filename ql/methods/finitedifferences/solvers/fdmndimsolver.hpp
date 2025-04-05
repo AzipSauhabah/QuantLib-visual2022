@@ -23,16 +23,16 @@
 #ifndef quantlib_fdm_n_dim_solver_hpp
 #define quantlib_fdm_n_dim_solver_hpp
 
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/math/interpolations/multicubicspline.hpp>
-#include <ql/methods/finitedifferences/finitedifferencemodel.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmsolverdesc.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmsnapshotcondition.hpp>
-#include <ql/methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
+#include <patterns/lazyobject.hpp>
+#include <math/interpolations/multicubicspline.hpp>
+#include <methods/finitedifferences/finitedifferencemodel.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/solvers/fdmsolverdesc.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <methods/finitedifferences/stepconditions/fdmsnapshotcondition.hpp>
+#include <methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
+#include <methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
 
 #include <numeric>
 

@@ -18,10 +18,10 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/pathwisegreeks/bumpinstrumentjacobian.hpp>
-#include <ql/math/matrixutilities/basisincompleteordered.hpp>
-#include <ql/models/marketmodels/pathwisegreeks/swaptionpseudojacobian.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/pathwisegreeks/bumpinstrumentjacobian.hpp>
+#include <math/matrixutilities/basisincompleteordered.hpp>
+#include <models/marketmodels/pathwisegreeks/swaptionpseudojacobian.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
 
 namespace QuantLib
 {   

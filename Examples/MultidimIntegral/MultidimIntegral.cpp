@@ -17,14 +17,14 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #if !defined(BOOST_ALL_NO_LIB) && defined(BOOST_MSVC)
-#  include <ql/auto_link.hpp>
+#  include <auto_link.hpp>
 #endif
-#include <ql/experimental/math/multidimintegrator.hpp>
-#include <ql/experimental/math/multidimquadrature.hpp>
-#include <ql/math/integrals/trapezoidintegral.hpp>
-#include <ql/patterns/singleton.hpp>
+#include <experimental/math/multidimintegrator.hpp>
+#include <experimental/math/multidimquadrature.hpp>
+#include <math/integrals/trapezoidintegral.hpp>
+#include <patterns/singleton.hpp>
 #include <functional>
 #include <iostream>
 #include <iomanip>

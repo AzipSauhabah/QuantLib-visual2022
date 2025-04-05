@@ -24,7 +24,7 @@
 #ifndef quantlib_constant_cpi_volatility_hpp
 #define quantlib_constant_cpi_volatility_hpp
 
-#include <ql/termstructures/volatility/inflation/cpivolatilitystructure.hpp>
+#include <termstructures/volatility/inflation/cpivolatilitystructure.hpp>
 
 namespace QuantLib {
 

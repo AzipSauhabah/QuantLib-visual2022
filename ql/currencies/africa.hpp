@@ -28,7 +28,7 @@
 #ifndef quantlib_african_currencies_hpp
 #define quantlib_african_currencies_hpp
 
-#include <ql/currency.hpp>
+#include <currency.hpp>
 
 #if defined(QL_PATCH_MSVC)
 #pragma warning(push)

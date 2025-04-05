@@ -24,11 +24,11 @@
 #ifndef quantlib_noarbsabr_interpolated_smile_section_hpp
 #define quantlib_noarbsabr_interpolated_smile_section_hpp
 
-#include <ql/handle.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/termstructures/volatility/smilesection.hpp>
-#include <ql/experimental/volatility/noarbsabrinterpolation.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
+#include <handle.hpp>
+#include <patterns/lazyobject.hpp>
+#include <termstructures/volatility/smilesection.hpp>
+#include <experimental/volatility/noarbsabrinterpolation.hpp>
+#include <time/daycounters/actual365fixed.hpp>
 
 namespace QuantLib {
 

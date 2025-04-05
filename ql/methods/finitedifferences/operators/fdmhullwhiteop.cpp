@@ -20,12 +20,12 @@
 /*! \file fdmhullwhiteop.cpp */
 
 
-#include <ql/models/shortrate/onefactormodels/hullwhite.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/operators/fdmhullwhiteop.hpp>
-#include <ql/methods/finitedifferences/operators/firstderivativeop.hpp>
-#include <ql/methods/finitedifferences/operators/secondderivativeop.hpp>
+#include <models/shortrate/onefactormodels/hullwhite.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/operators/fdmhullwhiteop.hpp>
+#include <methods/finitedifferences/operators/firstderivativeop.hpp>
+#include <methods/finitedifferences/operators/secondderivativeop.hpp>
 
 namespace QuantLib {
 

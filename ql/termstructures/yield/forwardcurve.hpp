@@ -26,10 +26,10 @@
 #ifndef quantlib_forward_curve_hpp
 #define quantlib_forward_curve_hpp
 
-#include <ql/termstructures/yield/forwardstructure.hpp>
-#include <ql/termstructures/interpolatedcurve.hpp>
-#include <ql/math/interpolations/backwardflatinterpolation.hpp>
-#include <ql/math/comparison.hpp>
+#include <termstructures/yield/forwardstructure.hpp>
+#include <termstructures/interpolatedcurve.hpp>
+#include <math/interpolations/backwardflatinterpolation.hpp>
+#include <math/comparison.hpp>
 #include <utility>
 
 namespace QuantLib {

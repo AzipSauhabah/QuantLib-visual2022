@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/compositeinstrument.hpp>
+#include <instruments/compositeinstrument.hpp>
 
 namespace QuantLib {
 

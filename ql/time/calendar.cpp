@@ -22,8 +22,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/calendar.hpp>
-#include <ql/errors.hpp>
+#include <time/calendar.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

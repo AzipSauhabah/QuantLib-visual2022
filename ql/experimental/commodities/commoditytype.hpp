@@ -24,8 +24,8 @@
 #ifndef quantlib_commodity_type_hpp
 #define quantlib_commodity_type_hpp
 
-#include <ql/qldefines.hpp>
-#include <ql/shared_ptr.hpp>
+#include <qldefines.hpp>
+#include <shared_ptr.hpp>
 #include <iosfwd>
 #include <map>
 #include <string>

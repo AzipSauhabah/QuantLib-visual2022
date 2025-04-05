@@ -20,10 +20,10 @@
 #ifndef quantlib_math_multidimintegrator_hpp
 #define quantlib_math_multidimintegrator_hpp
 
-#include <ql/types.hpp>
-#include <ql/errors.hpp>
-#include <ql/math/integrals/integral.hpp>
-#include <ql/functional.hpp>
+#include <types.hpp>
+#include <errors.hpp>
+#include <math/integrals/integral.hpp>
+#include <functional.hpp>
 #include <vector>
 
 namespace QuantLib {

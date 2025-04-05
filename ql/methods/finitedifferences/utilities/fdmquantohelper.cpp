@@ -22,9 +22,9 @@
 \brief quanto helper to store market data needed for the quanto adjustment.
 */
 
-#include <ql/methods/finitedifferences/utilities/fdmquantohelper.hpp>
-#include <ql/termstructures/volatility/equityfx/blackvoltermstructure.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <methods/finitedifferences/utilities/fdmquantohelper.hpp>
+#include <termstructures/volatility/equityfx/blackvoltermstructure.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

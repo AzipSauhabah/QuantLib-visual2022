@@ -20,9 +20,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/imm.hpp>
-#include <ql/settings.hpp>
-#include <ql/utilities/dataparsers.hpp>
+#include <time/imm.hpp>
+#include <settings.hpp>
+#include <utilities/dataparsers.hpp>
 #include <boost/algorithm/string/case_conv.hpp>
 #include <string>
 

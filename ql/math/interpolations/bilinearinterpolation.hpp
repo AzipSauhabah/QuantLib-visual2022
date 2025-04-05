@@ -25,7 +25,7 @@
 #ifndef quantlib_bilinear_interpolation_hpp
 #define quantlib_bilinear_interpolation_hpp
 
-#include <ql/math/interpolations/interpolation2d.hpp>
+#include <math/interpolations/interpolation2d.hpp>
 
 namespace QuantLib {
 

@@ -26,8 +26,8 @@
 #ifndef quantlib_matrix_hpp
 #define quantlib_matrix_hpp
 
-#include <ql/math/array.hpp>
-#include <ql/utilities/steppingiterator.hpp>
+#include <math/array.hpp>
+#include <utilities/steppingiterator.hpp>
 #include <initializer_list>
 #include <iterator>
 

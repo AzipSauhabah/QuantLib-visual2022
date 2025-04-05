@@ -25,8 +25,8 @@
 #ifndef quantlib_bsm_lattice_hpp
 #define quantlib_bsm_lattice_hpp
 
-#include <ql/methods/lattices/binomialtree.hpp>
-#include <ql/methods/lattices/lattice1d.hpp>
+#include <methods/lattices/binomialtree.hpp>
+#include <methods/lattices/lattice1d.hpp>
 
 namespace QuantLib {
 

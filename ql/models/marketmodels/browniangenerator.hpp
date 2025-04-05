@@ -21,8 +21,8 @@
 #ifndef quantlib_brownian_generator_hpp
 #define quantlib_brownian_generator_hpp
 
-#include <ql/types.hpp>
-#include <ql/shared_ptr.hpp>
+#include <types.hpp>
+#include <shared_ptr.hpp>
 #include <vector>
 
 namespace QuantLib {

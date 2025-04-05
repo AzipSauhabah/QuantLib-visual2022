@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/utilities/dataformatters.hpp>
+#include <utilities/dataformatters.hpp>
 #include <ostream>
 
 namespace QuantLib::detail {

@@ -20,10 +20,10 @@
 #ifndef quantlib_recovery_rate_model_hpp
 #define quantlib_recovery_rate_model_hpp
 
-#include <ql/settings.hpp>
-#include <ql/handle.hpp>
-#include <ql/experimental/credit/defaultprobabilitykey.hpp>
-#include <ql/experimental/credit/recoveryratequote.hpp>
+#include <settings.hpp>
+#include <handle.hpp>
+#include <experimental/credit/defaultprobabilitykey.hpp>
+#include <experimental/credit/recoveryratequote.hpp>
 
 namespace QuantLib {
 

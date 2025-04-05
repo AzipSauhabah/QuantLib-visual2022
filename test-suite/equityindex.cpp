@@ -18,10 +18,10 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/currencies/europe.hpp>
-#include <ql/indexes/equityindex.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <currencies/europe.hpp>
+#include <indexes/equityindex.hpp>
+#include <time/calendars/target.hpp>
+#include <quotes/simplequote.hpp>
 #include <string>
 
 using namespace QuantLib;

@@ -21,10 +21,10 @@
 #ifndef quantlib_ctsmm_caplet_calibration_hpp
 #define quantlib_ctsmm_caplet_calibration_hpp
 
-#include <ql/models/marketmodels/curvestate.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/models/marketmodels/piecewiseconstantcorrelation.hpp>
-#include <ql/shared_ptr.hpp>
+#include <models/marketmodels/curvestate.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/piecewiseconstantcorrelation.hpp>
+#include <shared_ptr.hpp>
 #include <vector>
 
 namespace QuantLib {

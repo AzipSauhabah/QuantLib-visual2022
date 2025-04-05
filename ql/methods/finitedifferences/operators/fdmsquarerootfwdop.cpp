@@ -23,12 +23,12 @@
     \brief Fokker-Planck forward operator for an square root process
 */
 
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp>
-#include <ql/methods/finitedifferences/operators/firstderivativeop.hpp>
-#include <ql/methods/finitedifferences/operators/secondderivativeop.hpp>
-#include <ql/methods/finitedifferences/operators/fdmsquarerootfwdop.hpp>
-#include <ql/methods/finitedifferences/operators/modtriplebandlinearop.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearoplayout.hpp>
+#include <methods/finitedifferences/operators/firstderivativeop.hpp>
+#include <methods/finitedifferences/operators/secondderivativeop.hpp>
+#include <methods/finitedifferences/operators/fdmsquarerootfwdop.hpp>
+#include <methods/finitedifferences/operators/modtriplebandlinearop.hpp>
 
 namespace QuantLib {
 

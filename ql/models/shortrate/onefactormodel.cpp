@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/solvers1d/brent.hpp>
-#include <ql/models/shortrate/onefactormodel.hpp>
-#include <ql/stochasticprocess.hpp>
+#include <math/solvers1d/brent.hpp>
+#include <models/shortrate/onefactormodel.hpp>
+#include <stochasticprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

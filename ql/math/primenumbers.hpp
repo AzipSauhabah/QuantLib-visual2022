@@ -34,7 +34,7 @@
 #ifndef quantlib_primenumbers_h
 #define quantlib_primenumbers_h
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <vector>
 
 namespace QuantLib {

@@ -18,9 +18,9 @@
  */
 
 
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/pricingengines/inflation/inflationcapfloorengines.hpp>
-#include <ql/termstructures/volatility/inflation/yoyinflationoptionletvolatilitystructure.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <pricingengines/inflation/inflationcapfloorengines.hpp>
+#include <termstructures/volatility/inflation/yoyinflationoptionletvolatilitystructure.hpp>
 #include <utility>
 
 namespace QuantLib {

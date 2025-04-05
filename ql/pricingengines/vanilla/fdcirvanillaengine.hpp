@@ -24,13 +24,13 @@
 #ifndef quantlib_fd_cir_vanilla_engine_hpp
 #define quantlib_fd_cir_vanilla_engine_hpp
 
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmsolverdesc.hpp>
-#include <ql/models/equity/hestonmodel.hpp>
-#include <ql/pricingengines/genericmodelengine.hpp>
-#include <ql/processes/coxingersollrossprocess.hpp>
-#include <ql/termstructures/volatility/equityfx/localvoltermstructure.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <methods/finitedifferences/solvers/fdmsolverdesc.hpp>
+#include <models/equity/hestonmodel.hpp>
+#include <pricingengines/genericmodelengine.hpp>
+#include <processes/coxingersollrossprocess.hpp>
+#include <termstructures/volatility/equityfx/localvoltermstructure.hpp>
 
 namespace QuantLib {
 

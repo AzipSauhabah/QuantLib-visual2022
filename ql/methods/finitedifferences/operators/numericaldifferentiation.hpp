@@ -25,8 +25,8 @@
 #ifndef quantlib_numerical_differentiation_hpp
 #define quantlib_numerical_differentiation_hpp
 
-#include <ql/math/array.hpp>
-#include <ql/functional.hpp>
+#include <math/array.hpp>
+#include <functional.hpp>
 
 namespace QuantLib {
 

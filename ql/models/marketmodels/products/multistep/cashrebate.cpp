@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/products/multistep/cashrebate.hpp>
-#include <ql/models/marketmodels/utilities.hpp>
+#include <models/marketmodels/products/multistep/cashrebate.hpp>
+#include <models/marketmodels/utilities.hpp>
 #include <utility>
 
 namespace QuantLib {

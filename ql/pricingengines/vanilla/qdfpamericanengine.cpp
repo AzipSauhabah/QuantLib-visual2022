@@ -20,16 +20,16 @@
 /*! \file qrfpamericanengine.cpp
 */
 
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/functional.hpp>
-#include <ql/math/integrals/gaussianquadratures.hpp>
-#include <ql/math/integrals/tanhsinhintegral.hpp>
-#include <ql/math/interpolations/chebyshevinterpolation.hpp>
-#include <ql/pricingengines/blackcalculator.hpp>
-#include <ql/pricingengines/vanilla/qdfpamericanengine.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/functional.hpp>
+#include <math/integrals/gaussianquadratures.hpp>
+#include <math/integrals/tanhsinhintegral.hpp>
+#include <math/interpolations/chebyshevinterpolation.hpp>
+#include <pricingengines/blackcalculator.hpp>
+#include <pricingengines/vanilla/qdfpamericanengine.hpp>
 #include <utility>
 #ifndef QL_BOOST_HAS_TANH_SINH
-#    include <ql/math/integrals/gausslobattointegral.hpp>
+#    include <math/integrals/gausslobattointegral.hpp>
 #endif
 
 namespace QuantLib {

@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/shortrate/onefactormodels/gsr.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <models/shortrate/onefactormodels/gsr.hpp>
+#include <quotes/simplequote.hpp>
 #include <utility>
 
 namespace QuantLib {

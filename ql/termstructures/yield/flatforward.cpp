@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/yield/flatforward.hpp>
 #include <utility>
 
 namespace QuantLib {

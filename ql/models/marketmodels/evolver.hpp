@@ -21,7 +21,7 @@
 #ifndef quantlib_market_model_evolver_hpp
 #define quantlib_market_model_evolver_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <vector>
 
 namespace QuantLib {

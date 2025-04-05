@@ -18,7 +18,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/timegrid.hpp>
+#include <timegrid.hpp>
 #include <iomanip>
 
 namespace QuantLib {

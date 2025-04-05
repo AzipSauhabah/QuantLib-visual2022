@@ -21,7 +21,7 @@
 #ifndef quantlib_piecewise_constant_correlation_hpp
 #define quantlib_piecewise_constant_correlation_hpp
 
-#include <ql/math/matrix.hpp>
+#include <math/matrix.hpp>
 #include <vector>
 
 namespace QuantLib {

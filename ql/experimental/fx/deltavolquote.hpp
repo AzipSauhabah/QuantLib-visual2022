@@ -24,8 +24,8 @@
 #ifndef quantlib_delta_vol_quote_hpp
 #define quantlib_delta_vol_quote_hpp
 
-#include <ql/quote.hpp>
-#include <ql/handle.hpp>
+#include <quote.hpp>
+#include <handle.hpp>
 
 namespace QuantLib {
 

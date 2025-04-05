@@ -25,8 +25,8 @@
 #ifndef quantlib_simple_cash_flow_hpp
 #define quantlib_simple_cash_flow_hpp
 
-#include <ql/patterns/visitor.hpp>
-#include <ql/cashflow.hpp>
+#include <patterns/visitor.hpp>
+#include <cashflow.hpp>
 
 namespace QuantLib {
 

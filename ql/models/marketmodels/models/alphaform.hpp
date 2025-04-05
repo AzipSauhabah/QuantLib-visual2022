@@ -20,7 +20,7 @@
 #ifndef quantlib_alpha_form_hpp
 #define quantlib_alpha_form_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 
 namespace QuantLib {
 

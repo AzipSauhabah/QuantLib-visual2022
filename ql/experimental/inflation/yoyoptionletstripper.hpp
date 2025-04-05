@@ -24,9 +24,9 @@
 #ifndef quantlib_yoy_optionlet_stripper_hpp
 #define quantlib_yoy_optionlet_stripper_hpp
 
-#include <ql/experimental/inflation/yoyinflationoptionletvolatilitystructure2.hpp>
-#include <ql/pricingengines/inflation/inflationcapfloorengines.hpp>
-#include <ql/experimental/inflation/yoycapfloortermpricesurface.hpp>
+#include <experimental/inflation/yoyinflationoptionletvolatilitystructure2.hpp>
+#include <pricingengines/inflation/inflationcapfloorengines.hpp>
+#include <experimental/inflation/yoycapfloortermpricesurface.hpp>
 
 namespace QuantLib {
 

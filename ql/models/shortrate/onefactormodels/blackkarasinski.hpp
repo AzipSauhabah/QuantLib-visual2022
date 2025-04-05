@@ -24,8 +24,8 @@
 #ifndef quantlib_black_karasinski_hpp
 #define quantlib_black_karasinski_hpp
 
-#include <ql/models/shortrate/onefactormodel.hpp>
-#include <ql/processes/ornsteinuhlenbeckprocess.hpp>
+#include <models/shortrate/onefactormodel.hpp>
+#include <processes/ornsteinuhlenbeckprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

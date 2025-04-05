@@ -19,15 +19,15 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/methods/montecarlo/mctraits.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/processes/geometricbrownianprocess.hpp>
-#include <ql/processes/ornsteinuhlenbeckprocess.hpp>
-#include <ql/processes/squarerootprocess.hpp>
-#include <ql/processes/stochasticprocessarray.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <methods/montecarlo/mctraits.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <processes/geometricbrownianprocess.hpp>
+#include <processes/ornsteinuhlenbeckprocess.hpp>
+#include <processes/squarerootprocess.hpp>
+#include <processes/stochasticprocessarray.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <quotes/simplequote.hpp>
+#include <utilities/dataformatters.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

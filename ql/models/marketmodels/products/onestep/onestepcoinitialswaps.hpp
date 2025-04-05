@@ -21,7 +21,7 @@
 #ifndef quantlib_onestep_coinitialswaps_hpp
 #define quantlib_onestep_coinitialswaps_hpp
 
-#include <ql/models/marketmodels/products/multiproductonestep.hpp>
+#include <models/marketmodels/products/multiproductonestep.hpp>
 
 namespace QuantLib {
     class OneStepCoinitialSwaps : public MultiProductOneStep {

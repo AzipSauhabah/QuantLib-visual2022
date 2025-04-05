@@ -25,8 +25,8 @@
 #ifndef quantlib_optimization_line_search_h_
 #define quantlib_optimization_line_search_h_
 
-#include <ql/math/array.hpp>
-#include <ql/math/optimization/endcriteria.hpp>
+#include <math/array.hpp>
+#include <math/optimization/endcriteria.hpp>
 
 namespace QuantLib {
 

@@ -24,7 +24,7 @@
 #ifndef quantlib_libor_market_ext_linear_exp_volatility_model_hpp
 #define quantlib_libor_market_ext_linear_exp_volatility_model_hpp
 
-#include <ql/legacy/libormarketmodels/lmlinexpvolmodel.hpp>
+#include <legacy/libormarketmodels/lmlinexpvolmodel.hpp>
 
 namespace QuantLib {
 

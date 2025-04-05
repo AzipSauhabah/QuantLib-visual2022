@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/commodities/quantity.hpp>
-#include <ql/experimental/commodities/unitofmeasureconversionmanager.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/errors.hpp>
+#include <experimental/commodities/quantity.hpp>
+#include <experimental/commodities/unitofmeasureconversionmanager.hpp>
+#include <math/comparison.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

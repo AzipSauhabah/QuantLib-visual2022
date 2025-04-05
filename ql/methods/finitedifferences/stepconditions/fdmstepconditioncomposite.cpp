@@ -20,14 +20,14 @@
 */
 
 
-#include <ql/exercise.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmamericanstepcondition.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmbermudanstepcondition.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmsnapshotcondition.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmdividendhandler.hpp>
-#include <ql/methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
+#include <exercise.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/stepconditions/fdmamericanstepcondition.hpp>
+#include <methods/finitedifferences/stepconditions/fdmbermudanstepcondition.hpp>
+#include <methods/finitedifferences/stepconditions/fdmsnapshotcondition.hpp>
+#include <methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
+#include <methods/finitedifferences/utilities/fdmdividendhandler.hpp>
+#include <methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
 #include <set>
 #include <utility>
 

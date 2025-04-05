@@ -24,13 +24,13 @@
 #ifndef quantlib_binomial_double_barrier_engine_hpp
 #define quantlib_binomial_double_barrier_engine_hpp
 
-#include <ql/experimental/barrieroption/discretizeddoublebarrieroption.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/methods/lattices/binomialtree.hpp>
-#include <ql/methods/lattices/bsmlattice.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
+#include <experimental/barrieroption/discretizeddoublebarrieroption.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <methods/lattices/binomialtree.hpp>
+#include <methods/lattices/bsmlattice.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <termstructures/yield/flatforward.hpp>
 #include <utility>
 
 namespace QuantLib {

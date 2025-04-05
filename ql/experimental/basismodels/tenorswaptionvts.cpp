@@ -22,14 +22,14 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
 
-#include <ql/experimental/basismodels/tenorswaptionvts.hpp>
-#include <ql/experimental/basismodels/swaptioncfs.hpp>
-#include <ql/instruments/vanillaswap.hpp>
-#include <ql/exercise.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/math/rounding.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/time/dategenerationrule.hpp>
+#include <experimental/basismodels/tenorswaptionvts.hpp>
+#include <experimental/basismodels/swaptioncfs.hpp>
+#include <instruments/vanillaswap.hpp>
+#include <exercise.hpp>
+#include <indexes/iborindex.hpp>
+#include <math/rounding.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <time/dategenerationrule.hpp>
 
 
 namespace QuantLib {

@@ -17,17 +17,17 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/callability/collectnodedata.hpp>
-#include <ql/models/marketmodels/discounter.hpp>
-#include <ql/models/marketmodels/utilities.hpp>
-#include <ql/models/marketmodels/multiproduct.hpp>
-#include <ql/models/marketmodels/evolver.hpp>
-#include <ql/models/marketmodels/callability/nodedataprovider.hpp>
-#include <ql/models/marketmodels/callability/exercisevalue.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/models/marketmodels/curvestate.hpp>
-#include <ql/methods/montecarlo/nodedata.hpp>
-#include <ql/errors.hpp>
+#include <models/marketmodels/callability/collectnodedata.hpp>
+#include <models/marketmodels/discounter.hpp>
+#include <models/marketmodels/utilities.hpp>
+#include <models/marketmodels/multiproduct.hpp>
+#include <models/marketmodels/evolver.hpp>
+#include <models/marketmodels/callability/nodedataprovider.hpp>
+#include <models/marketmodels/callability/exercisevalue.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/curvestate.hpp>
+#include <methods/montecarlo/nodedata.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

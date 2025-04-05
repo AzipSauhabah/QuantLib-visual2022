@@ -20,9 +20,9 @@
 /*! \file FdmAffineModelswapinnervalue.cpp
 */
 
-#include <ql/models/shortrate/twofactormodels/g2.hpp>
-#include <ql/models/shortrate/onefactormodels/hullwhite.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmaffinemodelswapinnervalue.hpp>
+#include <models/shortrate/twofactormodels/g2.hpp>
+#include <models/shortrate/onefactormodels/hullwhite.hpp>
+#include <methods/finitedifferences/utilities/fdmaffinemodelswapinnervalue.hpp>
 
 namespace QuantLib {
 

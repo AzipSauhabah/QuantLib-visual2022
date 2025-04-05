@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/blackcalculator.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/comparison.hpp>
+#include <pricingengines/blackcalculator.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/comparison.hpp>
 
 namespace QuantLib {
 

@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/math/tcopulapolicy.hpp>
+#include <experimental/math/tcopulapolicy.hpp>
 #include <numeric>
 #include <algorithm>
 

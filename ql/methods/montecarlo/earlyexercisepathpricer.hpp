@@ -24,10 +24,10 @@
 #ifndef quantlib_early_exercise_path_pricer_hpp
 #define quantlib_early_exercise_path_pricer_hpp
 
-#include <ql/math/array.hpp>
-#include <ql/methods/montecarlo/path.hpp>
-#include <ql/methods/montecarlo/multipath.hpp>
-#include <ql/functional.hpp>
+#include <math/array.hpp>
+#include <methods/montecarlo/path.hpp>
+#include <methods/montecarlo/multipath.hpp>
+#include <functional.hpp>
 
 namespace QuantLib {
 

@@ -24,9 +24,9 @@
 #ifndef quantlib_tracing_hpp
 #define quantlib_tracing_hpp
 
-#include <ql/types.hpp>
-#include <ql/errors.hpp>
-#include <ql/patterns/singleton.hpp>
+#include <types.hpp>
+#include <errors.hpp>
+#include <patterns/singleton.hpp>
 #include <boost/current_function.hpp>
 #include <iosfwd>
 

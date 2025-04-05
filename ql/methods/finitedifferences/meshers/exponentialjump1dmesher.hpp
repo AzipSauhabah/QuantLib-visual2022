@@ -25,8 +25,8 @@
 #ifndef quantlib_exponential_jump_1d_mesher_hpp
 #define quantlib_exponential_jump_1d_mesher_hpp
 
-#include <ql/methods/finitedifferences/meshers/fdm1dmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearopiterator.hpp>
+#include <methods/finitedifferences/meshers/fdm1dmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearopiterator.hpp>
 
 namespace QuantLib {
 

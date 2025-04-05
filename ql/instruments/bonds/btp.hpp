@@ -24,10 +24,10 @@
 #ifndef quantlib_btp_hpp
 #define quantlib_btp_hpp
 
-#include <ql/instruments/bonds/fixedratebond.hpp>
-#include <ql/instruments/bonds/floatingratebond.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/instruments/vanillaswap.hpp>
+#include <instruments/bonds/fixedratebond.hpp>
+#include <instruments/bonds/floatingratebond.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <instruments/vanillaswap.hpp>
 
 #include <numeric>
 

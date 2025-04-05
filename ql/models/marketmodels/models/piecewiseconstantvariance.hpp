@@ -22,7 +22,7 @@
 #ifndef quantlib_piecewise_const_variance_hpp
 #define quantlib_piecewise_const_variance_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <vector>
 
 namespace QuantLib {

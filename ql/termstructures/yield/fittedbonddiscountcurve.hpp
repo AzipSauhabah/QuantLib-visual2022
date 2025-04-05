@@ -26,12 +26,12 @@
 #ifndef quantlib_fitted_bond_discount_curve_hpp
 #define quantlib_fitted_bond_discount_curve_hpp
 
-#include <ql/termstructures/yield/bondhelpers.hpp>
-#include <ql/math/optimization/method.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/math/array.hpp>
-#include <ql/utilities/clone.hpp>
-#include <ql/math/optimization/constraint.hpp>
+#include <termstructures/yield/bondhelpers.hpp>
+#include <math/optimization/method.hpp>
+#include <patterns/lazyobject.hpp>
+#include <math/array.hpp>
+#include <utilities/clone.hpp>
+#include <math/optimization/constraint.hpp>
 
 namespace QuantLib {
 

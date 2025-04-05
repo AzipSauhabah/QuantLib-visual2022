@@ -26,7 +26,7 @@
 #ifndef quantlib_pricing_engine_hpp
 #define quantlib_pricing_engine_hpp
 
-#include <ql/patterns/observable.hpp>
+#include <patterns/observable.hpp>
 
 namespace QuantLib {
 

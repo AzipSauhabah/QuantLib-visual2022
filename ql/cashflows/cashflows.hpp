@@ -27,10 +27,10 @@
 #ifndef quantlib_cashflows_hpp
 #define quantlib_cashflows_hpp
 
-#include <ql/cashflows/duration.hpp>
-#include <ql/cashflow.hpp>
-#include <ql/interestrate.hpp>
-#include <ql/shared_ptr.hpp>
+#include <cashflows/duration.hpp>
+#include <cashflow.hpp>
+#include <interestrate.hpp>
+#include <shared_ptr.hpp>
 
 namespace QuantLib {
 

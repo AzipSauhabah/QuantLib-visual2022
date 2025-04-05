@@ -24,8 +24,8 @@
 #ifndef quantlib_inflation_cash_flow_hpp
 #define quantlib_inflation_cash_flow_hpp
 
-#include <ql/cashflows/indexedcashflow.hpp>
-#include <ql/indexes/inflationindex.hpp>
+#include <cashflows/indexedcashflow.hpp>
+#include <indexes/inflationindex.hpp>
 
 namespace QuantLib {
 

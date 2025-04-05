@@ -21,8 +21,8 @@
 #ifndef quantlib_market_model_differences_hpp
 #define quantlib_market_model_differences_hpp
 
-#include <ql/types.hpp>
-#include <ql/shared_ptr.hpp>
+#include <types.hpp>
+#include <shared_ptr.hpp>
 #include <vector>
 
 namespace QuantLib {

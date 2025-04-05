@@ -23,8 +23,8 @@
 #ifndef quantlib_fdm_affine_model_termstructure_hpp
 #define quantlib_fdm_affine_model_termstructure_hpp
 
-#include <ql/math/array.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <math/array.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 
 namespace QuantLib {
 

@@ -25,9 +25,9 @@
 #ifndef quantlib_analytic_continuous_fixed_lookback_engine_hpp
 #define quantlib_analytic_continuous_fixed_lookback_engine_hpp
 
-#include <ql/instruments/lookbackoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <instruments/lookbackoption.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <math/distributions/normaldistribution.hpp>
 
 namespace QuantLib {
 

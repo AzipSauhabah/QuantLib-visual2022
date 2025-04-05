@@ -24,8 +24,8 @@
 #ifndef quantlib_perturbative_barrier_option_engine_hpp
 #define quantlib_perturbative_barrier_option_engine_hpp
 
-#include <ql/instruments/barrieroption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <instruments/barrieroption.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

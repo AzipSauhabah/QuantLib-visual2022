@@ -24,7 +24,7 @@
 #ifndef quantlib_modified_bessel_hpp
 #define quantlib_modified_bessel_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <complex>
 
 namespace QuantLib {

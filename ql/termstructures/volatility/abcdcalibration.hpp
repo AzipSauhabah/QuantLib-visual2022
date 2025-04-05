@@ -24,11 +24,11 @@
 #define quantlib_abcdcalibration_hpp
 
 
-#include <ql/math/optimization/endcriteria.hpp>
-#include <ql/math/optimization/projectedcostfunction.hpp>
-#include <ql/math/array.hpp>
+#include <math/optimization/endcriteria.hpp>
+#include <math/optimization/projectedcostfunction.hpp>
+#include <math/array.hpp>
 
-#include <ql/shared_ptr.hpp>
+#include <shared_ptr.hpp>
 
 #include <vector>
 

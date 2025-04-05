@@ -26,14 +26,14 @@
 #ifndef quantlib_rng_traits_hpp
 #define quantlib_rng_traits_hpp
 
-#include <ql/methods/montecarlo/pathgenerator.hpp>
-#include <ql/math/randomnumbers/mt19937uniformrng.hpp>
-#include <ql/math/randomnumbers/inversecumulativerng.hpp>
-#include <ql/math/randomnumbers/randomsequencegenerator.hpp>
-#include <ql/math/randomnumbers/sobolrsg.hpp>
-#include <ql/math/randomnumbers/inversecumulativersg.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/math/distributions/poissondistribution.hpp>
+#include <methods/montecarlo/pathgenerator.hpp>
+#include <math/randomnumbers/mt19937uniformrng.hpp>
+#include <math/randomnumbers/inversecumulativerng.hpp>
+#include <math/randomnumbers/randomsequencegenerator.hpp>
+#include <math/randomnumbers/sobolrsg.hpp>
+#include <math/randomnumbers/inversecumulativersg.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <math/distributions/poissondistribution.hpp>
 
 namespace QuantLib {
 

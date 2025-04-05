@@ -23,7 +23,7 @@
 #ifndef quantlib_exponentail_integral_hpp
 #define quantlib_exponentail_integral_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <complex>
 
 #ifndef M_EULER_MASCHERONI

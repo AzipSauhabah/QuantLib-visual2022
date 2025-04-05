@@ -25,9 +25,9 @@
 #ifndef quantlib_make_swaption_hpp
 #define quantlib_make_swaption_hpp
 
-#include <ql/time/businessdayconvention.hpp>
-#include <ql/instruments/swaption.hpp>
-#include <ql/optional.hpp>
+#include <time/businessdayconvention.hpp>
+#include <instruments/swaption.hpp>
+#include <optional.hpp>
 
 namespace QuantLib {
 

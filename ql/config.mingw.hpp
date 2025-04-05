@@ -21,7 +21,7 @@
 #ifndef quantlib_config_mingw_hpp
 #define quantlib_config_mingw_hpp
 
-#include <ql/userconfig.hpp>
+#include <userconfig.hpp>
 
 
 #endif

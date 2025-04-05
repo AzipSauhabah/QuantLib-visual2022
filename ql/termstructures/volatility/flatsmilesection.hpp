@@ -27,7 +27,7 @@
 #ifndef quantlib_flat_smile_section_hpp
 #define quantlib_flat_smile_section_hpp
 
-#include <ql/termstructures/volatility/smilesection.hpp>
+#include <termstructures/volatility/smilesection.hpp>
 
 namespace QuantLib {
 

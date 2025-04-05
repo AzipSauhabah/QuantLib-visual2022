@@ -20,7 +20,7 @@
 #ifndef quantlib_corra_hpp
 #define quantlib_corra_hpp
 
-#include <ql/indexes/iborindex.hpp>
+#include <indexes/iborindex.hpp>
 
 namespace QuantLib {
     class Corra : public OvernightIndex {

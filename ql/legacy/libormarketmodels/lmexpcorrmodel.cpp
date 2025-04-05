@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/matrixutilities/pseudosqrt.hpp>
-#include <ql/legacy/libormarketmodels/lmexpcorrmodel.hpp>
+#include <math/matrixutilities/pseudosqrt.hpp>
+#include <legacy/libormarketmodels/lmexpcorrmodel.hpp>
 
 namespace QuantLib {
 

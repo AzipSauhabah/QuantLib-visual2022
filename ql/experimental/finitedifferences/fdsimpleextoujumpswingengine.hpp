@@ -24,10 +24,10 @@
 #ifndef quantlib_fd_simple_ext_ou_jump_swing_engine_hpp
 #define quantlib_fd_simple_ext_ou_jump_swing_engine_hpp
 
-#include <ql/pricingengine.hpp>
-#include <ql/instruments/vanillaswingoption.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
-#include <ql/experimental/finitedifferences/fdmextoujumpmodelinnervalue.hpp>
+#include <pricingengine.hpp>
+#include <instruments/vanillaswingoption.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <experimental/finitedifferences/fdmextoujumpmodelinnervalue.hpp>
 
 namespace QuantLib {
 

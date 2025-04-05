@@ -20,7 +20,7 @@
 #ifndef quantlib_spotlosslatentmodel_hpp
 #define quantlib_spotlosslatentmodel_hpp
 
-#include <ql/experimental/credit/defaultprobabilitylatentmodel.hpp>
+#include <experimental/credit/defaultprobabilitylatentmodel.hpp>
 
 namespace QuantLib {
 

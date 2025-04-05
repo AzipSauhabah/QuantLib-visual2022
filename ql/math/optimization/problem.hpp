@@ -26,9 +26,9 @@
 #ifndef quantlib_optimization_problem_h
 #define quantlib_optimization_problem_h
 
-#include <ql/math/optimization/constraint.hpp>
-#include <ql/math/optimization/costfunction.hpp>
-#include <ql/math/optimization/method.hpp>
+#include <math/optimization/constraint.hpp>
+#include <math/optimization/costfunction.hpp>
+#include <math/optimization/method.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -19,10 +19,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/optional.hpp>
-#include <ql/settings.hpp>
-#include <ql/time/imm.hpp>
-#include <ql/time/schedule.hpp>
+#include <optional.hpp>
+#include <settings.hpp>
+#include <time/imm.hpp>
+#include <time/schedule.hpp>
 #include <algorithm>
 #include <utility>
 
@@ -376,8 +376,13 @@ namespace QuantLib {
 
         if (*endOfMonth_ && calendar_.isEndOfMonth(seed)) {
             // adjust to end of month
-            for (Size i=1; i<dates_.size()-1; ++i)
-                dates_[i] = calendar_.adjust(Date::endOfMonth(dates_[i]), convention);
+            if (convention == Unadjusted) {
+                for (Size i=1; i<dates_.size()-1; ++i)
+                    dates_[i] = Date::endOfMonth(dates_[i]);
+            } else {
+                for (Size i=1; i<dates_.size()-1; ++i)
+                    dates_[i] = calendar_.endOfMonth(dates_[i]);
+            }
         } else {
             for (Size i=1; i<dates_.size()-1; ++i)
                 dates_[i] = calendar_.adjust(dates_[i], convention);

@@ -61,7 +61,7 @@ What you see here may be used freely but it comes with no support
 or guarantee.
 */
 
-#include <ql/math/optimization/lmdif.hpp>
+#include <math/optimization/lmdif.hpp>
 #include <cmath>
 #include <cstdio>
 

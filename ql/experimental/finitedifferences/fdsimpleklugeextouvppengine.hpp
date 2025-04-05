@@ -24,10 +24,10 @@
 #ifndef quantlib_fd_simple_kluge_ou_vpp_engine_hpp
 #define quantlib_fd_simple_kluge_ou_vpp_engine_hpp
 
-#include <ql/pricingengine.hpp>
-#include <ql/experimental/finitedifferences/vanillavppoption.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
-#include <ql/experimental/finitedifferences/fdmextoujumpmodelinnervalue.hpp>
+#include <pricingengine.hpp>
+#include <experimental/finitedifferences/vanillavppoption.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <experimental/finitedifferences/fdmextoujumpmodelinnervalue.hpp>
 
 namespace QuantLib {
 

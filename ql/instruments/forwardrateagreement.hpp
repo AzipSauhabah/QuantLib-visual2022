@@ -24,7 +24,7 @@
 #ifndef quantlib_forward_rate_agreement_hpp
 #define quantlib_forward_rate_agreement_hpp
 
-#include <ql/instruments/forward.hpp>
+#include <instruments/forward.hpp>
 
 namespace QuantLib {
 

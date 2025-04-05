@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/instruments/cliquetoption.hpp>
+#include <exercise.hpp>
+#include <instruments/cliquetoption.hpp>
 #include <utility>
 
 namespace QuantLib {

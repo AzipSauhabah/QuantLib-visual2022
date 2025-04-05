@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/processes/stochasticprocessarray.hpp>
-#include <ql/math/matrixutilities/pseudosqrt.hpp>
+#include <processes/stochasticprocessarray.hpp>
+#include <math/matrixutilities/pseudosqrt.hpp>
 
 namespace QuantLib {
 

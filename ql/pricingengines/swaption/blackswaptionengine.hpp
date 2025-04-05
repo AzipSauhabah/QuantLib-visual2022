@@ -30,16 +30,16 @@
 #ifndef quantlib_pricers_black_swaption_hpp
 #define quantlib_pricers_black_swaption_hpp
 
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/exercise.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/instruments/swaption.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionconstantvol.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionvolstructure.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
+#include <cashflows/cashflows.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <exercise.hpp>
+#include <indexes/iborindex.hpp>
+#include <instruments/swaption.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <termstructures/volatility/swaption/swaptionconstantvol.hpp>
+#include <termstructures/volatility/swaption/swaptionvolstructure.hpp>
+#include <time/calendars/nullcalendar.hpp>
 #include <utility>
 
 namespace QuantLib {

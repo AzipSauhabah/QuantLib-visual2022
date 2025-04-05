@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/randomnumbers/faurersg.hpp>
-#include <ql/math/primenumbers.hpp>
+#include <math/randomnumbers/faurersg.hpp>
+#include <math/primenumbers.hpp>
 
 namespace QuantLib {
 

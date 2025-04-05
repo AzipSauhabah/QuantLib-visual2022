@@ -26,8 +26,8 @@
 #ifndef quantlib_fdm_linear_op_hpp
 #define quantlib_fdm_linear_op_hpp
 
-#include <ql/math/array.hpp>
-#include <ql/math/matrixutilities/sparsematrix.hpp>
+#include <math/array.hpp>
+#include <math/matrixutilities/sparsematrix.hpp>
 
 namespace QuantLib {
 

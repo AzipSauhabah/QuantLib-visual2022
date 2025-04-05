@@ -24,7 +24,7 @@
 #ifndef quantlib_czech_calendar_hpp
 #define quantlib_czech_calendar_hpp
 
-#include <ql/time/calendar.hpp>
+#include <time/calendar.hpp>
 
 namespace QuantLib {
 

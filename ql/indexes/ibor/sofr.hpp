@@ -24,7 +24,7 @@
 #ifndef quantlib_sofr_hpp
 #define quantlib_sofr_hpp
 
-#include <ql/indexes/iborindex.hpp>
+#include <indexes/iborindex.hpp>
 
 namespace QuantLib {
 

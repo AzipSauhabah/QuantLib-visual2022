@@ -26,10 +26,10 @@
 #ifndef quantlib_settings_hpp
 #define quantlib_settings_hpp
 
-#include <ql/patterns/singleton.hpp>
-#include <ql/time/date.hpp>
-#include <ql/utilities/observablevalue.hpp>
-#include <ql/optional.hpp>
+#include <patterns/singleton.hpp>
+#include <time/date.hpp>
+#include <utilities/observablevalue.hpp>
+#include <optional.hpp>
 
 namespace QuantLib {
 

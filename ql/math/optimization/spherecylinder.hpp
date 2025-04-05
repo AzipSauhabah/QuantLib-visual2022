@@ -25,7 +25,7 @@
 #ifndef quantlib_optimization_sphere_cylinder_hpp
 #define quantlib_optimization_sphere_cylinder_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <vector>
 
 namespace QuantLib {

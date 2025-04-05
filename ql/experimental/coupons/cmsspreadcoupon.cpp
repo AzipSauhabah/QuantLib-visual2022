@@ -16,9 +16,9 @@
  or FITNESS FOR A PARTICULAR PURPOSE. See the license for more details.
 */
 
-#include <ql/cashflows/capflooredcoupon.hpp>
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/experimental/coupons/cmsspreadcoupon.hpp>
+#include <cashflows/capflooredcoupon.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <experimental/coupons/cmsspreadcoupon.hpp>
 #include <utility>
 
 namespace QuantLib {

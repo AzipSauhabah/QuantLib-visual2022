@@ -24,8 +24,8 @@
 #ifndef quantlib_multi_cubic_spline_hpp
 #define quantlib_multi_cubic_spline_hpp
 
-#include <ql/errors.hpp>
-#include <ql/types.hpp>
+#include <errors.hpp>
+#include <types.hpp>
 #include <algorithm>
 #include <functional>
 #include <utility>

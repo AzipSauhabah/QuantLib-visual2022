@@ -17,9 +17,9 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/curvestate.hpp>
-#include <ql/models/marketmodels/products/pathwise/pathwiseproductinversefloater.hpp>
-#include <ql/models/marketmodels/utilities.hpp>
+#include <models/marketmodels/curvestate.hpp>
+#include <models/marketmodels/products/pathwise/pathwiseproductinversefloater.hpp>
+#include <models/marketmodels/utilities.hpp>
 #include <utility>
 
 namespace QuantLib 

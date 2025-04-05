@@ -19,11 +19,11 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/interestrate.hpp>
-#include <ql/math/rounding.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <interestrate.hpp>
+#include <math/rounding.hpp>
+#include <math/comparison.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <utilities/dataformatters.hpp>
 #include <iomanip>
 
 using namespace QuantLib;

@@ -22,7 +22,7 @@
 #ifndef quantlib_lmmcurvestate_hpp
 #define quantlib_lmmcurvestate_hpp
 
-#include <ql/models/marketmodels/curvestate.hpp>
+#include <models/marketmodels/curvestate.hpp>
 
 namespace QuantLib {
 

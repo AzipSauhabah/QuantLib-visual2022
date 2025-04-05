@@ -26,10 +26,10 @@
 #ifndef quantlib_fdm_local_vol_fwd_op_hpp
 #define quantlib_fdm_local_vol_fwd_op_hpp
 
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/methods/finitedifferences/operators/firstderivativeop.hpp>
-#include <ql/methods/finitedifferences/operators/triplebandlinearop.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <methods/finitedifferences/operators/firstderivativeop.hpp>
+#include <methods/finitedifferences/operators/triplebandlinearop.hpp>
+#include <methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
 
 namespace QuantLib {
 

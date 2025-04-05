@@ -18,10 +18,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/autocovariance.hpp>
-#include <ql/math/optimization/leastsquare.hpp>
-#include <ql/math/optimization/simplex.hpp>
-#include <ql/models/volatility/garch.hpp>
+#include <math/autocovariance.hpp>
+#include <math/optimization/leastsquare.hpp>
+#include <math/optimization/simplex.hpp>
+#include <models/volatility/garch.hpp>
 #include <utility>
 
 namespace QuantLib {

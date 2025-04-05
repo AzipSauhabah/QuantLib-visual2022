@@ -26,8 +26,8 @@
 #ifndef quantlib_nine_point_linear_op_hpp
 #define quantlib_nine_point_linear_op_hpp
 
-#include <ql/math/matrixutilities/sparsematrix.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearop.hpp>
+#include <math/matrixutilities/sparsematrix.hpp>
+#include <methods/finitedifferences/operators/fdmlinearop.hpp>
 #include <memory>
 
 namespace QuantLib {

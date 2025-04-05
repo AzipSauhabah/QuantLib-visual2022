@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/processes/vegastressedblackscholesprocess.hpp>
+#include <experimental/processes/vegastressedblackscholesprocess.hpp>
 
 namespace QuantLib {
 

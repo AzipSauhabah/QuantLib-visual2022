@@ -24,20 +24,20 @@
     reader.
 */
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #if !defined(BOOST_ALL_NO_LIB) && defined(BOOST_MSVC)
-#  include <ql/auto_link.hpp>
+#  include <auto_link.hpp>
 #endif
-#include <ql/instruments/compositeinstrument.hpp>
-#include <ql/instruments/barrieroption.hpp>
-#include <ql/instruments/europeanoption.hpp>
-#include <ql/pricingengines/barrier/analyticbarrierengine.hpp>
-#include <ql/pricingengines/vanilla/analyticeuropeanengine.hpp>
-#include <ql/exercise.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
+#include <instruments/compositeinstrument.hpp>
+#include <instruments/barrieroption.hpp>
+#include <instruments/europeanoption.hpp>
+#include <pricingengines/barrier/analyticbarrierengine.hpp>
+#include <pricingengines/vanilla/analyticeuropeanengine.hpp>
+#include <exercise.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <quotes/simplequote.hpp>
+#include <time/calendars/nullcalendar.hpp>
 
 #include <iostream>
 #include <iomanip>

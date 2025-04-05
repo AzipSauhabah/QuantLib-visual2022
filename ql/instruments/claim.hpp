@@ -24,7 +24,7 @@
 #ifndef quantlib_claim_hpp
 #define quantlib_claim_hpp
 
-#include <ql/instruments/bond.hpp>
+#include <instruments/bond.hpp>
 
 namespace QuantLib {
 

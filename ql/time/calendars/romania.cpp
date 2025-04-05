@@ -19,8 +19,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/calendars/romania.hpp>
-#include <ql/errors.hpp>
+#include <time/calendars/romania.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

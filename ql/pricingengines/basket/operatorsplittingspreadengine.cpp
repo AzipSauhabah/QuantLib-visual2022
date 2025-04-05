@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/functional.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/pricingengines/basket/operatorsplittingspreadengine.hpp>
+#include <math/functional.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <pricingengines/basket/operatorsplittingspreadengine.hpp>
 
 #include <utility>
 

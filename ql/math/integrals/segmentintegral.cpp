@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/integrals/segmentintegral.hpp>
+#include <math/integrals/segmentintegral.hpp>
 
 namespace QuantLib {
 

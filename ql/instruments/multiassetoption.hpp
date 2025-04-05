@@ -26,7 +26,7 @@
 #ifndef quantlib_multiasset_option_hpp
 #define quantlib_multiasset_option_hpp
 
-#include <ql/option.hpp>
+#include <option.hpp>
 
 namespace QuantLib {
 

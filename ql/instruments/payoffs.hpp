@@ -27,8 +27,8 @@
 #ifndef quantlib_payoffs_hpp
 #define quantlib_payoffs_hpp
 
-#include <ql/option.hpp>
-#include <ql/payoff.hpp>
+#include <option.hpp>
+#include <payoff.hpp>
 
 namespace QuantLib {
 

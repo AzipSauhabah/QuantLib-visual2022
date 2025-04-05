@@ -21,10 +21,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/models/marketmodels/utilities.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/utilities.hpp>
+#include <math/matrix.hpp>
+#include <utilities/dataformatters.hpp>
 
 namespace QuantLib {
 

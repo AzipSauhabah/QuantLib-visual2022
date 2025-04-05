@@ -24,8 +24,8 @@
 #ifndef quantlib_gsr_hpp
 #define quantlib_gsr_hpp
 
-#include <ql/models/shortrate/onefactormodels/gaussian1dmodel.hpp>
-#include <ql/processes/gsrprocess.hpp>
+#include <models/shortrate/onefactormodels/gaussian1dmodel.hpp>
+#include <processes/gsrprocess.hpp>
 
 namespace QuantLib {
 

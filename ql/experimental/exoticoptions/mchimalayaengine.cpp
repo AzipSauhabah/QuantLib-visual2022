@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/exoticoptions/mchimalayaengine.hpp>
-#include <ql/payoff.hpp>
+#include <experimental/exoticoptions/mchimalayaengine.hpp>
+#include <payoff.hpp>
 #include <utility>
 
 namespace QuantLib {

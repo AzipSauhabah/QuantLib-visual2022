@@ -26,8 +26,8 @@
 #ifndef quantlib_uniform_grid_mesher_hpp
 #define quantlib_uniform_grid_mesher_hpp
 
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearopiterator.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/operators/fdmlinearopiterator.hpp>
 #include <memory>
 
 namespace QuantLib {

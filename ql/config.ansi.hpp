@@ -21,7 +21,7 @@
 #ifndef quantlib_config_ansi_h
 #define quantlib_config_ansi_h
 
-#include <ql/userconfig.hpp>
+#include <userconfig.hpp>
 
 
 #endif

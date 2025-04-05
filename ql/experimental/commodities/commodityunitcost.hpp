@@ -24,8 +24,8 @@
 #ifndef quantlib_commodity_unit_cost_hpp
 #define quantlib_commodity_unit_cost_hpp
 
-#include <ql/experimental/commodities/unitofmeasure.hpp>
-#include <ql/money.hpp>
+#include <experimental/commodities/unitofmeasure.hpp>
+#include <money.hpp>
 #include <utility>
 
 namespace QuantLib {

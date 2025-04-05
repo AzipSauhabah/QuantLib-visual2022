@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/credit/pool.hpp>
-#include <ql/functional.hpp>
+#include <experimental/credit/pool.hpp>
+#include <functional.hpp>
 #include <iterator>
 
 namespace QuantLib {

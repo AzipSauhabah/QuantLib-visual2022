@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/callablebonds/callablebondconstantvol.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/volatility/flatsmilesection.hpp>
+#include <experimental/callablebonds/callablebondconstantvol.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/volatility/flatsmilesection.hpp>
 #include <utility>
 
 namespace QuantLib {

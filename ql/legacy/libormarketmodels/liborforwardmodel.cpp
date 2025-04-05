@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/legacy/libormarketmodels/liborforwardmodel.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
+#include <legacy/libormarketmodels/liborforwardmodel.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <time/calendars/nullcalendar.hpp>
 #include <limits>
 
 namespace QuantLib {

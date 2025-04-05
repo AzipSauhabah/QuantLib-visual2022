@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/methods/finitedifferences/boundarycondition.hpp>
+#include <methods/finitedifferences/boundarycondition.hpp>
 
 namespace QuantLib {
 

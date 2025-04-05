@@ -25,7 +25,7 @@
 #ifndef quantlib_coupon_hpp
 #define quantlib_coupon_hpp
 
-#include <ql/cashflow.hpp>
+#include <cashflow.hpp>
 
 namespace QuantLib {
 

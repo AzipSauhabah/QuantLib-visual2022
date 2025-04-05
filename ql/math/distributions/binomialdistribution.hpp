@@ -24,8 +24,8 @@
 #ifndef quantlib_binomial_distribution_h
 #define quantlib_binomial_distribution_h
 
-#include <ql/math/factorial.hpp>
-#include <ql/math/beta.hpp>
+#include <math/factorial.hpp>
+#include <math/beta.hpp>
 
 namespace QuantLib {
 

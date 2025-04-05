@@ -27,9 +27,9 @@
 #ifndef quantlib_multi_path_generator_hpp
 #define quantlib_multi_path_generator_hpp
 
-#include <ql/methods/montecarlo/multipath.hpp>
-#include <ql/methods/montecarlo/sample.hpp>
-#include <ql/stochasticprocess.hpp>
+#include <methods/montecarlo/multipath.hpp>
+#include <methods/montecarlo/sample.hpp>
+#include <stochasticprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

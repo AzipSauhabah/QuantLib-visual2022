@@ -22,15 +22,15 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/volatility/optionlet/optionletstripper1.hpp>
-#include <ql/instruments/makecapfloor.hpp>
-#include <ql/pricingengines/capfloor/blackcapfloorengine.hpp>
-#include <ql/pricingengine.hpp>
-#include <ql/pricingengines/capfloor/bacheliercapfloorengine.hpp>
-#include <ql/pricingengines/blackformula.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <termstructures/volatility/optionlet/optionletstripper1.hpp>
+#include <instruments/makecapfloor.hpp>
+#include <pricingengines/capfloor/blackcapfloorengine.hpp>
+#include <pricingengine.hpp>
+#include <pricingengines/capfloor/bacheliercapfloorengine.hpp>
+#include <pricingengines/blackformula.hpp>
+#include <indexes/iborindex.hpp>
+#include <quotes/simplequote.hpp>
+#include <utilities/dataformatters.hpp>
 
 namespace QuantLib {
 

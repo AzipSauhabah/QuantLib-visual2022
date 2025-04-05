@@ -19,10 +19,10 @@
 
 /*! \file vectorbsmprocessextractor.cpp
 */
-#include <ql/math/functional.hpp>
-#include <ql/math/comparison.hpp>
+#include <math/functional.hpp>
+#include <math/comparison.hpp>
 
-#include <ql/pricingengines/basket/vectorbsmprocessextractor.hpp>
+#include <pricingengines/basket/vectorbsmprocessextractor.hpp>
 
 namespace QuantLib::detail {
 

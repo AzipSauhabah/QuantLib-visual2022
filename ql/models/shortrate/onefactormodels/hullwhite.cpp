@@ -19,9 +19,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/shortrate/onefactormodels/hullwhite.hpp>
-#include <ql/methods/lattices/trinomialtree.hpp>
-#include <ql/pricingengines/blackformula.hpp>
+#include <models/shortrate/onefactormodels/hullwhite.hpp>
+#include <methods/lattices/trinomialtree.hpp>
+#include <pricingengines/blackformula.hpp>
 
 using std::exp;
 using std::sqrt;

@@ -25,10 +25,10 @@
 #ifndef quantlib_generalized_hull_white_hpp
 #define quantlib_generalized_hull_white_hpp
 
-#include <ql/experimental/shortrate/generalizedornsteinuhlenbeckprocess.hpp>
-#include <ql/math/interpolation.hpp>
-#include <ql/models/shortrate/onefactormodel.hpp>
-#include <ql/processes/ornsteinuhlenbeckprocess.hpp>
+#include <experimental/shortrate/generalizedornsteinuhlenbeckprocess.hpp>
+#include <math/interpolation.hpp>
+#include <models/shortrate/onefactormodel.hpp>
+#include <processes/ornsteinuhlenbeckprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

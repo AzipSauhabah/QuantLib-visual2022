@@ -22,24 +22,24 @@
     computations such as "Yield to Price" or "Price to Yield"
  */
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #if !defined(BOOST_ALL_NO_LIB) && defined(BOOST_MSVC)
-#  include <ql/auto_link.hpp>
+#  include <auto_link.hpp>
 #endif
-#include <ql/instruments/bonds/zerocouponbond.hpp>
-#include <ql/instruments/bonds/floatingratebond.hpp>
-#include <ql/pricingengines/bond/discountingbondengine.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/termstructures/yield/piecewiseyieldcurve.hpp>
-#include <ql/termstructures/yield/bondhelpers.hpp>
-#include <ql/termstructures/volatility/optionlet/constantoptionletvol.hpp>
-#include <ql/indexes/ibor/euribor.hpp>
-#include <ql/indexes/ibor/usdlibor.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/calendars/unitedstates.hpp>
-#include <ql/time/daycounters/actualactual.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/time/daycounters/thirty360.hpp>
+#include <instruments/bonds/zerocouponbond.hpp>
+#include <instruments/bonds/floatingratebond.hpp>
+#include <pricingengines/bond/discountingbondengine.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <termstructures/yield/piecewiseyieldcurve.hpp>
+#include <termstructures/yield/bondhelpers.hpp>
+#include <termstructures/volatility/optionlet/constantoptionletvol.hpp>
+#include <indexes/ibor/euribor.hpp>
+#include <indexes/ibor/usdlibor.hpp>
+#include <time/calendars/target.hpp>
+#include <time/calendars/unitedstates.hpp>
+#include <time/daycounters/actualactual.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <time/daycounters/thirty360.hpp>
 
 #include <iostream>
 #include <iomanip>

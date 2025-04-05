@@ -25,8 +25,8 @@
 #ifndef quantlib_faure_ld_rsg_h
 #define quantlib_faure_ld_rsg_h
 
-#include <ql/math/matrix.hpp>
-#include <ql/methods/montecarlo/sample.hpp>
+#include <math/matrix.hpp>
+#include <methods/montecarlo/sample.hpp>
 #include <vector>
 
 

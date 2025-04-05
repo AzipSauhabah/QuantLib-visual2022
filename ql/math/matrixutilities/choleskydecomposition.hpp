@@ -25,7 +25,7 @@
 #ifndef quantlib_cholesky_decomposition_hpp
 #define quantlib_cholesky_decomposition_hpp
 
-#include <ql/math/matrix.hpp>
+#include <math/matrix.hpp>
 
 namespace QuantLib {
 

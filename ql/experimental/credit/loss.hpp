@@ -24,7 +24,7 @@
 #ifndef quantlib_loss_hpp
 #define quantlib_loss_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 
 namespace QuantLib {
 

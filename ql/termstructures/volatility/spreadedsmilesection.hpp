@@ -24,8 +24,8 @@
 #ifndef quantlib_spreaded_smile_section_hpp
 #define quantlib_spreaded_smile_section_hpp
 
-#include <ql/termstructures/volatility/smilesection.hpp>
-#include <ql/handle.hpp>
+#include <termstructures/volatility/smilesection.hpp>
+#include <handle.hpp>
 
 namespace QuantLib {
 

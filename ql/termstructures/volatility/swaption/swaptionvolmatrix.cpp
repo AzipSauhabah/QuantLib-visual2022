@@ -21,13 +21,13 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/volatility/swaption/swaptionvolmatrix.hpp>
-#include <ql/termstructures/volatility/flatsmilesection.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/utilities/dataformatters.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/math/interpolations/bilinearinterpolation.hpp>
-#include <ql/math/interpolations/flatextrapolation2d.hpp>
+#include <termstructures/volatility/swaption/swaptionvolmatrix.hpp>
+#include <termstructures/volatility/flatsmilesection.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <utilities/dataformatters.hpp>
+#include <quotes/simplequote.hpp>
+#include <math/interpolations/bilinearinterpolation.hpp>
+#include <math/interpolations/flatextrapolation2d.hpp>
 
 
 namespace QuantLib {

@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/instruments/doublebarrieroption.hpp>
-#include <ql/instruments/impliedvolatility.hpp>
-#include <ql/pricingengines/barrier/analyticdoublebarrierengine.hpp>
+#include <exercise.hpp>
+#include <instruments/doublebarrieroption.hpp>
+#include <instruments/impliedvolatility.hpp>
+#include <pricingengines/barrier/analyticdoublebarrierengine.hpp>
 #include <memory>
 
 namespace QuantLib {

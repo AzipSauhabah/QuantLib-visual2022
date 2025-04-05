@@ -26,7 +26,7 @@
 #ifndef quantlib_default_type_hpp
 #define quantlib_default_type_hpp
 
-#include <ql/time/period.hpp>
+#include <time/period.hpp>
 
 namespace QuantLib {
 

@@ -24,8 +24,8 @@
 #ifndef quantlib_stock_hpp
 #define quantlib_stock_hpp
 
-#include <ql/instrument.hpp>
-#include <ql/quote.hpp>
+#include <instrument.hpp>
+#include <quote.hpp>
 
 namespace QuantLib {
 

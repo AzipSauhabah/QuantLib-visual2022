@@ -24,9 +24,9 @@
 #ifndef quantlib_one_factor_copula_hpp
 #define quantlib_one_factor_copula_hpp
 
-#include <ql/experimental/credit/distribution.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/quote.hpp>
+#include <experimental/credit/distribution.hpp>
+#include <patterns/lazyobject.hpp>
+#include <quote.hpp>
 #include <utility>
 
 namespace QuantLib {

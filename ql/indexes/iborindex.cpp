@@ -19,8 +19,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/indexes/iborindex.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <indexes/iborindex.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

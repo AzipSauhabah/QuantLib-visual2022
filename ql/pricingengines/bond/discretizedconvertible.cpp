@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/bond/discretizedconvertible.hpp>
-#include <ql/math/comparison.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <pricingengines/bond/discretizedconvertible.hpp>
+#include <math/comparison.hpp>
+#include <processes/blackscholesprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

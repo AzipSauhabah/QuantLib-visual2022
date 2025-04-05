@@ -26,7 +26,7 @@
 #ifndef quantlib_fdm_1d_mesher_hpp
 #define quantlib_fdm_1d_mesher_hpp
 
-#include <ql/types.hpp>
+#include <types.hpp>
 #include <vector>
 
 namespace QuantLib {

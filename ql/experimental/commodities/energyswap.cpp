@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/commodities/energyswap.hpp>
-#include <ql/settings.hpp>
+#include <experimental/commodities/energyswap.hpp>
+#include <settings.hpp>
 #include <utility>
 
 namespace QuantLib {

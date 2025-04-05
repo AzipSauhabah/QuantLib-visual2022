@@ -24,8 +24,8 @@
 #ifndef quantlib_historical_rates_analysis_hpp
 #define quantlib_historical_rates_analysis_hpp
 
-#include <ql/math/statistics/sequencestatistics.hpp>
-#include <ql/time/date.hpp>
+#include <math/statistics/sequencestatistics.hpp>
+#include <time/date.hpp>
 
 namespace QuantLib {
 

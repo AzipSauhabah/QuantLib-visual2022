@@ -24,7 +24,7 @@
 #ifndef quantlib_smile_section_utils_hpp
 #define quantlib_smile_section_utils_hpp
 
-#include <ql/termstructures/volatility/smilesection.hpp>
+#include <termstructures/volatility/smilesection.hpp>
 #include <vector>
 
 namespace QuantLib {

@@ -24,8 +24,8 @@
 #ifndef quantlib_lazy_object_h
 #define quantlib_lazy_object_h
 
-#include <ql/patterns/observable.hpp>
-#include <ql/shared_ptr.hpp>
+#include <patterns/observable.hpp>
+#include <shared_ptr.hpp>
 
 namespace QuantLib {
 

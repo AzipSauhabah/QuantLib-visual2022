@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/exercise.hpp>
-#include <ql/experimental/exoticoptions/kirkspreadoptionengine.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
+#include <exercise.hpp>
+#include <experimental/exoticoptions/kirkspreadoptionengine.hpp>
+#include <math/distributions/normaldistribution.hpp>
 #include <utility>
 
 using namespace std;

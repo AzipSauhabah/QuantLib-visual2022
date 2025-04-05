@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/equity/piecewisetimedependenthestonmodel.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <models/equity/piecewisetimedependenthestonmodel.hpp>
+#include <quotes/simplequote.hpp>
 #include <utility>
 
 namespace QuantLib {

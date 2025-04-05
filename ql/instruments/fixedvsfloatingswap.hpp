@@ -26,10 +26,10 @@
 #ifndef quantlib_fixed_vs_floating_swap_hpp
 #define quantlib_fixed_vs_floating_swap_hpp
 
-#include <ql/instruments/swap.hpp>
-#include <ql/time/daycounter.hpp>
-#include <ql/time/schedule.hpp>
-#include <ql/optional.hpp>
+#include <instruments/swap.hpp>
+#include <time/daycounter.hpp>
+#include <time/schedule.hpp>
+#include <optional.hpp>
 
 namespace QuantLib {
 

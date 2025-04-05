@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/calendars/indonesia.hpp>
-#include <ql/errors.hpp>
+#include <time/calendars/indonesia.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

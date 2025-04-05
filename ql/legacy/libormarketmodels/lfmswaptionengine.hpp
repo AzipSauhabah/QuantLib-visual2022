@@ -24,9 +24,9 @@
 #ifndef quantlib_libor_forward_model_swaption_engine_hpp
 #define quantlib_libor_forward_model_swaption_engine_hpp
 
-#include <ql/instruments/swaption.hpp>
-#include <ql/pricingengines/genericmodelengine.hpp>
-#include <ql/legacy/libormarketmodels/liborforwardmodel.hpp>
+#include <instruments/swaption.hpp>
+#include <pricingengines/genericmodelengine.hpp>
+#include <legacy/libormarketmodels/liborforwardmodel.hpp>
 
 namespace QuantLib {
 

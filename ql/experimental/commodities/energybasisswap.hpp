@@ -24,9 +24,9 @@
 #ifndef quantlib_energy_basis_swap_hpp
 #define quantlib_energy_basis_swap_hpp
 
-#include <ql/experimental/commodities/energyswap.hpp>
-#include <ql/experimental/commodities/commodityindex.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <experimental/commodities/energyswap.hpp>
+#include <experimental/commodities/commodityindex.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 
 namespace QuantLib {
 

@@ -25,10 +25,10 @@
 #ifndef quantlib_gbp_libor_hpp
 #define quantlib_gbp_libor_hpp
 
-#include <ql/indexes/ibor/libor.hpp>
-#include <ql/time/calendars/unitedkingdom.hpp>
-#include <ql/time/daycounters/actual365fixed.hpp>
-#include <ql/currencies/europe.hpp>
+#include <indexes/ibor/libor.hpp>
+#include <time/calendars/unitedkingdom.hpp>
+#include <time/daycounters/actual365fixed.hpp>
+#include <currencies/europe.hpp>
 
 namespace QuantLib {
 

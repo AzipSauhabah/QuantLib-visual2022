@@ -24,9 +24,9 @@
 #ifndef quantlib_vanna_volga_barrier_engine_hpp
 #define quantlib_vanna_volga_barrier_engine_hpp
 
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/instruments/barrieroption.hpp>
-#include <ql/experimental/fx/deltavolquote.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <instruments/barrieroption.hpp>
+#include <experimental/fx/deltavolquote.hpp>
 
 namespace QuantLib {
 

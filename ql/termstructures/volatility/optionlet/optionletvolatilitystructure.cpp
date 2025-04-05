@@ -18,7 +18,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
+#include <termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
 
 namespace QuantLib {
 

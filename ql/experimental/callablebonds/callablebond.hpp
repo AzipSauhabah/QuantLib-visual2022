@@ -25,12 +25,12 @@
 #ifndef quantlib_callable_bond_hpp
 #define quantlib_callable_bond_hpp
 
-#include <ql/instruments/bond.hpp>
-#include <ql/pricingengine.hpp>
-#include <ql/instruments/callabilityschedule.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/handle.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <instruments/bond.hpp>
+#include <pricingengine.hpp>
+#include <instruments/callabilityschedule.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <handle.hpp>
+#include <quotes/simplequote.hpp>
 
 namespace QuantLib {
 

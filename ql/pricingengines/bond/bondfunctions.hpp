@@ -27,12 +27,12 @@
 #ifndef quantlib_bond_functions_hpp
 #define quantlib_bond_functions_hpp
 
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/cashflows/duration.hpp>
-#include <ql/cashflow.hpp>
-#include <ql/interestrate.hpp>
-#include <ql/instruments/bond.hpp>
-#include <ql/shared_ptr.hpp>
+#include <cashflows/cashflows.hpp>
+#include <cashflows/duration.hpp>
+#include <cashflow.hpp>
+#include <interestrate.hpp>
+#include <instruments/bond.hpp>
+#include <shared_ptr.hpp>
 
 namespace QuantLib {
 

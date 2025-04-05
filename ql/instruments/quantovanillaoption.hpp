@@ -25,8 +25,8 @@
 #ifndef quantlib_quanto_vanilla_option_hpp
 #define quantlib_quanto_vanilla_option_hpp
 
-#include <ql/instruments/oneassetoption.hpp>
-#include <ql/instruments/payoffs.hpp>
+#include <instruments/oneassetoption.hpp>
+#include <instruments/payoffs.hpp>
 
 namespace QuantLib {
 

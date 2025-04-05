@@ -24,12 +24,12 @@
 #ifndef quantlib_exp_corr_flat_vol_hpp
 #define quantlib_exp_corr_flat_vol_hpp
 
-#include <ql/models/marketmodels/marketmodel.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/math/interpolation.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/handle.hpp>
+#include <models/marketmodels/marketmodel.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <math/matrix.hpp>
+#include <math/interpolation.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <handle.hpp>
 #include <vector>
 
 namespace QuantLib {

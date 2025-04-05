@@ -24,7 +24,7 @@
 #ifndef quantlib_statistics_h
 #define quantlib_statistics_h
 
-#include <ql/math/statistics/riskstatistics.hpp>
+#include <math/statistics/riskstatistics.hpp>
 
 namespace QuantLib {
 

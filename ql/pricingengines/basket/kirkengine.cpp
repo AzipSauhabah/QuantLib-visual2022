@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/functional.hpp>
-#include <ql/pricingengines/basket/kirkengine.hpp>
-#include <ql/pricingengines/blackcalculator.hpp>
+#include <math/functional.hpp>
+#include <pricingengines/basket/kirkengine.hpp>
+#include <pricingengines/blackcalculator.hpp>
 #include <utility>
 
 namespace QuantLib {

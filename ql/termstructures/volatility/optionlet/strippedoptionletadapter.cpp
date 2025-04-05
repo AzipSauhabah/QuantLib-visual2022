@@ -19,13 +19,13 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/volatility/optionlet/strippedoptionletadapter.hpp>
-#include <ql/termstructures/volatility/optionlet/optionletstripper.hpp>
-#include <ql/termstructures/volatility/capfloor/capfloortermvolsurface.hpp>
-#include <ql/math/interpolations/linearinterpolation.hpp>
-#include <ql/math/interpolations/sabrinterpolation.hpp>
-#include <ql/termstructures/volatility/interpolatedsmilesection.hpp>
-#include <ql/math/interpolations/cubicinterpolation.hpp>
+#include <termstructures/volatility/optionlet/strippedoptionletadapter.hpp>
+#include <termstructures/volatility/optionlet/optionletstripper.hpp>
+#include <termstructures/volatility/capfloor/capfloortermvolsurface.hpp>
+#include <math/interpolations/linearinterpolation.hpp>
+#include <math/interpolations/sabrinterpolation.hpp>
+#include <termstructures/volatility/interpolatedsmilesection.hpp>
+#include <math/interpolations/cubicinterpolation.hpp>
 
 namespace QuantLib {
 

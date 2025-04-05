@@ -25,8 +25,8 @@
 #ifndef quantlib_montecarlo_path_pricer_hpp
 #define quantlib_montecarlo_path_pricer_hpp
 
-#include <ql/option.hpp>
-#include <ql/types.hpp>
+#include <option.hpp>
+#include <types.hpp>
 #include <functional>
 
 namespace QuantLib {

@@ -25,9 +25,9 @@
 #ifndef quantlib_discretized_vanilla_option_h
 #define quantlib_discretized_vanilla_option_h
 
-#include <ql/discretizedasset.hpp>
-#include <ql/methods/lattices/bsmlattice.hpp>
-#include <ql/instruments/vanillaoption.hpp>
+#include <discretizedasset.hpp>
+#include <methods/lattices/bsmlattice.hpp>
+#include <instruments/vanillaoption.hpp>
 
 namespace QuantLib {
 

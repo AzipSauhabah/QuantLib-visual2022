@@ -25,7 +25,7 @@
 #ifndef quantlib_andreasen_huge_local_volatility_adapter_hpp
 #define quantlib_andreasen_huge_local_volatility_adapter_hpp
 
-#include <ql/termstructures/volatility/equityfx/localvoltermstructure.hpp>
+#include <termstructures/volatility/equityfx/localvoltermstructure.hpp>
 
 namespace QuantLib {
 

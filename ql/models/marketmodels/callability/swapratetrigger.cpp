@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/callability/swapratetrigger.hpp>
-#include <ql/models/marketmodels/utilities.hpp>
+#include <models/marketmodels/callability/swapratetrigger.hpp>
+#include <models/marketmodels/utilities.hpp>
 #include <utility>
 
 namespace QuantLib {

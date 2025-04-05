@@ -21,7 +21,7 @@
     \brief tridiag. QR eigen decompositions with implicit shift
 */
 
-#include <ql/math/matrixutilities/tqreigendecomposition.hpp>
+#include <math/matrixutilities/tqreigendecomposition.hpp>
 #include <vector>
 
 namespace QuantLib {

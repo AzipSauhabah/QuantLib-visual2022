@@ -24,7 +24,7 @@
 #ifndef quantlib_double_barrier_type_hpp
 #define quantlib_double_barrier_type_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 #include <ostream>
 
 namespace QuantLib {

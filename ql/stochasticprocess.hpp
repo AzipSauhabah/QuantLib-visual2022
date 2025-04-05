@@ -26,9 +26,9 @@
 #ifndef quantlib_stochastic_process_hpp
 #define quantlib_stochastic_process_hpp
 
-#include <ql/time/date.hpp>
-#include <ql/patterns/observable.hpp>
-#include <ql/math/matrix.hpp>
+#include <time/date.hpp>
+#include <patterns/observable.hpp>
+#include <math/matrix.hpp>
 
 namespace QuantLib {
 

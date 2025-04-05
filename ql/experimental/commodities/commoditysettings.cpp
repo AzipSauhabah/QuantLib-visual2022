@@ -18,9 +18,9 @@
 */
 
 
-#include <ql/experimental/commodities/commoditysettings.hpp>
-#include <ql/currencies/america.hpp>
-#include <ql/experimental/commodities/petroleumunitsofmeasure.hpp>
+#include <experimental/commodities/commoditysettings.hpp>
+#include <currencies/america.hpp>
+#include <experimental/commodities/petroleumunitsofmeasure.hpp>
 
 namespace QuantLib {
 

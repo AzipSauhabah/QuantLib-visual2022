@@ -21,8 +21,8 @@
     \brief analytic Heston-Hull-White engine based on the H1-HW approximation
 */
 
-#include <ql/math/distributions/gammadistribution.hpp>
-#include <ql/pricingengines/vanilla/analytich1hwengine.hpp>
+#include <math/distributions/gammadistribution.hpp>
+#include <pricingengines/vanilla/analytich1hwengine.hpp>
 
 namespace QuantLib {
     // integration helper class

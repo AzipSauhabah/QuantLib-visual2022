@@ -17,10 +17,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
  */
 
-#include <ql/cashflows/inflationcouponpricer.hpp>
-#include <ql/cashflows/yoyinflationcoupon.hpp>
-#include <ql/indexes/inflationindex.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <cashflows/inflationcouponpricer.hpp>
+#include <cashflows/yoyinflationcoupon.hpp>
+#include <indexes/inflationindex.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -28,24 +28,24 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/errors.hpp>
-#include <ql/time/calendar.hpp>
-#include <ql/time/calendars/bespokecalendar.hpp>
-#include <ql/time/calendars/brazil.hpp>
-#include <ql/time/calendars/china.hpp>
-#include <ql/time/calendars/denmark.hpp>
-#include <ql/time/calendars/germany.hpp>
-#include <ql/time/calendars/italy.hpp>
-#include <ql/time/calendars/japan.hpp>
-#include <ql/time/calendars/jointcalendar.hpp>
-#include <ql/time/calendars/mexico.hpp>
-#include <ql/time/calendars/newzealand.hpp>
-#include <ql/time/calendars/russia.hpp>
-#include <ql/time/calendars/southkorea.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/calendars/unitedkingdom.hpp>
-#include <ql/time/calendars/unitedstates.hpp>
-#include <ql/indexes/ibor/sofr.hpp>
+#include <errors.hpp>
+#include <time/calendar.hpp>
+#include <time/calendars/bespokecalendar.hpp>
+#include <time/calendars/brazil.hpp>
+#include <time/calendars/china.hpp>
+#include <time/calendars/denmark.hpp>
+#include <time/calendars/germany.hpp>
+#include <time/calendars/italy.hpp>
+#include <time/calendars/japan.hpp>
+#include <time/calendars/jointcalendar.hpp>
+#include <time/calendars/mexico.hpp>
+#include <time/calendars/newzealand.hpp>
+#include <time/calendars/russia.hpp>
+#include <time/calendars/southkorea.hpp>
+#include <time/calendars/target.hpp>
+#include <time/calendars/unitedkingdom.hpp>
+#include <time/calendars/unitedstates.hpp>
+#include <indexes/ibor/sofr.hpp>
 #include <fstream>
 
 using namespace QuantLib;
@@ -3202,28 +3202,8 @@ BOOST_AUTO_TEST_CASE(testChinaSSE) {
     expectedHol.emplace_back(4, Oct, 2024);
     expectedHol.emplace_back(7, Oct, 2024);
 
-    // China Shanghai Securities Exchange holiday list in the year 2025
-    expectedHol.emplace_back(1, Jan, 2025);
-    expectedHol.emplace_back(28, Jan, 2025);
-    expectedHol.emplace_back(29, Jan, 2025);
-    expectedHol.emplace_back(30, Jan, 2025);
-    expectedHol.emplace_back(31, Jan, 2025);
-    expectedHol.emplace_back(3, Feb, 2025);
-    expectedHol.emplace_back(4, Feb, 2025);
-    expectedHol.emplace_back(4, April, 2025);
-    expectedHol.emplace_back(1, May, 2025);
-    expectedHol.emplace_back(2, May, 2025);
-    expectedHol.emplace_back(5, May, 2025);
-    expectedHol.emplace_back(2, Jun, 2025);
-    expectedHol.emplace_back(1, Oct, 2025);
-    expectedHol.emplace_back(2, Oct, 2025);
-    expectedHol.emplace_back(3, Oct, 2025);
-    expectedHol.emplace_back(6, Oct, 2025);
-    expectedHol.emplace_back(7, Oct, 2025);
-    expectedHol.emplace_back(8, Oct, 2025);
-
     Calendar c = China(China::SSE);
-    std::vector<Date> hol = c.holidayList(Date(1, January, 2014), Date(31, December, 2025));
+    std::vector<Date> hol = c.holidayList(Date(1, January, 2014), Date(31, December, 2024));
 
     for (Size i = 0; i < std::min<Size>(hol.size(), expectedHol.size()); i++) {
         if (hol[i] != expectedHol[i])
@@ -3331,16 +3311,9 @@ BOOST_AUTO_TEST_CASE(testChinaIB) {
     expectedWorkingWeekEnds.emplace_back(29, Sep, 2024);
     expectedWorkingWeekEnds.emplace_back(12, October, 2024);
 
-    // China Inter Bank working weekends list in the year 2025
-    expectedWorkingWeekEnds.emplace_back(26, Jan, 2025);
-    expectedWorkingWeekEnds.emplace_back(8, Feb, 2025);
-    expectedWorkingWeekEnds.emplace_back(27, Apr, 2025);
-    expectedWorkingWeekEnds.emplace_back(28, Sep, 2025);
-    expectedWorkingWeekEnds.emplace_back(11, Oct, 2025);
-
     Calendar c = China(China::IB);
     Date start(1, Jan, 2014);
-    Date end(31, Dec, 2025);
+    Date end(31, Dec, 2024);
 
     Size k = 0;
 

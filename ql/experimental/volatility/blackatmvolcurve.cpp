@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/volatility/blackatmvolcurve.hpp>
+#include <experimental/volatility/blackatmvolcurve.hpp>
 
 namespace QuantLib {
 

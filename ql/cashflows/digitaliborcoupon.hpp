@@ -26,9 +26,9 @@
 #ifndef quantlib_digital_ibor_coupon_hpp
 #define quantlib_digital_ibor_coupon_hpp
 
-#include <ql/cashflows/digitalcoupon.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/digitalcoupon.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <time/schedule.hpp>
 
 namespace QuantLib {
 

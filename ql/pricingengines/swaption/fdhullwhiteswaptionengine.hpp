@@ -24,10 +24,10 @@
 #ifndef quantlib_fd_hull_white_swaption_engine_hpp
 #define quantlib_fd_hull_white_swaption_engine_hpp
 
-#include <ql/instruments/swaption.hpp>
-#include <ql/pricingengines/genericmodelengine.hpp>
-#include <ql/models/shortrate/onefactormodels/hullwhite.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
+#include <instruments/swaption.hpp>
+#include <pricingengines/genericmodelengine.hpp>
+#include <models/shortrate/onefactormodels/hullwhite.hpp>
+#include <methods/finitedifferences/solvers/fdmbackwardsolver.hpp>
 
 namespace QuantLib {
 

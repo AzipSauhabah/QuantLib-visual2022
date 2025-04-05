@@ -21,13 +21,13 @@
     \brief 1-d mesher for the Black-Scholes process (in ln(S))
 */
 
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/math/distributions/normaldistribution.hpp>
-#include <ql/methods/finitedifferences/meshers/uniform1dmesher.hpp>
-#include <ql/methods/finitedifferences/meshers/concentrating1dmesher.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmblackscholesmultistrikemesher.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <termstructures/yieldtermstructure.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <math/distributions/normaldistribution.hpp>
+#include <methods/finitedifferences/meshers/uniform1dmesher.hpp>
+#include <methods/finitedifferences/meshers/concentrating1dmesher.hpp>
+#include <methods/finitedifferences/meshers/fdmblackscholesmultistrikemesher.hpp>
 
 namespace QuantLib {
 

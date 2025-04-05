@@ -24,8 +24,8 @@
 #ifndef quantlib_ultimate_forward_term_structure_hpp
 #define quantlib_ultimate_forward_term_structure_hpp
 
-#include <ql/quote.hpp>
-#include <ql/termstructures/yield/zeroyieldstructure.hpp>
+#include <quote.hpp>
+#include <termstructures/yield/zeroyieldstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

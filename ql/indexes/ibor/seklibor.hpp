@@ -26,10 +26,10 @@
 #ifndef quantlib_sek_libor_hpp
 #define quantlib_sek_libor_hpp
 
-#include <ql/indexes/ibor/libor.hpp>
-#include <ql/time/calendars/sweden.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/currencies/europe.hpp>
+#include <indexes/ibor/libor.hpp>
+#include <time/calendars/sweden.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <currencies/europe.hpp>
 
 namespace QuantLib {
 

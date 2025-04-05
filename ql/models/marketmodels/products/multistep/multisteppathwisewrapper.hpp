@@ -21,9 +21,9 @@
 #define quantlib_multistep_pathwise_wrapper_hpp
 
 
-#include <ql/models/marketmodels/multiproduct.hpp>
-#include <ql/models/marketmodels/pathwisemultiproduct.hpp>
-#include <ql/utilities/clone.hpp>
+#include <models/marketmodels/multiproduct.hpp>
+#include <models/marketmodels/pathwisemultiproduct.hpp>
+#include <utilities/clone.hpp>
 
 namespace QuantLib 
 {

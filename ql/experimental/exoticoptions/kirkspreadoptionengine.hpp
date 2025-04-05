@@ -24,8 +24,8 @@
 #ifndef quantlib_kirk_spread_option_engine_hpp
 #define quantlib_kirk_spread_option_engine_hpp
 
-#include <ql/experimental/exoticoptions/spreadoption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <experimental/exoticoptions/spreadoption.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

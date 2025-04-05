@@ -24,8 +24,8 @@
 #ifndef quantlib_cms_coupon_hpp
 #define quantlib_cms_coupon_hpp
 
-#include <ql/cashflows/floatingratecoupon.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/floatingratecoupon.hpp>
+#include <time/schedule.hpp>
 
 namespace QuantLib {
 

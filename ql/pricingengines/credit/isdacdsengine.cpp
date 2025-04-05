@@ -18,17 +18,17 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/instruments/claim.hpp>
-#include <ql/math/interpolations/forwardflatinterpolation.hpp>
-#include <ql/pricingengines/credit/isdacdsengine.hpp>
-#include <ql/termstructures/credit/flathazardrate.hpp>
-#include <ql/termstructures/credit/piecewisedefaultcurve.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/yield/piecewiseyieldcurve.hpp>
-#include <ql/time/calendars/weekendsonly.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/optional.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <instruments/claim.hpp>
+#include <math/interpolations/forwardflatinterpolation.hpp>
+#include <pricingengines/credit/isdacdsengine.hpp>
+#include <termstructures/credit/flathazardrate.hpp>
+#include <termstructures/credit/piecewisedefaultcurve.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/yield/piecewiseyieldcurve.hpp>
+#include <time/calendars/weekendsonly.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <optional.hpp>
 #include <utility>
 
 namespace QuantLib {

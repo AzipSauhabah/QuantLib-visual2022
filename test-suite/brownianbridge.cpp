@@ -19,15 +19,15 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/methods/montecarlo/brownianbridge.hpp>
-#include <ql/methods/montecarlo/pathgenerator.hpp>
-#include <ql/math/randomnumbers/sobolrsg.hpp>
-#include <ql/math/randomnumbers/inversecumulativersg.hpp>
-#include <ql/math/statistics/sequencestatistics.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
-#include <ql/termstructures/yield/flatforward.hpp>
-#include <ql/termstructures/volatility/equityfx/blackconstantvol.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
+#include <methods/montecarlo/brownianbridge.hpp>
+#include <methods/montecarlo/pathgenerator.hpp>
+#include <math/randomnumbers/sobolrsg.hpp>
+#include <math/randomnumbers/inversecumulativersg.hpp>
+#include <math/statistics/sequencestatistics.hpp>
+#include <processes/blackscholesprocess.hpp>
+#include <termstructures/yield/flatforward.hpp>
+#include <termstructures/volatility/equityfx/blackconstantvol.hpp>
+#include <time/calendars/nullcalendar.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

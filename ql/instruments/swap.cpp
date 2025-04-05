@@ -19,10 +19,10 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/instruments/swap.hpp>
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/cashflows/floatingratecoupon.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <instruments/swap.hpp>
+#include <cashflows/cashflows.hpp>
+#include <cashflows/floatingratecoupon.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <ostream>
 
 namespace QuantLib {

@@ -20,9 +20,9 @@
 #ifndef quantlib_default_latent_model_hpp
 #define quantlib_default_latent_model_hpp
 
-#include <ql/experimental/credit/basket.hpp>
-#include <ql/experimental/math/latentmodel.hpp>
-#include <ql/experimental/math/gaussiancopulapolicy.hpp>
+#include <experimental/credit/basket.hpp>
+#include <experimental/math/latentmodel.hpp>
+#include <experimental/math/gaussiancopulapolicy.hpp>
 #include <boost/dynamic_bitset.hpp>
 
 namespace QuantLib {

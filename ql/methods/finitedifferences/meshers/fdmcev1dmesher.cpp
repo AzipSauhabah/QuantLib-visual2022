@@ -19,12 +19,12 @@
 
 /*! \file fdmcev1dmesher.cpp */
 
-#include <ql/shared_ptr.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmcev1dmesher.hpp>
-#include <ql/methods/finitedifferences/meshers/uniform1dmesher.hpp>
-#include <ql/methods/finitedifferences/meshers/concentrating1dmesher.hpp>
+#include <shared_ptr.hpp>
+#include <methods/finitedifferences/meshers/fdmcev1dmesher.hpp>
+#include <methods/finitedifferences/meshers/uniform1dmesher.hpp>
+#include <methods/finitedifferences/meshers/concentrating1dmesher.hpp>
 
-#include <ql/methods/finitedifferences/utilities/cevrndcalculator.hpp>
+#include <methods/finitedifferences/utilities/cevrndcalculator.hpp>
 
 
 namespace QuantLib {

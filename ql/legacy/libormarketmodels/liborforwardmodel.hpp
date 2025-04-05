@@ -25,11 +25,11 @@
 #ifndef quantlib_libor_forward_model_hpp
 #define quantlib_libor_forward_model_hpp
 
-#include <ql/legacy/libormarketmodels/lfmprocess.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionvolmatrix.hpp>
-#include <ql/termstructures/volatility/optionlet/capletvariancecurve.hpp>
-#include <ql/models/model.hpp>
-#include <ql/legacy/libormarketmodels/lfmcovarproxy.hpp>
+#include <legacy/libormarketmodels/lfmprocess.hpp>
+#include <termstructures/volatility/swaption/swaptionvolmatrix.hpp>
+#include <termstructures/volatility/optionlet/capletvariancecurve.hpp>
+#include <models/model.hpp>
+#include <legacy/libormarketmodels/lfmcovarproxy.hpp>
 
 namespace QuantLib {
 

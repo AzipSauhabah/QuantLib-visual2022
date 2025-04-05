@@ -23,7 +23,7 @@
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/pricingengines/blackformula.hpp>
+#include <pricingengines/blackformula.hpp>
 #include <cmath>
 
 using namespace QuantLib;

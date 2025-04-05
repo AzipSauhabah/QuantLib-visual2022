@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/exoticoptions/mcpagodaengine.hpp>
+#include <experimental/exoticoptions/mcpagodaengine.hpp>
 
 namespace QuantLib {
 

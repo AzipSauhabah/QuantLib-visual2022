@@ -18,15 +18,15 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/exercise.hpp>
-#include <ql/indexes/swapindex.hpp>
-#include <ql/instruments/makeois.hpp>
-#include <ql/instruments/makeswaption.hpp>
-#include <ql/instruments/makevanillaswap.hpp>
-#include <ql/pricingengines/swap/discountingswapengine.hpp>
-#include <ql/optional.hpp>
-#include <ql/settings.hpp>
+#include <cashflows/cashflows.hpp>
+#include <exercise.hpp>
+#include <indexes/swapindex.hpp>
+#include <instruments/makeois.hpp>
+#include <instruments/makeswaption.hpp>
+#include <instruments/makevanillaswap.hpp>
+#include <pricingengines/swap/discountingswapengine.hpp>
+#include <optional.hpp>
+#include <settings.hpp>
 #include <utility>
 
 namespace QuantLib {

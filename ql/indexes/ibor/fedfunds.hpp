@@ -24,7 +24,7 @@
 #ifndef quantlib_fed_funds_hpp
 #define quantlib_fed_funds_hpp
 
-#include <ql/indexes/iborindex.hpp>
+#include <indexes/iborindex.hpp>
 
 namespace QuantLib {
 

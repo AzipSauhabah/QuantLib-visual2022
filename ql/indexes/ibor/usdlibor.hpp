@@ -27,10 +27,10 @@
 #ifndef quantlib_usd_libor_hpp
 #define quantlib_usd_libor_hpp
 
-#include <ql/indexes/ibor/libor.hpp>
-#include <ql/time/calendars/unitedstates.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/currencies/america.hpp>
+#include <indexes/ibor/libor.hpp>
+#include <time/calendars/unitedstates.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <currencies/america.hpp>
 
 namespace QuantLib {
 

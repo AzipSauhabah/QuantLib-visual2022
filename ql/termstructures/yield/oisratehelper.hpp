@@ -25,9 +25,9 @@
 #ifndef quantlib_oisratehelper_hpp
 #define quantlib_oisratehelper_hpp
 
-#include <ql/termstructures/yield/ratehelpers.hpp>
-#include <ql/instruments/overnightindexedswap.hpp>
-#include <ql/optional.hpp>
+#include <termstructures/yield/ratehelpers.hpp>
+#include <instruments/overnightindexedswap.hpp>
+#include <optional.hpp>
 
 namespace QuantLib {
 

@@ -24,11 +24,11 @@
 #ifndef quantlib_fdm_ext_ou_jump_op_hpp
 #define quantlib_fdm_ext_ou_jump_op_hpp
 
-#include <ql/math/matrixutilities/sparsematrix.hpp>
-#include <ql/math/integrals/gaussianquadratures.hpp>
-#include <ql/methods/finitedifferences/operators/triplebandlinearop.hpp>
-#include <ql/methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmboundaryconditionset.hpp>
+#include <math/matrixutilities/sparsematrix.hpp>
+#include <math/integrals/gaussianquadratures.hpp>
+#include <methods/finitedifferences/operators/triplebandlinearop.hpp>
+#include <methods/finitedifferences/operators/fdmlinearopcomposite.hpp>
+#include <methods/finitedifferences/utilities/fdmboundaryconditionset.hpp>
 
 namespace QuantLib {
     

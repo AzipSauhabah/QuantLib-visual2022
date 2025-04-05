@@ -24,8 +24,8 @@
 #ifndef quantlib_noarbsabr_interpolation_hpp
 #define quantlib_noarbsabr_interpolation_hpp
 
-#include <ql/experimental/volatility/noarbsabrsmilesection.hpp>
-#include <ql/math/interpolations/sabrinterpolation.hpp>
+#include <experimental/volatility/noarbsabrsmilesection.hpp>
+#include <math/interpolations/sabrinterpolation.hpp>
 #include <utility>
 
 namespace QuantLib {

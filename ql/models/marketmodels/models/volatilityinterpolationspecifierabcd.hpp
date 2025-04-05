@@ -20,10 +20,10 @@
 #ifndef volatility_interpolation_specifier_abcd_hpp
 #define volatility_interpolation_specifier_abcd_hpp
 
-#include <ql/models/marketmodels/models/volatilityinterpolationspecifier.hpp>
-#include <ql/models/marketmodels/models/piecewiseconstantabcdvariance.hpp>
-#include <ql/types.hpp>
-#include <ql/shared_ptr.hpp>
+#include <models/marketmodels/models/volatilityinterpolationspecifier.hpp>
+#include <models/marketmodels/models/piecewiseconstantabcdvariance.hpp>
+#include <types.hpp>
+#include <shared_ptr.hpp>
 #include <vector>
 
 

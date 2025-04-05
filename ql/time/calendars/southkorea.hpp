@@ -27,7 +27,7 @@
 #ifndef quantlib_south_korean_calendar_hpp
 #define quantlib_south_korean_calendar_hpp
 
-#include <ql/time/calendar.hpp>
+#include <time/calendar.hpp>
 
 namespace QuantLib {
 

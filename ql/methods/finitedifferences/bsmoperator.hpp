@@ -25,8 +25,8 @@
 #ifndef quantlib_bsm_operator_hpp
 #define quantlib_bsm_operator_hpp
 
-#include <ql/methods/finitedifferences/tridiagonaloperator.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <methods/finitedifferences/tridiagonaloperator.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

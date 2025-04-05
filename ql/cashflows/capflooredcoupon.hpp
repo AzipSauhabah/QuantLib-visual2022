@@ -25,9 +25,9 @@
 #ifndef quantlib_capped_floored_coupon_hpp
 #define quantlib_capped_floored_coupon_hpp
 
-#include <ql/cashflows/iborcoupon.hpp>
-#include <ql/cashflows/cmscoupon.hpp>
-#include <ql/utilities/null.hpp>
+#include <cashflows/iborcoupon.hpp>
+#include <cashflows/cmscoupon.hpp>
+#include <utilities/null.hpp>
 
 namespace QuantLib {
     class Date;

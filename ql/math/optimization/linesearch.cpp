@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/optimization/linesearch.hpp>
-#include <ql/math/optimization/problem.hpp>
-#include <ql/math/optimization/constraint.hpp>
+#include <math/optimization/linesearch.hpp>
+#include <math/optimization/problem.hpp>
+#include <math/optimization/constraint.hpp>
 
 namespace QuantLib {
 

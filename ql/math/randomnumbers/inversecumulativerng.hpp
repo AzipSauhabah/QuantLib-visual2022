@@ -25,7 +25,7 @@
 #ifndef quantlib_inversecumulative_rng_h
 #define quantlib_inversecumulative_rng_h
 
-#include <ql/methods/montecarlo/sample.hpp>
+#include <methods/montecarlo/sample.hpp>
 
 namespace QuantLib {
 

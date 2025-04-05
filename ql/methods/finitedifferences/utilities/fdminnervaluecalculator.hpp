@@ -26,9 +26,9 @@
 #ifndef quantlib_fdm_inner_value_calculator_hpp
 #define quantlib_fdm_inner_value_calculator_hpp
 
-#include <ql/types.hpp>
-#include <ql/shared_ptr.hpp>
-#include <ql/functional.hpp>
+#include <types.hpp>
+#include <shared_ptr.hpp>
+#include <functional.hpp>
 #include <vector>
 
 

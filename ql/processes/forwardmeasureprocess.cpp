@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/processes/forwardmeasureprocess.hpp>
+#include <processes/forwardmeasureprocess.hpp>
 
 namespace QuantLib {
 

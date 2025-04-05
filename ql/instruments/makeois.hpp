@@ -26,9 +26,9 @@
 #ifndef quantlib_makeois_hpp
 #define quantlib_makeois_hpp
 
-#include <ql/instruments/overnightindexedswap.hpp>
-#include <ql/time/dategenerationrule.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <instruments/overnightindexedswap.hpp>
+#include <time/dategenerationrule.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 
 namespace QuantLib {
 

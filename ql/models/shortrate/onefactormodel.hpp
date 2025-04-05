@@ -25,9 +25,9 @@
 #ifndef quantlib_one_factor_model_hpp
 #define quantlib_one_factor_model_hpp
 
-#include <ql/methods/lattices/lattice1d.hpp>
-#include <ql/methods/lattices/trinomialtree.hpp>
-#include <ql/models/model.hpp>
+#include <methods/lattices/lattice1d.hpp>
+#include <methods/lattices/trinomialtree.hpp>
+#include <models/model.hpp>
 #include <utility>
 
 namespace QuantLib {

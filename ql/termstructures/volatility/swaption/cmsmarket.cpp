@@ -19,13 +19,13 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/indexes/swapindex.hpp>
-#include <ql/instruments/makecms.hpp>
-#include <ql/instruments/swap.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/volatility/swaption/cmsmarket.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <cashflows/cashflows.hpp>
+#include <indexes/swapindex.hpp>
+#include <instruments/makecms.hpp>
+#include <instruments/swap.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/volatility/swaption/cmsmarket.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 using std::vector;

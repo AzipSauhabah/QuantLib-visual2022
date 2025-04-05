@@ -22,9 +22,9 @@
 */
 
 
-#include <ql/math/functional.hpp>
-#include <ql/math/matrixutilities/gmres.hpp>
-#include <ql/math/matrixutilities/qrdecomposition.hpp>
+#include <math/functional.hpp>
+#include <math/matrixutilities/gmres.hpp>
+#include <math/matrixutilities/qrdecomposition.hpp>
 #include <numeric>
 #include <utility>
 

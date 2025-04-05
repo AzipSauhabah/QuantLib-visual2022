@@ -24,7 +24,7 @@
 #ifndef quantlib_implied_vol_term_structure_hpp
 #define quantlib_implied_vol_term_structure_hpp
 
-#include <ql/termstructures/volatility/equityfx/blackvoltermstructure.hpp>
+#include <termstructures/volatility/equityfx/blackvoltermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

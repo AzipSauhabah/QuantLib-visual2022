@@ -25,8 +25,8 @@
 #ifndef quantlib_quanto_forward_vanilla_option_h
 #define quantlib_quanto_forward_vanilla_option_h
 
-#include <ql/instruments/quantovanillaoption.hpp>
-#include <ql/instruments/forwardvanillaoption.hpp>
+#include <instruments/quantovanillaoption.hpp>
+#include <instruments/forwardvanillaoption.hpp>
 
 namespace QuantLib {
 

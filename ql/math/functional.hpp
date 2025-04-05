@@ -17,15 +17,15 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-/*! \file ql/math/functional.hpp
+/*! \file math/functional.hpp
     \brief functionals and combinators not included in the STL
 */
 
 #ifndef quantlib_math_functional_hpp
 #define quantlib_math_functional_hpp
 
-#include <ql/types.hpp>
-#include <ql/utilities/null.hpp>
+#include <types.hpp>
+#include <utilities/null.hpp>
 #include <cmath>
 #include <utility>
 

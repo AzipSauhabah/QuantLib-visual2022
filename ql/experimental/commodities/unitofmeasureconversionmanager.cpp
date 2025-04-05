@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/experimental/commodities/unitofmeasureconversionmanager.hpp>
-#include <ql/experimental/commodities/petroleumunitsofmeasure.hpp>
-#include <ql/errors.hpp>
+#include <experimental/commodities/unitofmeasureconversionmanager.hpp>
+#include <experimental/commodities/petroleumunitsofmeasure.hpp>
+#include <errors.hpp>
 #include <algorithm>
 
 using namespace std;

@@ -27,15 +27,15 @@
 #ifndef quantlib_historical_forward_rates_analysis_hpp
 #define quantlib_historical_forward_rates_analysis_hpp
 
-#include <ql/indexes/iborindex.hpp>
-#include <ql/indexes/swapindex.hpp>
-#include <ql/math/matrix.hpp>
-#include <ql/math/statistics/sequencestatistics.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/termstructures/yield/piecewiseyieldcurve.hpp>
-#include <ql/termstructures/yield/ratehelpers.hpp>
-#include <ql/time/calendar.hpp>
-#include <ql/time/date.hpp>
+#include <indexes/iborindex.hpp>
+#include <indexes/swapindex.hpp>
+#include <math/matrix.hpp>
+#include <math/statistics/sequencestatistics.hpp>
+#include <quotes/simplequote.hpp>
+#include <termstructures/yield/piecewiseyieldcurve.hpp>
+#include <termstructures/yield/ratehelpers.hpp>
+#include <time/calendar.hpp>
+#include <time/date.hpp>
 #include <utility>
 
 namespace QuantLib {

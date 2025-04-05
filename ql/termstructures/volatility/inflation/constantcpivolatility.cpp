@@ -17,8 +17,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
  */
 
-#include <ql/termstructures/volatility/inflation/constantcpivolatility.hpp>
-#include <ql/quotes/simplequote.hpp>
+#include <termstructures/volatility/inflation/constantcpivolatility.hpp>
+#include <quotes/simplequote.hpp>
 
 namespace QuantLib {
 

@@ -28,8 +28,8 @@
 #ifndef quantlib_sabr_hpp
 #define quantlib_sabr_hpp
 
-#include <ql/types.hpp>
-#include <ql/termstructures/volatility/volatilitytype.hpp>
+#include <types.hpp>
+#include <termstructures/volatility/volatilitytype.hpp>
 
 namespace QuantLib {
 

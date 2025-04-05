@@ -18,8 +18,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/functional.hpp>
-#include <ql/pricingengines/vanilla/coshestonengine.hpp>
+#include <math/functional.hpp>
+#include <pricingengines/vanilla/coshestonengine.hpp>
 
 namespace QuantLib {
 

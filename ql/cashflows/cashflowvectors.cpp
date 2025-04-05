@@ -22,12 +22,12 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/capflooredcoupon.hpp>
-#include <ql/cashflows/rangeaccrual.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/time/schedule.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <cashflows/capflooredcoupon.hpp>
+#include <cashflows/rangeaccrual.hpp>
+#include <indexes/iborindex.hpp>
+#include <time/schedule.hpp>
 
 namespace QuantLib::detail {
 

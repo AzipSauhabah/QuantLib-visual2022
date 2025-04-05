@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/statistics/discrepancystatistics.hpp>
+#include <math/statistics/discrepancystatistics.hpp>
 
 namespace QuantLib {
 

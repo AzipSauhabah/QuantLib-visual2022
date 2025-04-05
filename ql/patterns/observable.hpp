@@ -29,10 +29,10 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef quantlib_observable_hpp
 #define quantlib_observable_hpp
 
-#include <ql/errors.hpp>
-#include <ql/patterns/singleton.hpp>
-#include <ql/shared_ptr.hpp>
-#include <ql/types.hpp>
+#include <errors.hpp>
+#include <patterns/singleton.hpp>
+#include <shared_ptr.hpp>
+#include <types.hpp>
 #include <set>
 
 #if !defined(QL_USE_STD_SHARED_PTR) && BOOST_VERSION < 107400

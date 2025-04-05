@@ -17,11 +17,11 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/models/marketmodels/constrainedevolver.hpp>
-#include <ql/models/marketmodels/curvestate.hpp>
-#include <ql/models/marketmodels/discounter.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/models/marketmodels/proxygreekengine.hpp>
+#include <models/marketmodels/constrainedevolver.hpp>
+#include <models/marketmodels/curvestate.hpp>
+#include <models/marketmodels/discounter.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/proxygreekengine.hpp>
 #include <algorithm>
 #include <utility>
 

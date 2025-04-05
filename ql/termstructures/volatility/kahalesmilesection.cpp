@@ -17,7 +17,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/termstructures/volatility/kahalesmilesection.hpp>
+#include <termstructures/volatility/kahalesmilesection.hpp>
 
 using std::sqrt;
 

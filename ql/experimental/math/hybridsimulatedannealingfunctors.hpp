@@ -24,9 +24,9 @@ FOR A PARTICULAR PURPOSE.  See the license for more details.
 #ifndef HYBRIDSIMULATEDANNEALINGFUNCTORS_H
 #define HYBRIDSIMULATEDANNEALINGFUNCTORS_H
 
-#include <ql/math/array.hpp>
-#include <ql/math/randomnumbers/seedgenerator.hpp>
-#include <ql/math/optimization/problem.hpp>
+#include <math/array.hpp>
+#include <math/randomnumbers/seedgenerator.hpp>
+#include <math/optimization/problem.hpp>
 
 #include <algorithm>
 #include <cmath>

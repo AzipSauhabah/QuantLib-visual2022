@@ -19,8 +19,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/math/optimization/endcriteria.hpp>
-#include <ql/errors.hpp>
+#include <math/optimization/endcriteria.hpp>
+#include <errors.hpp>
 #include <algorithm>
 
 namespace QuantLib {

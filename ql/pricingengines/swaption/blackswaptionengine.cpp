@@ -23,7 +23,7 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/pricingengines/swaption/blackswaptionengine.hpp>
+#include <pricingengines/swaption/blackswaptionengine.hpp>
 
 namespace QuantLib {
 

@@ -24,12 +24,12 @@
 #ifndef quantlib_lineartsr_pricer_hpp
 #define quantlib_lineartsr_pricer_hpp
 
-#include <ql/termstructures/volatility/smilesection.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/instruments/payoffs.hpp>
-#include <ql/indexes/swapindex.hpp>
-#include <ql/instruments/fixedvsfloatingswap.hpp>
-#include <ql/math/integrals/integral.hpp>
+#include <termstructures/volatility/smilesection.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <instruments/payoffs.hpp>
+#include <indexes/swapindex.hpp>
+#include <instruments/fixedvsfloatingswap.hpp>
+#include <math/integrals/integral.hpp>
 
 namespace QuantLib {
 

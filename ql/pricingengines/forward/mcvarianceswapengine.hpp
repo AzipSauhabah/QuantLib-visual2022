@@ -24,10 +24,10 @@
 #ifndef quantlib_mc_varianceswap_engine_hpp
 #define quantlib_mc_varianceswap_engine_hpp
 
-#include <ql/instruments/varianceswap.hpp>
-#include <ql/math/integrals/segmentintegral.hpp>
-#include <ql/pricingengines/mcsimulation.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <instruments/varianceswap.hpp>
+#include <math/integrals/segmentintegral.hpp>
+#include <pricingengines/mcsimulation.hpp>
+#include <processes/blackscholesprocess.hpp>
 #include <utility>
 
 namespace QuantLib {

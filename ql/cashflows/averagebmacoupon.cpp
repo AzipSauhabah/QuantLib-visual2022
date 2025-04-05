@@ -18,9 +18,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/averagebmacoupon.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/utilities/vectors.hpp>
+#include <cashflows/averagebmacoupon.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <utilities/vectors.hpp>
 #include <utility>
 
 namespace QuantLib {

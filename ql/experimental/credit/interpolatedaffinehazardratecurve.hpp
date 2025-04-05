@@ -20,11 +20,11 @@
 #ifndef quantlib_interpolated_affine_hazard_rate_curve_hpp
 #define quantlib_interpolated_affine_hazard_rate_curve_hpp
 
-#include <ql/stochasticprocess.hpp>
-#include <ql/experimental/credit/onefactoraffinesurvival.hpp>
-#include <ql/termstructures/credit/probabilitytraits.hpp>
-#include <ql/termstructures/interpolatedcurve.hpp>
-#include <ql/termstructures/bootstraphelper.hpp>
+#include <stochasticprocess.hpp>
+#include <experimental/credit/onefactoraffinesurvival.hpp>
+#include <termstructures/credit/probabilitytraits.hpp>
+#include <termstructures/interpolatedcurve.hpp>
+#include <termstructures/bootstraphelper.hpp>
 #include <utility>
 
 namespace QuantLib {

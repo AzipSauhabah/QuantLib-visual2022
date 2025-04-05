@@ -24,7 +24,7 @@
 #ifndef quantlib_any_hpp
 #define quantlib_any_hpp
 
-#include <ql/qldefines.hpp>
+#include <qldefines.hpp>
 
 #if defined(QL_USE_STD_ANY)
 #include <any>

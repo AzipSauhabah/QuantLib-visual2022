@@ -25,9 +25,9 @@
 #ifndef quantlib_bma_swap_hpp
 #define quantlib_bma_swap_hpp
 
-#include <ql/instruments/swap.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/indexes/bmaindex.hpp>
+#include <instruments/swap.hpp>
+#include <indexes/iborindex.hpp>
+#include <indexes/bmaindex.hpp>
 
 namespace QuantLib {
 

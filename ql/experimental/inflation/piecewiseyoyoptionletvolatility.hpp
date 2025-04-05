@@ -25,9 +25,9 @@
 #ifndef quantlib_piecewise_yoy_optionlet_volatility_hpp
 #define quantlib_piecewise_yoy_optionlet_volatility_hpp
 
-#include <ql/experimental/inflation/yoyinflationoptionletvolatilitystructure2.hpp>
-#include <ql/patterns/lazyobject.hpp>
-#include <ql/termstructures/iterativebootstrap.hpp>
+#include <experimental/inflation/yoyinflationoptionletvolatilitystructure2.hpp>
+#include <patterns/lazyobject.hpp>
+#include <termstructures/iterativebootstrap.hpp>
 #include <utility>
 
 namespace QuantLib {

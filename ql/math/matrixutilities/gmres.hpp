@@ -24,8 +24,8 @@
 #ifndef quantlib_gmres_hpp
 #define quantlib_gmres_hpp
 
-#include <ql/math/array.hpp>
-#include <ql/functional.hpp>
+#include <math/array.hpp>
+#include <functional.hpp>
 
 #include <list>
 

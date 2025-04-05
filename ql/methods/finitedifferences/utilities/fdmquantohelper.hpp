@@ -25,8 +25,8 @@
 #ifndef quantlib_fdm_quanto_helper_hpp
 #define quantlib_fdm_quanto_helper_hpp
 
-#include <ql/math/array.hpp>
-#include <ql/patterns/observable.hpp>
+#include <math/array.hpp>
+#include <patterns/observable.hpp>
 
 namespace QuantLib {
 

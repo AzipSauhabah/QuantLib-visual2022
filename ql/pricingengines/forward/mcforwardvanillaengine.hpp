@@ -20,9 +20,9 @@
 #ifndef quantlib_mcforwardvanilla_engine_hpp
 #define quantlib_mcforwardvanilla_engine_hpp
 
-#include <ql/instruments/forwardvanillaoption.hpp>
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/pricingengines/mcsimulation.hpp>
+#include <instruments/forwardvanillaoption.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <pricingengines/mcsimulation.hpp>
 #include <utility>
 
 namespace QuantLib {

@@ -24,10 +24,10 @@
 #ifndef quantlib_discretized_barrier_option_h
 #define quantlib_discretized_barrier_option_h
 
-#include <ql/discretizedasset.hpp>
-#include <ql/methods/lattices/bsmlattice.hpp>
-#include <ql/instruments/barrieroption.hpp>
-#include <ql/pricingengines/vanilla/discretizedvanillaoption.hpp>
+#include <discretizedasset.hpp>
+#include <methods/lattices/bsmlattice.hpp>
+#include <instruments/barrieroption.hpp>
+#include <pricingengines/vanilla/discretizedvanillaoption.hpp>
 
 namespace QuantLib {
 

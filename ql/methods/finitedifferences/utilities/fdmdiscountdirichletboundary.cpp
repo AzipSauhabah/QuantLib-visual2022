@@ -20,8 +20,8 @@
 
 /*! \file fdmdiscountdirichletboundary.cpp */
 
-#include <ql/methods/finitedifferences/utilities/fdmdiscountdirichletboundary.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <methods/finitedifferences/utilities/fdmdiscountdirichletboundary.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

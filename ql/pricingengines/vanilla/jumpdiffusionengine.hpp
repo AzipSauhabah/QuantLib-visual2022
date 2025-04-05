@@ -25,8 +25,8 @@
 #ifndef quantlib_jumpdiffusionengine_h
 #define quantlib_jumpdiffusionengine_h
 
-#include <ql/instruments/vanillaoption.hpp>
-#include <ql/processes/merton76process.hpp>
+#include <instruments/vanillaoption.hpp>
+#include <processes/merton76process.hpp>
 
 namespace QuantLib {
 

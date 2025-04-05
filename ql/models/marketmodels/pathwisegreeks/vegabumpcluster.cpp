@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/errors.hpp>
-#include <ql/models/marketmodels/evolutiondescription.hpp>
-#include <ql/models/marketmodels/pathwisegreeks/vegabumpcluster.hpp>
+#include <errors.hpp>
+#include <models/marketmodels/evolutiondescription.hpp>
+#include <models/marketmodels/pathwisegreeks/vegabumpcluster.hpp>
 #include <utility>
 #include <valarray>
 

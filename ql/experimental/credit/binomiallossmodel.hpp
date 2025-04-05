@@ -20,10 +20,10 @@
 #ifndef quantlib_binomial_loss_model_hpp
 #define quantlib_binomial_loss_model_hpp
 
-#include <ql/experimental/credit/basket.hpp>
-#include <ql/experimental/credit/constantlosslatentmodel.hpp>
-#include <ql/experimental/credit/defaultlossmodel.hpp>
-#include <ql/handle.hpp>
+#include <experimental/credit/basket.hpp>
+#include <experimental/credit/constantlosslatentmodel.hpp>
+#include <experimental/credit/defaultlossmodel.hpp>
+#include <handle.hpp>
 #include <algorithm>
 #include <numeric>
 #include <utility>

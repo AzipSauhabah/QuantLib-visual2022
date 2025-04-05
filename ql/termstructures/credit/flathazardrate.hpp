@@ -25,8 +25,8 @@
 #ifndef quantlib_flat_hazard_rate_hpp
 #define quantlib_flat_hazard_rate_hpp
 
-#include <ql/termstructures/credit/hazardratestructure.hpp>
-#include <ql/quote.hpp>
+#include <termstructures/credit/hazardratestructure.hpp>
+#include <quote.hpp>
 
 namespace QuantLib {
 

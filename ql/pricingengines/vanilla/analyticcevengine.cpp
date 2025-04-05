@@ -19,9 +19,9 @@
 
 /*! \file analyticcevengine.cpp */
 
-#include <ql/exercise.hpp>
-#include <ql/math/functional.hpp>
-#include <ql/pricingengines/vanilla/analyticcevengine.hpp>
+#include <exercise.hpp>
+#include <math/functional.hpp>
+#include <pricingengines/vanilla/analyticcevengine.hpp>
 #include <boost/math/distributions/non_central_chi_squared.hpp>
 #include <boost/math/special_functions/gamma.hpp>
 #include <utility>

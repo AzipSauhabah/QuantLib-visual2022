@@ -24,7 +24,7 @@
 #ifndef quantlib_solver1d_halley_hpp
 #define quantlib_solver1d_halley_hpp
 
-#include <ql/math/solvers1d/newtonsafe.hpp>
+#include <math/solvers1d/newtonsafe.hpp>
 
 namespace QuantLib {
 

@@ -28,10 +28,10 @@
 #ifndef quantlib_calendar_hpp
 #define quantlib_calendar_hpp
 
-#include <ql/errors.hpp>
-#include <ql/time/date.hpp>
-#include <ql/time/businessdayconvention.hpp>
-#include <ql/shared_ptr.hpp>
+#include <errors.hpp>
+#include <time/date.hpp>
+#include <time/businessdayconvention.hpp>
+#include <shared_ptr.hpp>
 #include <set>
 #include <vector>
 #include <string>

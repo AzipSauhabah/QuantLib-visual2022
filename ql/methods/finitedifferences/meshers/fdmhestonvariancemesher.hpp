@@ -26,8 +26,8 @@
 #ifndef quantlib_fdm_heston_variance_mesher_hpp
 #define quantlib_fdm_heston_variance_mesher_hpp
 
-#include <ql/processes/hestonprocess.hpp>
-#include <ql/methods/finitedifferences/meshers/fdm1dmesher.hpp>
+#include <processes/hestonprocess.hpp>
+#include <methods/finitedifferences/meshers/fdm1dmesher.hpp>
 
 namespace QuantLib {
 

@@ -23,8 +23,8 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/time/calendars/southkorea.hpp>
-#include <ql/errors.hpp>
+#include <time/calendars/southkorea.hpp>
+#include <errors.hpp>
 
 namespace QuantLib {
 

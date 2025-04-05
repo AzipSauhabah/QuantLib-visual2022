@@ -19,13 +19,13 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-#include <ql/cashflows/cashflows.hpp>
-#include <ql/cashflows/cashflowvectors.hpp>
-#include <ql/cashflows/couponpricer.hpp>
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/instruments/fixedvsfloatingswap.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <cashflows/cashflows.hpp>
+#include <cashflows/cashflowvectors.hpp>
+#include <cashflows/couponpricer.hpp>
+#include <cashflows/fixedratecoupon.hpp>
+#include <indexes/iborindex.hpp>
+#include <instruments/fixedvsfloatingswap.hpp>
+#include <termstructures/yieldtermstructure.hpp>
 #include <utility>
 
 namespace QuantLib {

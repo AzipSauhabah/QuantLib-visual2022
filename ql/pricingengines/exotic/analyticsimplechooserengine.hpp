@@ -24,8 +24,8 @@
 #ifndef quantlib_analytic_simple_chooser_engine_hpp
 #define quantlib_analytic_simple_chooser_engine_hpp
 
-#include <ql/instruments/simplechooseroption.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <instruments/simplechooseroption.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

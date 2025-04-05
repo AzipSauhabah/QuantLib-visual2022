@@ -22,8 +22,8 @@
 */
 
 
-#include <ql/event.hpp>
-#include <ql/instruments/vanillaswingoption.hpp>
+#include <event.hpp>
+#include <instruments/vanillaswingoption.hpp>
 
 namespace QuantLib {
 

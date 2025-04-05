@@ -20,11 +20,11 @@
 /*! \file fdmhullwhitesolver.cpp
 */
 
-#include <ql/methods/finitedifferences/operators/fdmhullwhiteop.hpp>
-#include <ql/methods/finitedifferences/solvers/fdm1dimsolver.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmhullwhitesolver.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmsnapshotcondition.hpp>
-#include <ql/models/shortrate/onefactormodels/hullwhite.hpp>
+#include <methods/finitedifferences/operators/fdmhullwhiteop.hpp>
+#include <methods/finitedifferences/solvers/fdm1dimsolver.hpp>
+#include <methods/finitedifferences/solvers/fdmhullwhitesolver.hpp>
+#include <methods/finitedifferences/stepconditions/fdmsnapshotcondition.hpp>
+#include <models/shortrate/onefactormodels/hullwhite.hpp>
 #include <utility>
 
 namespace QuantLib {

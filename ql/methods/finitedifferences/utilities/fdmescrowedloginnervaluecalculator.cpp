@@ -20,9 +20,9 @@
 /*! \file fdmescrowedloginnervaluecalculator.cpp
 */
 
-#include <ql/instruments/payoffs.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmesher.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmescrowedloginnervaluecalculator.hpp>
+#include <instruments/payoffs.hpp>
+#include <methods/finitedifferences/meshers/fdmmesher.hpp>
+#include <methods/finitedifferences/utilities/fdmescrowedloginnervaluecalculator.hpp>
 
 namespace QuantLib {
 

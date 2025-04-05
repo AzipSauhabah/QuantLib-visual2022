@@ -24,8 +24,8 @@
 #ifndef quantlib_fdm_escrowed_log_inner_value_calculator_hpp
 #define quantlib_fdm_escrowed_log_inner_value_calculator_hpp
 
-#include <ql/methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
-#include <ql/methods/finitedifferences/utilities/escroweddividendadjustment.hpp>
+#include <methods/finitedifferences/utilities/fdminnervaluecalculator.hpp>
+#include <methods/finitedifferences/utilities/escroweddividendadjustment.hpp>
 
 namespace QuantLib {
 

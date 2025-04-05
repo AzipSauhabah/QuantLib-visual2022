@@ -24,10 +24,10 @@
 #ifndef quantlib_destr_hpp
 #define quantlib_destr_hpp
 
-#include <ql/currencies/europe.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/time/calendars/denmark.hpp>
-#include <ql/time/daycounters/actual360.hpp>
+#include <currencies/europe.hpp>
+#include <indexes/iborindex.hpp>
+#include <time/calendars/denmark.hpp>
+#include <time/daycounters/actual360.hpp>
 
 namespace QuantLib {
 

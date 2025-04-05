@@ -24,7 +24,7 @@
 #ifndef quantlib_capfloored_inflation_coupon_hpp
 #define quantlib_capfloored_inflation_coupon_hpp
 
-#include <ql/cashflows/yoyinflationcoupon.hpp>
+#include <cashflows/yoyinflationcoupon.hpp>
 
 namespace QuantLib {
 

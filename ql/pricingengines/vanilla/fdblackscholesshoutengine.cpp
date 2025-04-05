@@ -20,15 +20,15 @@
 /*! \file fdblackscholesshoutengine.cpp
 */
 
-#include <ql/exercise.hpp>
-#include <ql/methods/finitedifferences/utilities/escroweddividendadjustment.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmblackscholesmesher.hpp>
-#include <ql/methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
-#include <ql/methods/finitedifferences/solvers/fdmblackscholessolver.hpp>
-#include <ql/methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
-#include <ql/methods/finitedifferences/utilities/fdmshoutloginnervaluecalculator.hpp>
-#include <ql/pricingengines/vanilla/fdblackscholesshoutengine.hpp>
-#include <ql/processes/blackscholesprocess.hpp>
+#include <exercise.hpp>
+#include <methods/finitedifferences/utilities/escroweddividendadjustment.hpp>
+#include <methods/finitedifferences/meshers/fdmblackscholesmesher.hpp>
+#include <methods/finitedifferences/meshers/fdmmeshercomposite.hpp>
+#include <methods/finitedifferences/solvers/fdmblackscholessolver.hpp>
+#include <methods/finitedifferences/stepconditions/fdmstepconditioncomposite.hpp>
+#include <methods/finitedifferences/utilities/fdmshoutloginnervaluecalculator.hpp>
+#include <pricingengines/vanilla/fdblackscholesshoutengine.hpp>
+#include <processes/blackscholesprocess.hpp>
 
 namespace QuantLib {
 

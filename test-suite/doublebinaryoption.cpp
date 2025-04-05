@@ -19,17 +19,17 @@ Copyright (C) 2015 Thema Consulting SA
 
 #include "toplevelfixture.hpp"
 #include "utilities.hpp"
-#include <ql/shared_ptr.hpp>
-#include <ql/time/calendars/nullcalendar.hpp>
-#include <ql/time/calendars/target.hpp>
-#include <ql/time/daycounters/actual360.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/instruments/doublebarrieroption.hpp>
-#include <ql/models/equity/hestonmodel.hpp>
-#include <ql/pricingengines/barrier/analyticdoublebarrierbinaryengine.hpp>
-#include <ql/pricingengines/barrier/fdhestondoublebarrierengine.hpp>
-#include <ql/experimental/barrieroption/binomialdoublebarrierengine.hpp>
-#include <ql/utilities/dataformatters.hpp>
+#include <shared_ptr.hpp>
+#include <time/calendars/nullcalendar.hpp>
+#include <time/calendars/target.hpp>
+#include <time/daycounters/actual360.hpp>
+#include <quotes/simplequote.hpp>
+#include <instruments/doublebarrieroption.hpp>
+#include <models/equity/hestonmodel.hpp>
+#include <pricingengines/barrier/analyticdoublebarrierbinaryengine.hpp>
+#include <pricingengines/barrier/fdhestondoublebarrierengine.hpp>
+#include <experimental/barrieroption/binomialdoublebarrierengine.hpp>
+#include <utilities/dataformatters.hpp>
 
 using namespace QuantLib;
 using namespace boost::unit_test_framework;

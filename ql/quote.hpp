@@ -25,9 +25,9 @@
 #ifndef quantlib_quote_hpp
 #define quantlib_quote_hpp
 
-#include <ql/handle.hpp>
-#include <ql/errors.hpp>
-#include <ql/utilities/null.hpp>
+#include <handle.hpp>
+#include <errors.hpp>
+#include <utilities/null.hpp>
 
 namespace QuantLib {
 
