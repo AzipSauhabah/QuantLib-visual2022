@@ -1,6 +1,6 @@
 # QuantLib: Building with Visual Studio 2022 and MSVC 2017
 
-![QuantLib Logo](path/to/your/logo.png)
+![QuantLib Logo](logo.png)
 
 [![Download](https://img.shields.io/github/v/release/yourusername/QuantLib-visual2022?label=Download&sort=semver)](https://github.com/yourusername/QuantLib-visual2022/releases/latest)
 [![License](https://img.shields.io/badge/License-BSD--3--Clause-blue.svg)](https://github.com/yourusername/QuantLib-visual2022/blob/main/LICENSE)
