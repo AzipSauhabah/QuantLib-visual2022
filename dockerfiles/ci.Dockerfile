@@ -1,6 +1,8 @@
 ARG tag=latest
 FROM ubuntu:${tag}
-MAINTAINER Luigi Ballabio <luigi.ballabio@gmail.com>
+
+LABEL maintainer="azip10@gmail.com"
+
 LABEL Description="Provide Docker images for QuantLib's CI builds on Linux"
 
 RUN apt-get update \
@@ -8,9 +10,9 @@ RUN apt-get update \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
-ARG boost_version
-ARG boost_dir
-ENV boost_version ${boost_version}
+ENV boost_version=1.87.0
+ENV boost_dir=boost_1_87_0
+
 
 RUN wget https://archives.boost.io/release/${boost_version}/source/${boost_dir}.tar.gz \
     && tar xfz ${boost_dir}.tar.gz \
@@ -20,5 +22,5 @@ RUN wget https://archives.boost.io/release/${boost_version}/source/${boost_dir}.
     && ./b2 --without-python --prefix=/usr -j 4 link=shared runtime-link=shared install \
     && cd .. && rm -rf ${boost_dir} && ldconfig
 
-CMD bash
+CMD ["bash"]
 
